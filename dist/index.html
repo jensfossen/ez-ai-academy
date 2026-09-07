@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Explore AI Academy: a platform-agnostic, conversational AI learning program for nontechnical enterprise employees.">
+  <title>AI Academy — Program Explorer</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="topbar">
+    <a class="brand" href="#overview" aria-label="AI Academy home">
+      <span class="brand-mark">A</span>
+      <span>AI Academy</span>
+    </a>
+    <nav aria-label="Primary navigation">
+      <a href="#journey">Journey</a>
+      <a href="#module-one">Module 1</a>
+      <a href="#architecture">Architecture</a>
+    </nav>
+    <a class="repo-link" href="https://github.com/jensfossen/ez-ai-academy" target="_blank" rel="noreferrer">View repository <span aria-hidden="true">↗</span></a>
+  </header>
+
+  <main id="main">
+    <section class="overview" id="overview">
+      <div class="intro">
+        <p class="eyebrow">Program explorer · Builder view</p>
+        <h1>Learn AI by working <span>with AI.</span></h1>
+        <p class="lede">A warm, adaptive Academy that lives inside the learner's chat—not in a separate learning portal. The repository is the product; this site makes its content and flow visible.</p>
+        <div class="principles" aria-label="Program principles">
+          <span>Nontechnical first</span><span>Harness agnostic</span><span>Practice based</span>
+        </div>
+      </div>
+      <aside class="now-card">
+        <div class="card-label"><span class="live-dot"></span> Current build</div>
+        <h2>Foundations POC</h2>
+        <p>Start slowly. Teach one concept. Let the learner try it. Coach the work. Leave them with something reusable.</p>
+        <dl>
+          <div><dt>Audience</dt><dd>Enterprise employees</dd></div>
+          <div><dt>First module</dt><dd>What is an LLM?</dd></div>
+          <div><dt>Completion</dt><dd>Exercise + work + artifact</dd></div>
+        </dl>
+      </aside>
+    </section>
+
+    <section class="journey section" id="journey">
+      <div class="section-heading">
+        <div><p class="eyebrow">Capability ladder</p><h2>A deliberate learning journey</h2></div>
+        <p>Each layer answers a different question. New vocabulary appears only when the learner reaches that module.</p>
+      </div>
+      <div class="module-grid" role="list">
+        <button class="module active" data-module="llm" role="listitem"><span class="module-num">01</span><span><strong>LLM Foundations</strong><small>How does this technology behave?</small></span><em>Included</em></button>
+        <button class="module" data-module="prompt" role="listitem"><span class="module-num">02</span><span><strong>Prompt Engineering</strong><small>What should the AI do?</small></span><em>Included</em></button>
+        <button class="module planned" data-module="context" role="listitem"><span class="module-num">03</span><span><strong>Context Engineering</strong><small>What does the AI need to know?</small></span><em>Planned</em></button>
+        <button class="module planned" data-module="harness" role="listitem"><span class="module-num">04</span><span><strong>Agents + Harnesses</strong><small>What can the AI use?</small></span><em>Planned</em></button>
+        <button class="module planned" data-module="loop" role="listitem"><span class="module-num">05</span><span><strong>Loop Engineering</strong><small>How do we measure and improve?</small></span><em>Planned</em></button>
+      </div>
+      <div class="module-detail" id="moduleDetail" aria-live="polite"></div>
+    </section>
+
+    <section class="section cycle">
+      <div class="section-heading">
+        <div><p class="eyebrow">Inside one session</p><h2>Conversation, not coursework</h2></div>
+        <p>One active question at a time. Teaching and feedback break up every check.</p>
+      </div>
+      <ol class="cycle-track">
+        <li><span>1</span><strong>Invite</strong><small>Start from what they know</small></li>
+        <li><span>2</span><strong>Teach</strong><small>One plain-language idea</small></li>
+        <li><span>3</span><strong>Show</strong><small>A familiar work example</small></li>
+        <li><span>4</span><strong>Practice</strong><small>Let the learner try</small></li>
+        <li><span>5</span><strong>Coach</strong><small>One useful improvement</small></li>
+        <li><span>6</span><strong>Capture</strong><small>Keep a reusable artifact</small></li>
+      </ol>
+    </section>
+
+    <section class="module-one section" id="module-one">
+      <div class="module-hero">
+        <div>
+          <p class="eyebrow">Module 1 · Included</p>
+          <h2>What is an LLM?</h2>
+          <p class="module-promise">By the end, a learner can explain an LLM in plain language, choose useful first tasks, and name the habit that makes its output safer to use.</p>
+          <div class="mental-model"><span>Preferred mental model</span><strong>Pattern-based predictor</strong><p>It builds a response one small piece at a time by recognizing patterns learned from many examples.</p></div>
+        </div>
+        <button class="image-frame" id="openExplainer" aria-label="Open the Module 1 explainer image">
+          <img src="assets/module-01-llm.png" alt="A one-page explainer showing an LLM as a pattern-based predictor that receives a request, builds a response piece by piece, and requires human checking.">
+          <span>Open explainer <b aria-hidden="true">↗</b></span>
+        </button>
+      </div>
+
+      <div class="tab-row" role="tablist" aria-label="Module 1 content">
+        <button role="tab" aria-selected="true" data-tab="lesson">Lesson</button>
+        <button role="tab" aria-selected="false" data-tab="check">Knowledge check</button>
+        <button role="tab" aria-selected="false" data-tab="evidence">Completion evidence</button>
+        <button role="tab" aria-selected="false" data-tab="media">Curated media</button>
+      </div>
+
+      <div class="tab-panel" id="tabPanel"></div>
+    </section>
+
+    <section class="architecture section" id="architecture">
+      <div class="section-heading">
+        <div><p class="eyebrow">Repo-first architecture</p><h2>One curriculum, many harnesses</h2></div>
+        <p>The core never assumes a model, chat product, connector, file API, or record system.</p>
+      </div>
+      <div class="arch-grid">
+        <div class="tree-card">
+          <div class="tree-head"><span class="folder">ai-academy/</span><small>progressively disclosed</small></div>
+          <ul class="file-tree">
+            <li class="entry"><b>SKILL.md</b><span>entry point + router</span></li>
+            <li><b>curriculum/</b><span>lesson sequence</span></li>
+            <li><b>checks/</b><span>formative questions</span></li>
+            <li><b>exercises/</b><span>practice + artifacts</span></li>
+            <li><b>rubrics/</b><span>work grading</span></li>
+            <li><b>resources/</b><span>media + analogies</span></li>
+            <li><b>assets/</b><span>course visuals</span></li>
+            <li><b>schemas/</b><span>portable progress</span></li>
+          </ul>
+        </div>
+        <div class="harness-card">
+          <p class="card-label">Consumer flow</p>
+          <ol>
+            <li><span>1</span><div><strong>Clone or connect</strong><p>Bring the repository into the chosen AI environment.</p></div></li>
+            <li><span>2</span><div><strong>Invoke the Academy</strong><p>The harness loads <code>SKILL.md</code> and only the next useful file.</p></div></li>
+            <li><span>3</span><div><strong>Learn in chat</strong><p>Native cards and menus enhance the experience; Markdown preserves it everywhere.</p></div></li>
+            <li><span>4</span><div><strong>Carry progress</strong><p>A platform-neutral record can move between sessions and hosts.</p></div></li>
+          </ol>
+          <div class="harnesses"><span>Codex</span><span>Claude Code</span><span>Cursor</span><span>Microsoft CoWork</span></div>
+        </div>
+      </div>
+      <div class="mode-strip">
+        <div><span class="mode-label">Builder Mode</span><p>Design, critique, research, and tune the Academy without turning product feedback into learner grades.</p></div>
+        <div><span class="mode-label alt">Learner Preview</span><p>Run the real experience on demand, then return to the exact builder conversation when critique begins.</p></div>
+      </div>
+    </section>
+  </main>
+
+  <dialog id="explainerDialog">
+    <button class="dialog-close" aria-label="Close explainer">×</button>
+    <img src="assets/module-01-llm.png" alt="Module 1 LLM foundations explainer">
+  </dialog>
+
+  <footer><span>AI Academy</span><p>Built for learning inside the AI primitive.</p><a href="#overview">Back to top ↑</a></footer>
+  <script src="app.js"></script>
+</body>
+</html>

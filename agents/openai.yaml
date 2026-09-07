@@ -1,0 +1,13 @@
+interface:
+  display_name: Easy AI Academy
+  short_description: Adaptive workplace AI learning and practice
+  default_prompt: Use $ai-academy to start my adaptive Easy AI Academy journey.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

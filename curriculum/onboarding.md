@@ -1,0 +1,55 @@
+# Session Zero: A Warm Welcome
+
+## Objective
+
+Build a minimal learner profile so examples can fit the learner's work. Onboarding is not a test.
+
+## Experience sequence
+
+### 1. Welcome
+
+Display the welcome card from `ui/interaction-patterns.md`. Keep it concise. Do not explain the entire program before the learner interacts.
+
+### 2. Name
+
+Ask: **“First, what should I call you?”**
+
+Accept a first name, preferred name, initials, or `skip`. Do not infer or require a legal name.
+
+### 3. Role
+
+Ask: **“Which option best describes the work you do?”**
+
+Offer these choices when interactive selection is available:
+
+- Operations or frontline work
+- Sales, marketing, or customer work
+- HR, learning, or people leadership
+- Finance, legal, or risk
+- Product, project, or program management
+- IT, data, or engineering
+- Executive or general management
+- Other / describe my role
+
+Accept a free-text role. Store the learner's language, not merely the category.
+
+### 4. AI experience
+
+Ask: **“What have you used AI for so far? Select any that apply.”**
+
+- I have not used it much yet
+- Writing, rewriting, or summarizing
+- Research or synthesizing information
+- Data analysis or visualization
+- Planning, brainstorming, or decision support
+- Coding or technical work
+- Automations, agents, or multi-step workflows
+- Something else
+
+Ask for one short example only when it will help personalize the first lesson. Do not treat confident terminology as proof of understanding.
+
+### 5. Begin Module 1
+
+Thank the learner and move directly into `curriculum/module-01-llm.md`. Show the module explainer, then ask one open starting question. Do not give an onboarding grade, administer a baseline quiz, or preview agents, harnesses, or loops.
+
+Use the profile only to personalize examples. A learner with broad AI experience receives a shorter explanation and a more nuanced LLM example, not more questions.

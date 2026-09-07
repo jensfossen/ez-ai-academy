@@ -1,0 +1,49 @@
+name: Harness compatibility test
+description: Record an Easy AI Academy scenario run in a supported harness.
+title: "[Harness test]: "
+labels:
+  - harness-test
+body:
+  - type: dropdown
+    id: harness
+    attributes:
+      label: Harness
+      options:
+        - Codex
+        - Claude Code
+        - Cursor
+        - Microsoft CoWork
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Version and operating system
+      placeholder: "Harness version; macOS or Windows version"
+    validations:
+      required: true
+  - type: dropdown
+    id: result
+    attributes:
+      label: Result
+      options:
+        - Pass
+        - Pass with adapter
+        - Core defect
+        - Harness limitation
+        - Blocked
+    validations:
+      required: true
+  - type: textarea
+    id: deviations
+    attributes:
+      label: Deviations and evidence
+      description: Describe behavior that differed from the acceptance scenario. Add sanitized screenshots or transcript links when useful.
+    validations:
+      required: true
+  - type: textarea
+    id: recommendation
+    attributes:
+      label: Recommended change
+      description: Identify whether the change belongs in the core skill, a harness adapter, setup guidance, or nowhere.
