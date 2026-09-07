@@ -14,7 +14,7 @@ Three principles govern the product:
 
 1. **It is not another learning app.** A lightweight site may help people discover and install the Academy, but it does not deliver the course.
 2. **The repository is the distribution package.** It contains the skill, lessons, checks, exercises, rubrics, images, curated media links, UI fallbacks, and portable progress schema.
-3. **Learning happens inside the harness.** Codex, Claude Code, Cursor, Microsoft CoWork, and future compatible hosts should teach, practice, coach, grade, and capture progress within the conversation.
+3. **Learning happens inside the harness.** Codex, Claude Code, Cursor, Microsoft Copilot Cowork, and future compatible hosts should teach, practice, coach, grade, and capture progress within the conversation.
 
 ## What is included
 

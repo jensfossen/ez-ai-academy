@@ -40,7 +40,7 @@ adapters/
   codex/
   claude-code/
   cursor/
-  microsoft-cowork/
+  microsoft-copilot-cowork/
 ```
 
 An adapter may define installation, invocation, supported visuals, tool mappings, or persistence integration. It must not duplicate or fork curriculum content.
