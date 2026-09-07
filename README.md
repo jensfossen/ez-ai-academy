@@ -28,15 +28,18 @@ Three principles govern the product:
 
 Context Engineering, Agents and Harness Engineering, and Loop Engineering are on the curriculum roadmap.
 
-## Current prototype workflow
+## Install in your harness
 
-1. Clone or download this repository.
-2. Make the repository available to your AI coding or conversational harness.
-3. Ask the harness: **“Load `SKILL.md` and start AI Academy.”**
+| Harness | Setup | Start |
+|---|---|---|
+| Codex | [Install guide](adapters/codex/INSTALL.md) | `Use $ai-academy to start a new learning journey.` |
+| Claude Code | [Install guide](adapters/claude-code/INSTALL.md) | `/ai-academy` |
+| Cursor | [Install guide](adapters/cursor/INSTALL.md) | Choose `ai-academy` from the `/` menu |
+| Microsoft Copilot Cowork | [Install guide](adapters/microsoft-copilot-cowork/INSTALL.md) | Upload the prepared ZIP, then ask to start |
 
 `SKILL.md` is the canonical entry point. It routes the host to only the curriculum, exercise, rubric, visual, or schema needed for the current learning step. See `PORTABILITY.md` for the host contract.
 
-The current package is ready for prototype testing, not production rollout. Platform-specific setup instructions and adapters will map host capabilities without duplicating or forking the curriculum.
+The current package is ready for prototype testing, not production rollout. The setup adapters map host capabilities without duplicating or forking the curriculum. See [`adapters/`](adapters/README.md) for the complete setup router.
 
 ## Build or preview the curriculum
 
@@ -57,6 +60,9 @@ The [visual program explorer](https://ai-academy.kolo-0832.chatgpt.site) is a co
 | `assets/` | Course visuals and skill icon |
 | `schemas/` | Portable learner progress record |
 | `ui/` | Interaction patterns with text fallbacks |
+| `adapters/` | Harness-specific installation and invocation guides |
+| `packages/` | Generated upload packages for hosts that require them |
+| `scripts/` | Deterministic packaging and validation utilities |
 | `dist/` | OpenAI Site source |
 | `tests/` | Cross-harness acceptance scenarios and results contract |
 

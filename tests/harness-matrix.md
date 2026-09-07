@@ -6,10 +6,12 @@ This matrix tracks whether Easy AI Academy delivers an equivalent learning exper
 
 | Harness | macOS setup | Windows setup | Native choices/cards | Local image display | Progress export | Foundations scenario | Status |
 |---|---:|---:|---:|---:|---:|---:|---|
-| Codex | To validate | To validate | To validate | To validate | Required | To run | Prototype target |
-| Claude Code | To validate | To validate | To validate | To validate | Required | To run | Prototype target |
-| Cursor | To validate | To validate | To validate | To validate | Required | To run | Prototype target |
-| Microsoft CoWork | To validate | To validate | To validate | To validate | Required | To run | Prototype target |
+| Codex | Documented | Documented | Work Mode available; test required | Supported; test required | Required | To run | Install contract ready |
+| Claude Code | Documented | Documented | Host-dependent; test required | Supported; test required | Required | To run | Install contract ready |
+| Cursor | Documented | Documented | Host-dependent; test required | Supported; test required | Required | To run | Install contract ready |
+| Microsoft Copilot Cowork | ZIP/OneDrive documented | Same cloud flow | Choices/cards documented; test required | Inline display documented; test required | Required | To run | Package ready |
+
+“Documented” means the setup contract was checked against current vendor documentation. It does not mean the complete learner scenario has passed. Record behavioral results only after running [`foundations-acceptance.md`](foundations-acceptance.md) in that harness.
 
 ## Required equivalence
 
