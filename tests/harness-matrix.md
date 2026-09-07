@@ -8,10 +8,14 @@ This matrix tracks whether Easy AI Academy delivers an equivalent learning exper
 |---|---:|---:|---:|---:|---:|---:|---|
 | Codex | Documented | Documented | Work Mode available; test required | Supported; test required | Required | To run | Install contract ready |
 | Claude Code | Documented | Documented | Host-dependent; test required | Supported; test required | Required | To run | Install contract ready |
-| Cursor | Documented | Documented | Host-dependent; test required | Supported; test required | Required | To run | Install contract ready |
+| Cursor | Documented | Documented | Markdown numbered fallback tested | Markdown+alt tested; inline raster UI-dependent | Required | Pass (2026-09-07 Cloud Agent) | Foundations Pass — Cloud Agent; see #10 |
 | Microsoft Copilot Cowork | ZIP/OneDrive documented | Same cloud flow | Choices/cards documented; test required | Inline display documented; test required | Required | To run | Package ready |
 
 “Documented” means the setup contract was checked against current vendor documentation. It does not mean the complete learner scenario has passed. Record behavioral results only after running [`foundations-acceptance.md`](foundations-acceptance.md) in that harness.
+
+### Evidence log
+
+- **2026-09-07 — Cursor Cloud Agent:** Pass on [`foundations-acceptance.md`](foundations-acceptance.md) against `jensfossen/ez-ai-academy` @ `main`. Invocation: load `SKILL.md`; synthetic learner via Cloud Agent reply turns. Agents: `bc-0916dcca-f4db-40b0-b95e-81fb47ab2ea8` (Session Zero→Module 1→export), `bc-649aa742-f988-4e04-8829-6a068e37dac8` (restore). Deviations (harness limitations only): Markdown numbered choices instead of native tappable controls; image via markdown+alt with meaningful description (inline raster UI-dependent). Restore: fresh conversation restored Module 1 complete without repeating Session Zero. Evidence: [#10](https://github.com/jensfossen/ez-ai-academy/issues/10). Parent: [#3](https://github.com/jensfossen/ez-ai-academy/issues/3).
 
 ## Required equivalence
 
