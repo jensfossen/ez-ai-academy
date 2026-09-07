@@ -8,7 +8,7 @@ This matrix tracks whether Easy AI Academy delivers an equivalent learning exper
 |---|---:|---:|---:|---:|---:|---:|---|
 | Codex | Documented | Documented | Work Mode available; test required | Supported; test required | Required | To run | Install contract ready |
 | Claude Code | Documented | Documented | Host-dependent; test required | Supported; test required | Required | To run | Install contract ready |
-| Cursor | Documented | Documented | Markdown numbered fallback tested | Markdown+alt tested; inline raster UI-dependent | Required | Pass (2026-09-07 Cloud Agent) | Foundations Pass — Cloud Agent; see #10 |
+| Cursor | Documented | Documented | Markdown numbered fallback tested | Markdown+alt tested; inline raster UI-dependent | Required | Pass (2026-09-07 Cloud Agent) | Foundations Pass — Cloud Agent; evidence [#10](https://github.com/jensfossen/ez-ai-academy/issues/10) |
 | Microsoft Copilot Cowork | ZIP/OneDrive documented | Same cloud flow | Choices/cards documented; test required | Inline display documented; test required | Required | To run | Package ready |
 
 “Documented” means the setup contract was checked against current vendor documentation. It does not mean the complete learner scenario has passed. Record behavioral results only after running [`foundations-acceptance.md`](foundations-acceptance.md) in that harness.
