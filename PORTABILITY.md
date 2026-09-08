@@ -15,7 +15,7 @@ A compatible host should be able to:
 5. Run a learner's prompt in the same conversation or clearly simulate the result.
 6. Export and restore the YAML learning record.
 
-Browsing, media rendering, file access, connectors, and durable storage are optional enhancements. Their absence must not block the core learning cycle.
+Browsing, media rendering, file access, connectors, and durable storage are optional enhancements. Their absence must not block the core learning cycle. Selection, metadata, and link-versus-store rules for optional media live in `resources/asset-governance.md`.
 
 ## Experience equivalence
 
