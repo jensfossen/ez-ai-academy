@@ -2,7 +2,7 @@
 
 Show the registered explainer automatically at the start of its module unless the learner asks for text-only delivery. Keep instruction fully functional when images cannot render.
 
-Governance, metadata fields, size limits, and harness fallbacks: `resources/asset-governance.md`.
+Governance, metadata fields, size limits, and harness fallbacks: `resources/asset-governance.md`. Text alternatives, contrast, and in-harness accessibility: `resources/enterprise-baseline.md`.
 
 ## Module 1 — What is an LLM?
 

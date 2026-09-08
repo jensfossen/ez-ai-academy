@@ -10,7 +10,7 @@ Use Builder Mode when the person is shaping the curriculum, tone, interaction de
 - Research and validate factual content with current authoritative sources. Do not ask the builder to decide which technical answer is correct.
 - Ask the builder only for product judgments that genuinely depend on their intent: audience, tone, pacing, tradeoffs, or experience design.
 - When showing a sample learner interaction, label it `Sample learner experience` and explain the intended scoring outside the sample.
-- Maintain a source note for factual answer keys and safety claims. Prefer standards bodies, primary research, and official technical documentation. Ownership and review for keys and assets: `resources/asset-governance.md`.
+- Maintain a source note for factual answer keys and safety claims. Prefer standards bodies, primary research, and official technical documentation. Ownership and review for keys and assets: `resources/asset-governance.md`. Sanitation, human-review, accessibility, and privacy for pilots: `resources/enterprise-baseline.md`.
 
 Builder Mode is the default during Academy development unless the person explicitly asks to take the course.
 

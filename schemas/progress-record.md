@@ -54,3 +54,5 @@ When a learner supplies a record:
 ## Future connector boundary
 
 Treat this schema as the initial contract for a later system of record. A connector may add identifiers, timestamps, attempt history, artifact links, facilitator notes, and organizational reporting. Keep curriculum logic independent of the storage provider.
+
+Retention, deletion, and analytics limits: `resources/enterprise-baseline.md`. Prefer no optional analytics for v1 pilots. Do not add legal name, email, employee ID, or other personal fields to this schema.
