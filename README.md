@@ -23,7 +23,7 @@ Three principles govern the product:
 - A warm, adaptive mentor experience
 - Formative checks that recognize nuance instead of forcing every question into one right answer
 - A–F grading for completed work and artifacts
-- A portable progress record
+- A portable progress record (chat export/restore; optional system-of-record contract)
 - A visual program explorer in `dist/` for awareness and curriculum review
 
 Context Engineering, Agents and Harness Engineering, and Loop Engineering are on the curriculum roadmap.
@@ -58,7 +58,7 @@ The [visual program explorer](https://ai-academy.kolo-0832.chatgpt.site) is a co
 | `rubrics/` | A–F grading criteria for completed work |
 | `resources/` | Analogies, curated media, visual guidance, [asset governance](resources/asset-governance.md), and the [enterprise baseline](resources/enterprise-baseline.md) |
 | `assets/` | Course visuals and skill icon |
-| `schemas/` | Portable learner progress record |
+| `schemas/` | Portable learner progress record and [optional SoR connector contract](schemas/sor-connector-contract.md) |
 | `ui/` | Interaction patterns with text fallbacks |
 | `adapters/` | Harness-specific installation and invocation guides |
 | `packages/` | Generated upload packages for hosts that require them |

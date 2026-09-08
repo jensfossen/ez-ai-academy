@@ -10,7 +10,7 @@ Do not invent a product brand lock. The working name remains Easy AI Academy unt
 
 - **Mentors:** Read this when sanitation, human review, a high-risk topic, accessibility, privacy, or an unknown policy comes up. Present only the next useful rule in plain language. Do not paste this file into chat.
 - **Pilot owners:** Use the checklists below before inviting employees. The Academy is guidance plus fallbacks, not a compliance product.
-- **Builders:** Keep new modules, visuals, and records compatible with these rules. Asset metadata and alt text live in `resources/asset-governance.md` and `resources/visuals.md`. The portable record lives in `schemas/progress-record.md`.
+- **Builders:** Keep new modules, visuals, and records compatible with these rules. Asset metadata and alt text live in `resources/asset-governance.md` and `resources/visuals.md`. The portable record lives in `schemas/progress-record.md`. An optional system-of-record connector, if an organization wants one later, is drafted in `schemas/sor-connector-contract.md`.
 
 The Academy does not grant employer permission, certify a vendor harness for WCAG, or replace legal, security, or privacy review.
 
@@ -155,7 +155,7 @@ Keep it small. The schema already allows:
 - artifact **titles** and **sanitized** descriptions;
 - strengths, development focus, and the next recommended action.
 
-Omit optional personal details unless the learner asks to include them. The schema has no required legal name, email, employee ID, or location — do not add those fields.
+Omit optional personal details unless the learner asks to include them. The schema has no required legal name, email, employee ID, or location — do not add those fields. The minimum field set that still proves module completion is in `schemas/progress-record.md`.
 
 Do not store confidential source material or full work products. If an artifact would include sensitive text, store a title and a sanitized description only.
 
@@ -169,7 +169,7 @@ If an organization later wants reporting:
 - send the minimum needed to answer the reporting question;
 - do not copy chat transcripts or unsanitized artifacts into analytics.
 
-Issue #6 will define any future system-of-record contract. Until then, export and restore in chat is the supported path.
+The optional connector contract is `schemas/sor-connector-contract.md`. Export and restore in chat remains the supported, first-class path. A connector is never required to learn.
 
 ### Retention and deletion
 

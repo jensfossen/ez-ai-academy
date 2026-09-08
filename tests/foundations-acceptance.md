@@ -40,8 +40,10 @@ Run this scenario in a fresh conversation with no prior Academy state. Use synth
 
 ### 5. Continuity
 
-- Exports an `AI_ACADEMY_RECORD` on request.
+- Exports an `AI_ACADEMY_RECORD` on request (`schemas/progress-record.md`; `academy_version: "0.1"`).
 - Restores the record in a fresh conversation without repeating completed onboarding.
+- Schema continuity is **validated on Cursor** ([#10](https://github.com/jensfossen/ez-ai-academy/issues/10)). Codex, Claude Code, and Microsoft Copilot Cowork must re-check export/restore when those Foundations runs happen ([#3](https://github.com/jensfossen/ez-ai-academy/issues/3), [#13](https://github.com/jensfossen/ez-ai-academy/issues/13), [#14](https://github.com/jensfossen/ez-ai-academy/issues/14), [#15](https://github.com/jensfossen/ez-ai-academy/issues/15)). Do not treat a Cursor Pass as multi-harness validation.
+- When reporting Continuity, capture the same fields as the tester report below (harness, version, operating system, model, invocation method, result, deviations) and the exported `academy_version`.
 
 ## Result scale
 
@@ -63,4 +65,5 @@ result:
 deviations: []
 evidence_links: []
 recommended_change:
+academy_version:   # when Continuity was exercised; current contract is "0.1"
 ```
