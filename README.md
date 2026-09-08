@@ -18,13 +18,13 @@ Three principles govern the product:
 
 ## What is included
 
-- Module 1: What is an LLM?
-- Prompt Engineering
+- Module 1 Foundations: What is an LLM? (available; harness acceptance is partial)
+- Prompt Engineering is planned and held until Foundations acceptance clears
 - A warm, adaptive mentor experience
 - Formative checks that recognize nuance instead of forcing every question into one right answer
 - A–F grading for completed work and artifacts
 - A portable progress record (chat export/restore; optional system-of-record contract)
-- A visual program explorer in `dist/` for awareness and curriculum review
+- A static discovery and setup landing page in `dist/` (not the course)
 
 Context Engineering, Agents and Harness Engineering, and Loop Engineering are on the curriculum roadmap.
 
@@ -45,7 +45,7 @@ The current package is ready for prototype testing, not production rollout. The 
 
 During development, AI Academy defaults to Builder Mode. Ask to `preview as learner` when you want to experience the course. Use `return to builder mode` to resume curriculum work.
 
-The [visual program explorer](https://ai-academy.kolo-0832.chatgpt.site) is a companion view for understanding the program. It is not the learning experience; this repository remains the primary product.
+The [discovery and setup landing](dist/index.html) is a static, GitHub Pages–friendly front door. It is not the learning experience; this repository remains the primary product.
 
 ## Repository structure
 
@@ -63,7 +63,7 @@ The [visual program explorer](https://ai-academy.kolo-0832.chatgpt.site) is a co
 | `adapters/` | Harness-specific installation and invocation guides |
 | `packages/` | Generated upload packages for hosts that require them |
 | `scripts/` | Deterministic packaging and validation utilities |
-| `dist/` | OpenAI Site source |
+| `dist/` | Discovery and setup landing (static HTML; not lesson delivery) |
 | `tests/` | Cross-harness acceptance scenarios and results contract |
 
 ## Content principles
