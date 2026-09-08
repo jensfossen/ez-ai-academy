@@ -11,4 +11,6 @@ Easy AI Academy uses one shared `SKILL.md` and one shared curriculum. These guid
 
 The curriculum must not be copied into an adapter. If a host needs different UI, paths, or packaging, adapt only those host-specific mechanics.
 
+Cursor Foundations acceptance has been validated via Cloud Agent with Markdown choice and image fallbacks ([#10](https://github.com/jensfossen/ez-ai-academy/issues/10)); that run did not test the IDE `/` menu.
+
 These instructions were last checked against vendor documentation on **2026-09-07**. Harness behavior changes quickly; record any deviation with the harness version in the [test matrix](../tests/harness-matrix.md).

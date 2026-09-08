@@ -18,7 +18,9 @@ git clone https://github.com/jensfossen/ez-ai-academy.git "$HOME\.cursor\skills\
 
 In Cursor chat, type `/` and select `ai-academy`. You can also ask naturally to start Easy AI Academy.
 
-For a project-only install, clone the repository to `.cursor/skills/ai-academy` or `.agents/skills/ai-academy` in that project. Cursor can also discover compatible Claude and Codex skill directories. If you use Cursor Cloud Agents, enable skill synchronization in **Settings → Agents → Sync Skills** for personal skills.
+For a project-only install, clone the repository to `.cursor/skills/ai-academy` or `.agents/skills/ai-academy` in that project. Cursor can also discover compatible Claude and Codex skill directories.
+
+Cloud Agents may load `SKILL.md` from a checkout of this repository, or from a personal install after enabling **Settings → Agents → Sync Skills**. Cloud Agent chat uses Markdown numbered-list choice fallbacks (native tappable controls are unavailable there). Image acceptance is a markdown image plus alt text, or a meaningful description; inline raster display is UI-dependent and not guaranteed.
 
 To update later, run `git pull` inside the installed `ai-academy` directory.
 
