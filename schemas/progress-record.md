@@ -231,3 +231,4 @@ When a Foundations run checks Continuity, capture the same fields as `tests/foun
 - Privacy floor: `resources/enterprise-baseline.md`
 - Host contract: `PORTABILITY.md`
 - Continuity scenario: `tests/foundations-acceptance.md`
+- Stage gates (record compatibility and continuity metrics): `references/commercial-readiness.md`

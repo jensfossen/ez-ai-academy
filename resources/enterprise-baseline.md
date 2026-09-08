@@ -9,7 +9,7 @@ Do not invent a product brand lock. The working name remains Easy AI Academy unt
 ## How to use this file
 
 - **Mentors:** Read this when sanitation, human review, a high-risk topic, accessibility, privacy, or an unknown policy comes up. Present only the next useful rule in plain language. Do not paste this file into chat.
-- **Pilot owners:** Use the checklists below before inviting employees. The Academy is guidance plus fallbacks, not a compliance product.
+- **Pilot owners:** Use the checklists below before inviting employees. The Academy is guidance plus fallbacks, not a compliance product. Stage gates that consume this baseline (Prototype → Commercial): `references/commercial-readiness.md`.
 - **Builders:** Keep new modules, visuals, and records compatible with these rules. Asset metadata and alt text live in `resources/asset-governance.md` and `resources/visuals.md`. The portable record lives in `schemas/progress-record.md`. An optional system-of-record connector, if an organization wants one later, is drafted in `schemas/sor-connector-contract.md`.
 
 The Academy does not grant employer permission, certify a vendor harness for WCAG, or replace legal, security, or privacy review.

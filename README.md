@@ -39,7 +39,7 @@ Context Engineering, Agents and Harness Engineering, and Loop Engineering are on
 
 `SKILL.md` is the canonical entry point. It routes the host to only the curriculum, exercise, rubric, visual, or schema needed for the current learning step. See `PORTABILITY.md` for the host contract.
 
-The current package is ready for prototype testing, not production rollout. The setup adapters map host capabilities without duplicating or forking the curriculum. See [`adapters/`](adapters/README.md) for the complete setup router.
+The current package is ready for prototype testing, not production rollout. Release stages (Prototype → Private pilot → Enterprise beta → Commercial release) and their gates live in [`references/commercial-readiness.md`](references/commercial-readiness.md). Prototype exit is not commercial-ready. The setup adapters map host capabilities without duplicating or forking the curriculum. See [`adapters/`](adapters/README.md) for the complete setup router.
 
 ## Build or preview the curriculum
 
@@ -64,6 +64,7 @@ The [discovery and setup landing](dist/index.html) is a static, GitHub Pages–f
 | `packages/` | Generated upload packages for hosts that require them |
 | `scripts/` | Deterministic packaging and validation utilities |
 | `dist/` | Discovery and setup landing (static HTML; not lesson delivery) |
+| `references/` | Builder/learner modes and [commercial-readiness stages](references/commercial-readiness.md) |
 | `tests/` | Cross-harness acceptance scenarios and results contract |
 
 ## Content principles

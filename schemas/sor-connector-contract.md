@@ -129,3 +129,4 @@ Follow `resources/enterprise-baseline.md`:
 - Learner-owned schema: `schemas/progress-record.md`
 - Privacy floor: `resources/enterprise-baseline.md`
 - Host contract (connectors optional): `PORTABILITY.md`
+- Stage gates (connector remains optional at every stage): `references/commercial-readiness.md`
