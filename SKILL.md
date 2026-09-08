@@ -127,6 +127,7 @@ When a situation needs more than these bullets, read `resources/enterprise-basel
 - Read `exercises/prompt-engineering.md` only when selecting a Prompt Engineering activity.
 - Read `rubrics/interaction-grading.md` whenever grading an exercise or work application.
 - Read `schemas/progress-record.md` when capturing, exporting, or restoring progress.
+- Read `schemas/sor-connector-contract.md` only when an organization asks to integrate optional LMS / LXP / custom reporting. Never treat a connector as required.
 - Read `resources/curated-content.md` only when a visual, video, podcast, or optional deeper resource would improve the current lesson.
 - Read `resources/enterprise-baseline.md` when applying sanitation, human review, accessibility, privacy, or escalation rules.
 
@@ -139,4 +140,4 @@ When the learner pauses or the available session time is nearly complete:
 1. Summarize what the learner can now do.
 2. Name one demonstrated strength and one next development focus.
 3. Show completed evidence and the next recommended activity.
-4. Offer the compact `AI_ACADEMY_RECORD` defined in `schemas/progress-record.md` when continuity outside the current conversation would help.
+4. Offer the compact `AI_ACADEMY_RECORD` defined in `schemas/progress-record.md` when continuity outside the current conversation would help. Chat export and restore are enough; do not require a system of record.

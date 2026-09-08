@@ -13,7 +13,7 @@ A compatible host should be able to:
 3. Maintain conversation state during a session.
 4. Render Markdown; use the text fallback when Mermaid is unsupported.
 5. Run a learner's prompt in the same conversation or clearly simulate the result.
-6. Export and restore the YAML learning record.
+6. Export and restore the YAML learning record in chat (`schemas/progress-record.md`). A system-of-record connector is optional (`schemas/sor-connector-contract.md`) and must not be required to learn.
 
 Browsing, media rendering, file access, connectors, and durable storage are optional enhancements. Their absence must not block the core learning cycle. Selection, metadata, and link-versus-store rules for optional media live in `resources/asset-governance.md`.
 
@@ -31,7 +31,7 @@ Harness implementations do not need identical controls or visual treatment. They
 
 Use native cards, menus, images, and structured questions when available. Use clear Markdown and numbered choices when they are not. A markdown image plus alt text, or a meaningful description, is valid image equivalence when inline raster display is not available.
 
-Safety, accessibility, and privacy for controlled pilots live in `resources/enterprise-baseline.md`. Hosts do not need identical chrome. They must keep Markdown fallbacks first-class so keyboard and screen-reader users can finish the course. The Academy provides those fallbacks; it does not certify vendor harnesses for WCAG. Progress records follow data minimization in `schemas/progress-record.md`. Prefer no optional analytics for v1 pilots.
+Safety, accessibility, and privacy for controlled pilots live in `resources/enterprise-baseline.md`. Hosts do not need identical chrome. They must keep Markdown fallbacks first-class so keyboard and screen-reader users can finish the course. The Academy provides those fallbacks; it does not certify vendor harnesses for WCAG. Progress records follow data minimization in `schemas/progress-record.md`. A system-of-record connector is optional and must not be required to learn (`schemas/sor-connector-contract.md`). Prefer no optional analytics for v1 pilots.
 
 ## Future adapters
 
@@ -45,4 +45,4 @@ adapters/
   microsoft-copilot-cowork/
 ```
 
-An adapter may define installation, invocation, supported visuals, tool mappings, or persistence integration. It must not duplicate or fork curriculum content.
+An adapter may define installation, invocation, supported visuals, tool mappings, or persistence integration. Persistence, when present, follows `schemas/sor-connector-contract.md`. It must not duplicate or fork curriculum content.
