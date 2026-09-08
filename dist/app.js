@@ -32,7 +32,7 @@
         window.setTimeout(function () {
           button.textContent = previous;
           button.classList.remove("copied");
-        }, 1600);
+        }, 2200);
       }).catch(function () {
         button.textContent = "Copy failed";
       });
