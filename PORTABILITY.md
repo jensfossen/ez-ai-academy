@@ -29,7 +29,7 @@ Harness implementations do not need identical controls or visual treatment. They
 - portable progress export and restoration; and
 - no required transition to a separate learning application.
 
-Use native cards, menus, images, and structured questions when available. Use clear Markdown and numbered choices when they are not.
+Use native cards, menus, images, and structured questions when available. Use clear Markdown and numbered choices when they are not. A markdown image plus alt text, or a meaningful description, is valid image equivalence when inline raster display is not available.
 
 ## Future adapters
 
