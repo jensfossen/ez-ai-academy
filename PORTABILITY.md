@@ -2,7 +2,7 @@
 
 `SKILL.md` is the canonical entry point. Curriculum, exercises, rubrics, resources, and schemas contain no required vendor-specific commands or APIs.
 
-The required product is the in-harness learning experience. A website may explain or distribute the Academy, but a learner must not need the website to take a lesson, complete work, receive coaching, earn completion, or resume progress.
+The required product is the in-harness learning experience. A website may explain or distribute the Academy, but a learner must not need the website to take a lesson, complete work, receive coaching, earn completion, or resume progress. Release stages that preserve this boundary: `references/commercial-readiness.md`. Prototype exit is not commercial-ready.
 
 ## Host responsibilities
 
