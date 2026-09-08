@@ -110,6 +110,8 @@ Do not letter-grade onboarding, a starting question, or a single selection. Use 
 - Teach that fluent output is not proof of correctness.
 - Never shame a learner for a low grade. Frame grades as the current reliability of the work.
 
+When a situation needs more than these bullets, read `resources/enterprise-baseline.md`. Present only the next useful rule. Do not paste the file into chat.
+
 ## Disclose content progressively
 
 - Read `curriculum/onboarding.md` only during Session Zero.
@@ -126,6 +128,7 @@ Do not letter-grade onboarding, a starting question, or a single selection. Use 
 - Read `rubrics/interaction-grading.md` whenever grading an exercise or work application.
 - Read `schemas/progress-record.md` when capturing, exporting, or restoring progress.
 - Read `resources/curated-content.md` only when a visual, video, podcast, or optional deeper resource would improve the current lesson.
+- Read `resources/enterprise-baseline.md` when applying sanitation, human review, accessibility, privacy, or escalation rules.
 
 Do not dump an entire file into chat. Present only the next useful learning unit.
 

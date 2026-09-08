@@ -1,6 +1,6 @@
 # Platform-Neutral Interaction Patterns
 
-Treat these as semantic UI intents. Use the host's native components when available and the Markdown fallback otherwise.
+Treat these as semantic UI intents. Use the host's native components when available and the Markdown fallback otherwise. Keyboard, screen-reader, contrast, and cognitive-load rules for both paths: `resources/enterprise-baseline.md`.
 
 ## Welcome card
 

@@ -56,7 +56,7 @@ The [visual program explorer](https://ai-academy.kolo-0832.chatgpt.site) is a co
 | `checks/` | Formative, non-letter-graded knowledge checks |
 | `exercises/` | Contained work, workplace application, and artifacts |
 | `rubrics/` | A–F grading criteria for completed work |
-| `resources/` | Analogies, curated media, visual guidance, and [asset governance](resources/asset-governance.md) |
+| `resources/` | Analogies, curated media, visual guidance, [asset governance](resources/asset-governance.md), and the [enterprise baseline](resources/enterprise-baseline.md) |
 | `assets/` | Course visuals and skill icon |
 | `schemas/` | Portable learner progress record |
 | `ui/` | Interaction patterns with text fallbacks |
@@ -74,6 +74,8 @@ The [visual program explorer](https://ai-academy.kolo-0832.chatgpt.site) is a co
 - Adapt depth through nuance, not quiz volume or jargon.
 - Use synthetic, redacted, or approved workplace information.
 - Treat fluent output as something to inspect, not proof of correctness.
+
+Enterprise sanitation, human-review, accessibility, and privacy rules for controlled pilots: [`resources/enterprise-baseline.md`](resources/enterprise-baseline.md). Learning stays in-harness; Markdown fallbacks are first-class. The Academy does not certify vendor hosts for WCAG.
 
 ## License
 

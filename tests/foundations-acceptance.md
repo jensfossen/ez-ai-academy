@@ -1,6 +1,6 @@
 # Foundations POC Acceptance Scenario
 
-Run this scenario in a fresh conversation with no prior Academy state. Use synthetic or non-confidential learner information.
+Run this scenario in a fresh conversation with no prior Academy state. Use synthetic or non-confidential learner information. Pilot sanitation, accessibility fallbacks, and record-privacy rules: `resources/enterprise-baseline.md`.
 
 ## Test prompt
 

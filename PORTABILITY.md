@@ -31,6 +31,8 @@ Harness implementations do not need identical controls or visual treatment. They
 
 Use native cards, menus, images, and structured questions when available. Use clear Markdown and numbered choices when they are not. A markdown image plus alt text, or a meaningful description, is valid image equivalence when inline raster display is not available.
 
+Safety, accessibility, and privacy for controlled pilots live in `resources/enterprise-baseline.md`. Hosts do not need identical chrome. They must keep Markdown fallbacks first-class so keyboard and screen-reader users can finish the course. The Academy provides those fallbacks; it does not certify vendor harnesses for WCAG. Progress records follow data minimization in `schemas/progress-record.md`. Prefer no optional analytics for v1 pilots.
+
 ## Future adapters
 
 Keep host-specific instructions outside the core files. Add adapters only when needed, for example:

@@ -148,6 +148,8 @@ Governance alignment:
 
 When writing alt text, state the teaching claims (what the learner must understand), not only “infographic of an LLM.” The Module 1 alt text is the model.
 
+Pilot accessibility, sanitation of sourced examples, and text-alternative obligations: `resources/enterprise-baseline.md`.
+
 ## Adding an asset (checklist)
 
 1. Apply selection standards (bite size, currency, learner fit, authority).
