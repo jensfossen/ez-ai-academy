@@ -24,7 +24,7 @@ Three principles govern the product:
 - Formative checks that recognize nuance instead of forcing every question into one right answer
 - A–F grading for completed work and artifacts
 - A portable progress record (chat export/restore; optional system-of-record contract)
-- A static discovery and setup landing page in `dist/` (not the course)
+- A static [discovery and setup landing](https://jensfossen.github.io/ez-ai-academy/) on GitHub Pages (not the course)
 
 Context Engineering, Agents and Harness Engineering, and Loop Engineering are on the curriculum roadmap.
 
@@ -45,7 +45,7 @@ The current package is ready for prototype testing, not production rollout. Rele
 
 During development, AI Academy defaults to Builder Mode. Ask to `preview as learner` when you want to experience the course. Use `return to builder mode` to resume curriculum work.
 
-The [discovery and setup landing](dist/index.html) is a static, GitHub Pages–friendly front door. It is not the learning experience; this repository remains the primary product.
+The public [discovery and setup landing](https://jensfossen.github.io/ez-ai-academy/) is hosted on GitHub Pages from `dist/`. Use it to find the repository and install a harness. It is not the course; this repository remains the primary product.
 
 ## Repository structure
 
@@ -63,7 +63,7 @@ The [discovery and setup landing](dist/index.html) is a static, GitHub Pages–f
 | `adapters/` | Harness-specific installation and invocation guides |
 | `packages/` | Generated upload packages for hosts that require them |
 | `scripts/` | Deterministic packaging and validation utilities |
-| `dist/` | Discovery and setup landing (static HTML; not lesson delivery) |
+| `dist/` | Discovery and setup landing published to [GitHub Pages](https://jensfossen.github.io/ez-ai-academy/) (not lesson delivery) |
 | `references/` | Builder/learner modes and [commercial-readiness stages](references/commercial-readiness.md) |
 | `tests/` | Cross-harness acceptance scenarios and results contract |
 
