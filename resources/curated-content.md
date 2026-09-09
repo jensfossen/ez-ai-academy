@@ -13,11 +13,12 @@ Every entry below is **optional** to module completion. If a link is broken, blo
 - URL: https://www.youtube.com/watch?v=5sLYAQS9sWQ
 - Format: Short animated video focused on the basic LLM mental model.
 - Best for: A learner who wants to see the idea explained visually after the in-chat explanation.
+- render_intent: `in_chat_video` — play in chat when the host can; otherwise offer this URL. Mentors: `ui/interaction-patterns.md` (Video embed).
 - Use: Offer it, never assign it. If the current video length or content has materially changed, do not present it until re-reviewed.
 - Source: IBM Technology on YouTube (`How Large Language Models Work`).
 - Review date: 2026-09-04 (concept). Link check: 2026-09-08, HTTP 200. Next review: 2026-12-08.
 - Usage intent: Optional visual deepener after the in-chat explanation.
-- Transcript / text alternative: Use publisher captions when the learner plays the video. The Academy text alternative is `curriculum/module-01-llm.md` plus the Module 1 explainer alt text — the lesson does not depend on this video.
+- Transcript / text alternative: Use publisher captions when the learner plays the video. The Academy text alternative is `curriculum/module-01-llm.md` plus the Module 1 explainer alt text — the lesson does not depend on this video. The URL above is the fallback when in-chat playback is unavailable.
 - Rights status: `third-party-link`. View on the publisher's site; do not download or store the file in this repo.
 - Placement: **link** — optional deepener.
 - Required for completion: no.

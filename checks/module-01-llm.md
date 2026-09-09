@@ -15,6 +15,8 @@ After the learner answers, first name what makes the choice understandable. Then
 
 ## Check A — A polished but doubtful summary
 
+**render_intent:** `native_choice_card` — Prefer the host's native single-select choice cards or blocks when available (Cursor IDE plan-mode–like cards are the north-star analogy). If the host has no native control, show the numbered A–D list and accept a letter, number, or natural-language answer. Do not put host-specific markup in the question text. Mentors: `ui/interaction-patterns.md` (Knowledge check).
+
 **Question:** You ask an AI tool to summarize approved meeting notes. The summary reads well, but one action owner looks unfamiliar. What is the best way to think about what happened?
 
 - **A.** The LLM probably found newer information online. `0`
