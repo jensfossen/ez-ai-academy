@@ -6,7 +6,7 @@ This matrix tracks whether EZ AI Academy delivers an equivalent learning experie
 
 | Harness | macOS setup | Windows setup | Native choices/cards | Local image display | Progress export | Foundations scenario | Status |
 |---|---:|---:|---:|---:|---:|---:|---|
-| Codex | Documented | Documented | Work Mode available; test required | Supported; test required | Required | To run | Install contract ready |
+| Codex | Documented | Documented | Markdown numbered fallback tested (no native cards) | Supported; test required | Required | Pass with adapter (2026-09-09 Mac mini); Continuity restore pending | Pass with adapter — evidence [#13](https://github.com/jensfossen/ez-ai-academy/issues/13). Continuity restore not closed. Not a full Pass |
 | Claude Code | Documented | Documented | Host-dependent; test required | Supported; test required | Required | To run | Install contract ready |
 | Cursor | Documented | Documented | Cloud Agent: Markdown numbered fallback tested. IDE native cards: research/target ([#24](https://github.com/jensfossen/ez-ai-academy/issues/24)) | Markdown+alt tested; inline raster UI-dependent | Required | Pass (2026-09-07 Cloud Agent) | Foundations Pass — Cloud Agent; evidence [#10](https://github.com/jensfossen/ez-ai-academy/issues/10). Native video/cards: see [Native rich UI](#native-rich-ui-video--choice-cards) |
 | Microsoft Copilot Cowork | ZIP/OneDrive documented | Same cloud flow | Choices/cards documented; test required | Inline display documented; test required | Required | To run | Package ready |
@@ -27,15 +27,16 @@ Semantic intents: `in_chat_video` and `native_choice_card` in `ui/interaction-pa
 |---|---|---|---|
 | Cursor IDE chat | Research / partial / target | Research / partial / target | North-star surface for [#24](https://github.com/jensfossen/ez-ai-academy/issues/24). Public docs describe Plan Mode clarifying questions ([Plan Mode](https://cursor.com/docs/agent/plan-mode)); no published skill-author API for Academy cards or in-chat video. Not a recorded IDE run. See `adapters/cursor/RICH_UI.md`. |
 | Cursor Cloud Agent | Link-or-markdown-fallback (documented) | Link-or-markdown-fallback (documented) | Foundations Pass used numbered Markdown choices and markdown+alt images ([#10](https://github.com/jensfossen/ez-ai-academy/issues/10)). Video was offered as an optional external link; in-chat playback was not available. |
-| Codex | Unknown / to test | Unknown / to test | No video or choice-card run recorded. |
+| Codex | Unknown / to test | Link-or-markdown-fallback (documented) | Foundations Pass with adapter used numbered Markdown choices ([#13](https://github.com/jensfossen/ez-ai-academy/issues/13)). In-chat video not recorded. |
 | Claude Code | Unknown / to test | Unknown / to test | No video or choice-card run recorded. |
 | Microsoft Copilot Cowork | Unknown / to test | Unknown / to test | No video or choice-card run recorded. |
 
-Statuses mean: **research / partial / target** = intended native surface, mechanism unconfirmed; **link-or-markdown-fallback (documented)** = fallback is specified and has been used in a recorded Cloud Agent run; **unknown / to test** = no evidence yet.
+Statuses mean: **research / partial / target** = intended native surface, mechanism unconfirmed; **link-or-markdown-fallback (documented)** = fallback is specified and has been used in a recorded run; **unknown / to test** = no evidence yet.
 
 ### Evidence log
 
 - **2026-09-07 — Cursor Cloud Agent:** Pass on [`foundations-acceptance.md`](foundations-acceptance.md) against `jensfossen/ez-ai-academy` @ `main`. Invocation: load `SKILL.md`; synthetic learner via Cloud Agent reply turns. Agents: `bc-0916dcca-f4db-40b0-b95e-81fb47ab2ea8` (Session Zero→Module 1→export), `bc-649aa742-f988-4e04-8829-6a068e37dac8` (restore). Deviations (harness limitations only): Markdown numbered choices instead of native tappable controls; image via markdown+alt with meaningful description (inline raster UI-dependent). Restore: fresh conversation restored Module 1 complete without repeating Session Zero. Evidence: [#10](https://github.com/jensfossen/ez-ai-academy/issues/10). Parent: [#3](https://github.com/jensfossen/ez-ai-academy/issues/3).
+- **2026-09-09 — Codex CLI:** Pass with adapter on [`foundations-acceptance.md`](foundations-acceptance.md) against `jensfossen/ez-ai-academy`. Version: `codex-cli 0.148.0-alpha.15`. OS: macOS (Mac mini). Invocation: `codex exec` + synthetic learner Alex in one turn (Session Zero → Module 1 → three evidence types → `AI_ACADEMY_RECORD` export, `academy_version` `0.1`). Deviations (harness limitations only): Markdown numbered choices instead of native cards. Continuity: export schema-complete; **restore not exercised** in the one-turn run (pending a separate restore run). Image display not recorded. Evidence: [#13](https://github.com/jensfossen/ez-ai-academy/issues/13). Parent: [#3](https://github.com/jensfossen/ez-ai-academy/issues/3). Not a multi-harness exit. Not a PE Pass.
 
 ## Required equivalence
 
