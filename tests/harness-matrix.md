@@ -66,3 +66,7 @@ For each test run, record:
 - recommended adapter or core-skill change.
 
 Do not change shared curriculum to mask one harness limitation. Prefer a thin harness adapter or documented fallback.
+
+## Persona library (later self-test loops)
+
+Scripted learners and metric definitions for future harness self-tests live in [`learner-personas.md`](learner-personas.md) and [`self-test-metrics.md`](self-test-metrics.md) ([#30](https://github.com/jensfossen/ez-ai-academy/issues/30) Phase A). They reuse this matrix’s result scale. They do not add Pass rows. Do not copy a persona score onto Foundations or Prompt Engineering cells.
