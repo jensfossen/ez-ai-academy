@@ -29,9 +29,20 @@ Harness implementations do not need identical controls or visual treatment. They
 - portable progress export and restoration; and
 - no required transition to a separate learning application.
 
-Use native cards, menus, images, and structured questions when available. Use clear Markdown and numbered choices when they are not. A markdown image plus alt text, or a meaningful description, is valid image equivalence when inline raster display is not available.
+Use native cards, menus, images, and structured questions when available. Use clear Markdown and numbered choices when they are not. A markdown image plus alt text, or a meaningful description, is valid image equivalence when inline raster display is not available. Video and choice-card surfaces follow [Native rich UI](#native-rich-ui).
 
 Safety, accessibility, and privacy for controlled pilots live in `resources/enterprise-baseline.md`. Hosts do not need identical chrome. They must keep Markdown fallbacks first-class so keyboard and screen-reader users can finish the course. The Academy provides those fallbacks; it does not certify vendor harnesses for WCAG. Progress records follow data minimization in `schemas/progress-record.md`. A system-of-record connector is optional and must not be required to learn (`schemas/sor-connector-contract.md`). Prefer no optional analytics for v1 pilots.
+
+## Native rich UI
+
+Prefer the host's built-in cards and blocks for learner choices and in-chat video when those surfaces exist. Cursor IDE chat is the north-star example: plan-mode–like choice cards, and in-chat video when the host can play a lesson link in the conversation.
+
+These remain first-class fallbacks and are enough to complete the course:
+
+- Markdown numbered or lettered choices, accepted as a number, letter, or natural-language answer
+- An external media link plus a text alternative (`resources/curated-content.md`)
+
+**Learning must not require native UI.** Missing in-chat video or tappable cards is not a blocker. Do not fork curriculum for a host widget. Semantic intents live in `ui/interaction-patterns.md`; host research notes stay in adapters (Cursor: `adapters/cursor/RICH_UI.md`). Track capability honestly in `tests/harness-matrix.md`. This slice does not close [#24](https://github.com/jensfossen/ez-ai-academy/issues/24) — remaining work is IDE research and other-harness evidence.
 
 ## Future adapters
 

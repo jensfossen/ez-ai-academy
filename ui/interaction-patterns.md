@@ -40,23 +40,43 @@ Ask one concise question and wait. Do not combine the learner's name with role o
 
 ## Select questions
 
-- Use single select for mutually exclusive routing choices.
+`render_intent: native_choice_card`
+
+Use the host's native choice cards or blocks when it provides them. Cursor IDE plan-mode–like clarifying-question cards are the north-star analogy — not a required API and not a reason to put host markup in curriculum.
+
+- Use single select for mutually exclusive routing choices (Session Zero role is this pattern).
 - Use multi-select for experience and task-history questions.
 - Include a free-text route when categories may not fit.
 - Keep labels short and put explanation in helper text when available.
-- If no native control exists, number the same options and accept numbers or natural language.
+- If no native control exists, show the same options as a Markdown numbered list and accept a number, letter, or natural-language answer.
 
 ## Knowledge check
 
-Use a native single-select or multi-select question component when available. More than one option may be defensible. One can be the best answer, or several can be equally strong. Interpret the choice with the module's quality scale and explain the tradeoff after selection.
+`render_intent: native_choice_card`
 
-If the host supports only single select, never mark a defensible alternative as simply wrong. If no control exists, show numbered choices and accept a letter, number, or natural-language answer.
+Use native choice cards or blocks when the host provides them (same north-star as Select: Cursor IDE plan-mode–like cards). Use a single-select or multi-select component as the check requires. More than one option may be defensible. One can be the best answer, or several can be equally strong. Interpret the choice with the module's quality scale and explain the tradeoff after selection.
 
-Do not show internal point values. Never place two checks back to back.
+If the host supports only single select, never mark a defensible alternative as simply wrong. If no control exists, show numbered Markdown choices and accept a letter, number, or natural-language answer.
+
+Do not show internal point values. Never place two checks back to back. A missing native card must not block the check.
 
 ## Explainer card
 
 Display the module image at readable width with alt text and a one-sentence orientation. Do not repeat every word from the image beneath it unless the image cannot be rendered.
+
+## Video embed
+
+`render_intent: in_chat_video`
+
+When a curated lesson video would help after the in-chat explanation, prefer playing it **in the conversation** if the host can embed or play that URL in chat.
+
+If the host cannot play video in chat:
+
+- Offer the external link from `resources/curated-content.md`.
+- Keep the Academy text alternative available (the in-chat lesson plus any registered transcript / alt text).
+- Continue the module. Watching is never required for understanding, practice, completion, or resume.
+
+Do not invent a host-specific embed snippet in core curriculum. Adapters may research how a host plays video; they must degrade to the link plus text alternative. Cloud Agent surfaces use the Markdown / link fallback.
 
 ## Grade card
 

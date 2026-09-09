@@ -8,7 +8,7 @@ This matrix tracks whether EZ AI Academy delivers an equivalent learning experie
 |---|---:|---:|---:|---:|---:|---:|---|
 | Codex | Documented | Documented | Work Mode available; test required | Supported; test required | Required | To run | Install contract ready |
 | Claude Code | Documented | Documented | Host-dependent; test required | Supported; test required | Required | To run | Install contract ready |
-| Cursor | Documented | Documented | Markdown numbered fallback tested | Markdown+alt tested; inline raster UI-dependent | Required | Pass (2026-09-07 Cloud Agent) | Foundations Pass — Cloud Agent; evidence [#10](https://github.com/jensfossen/ez-ai-academy/issues/10) |
+| Cursor | Documented | Documented | Cloud Agent: Markdown numbered fallback tested. IDE native cards: research/target ([#24](https://github.com/jensfossen/ez-ai-academy/issues/24)) | Markdown+alt tested; inline raster UI-dependent | Required | Pass (2026-09-07 Cloud Agent) | Foundations Pass — Cloud Agent; evidence [#10](https://github.com/jensfossen/ez-ai-academy/issues/10). Native video/cards: see [Native rich UI](#native-rich-ui-video--choice-cards) |
 | Microsoft Copilot Cowork | ZIP/OneDrive documented | Same cloud flow | Choices/cards documented; test required | Inline display documented; test required | Required | To run | Package ready |
 
 “Documented” means the setup contract was checked against current vendor documentation. It does not mean the complete learner scenario has passed. Record behavioral results only after running [`foundations-acceptance.md`](foundations-acceptance.md) in that harness.
@@ -18,6 +18,20 @@ This matrix tracks whether EZ AI Academy delivers an equivalent learning experie
 [`prompt-engineering-acceptance.md`](prompt-engineering-acceptance.md) is **ready to run**. It is not a recorded Pass on any harness.
 
 Do not copy a Foundations Pass into a Prompt Engineering Pass. Do not mark a PE cell Pass, Pass with adapter, or failed until that scenario is actually run and evidenced. Content maturity in the repository is not cross-harness validation.
+
+## Native rich UI (video + choice cards)
+
+Semantic intents: `in_chat_video` and `native_choice_card` in `ui/interaction-patterns.md`. These rows are **capability notes**, not Foundations Pass claims. Do not mark Pass without a recorded run.
+
+| Harness | In-chat video | Native choice cards | Evidence |
+|---|---|---|---|
+| Cursor IDE chat | Research / partial / target | Research / partial / target | North-star surface for [#24](https://github.com/jensfossen/ez-ai-academy/issues/24). Public docs describe Plan Mode clarifying questions ([Plan Mode](https://cursor.com/docs/agent/plan-mode)); no published skill-author API for Academy cards or in-chat video. Not a recorded IDE run. See `adapters/cursor/RICH_UI.md`. |
+| Cursor Cloud Agent | Link-or-markdown-fallback (documented) | Link-or-markdown-fallback (documented) | Foundations Pass used numbered Markdown choices and markdown+alt images ([#10](https://github.com/jensfossen/ez-ai-academy/issues/10)). Video was offered as an optional external link; in-chat playback was not available. |
+| Codex | Unknown / to test | Unknown / to test | No video or choice-card run recorded. |
+| Claude Code | Unknown / to test | Unknown / to test | No video or choice-card run recorded. |
+| Microsoft Copilot Cowork | Unknown / to test | Unknown / to test | No video or choice-card run recorded. |
+
+Statuses mean: **research / partial / target** = intended native surface, mechanism unconfirmed; **link-or-markdown-fallback (documented)** = fallback is specified and has been used in a recorded Cloud Agent run; **unknown / to test** = no evidence yet.
 
 ### Evidence log
 
