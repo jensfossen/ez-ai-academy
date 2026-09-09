@@ -88,7 +88,7 @@ Audio and video binaries do not belong in the repo for optional deepeners. Store
 
 ### Module 2 explainer
 
-`assets/prompt-engineering-map.png` is a **900 × 1200**, 8-bit palette PNG, **18,095 bytes** (~18 KB) as of 2026-09-09. Vector source: `assets/prompt-engineering-map.svg` (4,635 bytes). Rebuild with `scripts/render-prompt-engineering-map.py`. No size exception.
+`assets/prompt-engineering-map.png` is a **900 × 1200**, 8-bit palette PNG, **16,293 bytes** (~16 KB) as of 2026-09-09. Vector source: `assets/prompt-engineering-map.svg` (4,957 bytes). Rebuild with `scripts/render-prompt-engineering-map.py`. Uses the locked mark (`brand/assets/logo-icon.png`) and locked palette only. No size exception.
 
 ## External assets are optional
 

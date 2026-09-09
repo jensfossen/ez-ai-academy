@@ -34,7 +34,7 @@ Governance, metadata fields, size limits, and harness fallbacks: `resources/asse
 - Rights status: `academy-original`. Created for this repository. No open-source license selected yet; public visibility is not permission to reuse outside the Academy.
 - Placement: **store** — required offline explainer for the live module.
 - Required for completion: The *concept* is required; the *raster file* is not. Meaningful alt text satisfies the acceptance scenario when inline display fails.
-- Optimization: 900 × 1200, 8-bit palette PNG, 18,095 bytes (~18 KB). Under preferred 1200 px / 200 KB limits. SVG companion is 4,635 bytes.
+- Optimization: 900 × 1200, 8-bit palette PNG, 16,293 bytes (~16 KB). Under preferred 1200 px / 200 KB limits. SVG companion is 4,957 bytes. Locked palette only (navy / cyan / dark cyan / paper / white / slate). Official chat-bubble + 1-2-3 staircase mark from `brand/assets/logo-icon.png` / `logo-icon.svg`. No gold rule and no extra symbols.
 
 ## Required pattern for future modules
 
