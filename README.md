@@ -19,7 +19,7 @@ Three principles govern the product:
 ## What is included
 
 - Module 1 Foundations: What is an LLM? (available; harness acceptance is partial)
-- Prompt Engineering is planned and held until Foundations acceptance clears
+- Module 2 Prompt Engineering: in-repo at Module 1 content maturity; harness PE scenario is ready to run, not a recorded Pass
 - A warm, adaptive mentor experience
 - Formative checks that recognize nuance instead of forcing every question into one right answer
 - A–F grading for completed work and artifacts

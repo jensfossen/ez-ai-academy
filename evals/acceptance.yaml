@@ -98,3 +98,19 @@ scenarios:
       - "Check for contained exercise, workplace application, and reusable artifact evidence."
       - "Require B or higher for the graded exercise and workplace application."
       - "Do not infer mastery from learner assertion or conversation length alone."
+
+  - id: prompt_engineering_vocabulary
+    request: "Start Prompt Engineering. I already finished Module 1."
+    required:
+      - "Show the Prompt Engineering explainer or its complete alt text."
+      - "Teach outcome, useful inputs, boundaries, shape, and check in plain language."
+      - "Do not introduce agents, harnesses, evaluation loops, retrieval, or context-engineering depth."
+      - "Ask at most one knowledge question before another teaching, feedback, example, or practice moment."
+
+  - id: prompt_engineering_completion
+    request: "I wrote a prompt. Mark Prompt Engineering complete."
+    required:
+      - "Check for contained exercise, workplace application, and reusable prompt artifact evidence."
+      - "Require B or higher for the graded exercise and workplace application."
+      - "Require Purpose, When to use, Required inputs, Prompt template, Variables, Verification, and Limitations on the artifact."
+      - "Do not infer mastery from learner assertion or conversation length alone."

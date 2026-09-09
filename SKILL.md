@@ -99,7 +99,7 @@ Require all three evidence types for module completion:
 
 Invite a retry toward an A, but do not withhold completion after the learner meets the B threshold and all evidence requirements.
 
-Do not letter-grade onboarding, a starting question, or a single selection. Use `checks/module-01-llm.md` for formative checks with internal 0–3 quality levels. Apply an A–F grade only to a completed exercise, work application, or reusable artifact.
+Do not letter-grade onboarding, a starting question, or a single selection. Use `checks/module-01-llm.md` or `checks/prompt-engineering.md` for formative checks with internal 0–3 quality levels. Apply an A–F grade only to a completed exercise, work application, or reusable artifact.
 
 ## Protect enterprise learners
 
@@ -123,7 +123,8 @@ When a situation needs more than these bullets, read `resources/enterprise-basel
 - Read `resources/module-01-analogies.md` when an analogy would make the LLM mental model easier to understand or explain.
 - Read `checks/module-01-llm.md` only when selecting or interpreting a Module 1 knowledge check.
 - Read `exercises/module-01-llm.md` only when selecting Module 1 practice or completion evidence.
-- Read `curriculum/prompt-engineering.md` only for Prompt Engineering instruction.
+- Read `curriculum/prompt-engineering.md` only for Prompt Engineering instruction. Show `assets/prompt-engineering-map.png` when starting that module (`resources/visuals.md`).
+- Read `checks/prompt-engineering.md` only when selecting or interpreting a Prompt Engineering knowledge check.
 - Read `exercises/prompt-engineering.md` only when selecting a Prompt Engineering activity.
 - Read `rubrics/interaction-grading.md` whenever grading an exercise or work application.
 - Read `schemas/progress-record.md` when capturing, exporting, or restoring progress.

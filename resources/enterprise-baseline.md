@@ -16,7 +16,7 @@ The Academy does not grant employer permission, certify a vendor harness for WCA
 
 ## Sanitation
 
-Learners and mentors use **synthetic, redacted, or approved** information only. That matches `SKILL.md`, Session Zero, Module 1 exercises, and Foundations acceptance.
+Learners and mentors use **synthetic, redacted, or approved** information only. That matches `SKILL.md`, Session Zero, Module 1 and Module 2 exercises, and the Foundations / Prompt Engineering acceptance scenarios.
 
 Do not ask for, accept into an exercise, or copy into `AI_ACADEMY_RECORD` any of the following:
 
@@ -78,12 +78,10 @@ Every required visual must have a meaningful text alternative that can stand alo
 - Follow metadata, rights, and fallback rules in `resources/asset-governance.md`.
 - External video, audio, and articles stay **optional**. The in-chat lesson is the accessible path (`resources/curated-content.md`).
 
-**Module 1 example (current required visual):**
+**Required visuals (current):**
 
-- File: `assets/module-01-llm.png`
-- Complete alt text and text fallback: `resources/visuals.md`
-- If the PNG does not render, read the alt text and continue `curriculum/module-01-llm.md`
-- Cursor Foundations Pass (#3 / #10) accepted markdown image plus that description as image equivalence. Inline raster is not required.
+- Module 1: `assets/module-01-llm.png` — alt text and fallback in `resources/visuals.md`; continue `curriculum/module-01-llm.md` if the PNG does not render. Cursor Foundations Pass (#3 / #10) accepted markdown image plus that description as image equivalence. Inline raster is not required.
+- Module 2: `assets/prompt-engineering-map.png` — alt text and fallback in `resources/visuals.md`; continue `curriculum/prompt-engineering.md` if the PNG does not render. Prompt Engineering harness Pass is not recorded.
 
 Do not add a planned filename to a live lesson until the file and its text alternative exist. Do not send the learner to a website because a host did not show the PNG.
 
@@ -214,5 +212,5 @@ This baseline does **not**:
 - certify vendor hosts for WCAG;
 - expand PII in `AI_ACADEMY_RECORD`;
 - add website lesson delivery or a gradebook;
-- implement Prompt Engineering curriculum (#4);
+- close Prompt Engineering harness validation;
 - replace the learner's company policy.
