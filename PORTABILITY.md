@@ -8,7 +8,7 @@ The required product is the in-harness learning experience. A website may explai
 
 A compatible host should be able to:
 
-1. Load `SKILL.md` when the learner invokes AI Academy.
+1. Load `SKILL.md` when the learner invokes EZ AI Academy.
 2. Read linked files only when the current learning step needs them.
 3. Maintain conversation state during a session.
 4. Render Markdown; use the text fallback when Mermaid is unsupported.

@@ -8,8 +8,8 @@ Treat these as semantic UI intents. Use the host's native components when availa
 
 Display a compact information card with:
 
-- Eyebrow: `AI Academy`
-- Title: `Learn AI by working with AI`
+- Eyebrow: `EZ AI Academy`
+- Title: `Learn AI where you work.`
 - Body: `A short, adaptive learning experience built around your work—not generic lectures.`
 - Progress: `Module 1 · What is an LLM?`
 - Primary action when supported: `Begin`
@@ -17,8 +17,8 @@ Display a compact information card with:
 
 ### Markdown fallback
 
-> **AI Academy**  
-> **Learn AI by working with AI**  
+> **EZ AI Academy**  
+> **Learn AI where you work.**  
 > A short, adaptive learning experience built around your work—not generic lectures.  
 > *Module 1 · What is an LLM?*
 

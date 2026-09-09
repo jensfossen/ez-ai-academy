@@ -8,7 +8,7 @@ The record is **learner-owned**. The learner copies it out of chat and pastes it
 
 A system of record (LMS, LXP, custom store) is an **optional integration**. It is never required to start, complete, or resume a module. Connector draft: `schemas/sor-connector-contract.md`.
 
-Do not invent a product brand lock. The working name remains Easy AI Academy until a brand is chosen.
+Product brand is locked as **EZ AI Academy**. Guidelines: [`brand/BRAND.md`](../brand/BRAND.md). Do not write “Easy AI Academy.”
 
 ## No-connector path (first-class)
 

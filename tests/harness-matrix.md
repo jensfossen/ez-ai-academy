@@ -1,6 +1,6 @@
 # Harness Compatibility Matrix
 
-This matrix tracks whether Easy AI Academy delivers an equivalent learning experience across supported harnesses. Visual parity is not required; learning and completion behavior are. Stage gates that consume these rows (Prototype exit is not commercial-ready): `references/commercial-readiness.md`.
+This matrix tracks whether EZ AI Academy delivers an equivalent learning experience across supported harnesses. Visual parity is not required; learning and completion behavior are. Stage gates that consume these rows (Prototype exit is not commercial-ready): `references/commercial-readiness.md`.
 
 ## Target matrix
 

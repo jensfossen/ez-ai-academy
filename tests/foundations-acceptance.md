@@ -4,7 +4,7 @@ Run this scenario in a fresh conversation with no prior Academy state. Use synth
 
 ## Test prompt
 
-> Load `SKILL.md` from this repository and start Easy AI Academy as a new learner.
+> Load `SKILL.md` from this repository and start EZ AI Academy as a new learner.
 
 ## Expected flow
 

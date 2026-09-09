@@ -16,7 +16,7 @@ New-Item -ItemType Directory -Force "$HOME\.cursor\skills" | Out-Null
 git clone https://github.com/jensfossen/ez-ai-academy.git "$HOME\.cursor\skills\ai-academy"
 ```
 
-In Cursor chat, type `/` and select `ai-academy`. You can also ask naturally to start Easy AI Academy.
+In Cursor chat, type `/` and select `ai-academy`. You can also ask naturally to start EZ AI Academy.
 
 For a project-only install, clone the repository to `.cursor/skills/ai-academy` or `.agents/skills/ai-academy` in that project. Cursor can also discover compatible Claude and Codex skill directories.
 

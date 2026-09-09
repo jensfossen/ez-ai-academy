@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="EZ AI Academy">
+  <!-- Chat-bubble outline + 1-2-3 cyan staircase. Locked mark; do not restyle. -->
+  <rect x="36" y="28" width="184" height="152" rx="40" fill="none" stroke="#0B1730" stroke-width="22"/>
+  <path d="M58 168 L28 232 L104 180" fill="none" stroke="#0B1730" stroke-width="22" stroke-linejoin="round" stroke-linecap="round"/>
+  <g fill="#72E0D1">
+    <rect x="86" y="128" width="22" height="22" rx="5"/>
+    <rect x="117" y="128" width="22" height="22" rx="5"/>
+    <rect x="117" y="97" width="22" height="22" rx="5"/>
+    <rect x="148" y="128" width="22" height="22" rx="5"/>
+    <rect x="148" y="97" width="22" height="22" rx="5"/>
+    <rect x="148" y="66" width="22" height="22" rx="5"/>
+  </g>
+</svg>

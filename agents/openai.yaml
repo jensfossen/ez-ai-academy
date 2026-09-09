@@ -1,7 +1,7 @@
 interface:
-  display_name: Easy AI Academy
+  display_name: EZ AI Academy
   short_description: Adaptive workplace AI learning and practice
-  default_prompt: Use $ai-academy to start my adaptive Easy AI Academy journey.
+  default_prompt: Use $ai-academy to start my adaptive EZ AI Academy journey.
   icon_small: assets/icon.svg
   icon_large: assets/icon.svg
 policy:

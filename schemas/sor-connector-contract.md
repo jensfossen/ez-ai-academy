@@ -4,7 +4,7 @@ This is a **draft** for a future connector. It is not an implementation. Learner
 
 ## Product boundary
 
-Easy AI Academy teaches inside the conversational harness. Export and restore of `AI_ACADEMY_RECORD` in chat is the first-class, no-backend path (`schemas/progress-record.md`).
+EZ AI Academy teaches inside the conversational harness. Export and restore of `AI_ACADEMY_RECORD` in chat is the first-class, no-backend path (`schemas/progress-record.md`).
 
 A system of record (SoR) is **optional integration**. It may help an organization report completions. It must not become a prerequisite for learning, grading, or resume.
 

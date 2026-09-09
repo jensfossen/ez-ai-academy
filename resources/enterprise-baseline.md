@@ -4,7 +4,7 @@ Give controlled enterprise pilots a clear floor so nontechnical employees can le
 
 This file is the detail behind `SKILL.md` → **Protect enterprise learners**. Apply it inside Codex, Claude Code, Cursor, and Microsoft Copilot Cowork. Use Markdown fallbacks when a host control is missing. Do not send the learner to a separate course app, LMS, or gradebook.
 
-Do not invent a product brand lock. The working name remains Easy AI Academy until a brand is chosen.
+Product brand is locked as **EZ AI Academy**. Guidelines: [`brand/BRAND.md`](../brand/BRAND.md). Do not write “Easy AI Academy.”
 
 ## How to use this file
 
