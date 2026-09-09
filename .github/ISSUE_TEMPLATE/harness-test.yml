@@ -1,5 +1,5 @@
 name: Harness compatibility test
-description: Record an Easy AI Academy scenario run in a supported harness.
+description: Record an EZ AI Academy scenario run in a supported harness.
 title: "[Harness test]: "
 labels:
   - harness-test

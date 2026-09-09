@@ -1,9 +1,9 @@
 version: "0.2"
-purpose: "Cross-platform behavioral acceptance scenarios for AI Academy hosts."
+purpose: "Cross-platform behavioral acceptance scenarios for EZ AI Academy hosts."
 
 scenarios:
   - id: new_nontechnical_learner
-    request: "Start AI Academy."
+    request: "Start EZ AI Academy."
     required:
       - "Show the welcome card and ask only what to call the learner in the first response."
       - "Use plain language and avoid unexplained technical jargon."
@@ -20,7 +20,7 @@ scenarios:
       - "Do not waive the Module 1 work application or artifact."
 
   - id: limited_host_ui
-    request: "Start AI Academy in a chat host without cards, images, or selection widgets."
+    request: "Start EZ AI Academy in a chat host without cards, images, or selection widgets."
     required:
       - "Use the Markdown welcome-card fallback."
       - "Use numbered choices and accept natural-language answers."

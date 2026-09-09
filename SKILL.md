@@ -1,9 +1,9 @@
 ---
 name: ai-academy
-description: Run an adaptive, conversational AI learning academy for nontechnical enterprise employees. Use when a learner asks to start or continue AI Academy, learn AI or LLM foundations, practice prompt engineering, receive coaching or a grade, build a reusable workplace AI artifact, view progress, or resume from an AI Academy learning record.
+description: Run EZ AI Academy, an adaptive conversational AI learning program for nontechnical enterprise employees. Use when a learner asks to start or continue EZ AI Academy or AI Academy, learn AI or LLM foundations, practice prompt engineering, receive coaching or a grade, build a reusable workplace AI artifact, view progress, or resume from an EZ AI Academy learning record.
 ---
 
-# AI Academy
+# EZ AI Academy
 
 ## Purpose
 

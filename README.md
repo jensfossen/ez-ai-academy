@@ -1,8 +1,8 @@
-# Easy AI Academy
+# EZ AI Academy
 
-> Working repository name. The final product brand is still open.
+**Learn AI where you work.**
 
-Easy AI Academy is a platform-agnostic learning program for nontechnical enterprise employees. Learners study AI directly inside the same conversational harness where they practice it.
+EZ AI Academy is a platform-agnostic learning program for nontechnical enterprise employees. Learners study AI directly inside the same conversational harness where they practice it.
 
 The Academy adapts its pace, teaches in small units, and requires three kinds of evidence before a module is complete: a contained exercise, a workplace application, and a reusable artifact.
 
@@ -43,9 +43,11 @@ The current package is ready for prototype testing, not production rollout. Rele
 
 ## Build or preview the curriculum
 
-During development, AI Academy defaults to Builder Mode. Ask to `preview as learner` when you want to experience the course. Use `return to builder mode` to resume curriculum work.
+During development, EZ AI Academy defaults to Builder Mode. Ask to `preview as learner` when you want to experience the course. Use `return to builder mode` to resume curriculum work.
 
 The public [discovery and setup landing](https://jensfossen.github.io/ez-ai-academy/) is hosted on GitHub Pages from `dist/`. Use it to find the repository and install a harness. It is not the course; this repository remains the primary product.
+
+Brand is locked: name, message, palette, type, and logo live in [`brand/BRAND.md`](brand/BRAND.md). Do not write “Easy AI Academy” in learner-facing or public copy.
 
 ## Repository structure
 
@@ -64,6 +66,7 @@ The public [discovery and setup landing](https://jensfossen.github.io/ez-ai-acad
 | `packages/` | Generated upload packages for hosts that require them |
 | `scripts/` | Deterministic packaging and validation utilities |
 | `dist/` | Discovery and setup landing published to [GitHub Pages](https://jensfossen.github.io/ez-ai-academy/) (not lesson delivery) |
+| `brand/` | Locked brand kit: [guidelines](brand/BRAND.md) and logo assets |
 | `references/` | Builder/learner modes and [commercial-readiness stages](references/commercial-readiness.md) |
 | `tests/` | Cross-harness acceptance scenarios and results contract |
 

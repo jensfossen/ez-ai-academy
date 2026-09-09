@@ -8,7 +8,7 @@ Cowork accepts custom skills from its Customize page or from a OneDrive skill fo
 2. In Cowork, open **Customize → Skills**.
 3. Select the arrow next to **Add**, then **Upload skill**.
 4. Choose the ZIP and accept Cowork's skill evaluation flow.
-5. Start a new Cowork session and ask: **“Start Easy AI Academy as a new learner.”**
+5. Start a new Cowork session and ask: **“Start EZ AI Academy as a new learner.”**
 
 ## OneDrive alternative
 
