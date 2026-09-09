@@ -2,7 +2,7 @@
 
 Define how EZ AI Academy grows from a Foundations prototype to a commercial offer **without becoming a separate LMS or course website**.
 
-The product name is locked: **EZ AI Academy**. Guidelines and marks: [`brand/BRAND.md`](../brand/BRAND.md). Do not write “Easy AI Academy” or “working name / brand still open.”
+The product name is locked: **EZ AI Academy**. Guidelines and marks: [`brand/BRAND.md`](../brand/BRAND.md). Do not treat the name as a working title or still-open decision.
 
 This file is planning and operating guidance. It does not implement packaging, release automation, or support tooling. Prompt Engineering content (#4) lives in the curriculum, checks, exercises, and `tests/prompt-engineering-acceptance.md`.
 
@@ -159,7 +159,7 @@ Decide these **before claiming the next stage**. Reviews produce a go, a dated w
 |---|---|---|---|
 | **Legal** | Confirm public visibility ≠ reuse rights (README license note). Live assets have a rights status other than `unclear`. | Content-owner review of live keys and third-party links. Record whether any cohort will receive materials under a draft license. | **Select a license or a commercial terms document.** Copyright and third-party grants reviewed. No implied open-source grant. |
 | **Security** | Sanitation + no-backend posture documented. Adapters have no secrets. | Sponsor acknowledges host logging (Academy cannot un-send chat). High-risk uses stay human-reviewed. | Review Academy-owned surfaces (`dist/`, adapters, optional connector). Disclose vendor-host residual risk. Do not claim a SOC2/ISO for the Academy unless one exists. |
-| **Brand** | Locked: **EZ AI Academy**. Use `brand/` on `dist/` and learner-facing copy. Never write “Easy AI Academy.” | Same locked name in cohort comms. Do not say “working name.” | Name and mark are chosen. Trademark registration and a formal brand program remain optional legal work — do not treat the kit as a trademark filing. |
+| **Brand** | Locked: **EZ AI Academy**. Use `brand/` on `dist/` and learner-facing copy. | Same locked name in cohort comms. Do not say “working name.” | Name and mark are chosen. Trademark registration and a formal brand program remain optional legal work — do not treat the kit as a trademark filing. |
 | **Procurement** | Not required. Do not issue a buyer security questionnaire as if the product were an SaaS LMS. | Sponsor recorded (L&D, IT, or line manager). Scope: invited users, listed harnesses, no SLA. | Buyer packet: product boundary, matrix, enterprise baseline, privacy/retention story, optional SoR draft, support terms, license. Primary buyer persona recorded. |
 
 The Academy does not grant employer permission, certify a vendor harness, or replace counsel. Company policy wins (`resources/enterprise-baseline.md` → Escalation).

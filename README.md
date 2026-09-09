@@ -47,7 +47,7 @@ During development, EZ AI Academy defaults to Builder Mode. Ask to `preview as l
 
 The public [discovery and setup landing](https://jensfossen.github.io/ez-ai-academy/) is hosted on GitHub Pages from `dist/`. Use it to find the repository and install a harness. It is not the course; this repository remains the primary product.
 
-Brand is locked: name, message, palette, type, and logo live in [`brand/BRAND.md`](brand/BRAND.md). Do not write “Easy AI Academy” in learner-facing or public copy.
+Brand is locked: name, message, palette, type, and logo live in [`brand/BRAND.md`](brand/BRAND.md). Use **EZ AI Academy** in learner-facing or public copy.
 
 ## Repository structure
 
