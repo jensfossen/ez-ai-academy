@@ -68,7 +68,7 @@ Brand is locked: name, message, palette, type, and logo live in [`brand/BRAND.md
 | `dist/` | Discovery and setup landing published to [GitHub Pages](https://jensfossen.github.io/ez-ai-academy/) (not lesson delivery) |
 | `brand/` | Locked brand kit: [guidelines](brand/BRAND.md) and logo assets |
 | `references/` | Builder/learner modes and [commercial-readiness stages](references/commercial-readiness.md) |
-| `tests/` | Cross-harness acceptance scenarios and results contract |
+| `tests/` | Cross-harness acceptance scenarios, [persona library](tests/learner-personas.md), and [self-test metrics](tests/self-test-metrics.md) |
 
 ## Content principles
 
