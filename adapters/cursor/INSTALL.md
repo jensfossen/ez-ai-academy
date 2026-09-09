@@ -1,16 +1,16 @@
 # Install in Cursor
 
-## Clone the repository in Cursor
+## Primary: clone the repository in Cursor
 
 If Cursor is already installed:
 
-1. Use **File → New Window → Clone repo** (or the Cursor **Clone repo** option).
+1. **New Window → Clone repo** (File → New Window → Clone repo, or the Cursor **Clone repo** option).
 2. Paste `https://github.com/jensfossen/ez-ai-academy`.
 3. In chat, type `/` and choose `ai-academy`, or ask naturally to start EZ AI Academy.
 
-## Other install paths
+## Other install paths (optional)
 
-Use these when you want a personal skill across projects, a project-only copy, or a terminal clone.
+Personal skills-folder and terminal clones are secondary. Use them only if you want the Academy available across projects, a project-only copy, or a git clone outside the Cursor UI.
 
 ### Personal skills folder
 
