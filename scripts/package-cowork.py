@@ -14,7 +14,9 @@ MAX_SKILL_BYTES = 1 * 1024 * 1024
 RUNTIME_FILES = (
     "SKILL.md",
     "assets/module-01-llm.png",
+    "assets/prompt-engineering-map.png",
     "checks/module-01-llm.md",
+    "checks/prompt-engineering.md",
     "curriculum/foundations.md",
     "curriculum/module-01-llm.md",
     "curriculum/onboarding.md",

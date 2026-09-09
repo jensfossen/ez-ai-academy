@@ -4,7 +4,7 @@ Define how EZ AI Academy grows from a Foundations prototype to a commercial offe
 
 The product name is locked: **EZ AI Academy**. Guidelines and marks: [`brand/BRAND.md`](../brand/BRAND.md). Do not write “Easy AI Academy” or “working name / brand still open.”
 
-This file is planning and operating guidance. It does not implement packaging, release automation, support tooling, or Prompt Engineering curriculum (#4).
+This file is planning and operating guidance. It does not implement packaging, release automation, or support tooling. Prompt Engineering content (#4) lives in the curriculum, checks, exercises, and `tests/prompt-engineering-acceptance.md`.
 
 ## How to use this file
 
@@ -46,7 +46,7 @@ Four roles appear in every stage. Expectations get stricter; the product boundar
 | **Learner** | Invited testers or authors in Learner Preview. Defects expected. Cursor is the only recorded Foundations Pass. | Named cohort on validated harnesses. Completion and continuity are measured. Support is best-effort. | Employees in a named org. Baseline sanitation, accessibility fallbacks, and record minimization are in force. | Paying or contracted learners. Published compatibility and a stated support path. Same in-harness loop. |
 | **Buyer** | No purchase. Understand this is a prototype, not a rollout. | Named sponsor. Accepts invited-only scope, listed harnesses, and no SLA. Primary buyer type may still be undecided. | Named economic buyer. Receives a packet: boundary, matrix, baseline, optional SoR draft, known gaps. | Contracted offer. Receives version, compatibility, support terms, and license. Still not an LMS. |
 | **Administrator** | None required. Host account of the tester is enough. | Confirms host access for the cohort. Points learners at company AI-use policy. No required connector. | Runs the enterprise-baseline checklists. Decides whether any reporting is opt-in and outside the portable record. | Operates documented install, policy, optional connector, retention/delete for any org copy. |
-| **Contributor** | Fix evidence-backed defects. Do not start #4 until #3 exits. Do not invent harness Passes. | Ship Prompt Engineering and governance follow-through. Keep adapters thin. Review keys and assets on the published cadence. | Freeze incompatible schema/adapter breaks. Record matrix evidence for each claimed host. | Versioned releases. Backward-compatible records. Brand and license follow [checkpoints](#review-checkpoints), not ad-hoc names. |
+| **Contributor** | Fix evidence-backed defects. Jens authorized Module 2 content work while Foundations harness runs continue. Do not invent harness Passes. | Finish Prompt Engineering harness validation and governance follow-through. Keep adapters thin. Review keys and assets on the published cadence. | Freeze incompatible schema/adapter breaks. Record matrix evidence for each claimed host. | Versioned releases. Backward-compatible records. Brand and license follow [checkpoints](#review-checkpoints), not ad-hoc names. |
 
 ## Stages and gates
 
@@ -68,7 +68,7 @@ Target harnesses today: Codex, Claude Code, Cursor, Microsoft Copilot Cowork (`t
 | Concern | Gate |
 |---|---|
 | **Functional** | `tests/foundations-acceptance.md` Pass or Pass with adapter on **every target harness**: Session Zero, Module 1 teaching/check, three-part completion (exercise, workplace application, reusable artifact at B or above), `AI_ACADEMY_RECORD` export and fresh-conversation restore. Classify every deviation as core defect, adapter need, or harness limitation. Do not invent Pass rows. A parked or blocked host (Claude Code #14) **keeps this stage open**. |
-| **Content-quality** | Module 1 live content follows [`resources/asset-governance.md`](../resources/asset-governance.md): selection standards, metadata, rights, alt text. External media optional. Answer keys have source notes. #4 is **held** until this stage exits. |
+| **Content-quality** | Live Module 1 and Module 2 content follows [`resources/asset-governance.md`](../resources/asset-governance.md): selection standards, metadata, rights, alt text. External media optional. Answer keys have source notes. #4 content may land before this stage exits; do not treat content maturity as a PE harness Pass. |
 | **Security** | No Academy backend. Sanitation guidance in force for testers (`resources/enterprise-baseline.md`). Secrets and confidential work stay out of exercises and records. Adapters do not embed credentials. |
 | **Privacy** | Portable record is learner-owned YAML, minimized, no legal name / email / employee ID (`schemas/progress-record.md`). Prefer no analytics. Discovery site stores no lessons or scores. |
 | **Accessibility** | Markdown fallbacks first-class. Required visual has a stand-alone text alternative (`resources/visuals.md`). Course completable without native cards or inline raster. Academy does **not** certify vendor hosts for WCAG. |
@@ -125,7 +125,7 @@ Three surfaces version independently. Mentors and adapters must keep a learner w
 - Completion remains three evidence objects at the published threshold (`curriculum/program-map.md`). Do not change that meaning silently.
 - Additive lessons or optional deepeners do not invalidate a `complete` module.
 - Removing or renaming a live lesson id is a **breaking** curriculum change: bump the skill/package version, say what happens to in-progress learners, and keep restore from sending them into a missing file.
-- #4 and later modules consume these rules when implemented. Do not add live filenames until the files exist.
+- Later modules consume these rules when implemented. Do not add live filenames until the files exist.
 
 ### Adapters
 
@@ -201,7 +201,7 @@ Honest snapshot after Phase 2 docs landed. Update this section when a stage exit
 | Stage | **Prototype — not exited.** Prototype exit is **not** commercial-ready. |
 | #2 Adapters | **Done.** Codex, Claude Code, Cursor, Microsoft Copilot Cowork install/invocation guides. |
 | #3 Foundations | **Partial.** Cursor **Pass** (#10; matrix #11; adapter learnings #12). Codex #13 and Microsoft Copilot Cowork #15: **To run**. Claude Code #14: **parked** (no usable subscription; environment/harness limitation, not a core skill defect). |
-| #4 Prompt Engineering | **Held** until #3 clears. Do not implement in this workstream. |
+| #4 Prompt Engineering | **Content authorized** (Jens 2026-09-09) while #3 harness runs continue. In-repo Module 2 maturity is not a PE Pass. |
 | #5 Enterprise baseline | **Docs landed** — `resources/enterprise-baseline.md` |
 | #6 Portable progress / optional SoR | **Docs landed** — `schemas/progress-record.md`, `schemas/sor-connector-contract.md` |
 | #7 Content and asset governance | **Docs landed** — `resources/asset-governance.md` |
@@ -217,7 +217,7 @@ Keep three phases on #9. Map them here; do not add a website-LMS phase.
 
 | #9 phase | This file | Notes for the issue body |
 |---|---|---|
-| Phase 1 — Foundations prototype | **Prototype** | Exit = Prototype functional gate (#3). Hold #4. |
+| Phase 1 — Foundations prototype | **Prototype** | Exit = Prototype functional gate (#3). Module 2 content may land; PE harness Pass stays a later claim. |
 | Phase 2 — Pilot-ready MVP | **Private-pilot entry** | #4 + already-landed #5/#6/#7. Controlled pilot uses private-pilot gates and metrics. |
 | Phase 3 — Commercial readiness | **Enterprise beta → Commercial release** | #8 already landed as the front door. Remaining work: versioned packaging, release automation, support model, adoption measurement **based on these gates**. |
 
@@ -227,7 +227,7 @@ This file does **not**:
 
 - build an LMS, gradebook, or website-hosted lessons;
 - require learner accounts or a backend;
-- implement Prompt Engineering (#4);
+- close Prompt Engineering harness validation (#4 PE runs);
 - implement release automation or support tooling;
 - invent brand locks or a final product name;
 - record Foundations Passes for hosts that have not been run;

@@ -37,14 +37,14 @@ Experienced learners take a shorter route through the same sequence. Do not add 
 
 ## Prompt Engineering sequence
 
-1. Define the intended outcome.
-2. Supply the minimum useful inputs and audience information.
-3. Set meaningful boundaries and priorities.
-4. Shape a usable output.
-5. Test, inspect, and iteratively improve the result.
-6. Complete the Prompt Engineering capstone and save a reusable prompt artifact.
+1. Form a practical habit: outcome, useful inputs, boundaries, shape, then check.
+2. See one familiar workplace example at each teaching step.
+3. Complete one formative knowledge check after a teaching moment (never two checks in a row).
+4. Direct a contained prompt-and-result interaction at B or above.
+5. Apply the habit to one sanitized work task at B or above.
+6. Create a Prompt Working Card the learner can explain and adapt.
 
-Allow a fast-track attempt: give the learner an underspecified workplace request, ask them to improve it, run it, and ask them to diagnose the result. Use `rubrics/interaction-grading.md` to determine which lessons can be skipped.
+Allow a fast-track attempt: give the learner an underspecified workplace request, ask them to improve it, run it, and ask them to diagnose the result. Use `rubrics/interaction-grading.md` to determine which *lessons* can be shortened. Fast-track does not waive the three evidence types.
 
 ## Future module contract
 

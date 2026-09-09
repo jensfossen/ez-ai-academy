@@ -4,7 +4,7 @@ Make adding images, videos, audio, and source-backed curriculum repeatable witho
 
 The product stays **in-harness**. A website may help people discover or install the Academy; it does not deliver lessons, grade work, or host a media library. External media is always optional. Thin adapters map hosts; they do not fork curriculum or assets.
 
-Use this file when adding or changing a visual, a curated link, or a factual answer / coaching key. Register live Module 1 entries in `resources/visuals.md` and `resources/curated-content.md`. Product brand is locked as **EZ AI Academy** ([`brand/BRAND.md`](../brand/BRAND.md)); do not invent a second mark or write “Easy AI Academy.” Content-quality gates by release stage: `references/commercial-readiness.md`.
+Use this file when adding or changing a visual, a curated link, or a factual answer / coaching key. Register live Module 1 and Module 2 entries in `resources/visuals.md` and `resources/curated-content.md`. Product brand is locked as **EZ AI Academy** ([`brand/BRAND.md`](../brand/BRAND.md)); do not invent a second mark or write “Easy AI Academy.” Content-quality gates by release stage: `references/commercial-readiness.md`.
 
 ## Selection standards
 
@@ -86,6 +86,10 @@ Audio and video binaries do not belong in the repo for optional deepeners. Store
 
 `assets/icon.svg` (334 bytes) already follows the SVG preference.
 
+### Module 2 explainer
+
+`assets/prompt-engineering-map.png` is a **900 × 1200**, 8-bit palette PNG, **18,095 bytes** (~18 KB) as of 2026-09-09. Vector source: `assets/prompt-engineering-map.svg` (4,635 bytes). Rebuild with `scripts/render-prompt-engineering-map.py`. No size exception.
+
 ## External assets are optional
 
 Every external image, video, audio file, article, or PDF is **optional** to module completion.
@@ -108,7 +112,7 @@ This matches `SKILL.md`, `evals/acceptance.yaml` (`media_unavailable`), and `tes
 
 **Rule of thumb:** store the offline explainer the lesson needs; link the optional deepener the learner can skip.
 
-Prompt Engineering and later modules consume this rule when those modules are implemented. Do not add planned filenames or media to a live lesson until the file exists and this checklist is complete.
+Later modules consume this rule when those modules are implemented. Do not add planned filenames or media to a live lesson until the file exists and this checklist is complete.
 
 ## Answer-key and coaching-key ownership
 
@@ -122,7 +126,7 @@ Factual keys (scored choices, source-backed claims) and coaching keys (the mento
 
 Workflow:
 
-1. Every factual key carries a **source note** (standards body, primary research, or official documentation). Module 1 Check A already does this.
+1. Every factual key carries a **source note** (standards body, primary research, or official documentation). Module 1 Check A and Module 2 checks already do this.
 2. The content owner reviews keys when the module changes, when a source is updated, or at least every 90 days for claims that cite a moving research page.
 3. Safety and verification claims stay tied to the cited source. If the source changes, hide or rewrite the key before the next learner session.
 4. Coaching copy may be edited for warmth without a Chief policy review. Changing *which* choice is best, or the underlying claim, is a content-owner review.

@@ -96,21 +96,40 @@ These sources back factual teaching and answer keys. Do not assign them to learn
 - Placement: **link** — optional deepener / curriculum evidence.
 - Required for completion: no.
 
-## Prompt Engineering
+## Module 2 — Prompt Engineering
 
-Existing optional links stay registered so mentors can offer them after practice. Full metadata and a dedicated explainer will be applied when Prompt Engineering curriculum work (#4) proceeds. Until then, treat the entry as a **link**, optional to completion, and re-check the URL before presenting it.
+Offer at most one of these after the learner has attempted at least one prompt. Both are **optional** to completion. Re-check the URL before presenting it.
 
-### OpenAI Academy — Prompting
+### Primary written — OpenAI Academy, Prompting
 
 - URL: https://academy.openai.com/public/clubs/work-users-ynjqu/resources/prompting
-- Format: Workplace-oriented guide with examples and embedded media.
-- Best for: Reinforcing clear instruction, useful context, and output shaping with examples by role.
-- Use after: The learner has attempted at least one prompt, so the resource reinforces practice rather than replacing it.
-- Last reviewed: 2026-09-04.
-- Link check: 2026-09-08, HTTP 200.
+- Format: Workplace-oriented written guide with role examples. Publisher page dated 6 August 2025; last updated 4 September 2026.
+- Best for: Reinforcing a clear task (what, who, why), useful context, and a described output after in-chat practice.
+- Use: Offer it, never assign it. If the current page length or claims have materially changed, do not present it until re-reviewed.
+- Caution: The page mentions model-specific product features. Stay inside Module 2 vocabulary. Do not use it to introduce agents, tools, or context-engineering depth.
+- Source: OpenAI Academy, *Prompting* (Workplace & Business / Foundations).
+- Review date: 2026-09-09 (concept and page). Link check: 2026-09-09. Next review: 2026-12-09.
+- Usage intent: Optional written deepener after the learner has tried at least one prompt.
+- Transcript / text alternative: The page is written text. The Academy text alternative is `curriculum/prompt-engineering.md`.
+- Rights status: `third-party-link`. View on the publisher's site; do not download or store the file in this repo.
+- Placement: **link** — optional deepener.
+- Required for completion: no.
+
+### Optional written — Microsoft Support, Write a great prompt in Microsoft Copilot
+
+- URL: https://support.microsoft.com/en-us/microsoft-365-copilot/write-a-great-prompt-in-microsoft-365-copilot
+- Format: Short workplace article on naming the goal, adding useful ingredients, and continuing the conversation. Last updated February 2026.
+- Best for: A learner already in a Microsoft-oriented workplace who wants one more plain-language reminder after practice.
+- Use: Offer it, never assign it. Skip it if the learner is not in a Copilot workplace or if the page asks for a sign-in that blocks reading.
+- Caution: Copilot-branded. Teach the Academy's outcome / inputs / boundaries / shape / check language in chat first. Do not assign Copilot product tours, Notebooks, or agents.
+- Source: Microsoft Support, *Write a great prompt in Microsoft Copilot*.
+- Review date: 2026-09-09 (concept and page). Link check: 2026-09-09. Next review: 2026-12-09.
+- Usage intent: Optional written deepener for a Microsoft-oriented workplace, after in-chat practice.
+- Transcript / text alternative: The page is written text. The Academy text alternative is the in-chat Module 2 explanation.
+- Rights status: `third-party-link`. Do not copy the article into `assets/`.
 - Placement: **link** — optional deepener.
 - Required for completion: no.
 
 ## Embedded visual fallback
 
-When external content is blocked or distracting, use the module image, its alt text, and the explanation in `curriculum/module-01-llm.md`. Keep every lesson fully functional without external media.
+When external content is blocked or distracting, use the current module image, its alt text, and the matching curriculum file (`curriculum/module-01-llm.md` or `curriculum/prompt-engineering.md`). Keep every lesson fully functional without external media.
