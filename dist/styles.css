@@ -116,10 +116,10 @@ h4 { font-size: 0.82rem; text-transform: uppercase; letter-spacing: 0.08em; marg
   text-decoration: none;
 }
 .brand-mark {
-  width: 36px;
-  height: 36px;
+  width: 44px;
+  height: 44px;
   display: block;
-  flex: 0 0 36px;
+  flex: 0 0 44px;
 }
 .wordmark {
   font-weight: 700;
@@ -137,7 +137,7 @@ h4 { font-size: 0.82rem; text-transform: uppercase; letter-spacing: 0.08em; marg
 .topbar nav a {
   color: var(--ink);
   text-decoration: none;
-  font-weight: 650;
+  font-weight: 600;
 }
 .topbar nav a:hover { text-decoration: underline; }
 
@@ -171,7 +171,7 @@ h4 { font-size: 0.82rem; text-transform: uppercase; letter-spacing: 0.08em; marg
 .eyebrow {
   text-transform: uppercase;
   letter-spacing: 0.12em;
-  font-weight: 800;
+  font-weight: 700;
   font-size: 0.75rem;
   margin: 0 0 1rem;
   color: var(--cyan-dark);
@@ -236,7 +236,7 @@ h1 span { color: var(--cyan); display: inline; }
   font-size: 0.76rem;
   text-transform: uppercase;
   letter-spacing: 0.1em;
-  font-weight: 800;
+  font-weight: 700;
   color: var(--cyan);
   margin: 0 0 0.5rem;
 }
@@ -299,7 +299,7 @@ h1 span { color: var(--cyan); display: inline; }
 .status-pill {
   margin: 0;
   font-size: 0.75rem;
-  font-weight: 800;
+  font-weight: 700;
   letter-spacing: 0.03em;
   border-radius: 999px;
   padding: 0.28rem 0.6rem;
@@ -370,7 +370,7 @@ h1 span { color: var(--cyan); display: inline; }
   text-transform: uppercase;
   letter-spacing: 0.08em;
   font-size: 0.75rem;
-  font-weight: 800;
+  font-weight: 700;
   color: var(--pass-ink);
   margin: 0 0 0.35rem;
 }
