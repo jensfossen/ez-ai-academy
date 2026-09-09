@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="EZ AI Academy discovery and setup. Learn AI where you work. Learning happens inside your AI harness, not on this site. Install in Codex, Claude Code, Cursor, or Microsoft Copilot Cowork.">
+  <meta name="description" content="EZ AI Academy — Learn AI where you work. Discovery and setup for Cursor, Codex, Claude Code, and Microsoft Copilot Cowork.">
   <meta name="robots" content="index,follow">
   <title>EZ AI Academy — Learn AI where you work.</title>
   <link rel="icon" href="assets/logo-icon.png" type="image/png">
@@ -21,179 +21,145 @@
     <nav aria-label="Page sections">
       <a href="#setup">Setup</a>
       <a href="#curriculum">Curriculum</a>
-      <a href="#privacy">Privacy</a>
     </nav>
     <a class="repo-link" href="https://github.com/jensfossen/ez-ai-academy">
-      GitHub repository <span aria-hidden="true">↗</span>
+      GitHub <span aria-hidden="true">↗</span>
     </a>
   </header>
 
   <main id="main">
     <section class="overview" id="overview" aria-labelledby="page-title">
-      <div class="intro">
-        <p class="eyebrow">Discovery and setup only</p>
-        <h1 id="page-title">Learn AI where you work.</h1>
-        <p class="lede">EZ AI Academy is a conversational learning program for nontechnical enterprise employees. Teaching, practice, coaching, and progress stay inside Codex, Claude Code, Cursor, or Microsoft Copilot Cowork. This page only helps you find the repository and start.</p>
-        <p class="pillars" aria-label="Brand pillars"><span>Work</span><span>Learn</span><span>Progress</span></p>
-        <div class="hero-actions">
-          <a class="repo-link" href="https://github.com/jensfossen/ez-ai-academy">Open the public repository <span aria-hidden="true">↗</span></a>
-          <a class="ghost-link" href="#setup">Jump to harness setup</a>
-        </div>
-        <p class="boundary-note">This site is not the course. No learner accounts, quizzes, grades, or lesson playback live here.</p>
+      <p class="eyebrow">Discovery and setup</p>
+      <h1 id="page-title">Learn AI where you work.</h1>
+      <p class="lede">Install the skill in your AI tool. Then learn in chat.</p>
+      <p class="pillars" aria-label="Brand pillars"><span>Work</span><span>Learn</span><span>Progress</span></p>
+      <div class="hero-actions">
+        <a class="repo-link" href="https://github.com/jensfossen/ez-ai-academy">Open the repository <span aria-hidden="true">↗</span></a>
+        <a class="ghost-link" href="#setup">Setup</a>
+        <span class="info">
+          <button type="button" class="info-btn" aria-expanded="false" aria-controls="tip-site" aria-label="About this page">
+            <span aria-hidden="true">ⓘ</span>
+          </button>
+          <span id="tip-site" class="info-tip" role="tooltip" hidden>Discovery and setup only. Teaching stays in your harness.</span>
+        </span>
       </div>
-      <aside class="now-card" aria-labelledby="status-heading">
-        <p class="card-label"><span class="live-dot" aria-hidden="true"></span> Honest status</p>
-        <h2 id="status-heading">Foundations is partial</h2>
-        <p>Module 1 is in the repository. Cross-harness acceptance is not finished. Cursor is the only recorded Pass. Do not treat this page as proof that every host is ready.</p>
-        <dl>
-          <div>
-            <dt>Cursor</dt>
-            <dd>Pass — <a href="https://github.com/jensfossen/ez-ai-academy/issues/10">#10</a>, <a href="https://github.com/jensfossen/ez-ai-academy/pull/11">#11</a>, <a href="https://github.com/jensfossen/ez-ai-academy/pull/12">#12</a></dd>
-          </div>
-          <div>
-            <dt>Codex</dt>
-            <dd>To run — <a href="https://github.com/jensfossen/ez-ai-academy/issues/13">#13</a></dd>
-          </div>
-          <div>
-            <dt>Claude Code</dt>
-            <dd>Parked — no usable subscription, <a href="https://github.com/jensfossen/ez-ai-academy/issues/14">#14</a></dd>
-          </div>
-          <div>
-            <dt>Copilot Cowork</dt>
-            <dd>To run — <a href="https://github.com/jensfossen/ez-ai-academy/issues/15">#15</a></dd>
-          </div>
-        </dl>
-      </aside>
     </section>
 
     <section class="section setup" id="setup" aria-labelledby="setup-heading">
       <div class="section-heading">
-        <div>
-          <p class="eyebrow">Supported harnesses</p>
-          <h2 id="setup-heading">Install, then start in chat</h2>
-        </div>
-        <p>Each adapter’s <code>INSTALL.md</code> is the source of truth. Clone commands are the same idea on macOS and Windows; Windows uses PowerShell. Cowork uses a ZIP upload instead of a local clone.</p>
+        <p class="eyebrow">Harnesses</p>
+        <h2 id="setup-heading">Start here</h2>
+        <p>Expand a card. Each <code>INSTALL.md</code> has the full path.</p>
       </div>
 
-      <div class="harness-grid">
+      <div class="harness-list">
+        <article class="harness" id="cursor">
+          <h3>
+            <button type="button" class="harness-toggle" id="cursor-btn" aria-expanded="false" aria-controls="cursor-panel">
+              <span class="harness-name">Cursor</span>
+              <span class="harness-hint">Clone repo in the app</span>
+              <span class="chevron" aria-hidden="true"></span>
+            </button>
+          </h3>
+          <div class="harness-panel" id="cursor-panel" role="region" aria-labelledby="cursor-btn" hidden>
+            <ol class="plain-steps">
+              <li>In Cursor, use <strong>File → New Window → Clone repo</strong> (or the <strong>Clone repo</strong> option).</li>
+              <li>
+                Paste
+                <div class="code-block">
+                  <pre><code>https://github.com/jensfossen/ez-ai-academy</code></pre>
+                  <button type="button" class="copy-btn" data-copy="https://github.com/jensfossen/ez-ai-academy">Copy</button>
+                </div>
+              </li>
+              <li>In chat, type <code>/</code> and choose <code>ai-academy</code>, or ask to start EZ AI Academy.</li>
+            </ol>
+            <p class="link-row">
+              <a href="https://cursor.com/download">Download Cursor <span aria-hidden="true">↗</span></a>
+              <a href="https://github.com/jensfossen/ez-ai-academy/blob/main/adapters/cursor/INSTALL.md">Other install paths</a>
+            </p>
+          </div>
+        </article>
+
         <article class="harness" id="codex">
-          <header>
-            <h3>Codex</h3>
-            <p class="status-pill pending">Foundations: To run</p>
-          </header>
-          <p>OpenAI Codex discovers personal skills from <code>~/.codex/skills</code>.</p>
-          <p class="link-row">
-            <a href="https://openai.com/codex/">Official Codex page <span aria-hidden="true">↗</span></a>
-            <a href="https://github.com/jensfossen/ez-ai-academy/blob/main/adapters/codex/INSTALL.md">Setup guide on GitHub</a>
-            <a href="https://raw.githubusercontent.com/jensfossen/ez-ai-academy/main/adapters/codex/INSTALL.md">Raw INSTALL.md</a>
-          </p>
-          <h4>macOS or Linux</h4>
-          <div class="code-block">
-            <pre><code>mkdir -p "$HOME/.codex/skills"
+          <h3>
+            <button type="button" class="harness-toggle" id="codex-btn" aria-expanded="false" aria-controls="codex-panel">
+              <span class="harness-name">Codex</span>
+              <span class="harness-hint">Personal skills folder</span>
+              <span class="chevron" aria-hidden="true"></span>
+            </button>
+          </h3>
+          <div class="harness-panel" id="codex-panel" role="region" aria-labelledby="codex-btn" hidden>
+            <ol class="plain-steps">
+              <li>Clone the repo into Codex’s personal skills folder (<code>~/.codex/skills/ai-academy</code>).</li>
+              <li>Restart Codex if the skill does not appear.</li>
+              <li>Start with <code>Use $ai-academy to start a new learning journey.</code></li>
+            </ol>
+            <details class="more">
+              <summary>Terminal</summary>
+              <div class="code-block">
+                <pre><code>mkdir -p "$HOME/.codex/skills"
 git clone https://github.com/jensfossen/ez-ai-academy.git "$HOME/.codex/skills/ai-academy"</code></pre>
-            <button type="button" class="copy-btn" data-copy="mkdir -p &quot;$HOME/.codex/skills&quot;&#10;git clone https://github.com/jensfossen/ez-ai-academy.git &quot;$HOME/.codex/skills/ai-academy&quot;">Copy</button>
-          </div>
-          <h4>Windows PowerShell</h4>
-          <p class="os-note">Same clone. Use PowerShell paths, not bash.</p>
-          <div class="code-block">
-            <pre><code>New-Item -ItemType Directory -Force "$HOME\.codex\skills" | Out-Null
-git clone https://github.com/jensfossen/ez-ai-academy.git "$HOME\.codex\skills\ai-academy"</code></pre>
-            <button type="button" class="copy-btn" data-copy="New-Item -ItemType Directory -Force &quot;$HOME\.codex\skills&quot; | Out-Null&#10;git clone https://github.com/jensfossen/ez-ai-academy.git &quot;$HOME\.codex\skills\ai-academy&quot;">Copy</button>
-          </div>
-          <h4>Start in Codex</h4>
-          <div class="code-block">
-            <pre><code>Use $ai-academy to start a new learning journey.</code></pre>
-            <button type="button" class="copy-btn" data-copy="Use $ai-academy to start a new learning journey.">Copy</button>
+                <button type="button" class="copy-btn" data-copy="mkdir -p &quot;$HOME/.codex/skills&quot;&#10;git clone https://github.com/jensfossen/ez-ai-academy.git &quot;$HOME/.codex/skills/ai-academy&quot;">Copy</button>
+              </div>
+              <p class="os-note">Windows PowerShell is in the setup guide.</p>
+            </details>
+            <p class="link-row">
+              <a href="https://openai.com/codex/">Codex <span aria-hidden="true">↗</span></a>
+              <a href="https://github.com/jensfossen/ez-ai-academy/blob/main/adapters/codex/INSTALL.md">Setup guide</a>
+            </p>
           </div>
         </article>
 
         <article class="harness" id="claude-code">
-          <header>
-            <h3>Claude Code</h3>
-            <p class="status-pill parked">Foundations: Parked</p>
-          </header>
-          <p>User-level install at <code>~/.claude/skills</code>. Acceptance is parked: no usable Claude Code subscription for the #14 run.</p>
-          <p class="link-row">
-            <a href="https://claude.com/product/claude-code">Official Claude Code page <span aria-hidden="true">↗</span></a>
-            <a href="https://github.com/jensfossen/ez-ai-academy/blob/main/adapters/claude-code/INSTALL.md">Setup guide on GitHub</a>
-            <a href="https://raw.githubusercontent.com/jensfossen/ez-ai-academy/main/adapters/claude-code/INSTALL.md">Raw INSTALL.md</a>
-          </p>
-          <h4>macOS or Linux</h4>
-          <div class="code-block">
-            <pre><code>mkdir -p "$HOME/.claude/skills"
+          <h3>
+            <button type="button" class="harness-toggle" id="claude-btn" aria-expanded="false" aria-controls="claude-panel">
+              <span class="harness-name">Claude Code</span>
+              <span class="harness-hint">User-level skill</span>
+              <span class="chevron" aria-hidden="true"></span>
+            </button>
+          </h3>
+          <div class="harness-panel" id="claude-panel" role="region" aria-labelledby="claude-btn" hidden>
+            <ol class="plain-steps">
+              <li>Clone the repo into Claude’s user skills folder (<code>~/.claude/skills/ai-academy</code>).</li>
+              <li>Restart Claude Code if you just created that folder.</li>
+              <li>Start with <code>/ai-academy</code>.</li>
+            </ol>
+            <details class="more">
+              <summary>Terminal</summary>
+              <div class="code-block">
+                <pre><code>mkdir -p "$HOME/.claude/skills"
 git clone https://github.com/jensfossen/ez-ai-academy.git "$HOME/.claude/skills/ai-academy"</code></pre>
-            <button type="button" class="copy-btn" data-copy="mkdir -p &quot;$HOME/.claude/skills&quot;&#10;git clone https://github.com/jensfossen/ez-ai-academy.git &quot;$HOME/.claude/skills/ai-academy&quot;">Copy</button>
+                <button type="button" class="copy-btn" data-copy="mkdir -p &quot;$HOME/.claude/skills&quot;&#10;git clone https://github.com/jensfossen/ez-ai-academy.git &quot;$HOME/.claude/skills/ai-academy&quot;">Copy</button>
+              </div>
+              <p class="os-note">Windows PowerShell is in the setup guide.</p>
+            </details>
+            <p class="link-row">
+              <a href="https://claude.com/product/claude-code">Claude Code <span aria-hidden="true">↗</span></a>
+              <a href="https://github.com/jensfossen/ez-ai-academy/blob/main/adapters/claude-code/INSTALL.md">Setup guide</a>
+            </p>
           </div>
-          <h4>Windows PowerShell</h4>
-          <p class="os-note">Same clone. Use PowerShell paths, not bash.</p>
-          <div class="code-block">
-            <pre><code>New-Item -ItemType Directory -Force "$HOME\.claude\skills" | Out-Null
-git clone https://github.com/jensfossen/ez-ai-academy.git "$HOME\.claude\skills\ai-academy"</code></pre>
-            <button type="button" class="copy-btn" data-copy="New-Item -ItemType Directory -Force &quot;$HOME\.claude\skills&quot; | Out-Null&#10;git clone https://github.com/jensfossen/ez-ai-academy.git &quot;$HOME\.claude\skills\ai-academy&quot;">Copy</button>
-          </div>
-          <h4>Start in Claude Code</h4>
-          <div class="code-block">
-            <pre><code>/ai-academy</code></pre>
-            <button type="button" class="copy-btn" data-copy="/ai-academy">Copy</button>
-          </div>
-        </article>
-
-        <article class="harness" id="cursor">
-          <header>
-            <h3>Cursor</h3>
-            <p class="status-pill pass">Foundations: Pass</p>
-          </header>
-          <p>Personal install at <code>~/.cursor/skills</code>. Cloud Agent Pass recorded 2026-09-07; that run used Markdown fallbacks, not the IDE <code>/</code> menu.</p>
-          <p class="link-row">
-            <a href="https://cursor.com/download">Download Cursor <span aria-hidden="true">↗</span></a>
-            <a href="https://github.com/jensfossen/ez-ai-academy/blob/main/adapters/cursor/INSTALL.md">Setup guide on GitHub</a>
-            <a href="https://raw.githubusercontent.com/jensfossen/ez-ai-academy/main/adapters/cursor/INSTALL.md">Raw INSTALL.md</a>
-          </p>
-          <h4>macOS or Linux</h4>
-          <div class="code-block">
-            <pre><code>mkdir -p "$HOME/.cursor/skills"
-git clone https://github.com/jensfossen/ez-ai-academy.git "$HOME/.cursor/skills/ai-academy"</code></pre>
-            <button type="button" class="copy-btn" data-copy="mkdir -p &quot;$HOME/.cursor/skills&quot;&#10;git clone https://github.com/jensfossen/ez-ai-academy.git &quot;$HOME/.cursor/skills/ai-academy&quot;">Copy</button>
-          </div>
-          <h4>Windows PowerShell</h4>
-          <p class="os-note">Same clone. Use PowerShell paths, not bash.</p>
-          <div class="code-block">
-            <pre><code>New-Item -ItemType Directory -Force "$HOME\.cursor\skills" | Out-Null
-git clone https://github.com/jensfossen/ez-ai-academy.git "$HOME\.cursor\skills\ai-academy"</code></pre>
-            <button type="button" class="copy-btn" data-copy="New-Item -ItemType Directory -Force &quot;$HOME\.cursor\skills&quot; | Out-Null&#10;git clone https://github.com/jensfossen/ez-ai-academy.git &quot;$HOME\.cursor\skills\ai-academy&quot;">Copy</button>
-          </div>
-          <h4>Start in Cursor</h4>
-          <div class="code-block">
-            <pre><code>Type / and choose ai-academy</code></pre>
-            <button type="button" class="copy-btn" data-copy="Start EZ AI Academy">Copy start phrase</button>
-          </div>
-          <p class="os-note">You can also ask naturally to start EZ AI Academy. Evidence: <a href="https://github.com/jensfossen/ez-ai-academy/issues/10">#10</a>, <a href="https://github.com/jensfossen/ez-ai-academy/pull/11">#11</a>, <a href="https://github.com/jensfossen/ez-ai-academy/pull/12">#12</a>.</p>
         </article>
 
         <article class="harness" id="cowork">
-          <header>
-            <h3>Microsoft Copilot Cowork</h3>
-            <p class="status-pill pending">Foundations: To run</p>
-          </header>
-          <p>Upload the prepared ZIP, or place the extracted skill in OneDrive. macOS and Windows use the same cloud flow.</p>
-          <p class="link-row">
-            <a href="https://www.microsoft.com/en-us/microsoft-365-copilot/cowork">Official Cowork page <span aria-hidden="true">↗</span></a>
-            <a href="https://learn.microsoft.com/en-us/microsoft-365/copilot/cowork/use-cowork">Use Copilot Cowork docs</a>
-            <a href="https://github.com/jensfossen/ez-ai-academy/blob/main/adapters/microsoft-copilot-cowork/INSTALL.md">Setup guide on GitHub</a>
-            <a href="https://raw.githubusercontent.com/jensfossen/ez-ai-academy/main/adapters/microsoft-copilot-cowork/INSTALL.md">Raw INSTALL.md</a>
-          </p>
-          <h4>macOS or Windows</h4>
-          <ol class="plain-steps">
-            <li>Download <a href="https://github.com/jensfossen/ez-ai-academy/blob/main/packages/ai-academy-cowork.zip">packages/ai-academy-cowork.zip</a>.</li>
-            <li>In Cowork, open <strong>Customize → Skills</strong>.</li>
-            <li>Select the arrow next to <strong>Add</strong>, then <strong>Upload skill</strong>.</li>
-            <li>Choose the ZIP and finish Cowork’s evaluation flow.</li>
-          </ol>
-          <p class="os-note">OneDrive alternative: extract so <code>SKILL.md</code> lives at <code>/Documents/Cowork/skills/ai-academy/</code>. Custom skills are currently unavailable on mobile.</p>
-          <h4>Start in Cowork</h4>
-          <div class="code-block">
-            <pre><code>Start EZ AI Academy as a new learner.</code></pre>
-            <button type="button" class="copy-btn" data-copy="Start EZ AI Academy as a new learner.">Copy</button>
+          <h3>
+            <button type="button" class="harness-toggle" id="cowork-btn" aria-expanded="false" aria-controls="cowork-panel">
+              <span class="harness-name">Microsoft Copilot Cowork</span>
+              <span class="harness-hint">Upload skill ZIP</span>
+              <span class="chevron" aria-hidden="true"></span>
+            </button>
+          </h3>
+          <div class="harness-panel" id="cowork-panel" role="region" aria-labelledby="cowork-btn" hidden>
+            <ol class="plain-steps">
+              <li>Download <a href="https://github.com/jensfossen/ez-ai-academy/blob/main/packages/ai-academy-cowork.zip">packages/ai-academy-cowork.zip</a>.</li>
+              <li>In Cowork, open <strong>Customize → Skills</strong>.</li>
+              <li>Next to <strong>Add</strong>, choose <strong>Upload skill</strong> and finish evaluation.</li>
+              <li>Ask: <code>Start EZ AI Academy as a new learner.</code></li>
+            </ol>
+            <p class="os-note">OneDrive and mobile limits are in the setup guide.</p>
+            <p class="link-row">
+              <a href="https://www.microsoft.com/en-us/microsoft-365-copilot/cowork">Cowork <span aria-hidden="true">↗</span></a>
+              <a href="https://github.com/jensfossen/ez-ai-academy/blob/main/adapters/microsoft-copilot-cowork/INSTALL.md">Setup guide</a>
+            </p>
           </div>
         </article>
       </div>
@@ -201,64 +167,54 @@ git clone https://github.com/jensfossen/ez-ai-academy.git "$HOME\.cursor\skills\
 
     <section class="section curriculum" id="curriculum" aria-labelledby="curriculum-heading">
       <div class="section-heading">
-        <div>
-          <p class="eyebrow">Curriculum scope</p>
-          <h2 id="curriculum-heading">What is available, and what is not</h2>
-        </div>
-        <p>This is a maturity map, not a lesson. Open the repository and start a harness session to learn. Prompt Engineering content is in the repository; cross-harness PE validation is not a recorded Pass.</p>
+        <p class="eyebrow">In the repo</p>
+        <h2 id="curriculum-heading">
+          Maturity map
+          <span class="info">
+            <button type="button" class="info-btn" aria-expanded="false" aria-controls="tip-map" aria-label="About the maturity map">
+              <span aria-hidden="true">ⓘ</span>
+            </button>
+            <span id="tip-map" class="info-tip" role="tooltip" hidden>A map of what is in the repository. Learning happens in a harness session, not on this page.</span>
+          </span>
+        </h2>
       </div>
 
       <ol class="scope-list">
         <li>
-          <p class="scope-kicker">Module 1 · Available</p>
-          <h3>Foundations — What is an LLM?</h3>
-          <p>In the repository and taught in-harness. Foundations acceptance is <strong>partial</strong>: Cursor Pass only (<a href="https://github.com/jensfossen/ez-ai-academy/issues/10">#10</a>, <a href="https://github.com/jensfossen/ez-ai-academy/pull/11">#11</a>, <a href="https://github.com/jensfossen/ez-ai-academy/pull/12">#12</a>). Codex and Microsoft Copilot Cowork are still to run. Claude Code is parked (no usable subscription, <a href="https://github.com/jensfossen/ez-ai-academy/issues/14">#14</a>). Parent tracker: <a href="https://github.com/jensfossen/ez-ai-academy/issues/3">#3</a>.</p>
+          <span class="scope-kicker">1 · In repo</span>
+          <strong>Foundations</strong>
+          <span>What is an LLM?</span>
         </li>
         <li>
-          <p class="scope-kicker held">Module 2 · In repo</p>
-          <h3>Prompt Engineering</h3>
-          <p>Curriculum, checks, exercises, explainer, and acceptance scenario are in the repository at Module 1 content maturity. This is not a public multi-harness Pass. Issue <a href="https://github.com/jensfossen/ez-ai-academy/issues/4">#4</a> tracks content close plus follow-up PE runs.</p>
+          <span class="scope-kicker held">2 · In repo</span>
+          <strong>Prompt Engineering</strong>
+          <span>Direct, test, improve</span>
         </li>
         <li>
-          <p class="scope-kicker roadmap">Later modules · Roadmap</p>
-          <h3>Context, Agents and Harnesses, Loop Engineering</h3>
-          <p>Named on the program map only. No public claim that they are implemented or ready to teach.</p>
+          <span class="scope-kicker roadmap">Later · Roadmap</span>
+          <strong>Context, Agents, Loops</strong>
+          <span>Named only</span>
         </li>
       </ol>
-    </section>
-
-    <section class="section privacy" id="privacy" aria-labelledby="privacy-heading">
-      <div class="section-heading">
-        <div>
-          <p class="eyebrow">This page</p>
-          <h2 id="privacy-heading">Privacy and accessibility</h2>
-        </div>
-        <p>Aligned with the enterprise baseline: data minimization first, Markdown-friendly fallbacks, no lesson or gradebook on the website.</p>
-      </div>
-      <div class="privacy-grid">
-        <article>
-          <h3>No trackers by default</h3>
-          <p>This static page does not load analytics, ads, or social pixels. It does not set cookies or collect learner progress. Hosts you install into have their own logging; the Academy cannot turn that off.</p>
-        </article>
-        <article>
-          <h3>No accounts here</h3>
-          <p>There is no signup, gradebook, or progress dashboard on this site. Portable progress stays in the harness conversation. See <a href="https://github.com/jensfossen/ez-ai-academy/blob/main/resources/enterprise-baseline.md">enterprise-baseline.md</a>.</p>
-        </article>
-        <article>
-          <h3>Page accessibility</h3>
-          <p>Semantic headings, a skip link, visible keyboard focus, and text that does not rely on color alone. This page does not certify vendor harnesses for WCAG.</p>
-        </article>
-      </div>
     </section>
   </main>
 
   <footer>
     <div>
       <strong>EZ AI Academy</strong>
-      <p>Learn AI where you work. Learning stays in the harness. This page is discovery and setup only.</p>
+      <p>
+        Learn AI where you work.
+        <span class="info">
+          <button type="button" class="info-btn" aria-expanded="false" aria-controls="tip-privacy" aria-label="Privacy">
+            <span aria-hidden="true">ⓘ</span>
+          </button>
+          <span id="tip-privacy" class="info-tip info-tip-up" role="tooltip" hidden>No cookies, analytics, or learner accounts on this page. See the repository enterprise baseline.</span>
+        </span>
+      </p>
     </div>
+    <a href="https://github.com/jensfossen/ez-ai-academy/blob/main/resources/enterprise-baseline.md">Privacy notes</a>
     <a href="https://github.com/jensfossen/ez-ai-academy">Repository</a>
-    <a href="#overview">Back to top</a>
+    <a href="#overview">Top</a>
   </footer>
   <script src="app.js"></script>
 </body>
