@@ -10,9 +10,9 @@ Verified 2026-09-09 against [Plan Mode](https://cursor.com/docs/agent/plan-mode)
 
 Prefer host-native cards and in-chat video when they exist.
 
-#### Choice cards — AskQuestion
+#### Choice cards — ask questions tool (host/forum: AskQuestion)
 
-North star is the Cursor host **AskQuestion** clarifying-question picker (Plan Mode family).
+North star is the Cursor host clarifying-question picker (Plan Mode family). Official docs call it the **ask questions** tool. Host and forum usage often call the same picker **AskQuestion**. That alias is not a published skill-author API.
 
 What public docs publish:
 
@@ -23,7 +23,7 @@ What public docs publish:
 What that means for EZ AI Academy:
 
 - Skills may instruct mentors to use the ask questions tool **when the host attaches it**.
-- AskQuestion is **host-injected** and mode/session/model dependent. It is not guaranteed in every Agent chat.
+- Official docs do not guarantee the picker in every Agent chat. Forum research (below) reports it is **host-injected** and mode/session/model dependent — treat that as research, not Pass evidence.
 - When the tool is missing, Markdown numbered or lettered choices remain the honest fallback.
 - Do not invent private tool names, iframes, or host markup in core curriculum.
 
@@ -44,14 +44,14 @@ Foundations Pass [#10](https://github.com/jensfossen/ez-ai-academy/issues/10) al
 
 ## How to degrade
 
-1. If AskQuestion or an in-chat player is missing or unconfirmed, use the fallback immediately.
+1. If the ask-questions picker or an in-chat player is missing or unconfirmed, use the fallback immediately.
 2. Choices: same options as a Markdown numbered list; accept a number, letter, or natural-language answer.
 3. Video: offer the registered URL; keep the Academy text alternative; never require watching.
 4. Continue the lesson. Learning must not depend on native UI (`PORTABILITY.md`).
 
 ## Open questions (do not block content)
 
-- Recorded Cursor **IDE chat** Session Zero / Check A run noting whether AskQuestion fired vs Markdown fallback.
+- Recorded Cursor **IDE chat** Session Zero / Check A run noting whether the ask-questions picker fired vs Markdown fallback.
 - Exact IDE mechanism for playing a YouTube (or other) lesson URL in chat.
 - Whether Claude Code, Codex, or Microsoft Copilot Cowork expose equivalent blocks.
 
