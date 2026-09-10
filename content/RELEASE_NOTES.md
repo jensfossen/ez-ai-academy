@@ -60,7 +60,7 @@ Operators have a Session Zero / early Module 1 **pattern sketch** for a tiny in-
 
 ### Changed
 
-- Light pointers in interaction patterns, the Claude Code Learn competitive note, Session Zero, and the README `ui/` row. `academy_content_revision` in `SKILL.md` stays `2026-09-10`. Cowork ZIP not rebuilt. Discovery Pages untouched. Harness-matrix Pass rows unchanged.
+- Light pointers in interaction patterns, the Claude Code Learn competitive note, Session Zero, the README `ui/` row, and the CURATION #48 backlog line. `academy_content_revision` in `SKILL.md` stays `2026-09-10`. Cowork ZIP not rebuilt. Discovery Pages untouched. Harness-matrix Pass rows unchanged.
 
 ### Removed
 
