@@ -64,7 +64,7 @@ Brand is locked: name, message, palette, type, and logo live in [`brand/BRAND.md
 | `resources/` | Analogies, curated media, visual guidance, [asset governance](resources/asset-governance.md), and the [enterprise baseline](resources/enterprise-baseline.md) |
 | `assets/` | Course visuals and skill icon |
 | `schemas/` | Portable learner progress record and [optional SoR connector contract](schemas/sor-connector-contract.md) |
-| `ui/` | Interaction patterns with text fallbacks; [mobile / on-the-go principles](ui/mobile-on-the-go.md); [Claude Code Learn competitive note](ui/competitive-learn-claude-code.md) |
+| `ui/` | Interaction patterns with text fallbacks; [mobile / on-the-go principles](ui/mobile-on-the-go.md); [in-harness checklist + Show me sketch](ui/in-harness-checklist.md); [Claude Code Learn competitive note](ui/competitive-learn-claude-code.md) |
 | `adapters/` | Harness-specific installation and invocation guides |
 | `packages/` | Generated upload packages for hosts that require them |
 | `scripts/` | Deterministic packaging and validation utilities |

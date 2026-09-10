@@ -50,6 +50,30 @@ Do not claim a Foundations or Prompt Engineering Pass from a changelog entry. Do
 
 ---
 
+## 2026-09-10 — In-harness checklist + Show me sketch (operators)
+
+Operators have a Session Zero / early Module 1 **pattern sketch** for a tiny in-harness checklist with one **Show me**. Learners are **not** shown this card yet. `SKILL.md` routing is unchanged. Installed skills do not need a pull for this entry alone.
+
+### Added
+
+- Pattern sketch: [`ui/in-harness-checklist.md`](../ui/in-harness-checklist.md) — purpose, five Academy-language items (set role, try one workplace question, check an answer, practice a work example, export progress), Markdown fallback mock (one **Show me** on the current item + Hide/skip), mentor behavior, mapping to `native_choice_card` / existing intents. Native host chrome is optional. Not a pixel clone. Not a Foundations Pass.
+
+### Changed
+
+- Light pointers in interaction patterns, the Claude Code Learn competitive note, Session Zero, and the README `ui/` row. `academy_content_revision` in `SKILL.md` stays `2026-09-10`. Cowork ZIP not rebuilt. Discovery Pages untouched. Harness-matrix Pass rows unchanged.
+
+### Removed
+
+- None.
+
+### Media
+
+- None.
+
+### Breaking for learners
+
+- None. Module 1 and Prompt Engineering completion rules are unchanged. Claude Code Foundations remains blocked / not a Pass ([#14](https://github.com/jensfossen/ez-ai-academy/issues/14)). This sketch does not close [#48](https://github.com/jensfossen/ez-ai-academy/issues/48) or [#24](https://github.com/jensfossen/ez-ai-academy/issues/24).
+
 ## 2026-09-10 — Claude Code Learn onboarding (operators)
 
 Operators have a competitive UX note for Claude Code’s in-pane **Learn** checklist. Learners are **not** shown a new checklist yet. `SKILL.md` routing is unchanged. Installed skills do not need a pull for this entry alone.

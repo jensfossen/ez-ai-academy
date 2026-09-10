@@ -96,27 +96,15 @@ Use a grade card only for a completed exercise, work application, or artifact. D
 
 Display the module, current unit, evidence completed, strongest grade, and next activity. Use a compact table or checklist fallback. Do not claim a percentage when the curriculum does not define one.
 
-## In-harness checklist / Show me (research)
+## In-harness checklist / Show me (pattern sketch)
 
-Competitive observation (Claude Code **Learn** overlay, 2026-09-10) and steal / differentiate: [`competitive-learn-claude-code.md`](competitive-learn-claude-code.md). Related harness-native UI: [#24](https://github.com/jensfossen/ez-ai-academy/issues/24). This subsection does **not** close #24 or #48. `SKILL.md` does **not** route these intents yet.
+Session Zero / early Module 1 card (Academy-language items, Markdown mock, mentor behavior): [`in-harness-checklist.md`](in-harness-checklist.md). Competitive observation and steal / differentiate: [`competitive-learn-claude-code.md`](competitive-learn-claude-code.md). Related harness-native UI: [#24](https://github.com/jensfossen/ez-ai-academy/issues/24). This subsection does **not** close #24 or #48. `SKILL.md` does **not** route these intents yet.
 
-Proposed mentor intents. Use a host control only when the host already attaches one. Do not invent private APIs. Markdown fallbacks are first-class.
+Proposed mentor intents. Use a host control only when the host already attaches one. Do not invent private APIs. Markdown fallbacks are first-class. Native host chrome is optional.
 
 ### Checklist — `in_harness_checklist`
 
-A short (3–5) workplace-skill list. One current item. Not completion evidence and not a vendor tour.
-
-**Markdown fallback**
-
-```markdown
-**This session**
-- [x] Welcome
-- [ ] **Now:** What to call you
-- [ ] Your role
-- [ ] What you have used AI for
-```
-
-Then ask **one** question. Accept a number, a check, or “continue.”
+A short (4–6) workplace-skill list. One current item. Not completion evidence and not a vendor tour. Full mock: [`in-harness-checklist.md`](in-harness-checklist.md).
 
 ### Show me — `show_me_demo`
 
@@ -128,4 +116,4 @@ A worked example **in this conversation** for the current step. Prefer a host de
 
 Skippable. Never a gate.
 
-**Markdown fallback:** “Reply `hide onboarding` or `skip` to continue without the list. You can ask for it later.”
+**Markdown fallback:** “Reply `hide` or `skip` to continue without the list. You can ask for it later.”

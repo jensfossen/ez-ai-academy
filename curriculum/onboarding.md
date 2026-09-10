@@ -10,6 +10,8 @@ Build a minimal learner profile so examples can fit the learner's work. Onboardi
 
 Display the welcome card from `ui/interaction-patterns.md`. Keep it concise. Do not explain the entire program before the learner interacts.
 
+**Mentor:** An optional Session Zero / early Module 1 checklist + **Show me** sketch is in `ui/in-harness-checklist.md` (pattern only; `SKILL.md` does not route it yet). Hide never blocks this sequence.
+
 ### 2. Name
 
 Ask: **“First, what should I call you?”**
