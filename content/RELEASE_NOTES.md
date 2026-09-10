@@ -50,6 +50,30 @@ Do not claim a Foundations or Prompt Engineering Pass from a changelog entry. Do
 
 ---
 
+## 2026-09-10e — Grok Bot Foundations Pass with adapter (operators)
+
+Learners who use Grok Bot Teacher now have a recorded Foundations run: **Pass with adapter**. Continuity export+restore also passed (`academy_version` `"0.1"`; Module 1 complete; no Session Zero repeat). This is honest evidence, not commercial-ready, not a PE Pass, and not a multi-harness exit. Installed skills on other harnesses do not need a pull for this entry alone.
+
+### Added
+
+- None.
+
+### Changed
+
+- Grok Bot path now has recorded Foundations **Pass with adapter** evidence (2026-09-10). Matrix row and related notes match that result, including Continuity restore Pass. Native choice cards and in-chat video were unavailable; Markdown numbered choices, markdown+alt image, and an optional curated video URL (learner skipped) were used. Skill loaded via GitHub fetch / Teacher install contract, not Cursor IDE. `academy_content_revision` stays `2026-09-10c`. Cowork ZIP not rebuilt. Discovery Pages untouched.
+
+### Removed
+
+- None.
+
+### Media
+
+- None added. Module 1 PNG was shown via markdown + meaningful alt/description (no raster). Optional curated video URL was offered; the learner skipped it.
+
+### Breaking for learners
+
+- None. Module 1 and Prompt Engineering completion rules are unchanged. Canonical skill id stays `ai-academy`. This does not close [#53](https://github.com/jensfossen/ez-ai-academy/issues/53), [#3](https://github.com/jensfossen/ez-ai-academy/issues/3), or [#4](https://github.com/jensfossen/ez-ai-academy/issues/4). Does not claim desktop native cards.
+
 ## 2026-09-10d — Grok Bot Teacher install path
 
 Learners who use Grok Bot can open a **Teacher** bot and start EZ AI Academy from the same root `SKILL.md`. This is an install contract. It is not a Foundations or Prompt Engineering Pass. Installed skills on other harnesses do not need a pull for this entry alone.

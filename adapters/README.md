@@ -16,7 +16,7 @@ Cursor slash aliases (`/ez-ai-academy`, `/start`) are checkout project skills. T
 
 Installed copies do not auto-update. Each install guide has a **Stay current** section (`git pull`, fresh clone, Cowork ZIP re-upload, or Grok Bot Teacher re-read / `git pull`). What changed for learners: [`content/RELEASE_NOTES.md`](../content/RELEASE_NOTES.md).
 
-Grok Bot’s learner interface is a **Teacher** bot that follows root `SKILL.md` — not a skills-folder clone and not a curriculum fork. Create Teacher only when you are not already in that chat. Academy only (not Personal OS / Family OS). Install contract / To run — not a Pass ([#53](https://github.com/jensfossen/ez-ai-academy/issues/53)).
+Grok Bot’s learner interface is a **Teacher** bot that follows root `SKILL.md` — not a skills-folder clone and not a curriculum fork. Create Teacher only when you are not already in that chat. Academy only (not Personal OS / Family OS). Foundations **Pass with adapter** (2026-09-10) — not a full Pass, not a PE Pass ([#53](https://github.com/jensfossen/ez-ai-academy/issues/53)).
 
 Cursor Foundations acceptance has been validated via Cloud Agent with Markdown choice and image fallbacks ([#10](https://github.com/jensfossen/ez-ai-academy/issues/10)); that run did not test the IDE `/` menu. Cursor IDE chat vs Cloud Agent, plus video/choice-card research: [`cursor/INSTALL.md`](cursor/INSTALL.md), [`cursor/RICH_UI.md`](cursor/RICH_UI.md), [#24](https://github.com/jensfossen/ez-ai-academy/issues/24).
 

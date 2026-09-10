@@ -67,7 +67,7 @@ adapters/
 
 An adapter may define installation, invocation, supported visuals, tool mappings, or persistence integration. Persistence, when present, follows `schemas/sor-connector-contract.md`. It must not duplicate or fork curriculum content.
 
-Grok Bot uses a **Teacher** bot as the learner interface. Teacher follows root `SKILL.md` (Session Zero → Module 1) and the portable `AI_ACADEMY_RECORD`. Create Teacher only when the learner is not already in that chat. Teacher is Academy-only — not Personal OS or Family OS. This is an install contract, not a Foundations Pass.
+Grok Bot uses a **Teacher** bot as the learner interface. Teacher follows root `SKILL.md` (Session Zero → Module 1) and the portable `AI_ACADEMY_RECORD`. Create Teacher only when the learner is not already in that chat. Teacher is Academy-only — not Personal OS or Family OS. Foundations on this path is **Pass with adapter** (2026-09-10), not a full Pass.
 
 ## Updates
 
