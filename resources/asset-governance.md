@@ -46,7 +46,7 @@ Do not rehost a third-party video, podcast, or article in `assets/` to “make i
 
 ## Review cadence and broken links
 
-External resources are optional deepeners. They rot. Treat them as a watch list, not as the lesson.
+External resources are optional deepeners. They rot. Treat them as a watch list, not as the lesson. Weekday operator scan: [`content/CURATION.md`](../content/CURATION.md).
 
 1. **Before presenting** (when browsing is available): confirm the URL still resolves and still matches the registered title, length, and concept. If browsing is unavailable, skip the offer and continue.
 2. **Scheduled review:** every **90 days** for live external entries, or immediately after a learner reports a break or a content change.

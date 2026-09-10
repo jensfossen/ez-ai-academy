@@ -6,6 +6,8 @@ The repository is the source of truth. The [discovery site](https://jensfossen.g
 
 **Current content revision:** `2026-09-10` — same value as `metadata.academy_content_revision` in `SKILL.md`. Mentors may mention it when offering a skippable update reminder. It is not a grade, a Pass, or a website account.
 
+Operator weekday scan, staffing, and proposal format: [`CURATION.md`](CURATION.md). That loop does not replace this log.
+
 ## How to read this file
 
 Newest entry first. Every entry uses the same five headings. Write `None` rather than omitting a heading.
@@ -47,6 +49,31 @@ PRs that change curriculum, checks, exercises, learner-visible rubrics, visuals,
 Do not claim a Foundations or Prompt Engineering Pass from a changelog entry. Do not mark commercial-readiness gates here. Prototype exit is not commercial-ready.
 
 ---
+
+## 2026-09-10 — Standing content curation loop (operators)
+
+Operators now have a weekday scan and a first dry-run. Teaching meaning for learners is unchanged. Installed skills do not need a pull for this entry alone.
+
+### Added
+
+- Operator ops: [`CURATION.md`](CURATION.md) — EZ-Devy owns curation for now; weekday scan ~10:30 America/New_York; named signal sources; draft issue/PR + this file’s five headings; no auto-merge; no dedicated curator hire yet.
+- First dry-run: [`curation-dry-runs/2026-09-10.md`](curation-dry-runs/2026-09-10.md). No new lesson, check, or media change required today.
+
+### Changed
+
+- README `content/` row and Content PRs pointer now name the curation loop. `academy_content_revision` in `SKILL.md` stays `2026-09-10`. Cowork ZIP not rebuilt for this ops slice.
+
+### Removed
+
+- None.
+
+### Media
+
+- None. Spot-check of live curated links: no hide. OpenAI hallucination article remains **unverified** (HTTP 403 / bot protection), as already recorded.
+
+### Breaking for learners
+
+- None.
 
 ## 2026-09-10 — First log: Foundations, Prompt Engineering, EZ brand, and learning in chat
 
