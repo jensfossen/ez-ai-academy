@@ -4,7 +4,7 @@ Learner- and operator-facing log of **curriculum, checks, exercises, visuals, cu
 
 The repository is the source of truth. The [discovery site](https://jensfossen.github.io/ez-ai-academy/) is not this log and does not host lessons.
 
-**Current content revision:** `2026-09-10i` — same value as `metadata.academy_content_revision` in `SKILL.md`. Mentors may mention it when offering a skippable update reminder. It is not a grade, a Pass, or a website account.
+**Current content revision:** `2026-09-10j` — same value as `metadata.academy_content_revision` in `SKILL.md`. Mentors may mention it when offering a skippable update reminder. It is not a grade, a Pass, or a website account.
 
 Operator weekday scan, staffing, and proposal format: [`CURATION.md`](CURATION.md). That loop does not replace this log.
 
@@ -49,6 +49,35 @@ PRs that change curriculum, checks, exercises, learner-visible rubrics, visuals,
 Do not claim a Foundations or Prompt Engineering Pass from a changelog entry. Do not mark commercial-readiness gates here. Prototype exit is not commercial-ready.
 
 ---
+
+## 2026-09-10j — Module 5: Loop Engineering (Included)
+
+Learners who finished Agents and Harness Engineering can run a measured feedback cycle on repeatable AI work: try, check against a clear standard, change one thing, try again — and know when one good pass is enough. Loops are for work that will happen again, not every chat. It is a numbered capability module at the same content bar as Module 1, Prompt Engineering, Context Engineering, and Agents and Harness Engineering. It is not a recorded Pass.
+
+### Added
+
+- Live module: [`curriculum/loop-engineering.md`](../curriculum/loop-engineering.md) — promise, language boundary, L1–L5 conversation path (name the loop; try then check a standard; change one thing; enough / stop rule; notice when a loop is not the job), short/guided/support adaptation, phone short-session note, and three-evidence completion.
+- Formative checks: [`checks/loop-engineering.md`](../checks/loop-engineering.md) — five `native_choice_card` checks (Markdown fallback).
+- Exercises: [`exercises/loop-engineering.md`](../exercises/loop-engineering.md) — contained cycle repair, workplace application, and a **Loop Working Card** (try, standard, change one thing, stop rule).
+- Analogy cards: [`resources/loop-engineering-analogies.md`](../resources/loop-engineering-analogies.md) — taste the soup, recipe card, one knob, good enough to serve, weekly bake vs cups. Not in the Cowork ZIP; mentors use the in-lesson analogies there.
+- Academy-original map: `assets/loop-engineering-map.png` / `.svg` (rebuild with `scripts/render-loop-engineering-map.py`). The Cowork ZIP omits the raster; mentors use the registered alt text or Markdown map.
+- Acceptance scenario (ready to run, not a Pass): [`tests/loop-engineering-acceptance.md`](../tests/loop-engineering-acceptance.md).
+
+### Changed
+
+- Program map Module 5 is now **Included**. Mentors route here after Agents and Harness Engineering is complete, or when the learner asks and Module 4 has already been taught. Graph companion honesty now says Modules 4–5 are both Included — early Graph offers no longer say Loop is upcoming; they say this stop is about wiring several helpers, not making one loop reliable. Graph is still not a numbered module. `academy_content_revision` is now `2026-09-10j`. Progress records may include additive `modules.loop_engineering` under `academy_version: "0.1"` (older exports without the key stay valid). The shared rubric now grades a Module 5 cycle-and-result (standard / one change / stop rule) separately from a vague request, a weak pack, or a weak setup. Cowork ZIP rebuilt: Module 5 curriculum, checks, and exercises replace the Session Zero onboarding file, interaction-patterns, and the Prompt Engineering map PNG so the upload stays within 20 companion files. Full checkout still has those omitted files; mentors skip them when missing. Discovery Pages untouched. [#4](https://github.com/jensfossen/ez-ai-academy/issues/4) PE Pass, Foundations exit, [#59](https://github.com/jensfossen/ez-ai-academy/issues/59), and [#61](https://github.com/jensfossen/ez-ai-academy/issues/61) stay held.
+
+### Removed
+
+- None from a full checkout. The Cowork ZIP no longer includes `curriculum/onboarding.md`, `ui/interaction-patterns.md`, or `assets/prompt-engineering-map.png` (skip those paths there; Session Zero and host-native questions stay in `SKILL.md`; the PE map uses registered alt text).
+
+### Media
+
+- New Academy-original Module 5 map (`academy-original`). No stock art. Anthropic’s *Building effective agents* essay is registered as **curriculum evidence only** — do not assign it as required; it uses workflow language this module does not teach. At most one skippable offer if the learner asks. No new required learner link. No experiment-platform tutorial.
+
+### Breaking for learners
+
+- None. Module 1, Prompt Engineering, Context Engineering, Agents and Harness Engineering, and Loop Engineering each still need three evidence types (contained exercise, workplace application, reusable artifact). This does not close [#63](https://github.com/jensfossen/ez-ai-academy/issues/63), [#61](https://github.com/jensfossen/ez-ai-academy/issues/61), [#59](https://github.com/jensfossen/ez-ai-academy/issues/59), [#3](https://github.com/jensfossen/ez-ai-academy/issues/3), or [#4](https://github.com/jensfossen/ez-ai-academy/issues/4). Graph Engineering stays a companion.
 
 ## 2026-09-10i — Module 4: Agents and Harness Engineering (Included)
 

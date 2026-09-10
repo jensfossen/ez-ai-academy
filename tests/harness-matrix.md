@@ -32,6 +32,12 @@ Do not copy a Foundations or Prompt Engineering Pass into a Context Engineering 
 
 Do not copy a Foundations, Prompt Engineering, or Context Engineering Pass into an Agents and Harness Engineering Pass. Do not mark a Module 4 cell Pass, Pass with adapter, or failed until that scenario is actually run and evidenced. Content maturity in the repository is not cross-harness validation.
 
+## Loop Engineering scenario
+
+[`loop-engineering-acceptance.md`](loop-engineering-acceptance.md) is **ready to run**. It is not a recorded Pass on any harness.
+
+Do not copy a Foundations, Prompt Engineering, Context Engineering, or Agents and Harness Engineering Pass into a Loop Engineering Pass. Do not mark a Module 5 cell Pass, Pass with adapter, or failed until that scenario is actually run and evidenced. Content maturity in the repository is not cross-harness validation.
+
 ## Mobile / on-the-go
 
 Mentor principles and the Session Zero / Module 1 short-session variant: [`ui/mobile-on-the-go.md`](../ui/mobile-on-the-go.md). This table is **vendor-surface + known limits**, not a Foundations or Prompt Engineering Pass. Do not copy a desktop Pass onto a phone row. Do not claim every harness works on mobile.

@@ -30,9 +30,9 @@ Not every simple request needs all five stated explicitly. Add detail only when 
 
 ### 1. Welcome and look
 
-Read `resources/visuals.md`. Show `assets/prompt-engineering-map.png`. Say: “This is our whole map for today. We’ll take it one small step at a time.”
+Read `resources/visuals.md`. If `assets/prompt-engineering-map.png` is present, show it. Say: “This is our whole map for today. We’ll take it one small step at a time.”
 
-If the image cannot render, read the registered alt text and continue.
+If the image cannot render or the file is missing, read the registered alt text (or the Markdown map in that registry) and continue.
 
 ### 2. Invite a starting thought
 

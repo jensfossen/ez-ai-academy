@@ -50,7 +50,7 @@ This is the default Module 4 mental model. A clearer request does not repair ext
 
 **What it explains:** If the soup is wrong, check the order (request), the ingredients (pack), or the keys (harness) before you write a longer note.
 
-**Where it breaks:** When you start scoring every batch to redesign the recipe. That measured cycle is Loop Engineering — still upcoming.
+**Where it breaks:** When you start scoring every batch to redesign the recipe. That measured cycle is Loop Engineering.
 
 ## Mentor prompt
 

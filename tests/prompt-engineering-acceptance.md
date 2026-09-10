@@ -27,7 +27,7 @@ Use a Foundations-complete record shaped like the example in `schemas/progress-r
 
 ### 1. Entry
 
-- Shows `assets/prompt-engineering-map.svg` or `assets/prompt-engineering-map.png`, or provides the registered meaningful description when image display is unavailable (`resources/visuals.md`).
+- Shows `assets/prompt-engineering-map.svg` or `assets/prompt-engineering-map.png`, or provides the registered meaningful description / Markdown map when the image is missing or cannot display (`resources/visuals.md`).
 - Limits the lesson to prompt engineering. Does not introduce agents, harnesses, evaluation loops, retrieval, or context-engineering depth.
 - Invites a starting thought about how the learner usually asks for help and how they judge the result. Does not grade that answer.
 

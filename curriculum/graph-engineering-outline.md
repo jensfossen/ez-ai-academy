@@ -6,7 +6,7 @@ This file is **design history** for issue [#46](https://github.com/jensfossen/ez
 
 **Status:** Included / Companion. Not a numbered module. Hold [#4](https://github.com/jensfossen/ez-ai-academy/issues/4) Prompt Engineering Pass. Do not invent a Pass from this companion.
 
-Placement decision and why: [`program-map.md`](program-map.md) (Companion / orientation after Modules 4–5). **Current honesty:** Module 4 is Included; Module 5 is still Planned. Offerable links: [`../resources/curated-content.md`](../resources/curated-content.md). Governance: [`../resources/asset-governance.md`](../resources/asset-governance.md). Signal sources: [`../content/CURATION.md`](../content/CURATION.md).
+Placement decision and why: [`program-map.md`](program-map.md) (Companion / orientation after Modules 4–5). **Current honesty:** Modules 4–5 are Included. Offerable links: [`../resources/curated-content.md`](../resources/curated-content.md). Governance: [`../resources/asset-governance.md`](../resources/asset-governance.md). Signal sources: [`../content/CURATION.md`](../content/CURATION.md).
 
 ## Promise (shipped in the live companion)
 
@@ -108,7 +108,7 @@ Voiced in [`graph-engineering.md`](graph-engineering.md) after the checkpoint st
 |---|---|
 | Numbered module on the capability map? | **No.** Does not become Module 6, and does not bump Loop Engineering. |
 | Three evidence types (contained / workplace / artifact)? | **No**, while it stays a companion. Those apply only if Chief / Jens later promote it to a full module. |
-| Required for Foundations or Prompt Engineering? | **No.** Optional orientation **after** Modules 4–5 (Agents/Harness + Loop) when those exist. Mentors may offer early only if multi-helper handoff confusion is already here, and must say those modules are upcoming. Never a PE gate. Never a Foundations blocker. |
+| Required for Foundations or Prompt Engineering? | **No.** Optional orientation **after** Modules 4–5 (Agents/Harness + Loop). Mentors may offer early only if multi-helper handoff confusion is already here — say this stop is about wiring several helpers, not making one loop reliable. Never a PE gate. Never a Foundations blocker. |
 | Formative check / exercise / rubric files? | **At most one** optional formative check (`../checks/graph-engineering.md`). No exercises or rubrics. Not three-evidence. |
 | Offer in Session Zero? | **No.** Session Zero still goes straight into Module 1. |
 
@@ -158,7 +158,7 @@ Selection standards (bite size, currency, learner fit, authority) still apply: [
 | **Later: live companion units** | Shipped: [`../content/RELEASE_NOTES.md`](../content/RELEASE_NOTES.md) `2026-09-10g`. **Added**: the bite-size units in [`graph-engineering.md`](graph-engineering.md). **Media**: official conceptual links mentors may offer (still optional). **Breaking**: none. `metadata.academy_content_revision` is `2026-09-10g`. SKILL routes to the live lesson. |
 | **Later: promote to a full module** | Material curriculum. Chief / Jens go. New entry must say three evidence types now apply, and whether Loop Engineering’s successor changed. That is a breaking note for learners. |
 
-Live units exist. Returning learners who pull this revision may be offered the companion when they already face multi-helper handoff confusion, with an honest note that Modules 4–5 are still upcoming. This outline stays as design history.
+Live units exist. Returning learners who pull this revision may be offered the companion when they already face multi-helper handoff confusion, with an honest note that Modules 4–5 exist and this stop is about wiring several helpers. This outline stays as design history.
 
 ## Non-goals
 

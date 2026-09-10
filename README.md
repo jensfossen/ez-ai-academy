@@ -22,13 +22,14 @@ Three principles govern the product:
 - Module 2 Prompt Engineering: in-repo at Module 1 content maturity; harness PE scenario is ready to run, not a recorded Pass
 - Module 3 Context Engineering: in-repo at Module 1 / PE content maturity; harness scenario is ready to run, not a recorded Pass
 - Module 4 Agents and Harness Engineering: in-repo at Module 1 / PE / Context content maturity; harness scenario is ready to run, not a recorded Pass
+- Module 5 Loop Engineering: in-repo at Module 1 / PE / Context / Agents-Harness content maturity; harness scenario is ready to run, not a recorded Pass
 - A warm, adaptive mentor experience
 - Formative checks that recognize nuance instead of forcing every question into one right answer
 - A–F grading for completed work and artifacts
 - A portable progress record (chat export/restore; optional system-of-record contract)
 - A static [discovery and setup landing](https://jensfossen.github.io/ez-ai-academy/) on GitHub Pages (not the course)
 
-**Agents and Harness Engineering** is Included after Context Engineering: [`curriculum/agents-harness-engineering.md`](curriculum/agents-harness-engineering.md). Loop Engineering remains Planned. A **Models landscape** companion is Included after Module 1 (optional beside Prompt Engineering; never a PE gate): [`curriculum/models-landscape.md`](curriculum/models-landscape.md). A **Graph Engineering** companion is Included after Modules 4–5 when those exist (optional when a learner asks about wiring several AI helpers; never a PE gate or Foundations blocker). Module 4 is Included; Module 5 is still Planned — mentors may offer Graph early only if multi-helper handoff confusion is already here, and must say Loop is still upcoming: [`curriculum/graph-engineering.md`](curriculum/graph-engineering.md).
+**Agents and Harness Engineering** is Included after Context Engineering: [`curriculum/agents-harness-engineering.md`](curriculum/agents-harness-engineering.md). **Loop Engineering** is Included after Agents and Harness Engineering: [`curriculum/loop-engineering.md`](curriculum/loop-engineering.md). A **Models landscape** companion is Included after Module 1 (optional beside Prompt Engineering; never a PE gate): [`curriculum/models-landscape.md`](curriculum/models-landscape.md). A **Graph Engineering** companion is Included after Modules 4–5 (optional when a learner asks about wiring several AI helpers; never a PE gate or Foundations blocker). Modules 4–5 are Included — mentors may offer Graph early only if multi-helper handoff confusion is already here; say this stop is about wiring several helpers, not making one loop reliable. Do not promote Graph to a numbered module: [`curriculum/graph-engineering.md`](curriculum/graph-engineering.md).
 
 ## Install in your harness
 
@@ -61,7 +62,7 @@ Brand is locked: name, message, palette, type, and logo live in [`brand/BRAND.md
 | `SKILL.md` | Platform-neutral entry point and learning loop (canonical skill id `ai-academy`) |
 | `.cursor/skills/` | Thin Cursor slash aliases (`/ez-ai-academy`, `/start`) that load root `SKILL.md` |
 | `content/` | Learner-facing [content release notes](content/RELEASE_NOTES.md) and the operator [curation loop](content/CURATION.md) (weekday scan, sources, dry-runs) |
-| `curriculum/` | Module plans, [program sequence](curriculum/program-map.md), [Context Engineering](curriculum/context-engineering.md) (Included Module 3), [Agents and Harness Engineering](curriculum/agents-harness-engineering.md) (Included Module 4), the [Models landscape companion](curriculum/models-landscape.md) (Included / Companion), and the [Graph Engineering companion](curriculum/graph-engineering.md) (Included / Companion after Modules 4–5; Module 4 Included, Module 5 Planned; outline is design history) |
+| `curriculum/` | Module plans, [program sequence](curriculum/program-map.md), [Context Engineering](curriculum/context-engineering.md) (Included Module 3), [Agents and Harness Engineering](curriculum/agents-harness-engineering.md) (Included Module 4), [Loop Engineering](curriculum/loop-engineering.md) (Included Module 5), the [Models landscape companion](curriculum/models-landscape.md) (Included / Companion), and the [Graph Engineering companion](curriculum/graph-engineering.md) (Included / Companion after Modules 4–5; outline is design history) |
 | `checks/` | Formative, non-letter-graded knowledge checks |
 | `exercises/` | Contained work, workplace application, and artifacts |
 | `rubrics/` | A–F grading criteria for completed work |

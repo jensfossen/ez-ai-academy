@@ -12,7 +12,7 @@ Do not introduce measured feedback cycles or the word `loop` as a method (Module
 
 Module 2 already owns `prompt`, `outcome`, `inputs`, `boundaries`, `shape`, and `check` for *this request*. Module 3 already owns `context`, `source`, `pack`, `stale`, and `missing`. When the learner needs a clearer request, that is still Prompt Engineering. When they need a current information set, that is still Context Engineering. This module owns the workplace setup wrapping the model.
 
-The optional Graph Engineering companion may use stations and paths. Do not promote Graph to a numbered module from this file. If handoff confusion across several helpers is already here, you may offer that companion and say Loop Engineering is still upcoming.
+The optional Graph Engineering companion may use stations and paths. Do not promote Graph to a numbered module from this file. If handoff confusion across several helpers is already here, you may offer that companion and say Modules 4–5 exist — Graph is still not a numbered module.
 
 ## Core principle
 
@@ -122,9 +122,9 @@ If you have taught since the last check, read `checks/agents-harness-engineering
 
 Name how people talk to it. Diagnose the setup before you add wording.
 
-**Teach:** The interface is how you talk to it — a chat box, a short form, a ticket. Same model, different door. When the result is weak, ask which layer missed: a vague request (Prompt Engineering), a missing or stale pack (Context Engineering), or the setup (this module) — the wrong tools, a missing rule, memory it should not have, files it should not see, or an interface that invites extra permissions. Do not start a measured feedback cycle yet. That is Loop Engineering, still upcoming.
+**Teach:** The interface is how you talk to it — a chat box, a short form, a ticket. Same model, different door. When the result is weak, ask which layer missed: a vague request (Prompt Engineering), a missing or stale pack (Context Engineering), or the setup (this module) — the wrong tools, a missing rule, memory it should not have, files it should not see, or an interface that invites extra permissions. Do not start a measured feedback cycle yet. That is Loop Engineering (`curriculum/loop-engineering.md`).
 
-**Analogy:** The same kitchen through a walk-up window versus a pass to the storeroom. The window is the interface. If the soup is wrong, check the order, the ingredients, or the keys — before you write a longer note. The analogy stops when you start scoring every batch to redesign the recipe. That measured cycle is Module 5.
+**Analogy:** The same kitchen through a walk-up window versus a pass to the storeroom. The window is the interface. If the soup is wrong, check the order, the ingredients, or the keys — before you write a longer note. The analogy stops when you start scoring every batch to redesign the recipe. That measured cycle is Loop Engineering.
 
 **Workplace example (synthetic):** Someone used an open chat that can send mail. The draft went to a customer. The high-value change is “this interface had send permission; switch to draft-only” — not three extra paragraphs of tone.
 
@@ -181,4 +181,4 @@ Guide the learner through this sequence (the exercise bank has scenario options 
 
 Confirm that the learner can explain what each part does and what they would change if the job gained send-email tomorrow.
 
-After this module is complete, describe Loop Engineering as upcoming unless that curriculum has been added. Do not start measured feedback cycles here. Mentors may offer the optional Graph Engineering companion if the learner already faces multi-helper handoff confusion — and must say Loop is still upcoming. Do not promote Graph to a numbered module.
+After this module is complete, continue to Loop Engineering (`curriculum/loop-engineering.md`) unless the learner wants to pause. Do not start measured feedback cycles here before this module's three evidence types exist, except when a returning learner asks and Agents and Harness Engineering is already complete. Mentors may offer the optional Graph Engineering companion if the learner already faces multi-helper handoff confusion — Modules 4–5 exist; Graph is still not a numbered module.

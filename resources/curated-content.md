@@ -305,9 +305,43 @@ Offer at most one of these, and only if the learner asks “which is best.” Ne
 - Placement: **link**.
 - Required for completion: no.
 
+## Module 5 — Loop Engineering
+
+No separate learner deepener is registered. Teach from [`../curriculum/loop-engineering.md`](../curriculum/loop-engineering.md). Do not assign LangGraph, vendor orchestration APIs, multi-agent framework tutorials, or A/B experiment-platform guides. If the learner asks to go further after running or naming a cycle, you may offer **at most one** already-registered official page as a skippable contrast (Anthropic *Building effective agents*, already listed under Companion — Graph Engineering) — then return to Academy words. Stay inside Module 5 vocabulary. Do not use that page to teach GraphRAG, tokens, or experiment theater.
+
+### Curriculum evidence — cycle quality and when to stop
+
+These sources back factual teaching and answer keys. Do not assign them to learners in Module 5.
+
+#### NIST — Generative AI Profile
+
+- URL: https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf
+- Use for: Curriculum claims about comparing output with known ground truth, human oversight, and not treating fluent output as proof.
+- Learner use: Do not assign the full report in Module 5.
+- Source: NIST AI 600-1, *Artificial Intelligence Risk Management Framework: Generative Artificial Intelligence Profile*.
+- Review date: 2026-09-10 (concept). Link check: already live for Module 1. Next review: 2026-12-08.
+- Usage intent: Source note for Module 5 Checks A, B, and C. Not a learner assignment.
+- Transcript / text alternative: Official PDF. Mentors cite the relevant finding in plain language.
+- Rights status: `third-party-link`.
+- Placement: **link** — curriculum evidence.
+- Required for completion: no.
+
+#### Anthropic — Building effective agents
+
+- URL: https://www.anthropic.com/engineering/building-effective-agents
+- Use for: Distilling one workplace claim — start simple; one good pass can be enough; extra wiring is a cost.
+- Learner use: Do not assign the essay as required. It uses workflow and product language this module does not teach. At most one skippable offer if they ask where the idea comes from.
+- Source: Anthropic, *Building effective agents*.
+- Review date: 2026-09-10 (concept). Link already live for Graph Engineering and Module 4. Next review: 2026-12-10.
+- Usage intent: Source note for Module 5 Checks D and E. Optional one-offer deepener only if the learner asks. Not required for completion.
+- Transcript / text alternative: Written essay. Academy text alternative is the in-chat Module 5 explanation.
+- Rights status: `third-party-link`. Do not rehost the essay.
+- Placement: **link** — curriculum evidence; optional offer at most once.
+- Required for completion: no.
+
 ## Companion — Graph Engineering
 
-**Live / offerable** after Modules 4–5 when those exist, or earlier only if the learner already faces multi-helper handoff confusion. Mentors must **not** offer these in Session Zero. Never required for Module 1, Prompt Engineering, Foundations, or this companion. If offering early, say Agents/Harness + Loop are still upcoming. Teach from [`../curriculum/graph-engineering.md`](../curriculum/graph-engineering.md). Design history: [`../curriculum/graph-engineering-outline.md`](../curriculum/graph-engineering-outline.md). Status **Included / Companion** on [`../curriculum/program-map.md`](../curriculum/program-map.md). Issue [#46](https://github.com/jensfossen/ez-ai-academy/issues/46) stays open.
+**Live / offerable** after Modules 4–5, or earlier only if the learner already faces multi-helper handoff confusion. Mentors must **not** offer these in Session Zero. Never required for Module 1, Prompt Engineering, Foundations, or this companion. If offering early, say Modules 4–5 exist and this stop is about wiring several helpers, not making one loop reliable. Teach from [`../curriculum/graph-engineering.md`](../curriculum/graph-engineering.md). Design history: [`../curriculum/graph-engineering-outline.md`](../curriculum/graph-engineering-outline.md). Status **Included / Companion** on [`../curriculum/program-map.md`](../curriculum/program-map.md). Issue [#46](https://github.com/jensfossen/ez-ai-academy/issues/46) stays open.
 
 These are official conceptual / engineering pages (plus one GraphRAG boundary page). **Link, do not store.** Rights = `third-party-link`. Required for completion = **no**. Do not copy SDK tours, workflow screenshots, or GraphRAG encyclopedias into git. Offer **at most one** conceptual page, and only if the learner asks where the idea comes from.
 
@@ -377,4 +411,4 @@ Offer this only if the learner (or a coworker) mixes “graph” with knowledge-
 
 ## Embedded visual fallback
 
-When external content is blocked or distracting, use the current module image, its alt text or Markdown map, and the matching curriculum file (`curriculum/module-01-llm.md`, `curriculum/prompt-engineering.md`, `curriculum/context-engineering.md`, or the in-chat Models landscape or Graph Engineering explanation). Keep every lesson fully functional without external media.
+When external content is blocked or distracting, use the current module image, its alt text or Markdown map, and the matching curriculum file (`curriculum/module-01-llm.md`, `curriculum/prompt-engineering.md`, `curriculum/context-engineering.md`, `curriculum/agents-harness-engineering.md`, `curriculum/loop-engineering.md`, or the in-chat Models landscape or Graph Engineering explanation). Keep every lesson fully functional without external media.

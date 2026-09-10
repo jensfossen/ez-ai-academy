@@ -121,7 +121,7 @@ Three surfaces version independently. Mentors and adapters must keep a learner w
 
 ### Curriculum
 
-- Module ids (`foundations`, `prompt_engineering`, `context_engineering`, `agents_harness_engineering`, later ids) are stable once a module is live.
+- Module ids (`foundations`, `prompt_engineering`, `context_engineering`, `agents_harness_engineering`, `loop_engineering`, later ids) are stable once a module is live.
 - Completion remains three evidence objects at the published threshold (`curriculum/program-map.md`). Do not change that meaning silently.
 - Additive lessons or optional deepeners do not invalidate a `complete` module.
 - Removing or renaming a live lesson id is a **breaking** curriculum change: bump the skill/package version, say what happens to in-progress learners, and keep restore from sending them into a missing file.
@@ -204,6 +204,7 @@ Honest snapshot after Phase 2 docs landed. Update this section when a stage exit
 | #4 Prompt Engineering | **Content authorized** (Jens 2026-09-09) while #3 harness runs continue. In-repo Module 2 maturity is not a PE Pass. |
 | #59 Context Engineering | **Content in-repo** (2026-09-10). Included numbered Module 3. In-repo maturity is not a Context Engineering Pass and does not move #3 or #4. Leave #59 open. |
 | #61 Agents and Harness Engineering | **Content in-repo** (2026-09-10). Included numbered Module 4. In-repo maturity is not an Agents and Harness Engineering Pass and does not move #3, #4, or #59. |
+| #63 Loop Engineering | **Content in-repo** (2026-09-10). Included numbered Module 5. In-repo maturity is not a Loop Engineering Pass and does not move #3, #4, #59, or #61. Leave #63 open until acceptance is met. |
 | #5 Enterprise baseline | **Docs landed** — `resources/enterprise-baseline.md` |
 | #6 Portable progress / optional SoR | **Docs landed** — `schemas/progress-record.md`, `schemas/sor-connector-contract.md` |
 | #7 Content and asset governance | **Docs landed** — `resources/asset-governance.md` |
