@@ -15,7 +15,7 @@ After the learner answers, first name what makes the choice understandable. Then
 
 ## Check A — A polished but doubtful summary
 
-**render_intent:** `native_choice_card` — Prefer the host's native single-select choice cards or blocks when available (Cursor IDE plan-mode–like cards are the north-star analogy). If the host has no native control, show the numbered A–D list and accept a letter, number, or natural-language answer. Do not put host-specific markup in the question text. Mentors: `ui/interaction-patterns.md` (Knowledge check).
+**render_intent:** `native_choice_card` — Use the host ask questions tool when the host attaches it (single-select). Prefer that over typing the A–D list as plain text. If the tool is missing, show the numbered A–D list and accept a letter, number, or natural-language answer. Do not put host-specific markup in the question text. Mentors: `ui/interaction-patterns.md` (Knowledge check).
 
 **Question:** You ask an AI tool to summarize approved meeting notes. The summary reads well, but one action owner looks unfamiliar. What is the best way to think about what happened?
 
@@ -29,6 +29,8 @@ After the learner answers, first name what makes the choice understandable. Then
 **Source basis:** NIST AI 600-1 identifies confidently stated false content as a generative-AI risk and recommends assessing output against known ground truth with human oversight. OpenAI's research on hallucinations explains that next-word prediction can produce plausible false statements and that models may guess rather than express uncertainty.
 
 ## Check B — Explaining an LLM
+
+**render_intent:** `native_choice_card` — Use the host ask questions tool when the host attaches it (single-select). Prefer that over typing the A–D list as plain text. If the tool is missing, show the numbered A–D list and accept a letter, number, or natural-language answer. Do not put host-specific markup in the question text. Mentors: `ui/interaction-patterns.md` (Knowledge check).
 
 **Question:** A coworker asks what an LLM is. Which answer gives them the most useful starting point?
 

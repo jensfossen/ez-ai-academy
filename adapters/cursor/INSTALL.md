@@ -40,7 +40,7 @@ To update any clone later, run `git pull` inside the installed `ai-academy` dire
 
 ## Cursor IDE chat vs Cloud Agent
 
-These are different surfaces. Do not treat a Cloud Agent result as an IDE native-UI Pass. Rich-UI work is tracked in [#24](https://github.com/jensfossen/ez-ai-academy/issues/24). Research notes: [`RICH_UI.md`](RICH_UI.md).
+These are different surfaces. Do not treat a Cloud Agent result as an IDE native-UI Pass. Rich-UI work is tracked in [#24](https://github.com/jensfossen/ez-ai-academy/issues/24). Research notes and **Skill wiring** (ask-questions when attached): [`RICH_UI.md`](RICH_UI.md).
 
 **Cursor IDE chat** is the reference surface. Prefer the host ask-questions picker when the host attaches it (Plan Mode family; forum/host alias AskQuestion), and in-chat video when the IDE can play a lesson link. Neither is a published skill-author API, and the picker is not guaranteed in every Agent chat — details in [`RICH_UI.md`](RICH_UI.md). Do not invent private markup. If a native control is missing, use the Markdown numbered-list and link fallbacks.
 

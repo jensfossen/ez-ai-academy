@@ -44,6 +44,8 @@ Ask one concise question and wait. Do not combine the learner's name with role o
 
 Use the host's native choice cards or blocks when it provides them. Cursor IDE plan-mode–like clarifying-question cards are the north-star analogy — not a required API and not a reason to put host markup in curriculum.
 
+When the host attaches an ask questions tool (or equivalent native picker), use it instead of typing a numbered list as plain text. If that tool is missing, use the Markdown numbered or lettered list immediately. Do not invent private APIs, iframes, or host markup.
+
 - Use single select for mutually exclusive routing choices (Session Zero role is this pattern).
 - Use multi-select for experience and task-history questions.
 - Include a free-text route when categories may not fit.
@@ -54,7 +56,7 @@ Use the host's native choice cards or blocks when it provides them. Cursor IDE p
 
 `render_intent: native_choice_card`
 
-Use native choice cards or blocks when the host provides them (same north-star as Select: Cursor IDE plan-mode–like cards). Use a single-select or multi-select component as the check requires. More than one option may be defensible. One can be the best answer, or several can be equally strong. Interpret the choice with the module's quality scale and explain the tradeoff after selection.
+Use native choice cards or blocks when the host provides them (same north-star as Select: Cursor IDE plan-mode–like cards). When the host attaches an ask questions tool, use it instead of typing the choices as plain text. Use a single-select or multi-select component as the check requires. More than one option may be defensible. One can be the best answer, or several can be equally strong. Interpret the choice with the module's quality scale and explain the tradeoff after selection.
 
 If the host supports only single select, never mark a defensible alternative as simply wrong. If no control exists, show numbered Markdown choices and accept a letter, number, or natural-language answer.
 
