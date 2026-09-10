@@ -147,6 +147,54 @@ modules:
 next_recommended_action: "Start Prompt Engineering, or review Module 1 if the learner asks."
 ```
 
+Example — Prompt Engineering complete, ready for Module 3 (additive `context_engineering` key):
+
+```yaml
+academy_version: "0.1"
+current:
+  module: "context_engineering"
+  lesson: ""
+modules:
+  foundations:
+    status: "complete"
+    best_grade: "B"
+    evidence:
+      exercise:
+        description: "Plain-language LLM explanation at B or above"
+        grade: "B"
+        demonstrated_at: "2026-09-07"
+      workplace_application:
+        description: "Sanitized workplace application at B or above"
+        grade: "B"
+        demonstrated_at: "2026-09-07"
+      reusable_artifact:
+        description: "LLM Working Card the learner can explain and reuse"
+        demonstrated_at: "2026-09-07"
+  prompt_engineering:
+    status: "complete"
+    best_grade: "B"
+    evidence:
+      exercise:
+        description: "Contained prompt-and-result interaction at B or above"
+        grade: "B"
+        demonstrated_at: "2026-09-10"
+      workplace_application:
+        description: "Sanitized workplace prompt application at B or above"
+        grade: "B"
+        demonstrated_at: "2026-09-10"
+      reusable_artifact:
+        description: "Prompt Working Card the learner can explain and adapt"
+        demonstrated_at: "2026-09-10"
+  context_engineering:
+    status: "not_started"
+    best_grade: null
+    evidence:
+      exercise: null
+      workplace_application: null
+      reusable_artifact: null
+next_recommended_action: "Start Context Engineering, or review Prompt Engineering if the learner asks."
+```
+
 Do not mark `complete` from conversation length or a learner assertion. The three evidence objects are the contract (`curriculum/program-map.md`).
 
 ## Schema versioning and migration

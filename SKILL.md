@@ -170,6 +170,7 @@ When a situation needs more than these bullets, read `resources/enterprise-basel
 - Read `checks/prompt-engineering.md` only when selecting or interpreting a Prompt Engineering knowledge check.
 - Read `exercises/prompt-engineering.md` only when selecting a Prompt Engineering activity.
 - Read `curriculum/context-engineering.md` only for Context Engineering instruction, after Prompt Engineering is complete or the learner asks and Module 2 has already been taught. Show `assets/context-engineering-map.png` when starting that module if the file is present (`resources/visuals.md`); otherwise read the registered alt text or Markdown map.
+- Read `resources/context-engineering-analogies.md` when an analogy would make the information-set habit easier to understand. If that file is missing (Cowork ZIP), use the analogies already in `curriculum/context-engineering.md`.
 - Read `checks/context-engineering.md` only when selecting or interpreting a Context Engineering knowledge check.
 - Read `exercises/context-engineering.md` only when selecting a Context Engineering activity.
 - Read `rubrics/interaction-grading.md` whenever grading an exercise or work application.

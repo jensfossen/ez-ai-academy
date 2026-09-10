@@ -46,6 +46,8 @@ Do not grade this answer. Notice whether the learner already names a source, spo
 
 Separate the request from the pack the request depends on.
 
+Read `resources/context-engineering-analogies.md` when choosing or expanding an analogy. If that file is missing (Cowork ZIP), use the analogy already in the current lesson.
+
 **Teach (under 120 words):** Context is the information set the AI needs for this job — not the wording of the request. Prompt Engineering already taught what to include in *this* request. Here you assemble a larger pack you can reuse and keep current: the sources, facts, and notes the work depends on. A clear request with last quarter’s numbers is still a weak pack. A messy request with this week’s approved notes can still be saved by updating the pack.
 
 **Analogy:** A project binder. The cover note is the request. The pages inside are the context. You do not dump the filing cabinet into the binder, and you do not send the cover note with empty pages. The analogy stops when a needed fact is not in any folder — then you get that source, or you mark it missing.

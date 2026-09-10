@@ -121,7 +121,7 @@ Three surfaces version independently. Mentors and adapters must keep a learner w
 
 ### Curriculum
 
-- Module ids (`foundations`, `prompt_engineering`, later ids) are stable once a module is live.
+- Module ids (`foundations`, `prompt_engineering`, `context_engineering`, later ids) are stable once a module is live.
 - Completion remains three evidence objects at the published threshold (`curriculum/program-map.md`). Do not change that meaning silently.
 - Additive lessons or optional deepeners do not invalidate a `complete` module.
 - Removing or renaming a live lesson id is a **breaking** curriculum change: bump the skill/package version, say what happens to in-progress learners, and keep restore from sending them into a missing file.
@@ -202,6 +202,7 @@ Honest snapshot after Phase 2 docs landed. Update this section when a stage exit
 | #2 Adapters | **Done.** Codex, Claude Code, Cursor, Microsoft Copilot Cowork install/invocation guides. |
 | #3 Foundations | **Partial.** Cursor **Pass** (#10; matrix #11; adapter learnings #12). Codex #13 and Microsoft Copilot Cowork #15: **To run**. Claude Code #14: **parked** (no usable subscription; environment/harness limitation, not a core skill defect). |
 | #4 Prompt Engineering | **Content authorized** (Jens 2026-09-09) while #3 harness runs continue. In-repo Module 2 maturity is not a PE Pass. |
+| #59 Context Engineering | **Content in-repo** (2026-09-10). Included numbered Module 3. In-repo maturity is not a Context Engineering Pass and does not move #3 or #4. |
 | #5 Enterprise baseline | **Docs landed** — `resources/enterprise-baseline.md` |
 | #6 Portable progress / optional SoR | **Docs landed** — `schemas/progress-record.md`, `schemas/sor-connector-contract.md` |
 | #7 Content and asset governance | **Docs landed** — `resources/asset-governance.md` |

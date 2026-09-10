@@ -57,5 +57,7 @@ On a second unsuccessful attempt, increase scaffolding. Show a before/after frag
 - Do not award points for verbose details that do not affect the result.
 - Increase verification expectations as consequences rise.
 - Test reusable prompts against at least one second input or edge case.
+- For Context Engineering, grade the **pack-and-result** interaction. Treat “Useful inputs” as the information set: needed vs background, enough vs missing, current vs stale. Do not award a longer request that leaves a stale or incomplete pack. A vague request is a Prompt Engineering miss; a missing or stale source is a Context Engineering miss.
+- Test a reusable Context Working Card against a second input or a stale-source edge case.
 - Explain score changes between attempts.
 - Never claim objective precision beyond what the rubric supports; grades are structured coaching judgments.
