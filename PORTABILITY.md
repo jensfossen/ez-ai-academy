@@ -62,10 +62,13 @@ adapters/
   claude-code/
   cursor/
   microsoft-copilot-cowork/
+  grok-bot/
 ```
 
 An adapter may define installation, invocation, supported visuals, tool mappings, or persistence integration. Persistence, when present, follows `schemas/sor-connector-contract.md`. It must not duplicate or fork curriculum content.
 
+Grok Bot uses a **Teacher** bot as the learner interface. Teacher follows root `SKILL.md` (Session Zero → Module 1) and the portable `AI_ACADEMY_RECORD`. Create Teacher only when the learner is not already in that chat. Teacher is Academy-only — not Personal OS or Family OS. This is an install contract, not a Foundations Pass.
+
 ## Updates
 
-Installed copies are static. Hosts do not pull `main` for the learner. Refresh with `git pull`, a fresh clone, or a Cowork ZIP re-upload — see **Stay current** in `adapters/*/INSTALL.md`. Mentors may offer a skippable reminder (`SKILL.md`); they must not auto-update files or block learning. The discovery site does not push curriculum and is not required to update. Content deltas live in `content/RELEASE_NOTES.md`, not on Pages.
+Installed copies are static. Hosts do not pull `main` for the learner. Refresh with `git pull`, a fresh clone, a Cowork ZIP re-upload, or (Grok Bot) Teacher re-reading the public repo / `git pull` on a clone — see **Stay current** in `adapters/*/INSTALL.md`. Mentors may offer a skippable reminder (`SKILL.md`); they must not auto-update files or block learning. The discovery site does not push curriculum and is not required to update. Content deltas live in `content/RELEASE_NOTES.md`, not on Pages.

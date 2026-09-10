@@ -10,6 +10,7 @@ This matrix tracks whether EZ AI Academy delivers an equivalent learning experie
 | Claude Code | Documented | Documented | Host-dependent; test required | Supported; test required | Required | To run | Install contract ready |
 | Cursor | Documented | Documented | Cloud Agent: Markdown numbered fallback tested. IDE native cards: research/target ([#24](https://github.com/jensfossen/ez-ai-academy/issues/24)) | Markdown+alt tested; inline raster UI-dependent | Required | Pass (2026-09-07 Cloud Agent) | Foundations Pass — Cloud Agent; evidence [#10](https://github.com/jensfossen/ez-ai-academy/issues/10). Native video/cards: see [Native rich UI](#native-rich-ui-video--choice-cards) |
 | Microsoft Copilot Cowork | ZIP/OneDrive documented | Same cloud flow | Choices/cards documented; test required | Inline display documented; test required | Required | To run | Package ready |
+| Grok Bot | Teacher prompt documented | Same app / cloud computer | Host-dependent; test required | Unknown; test required | Required | To run | Install contract / To run — not a Pass ([#53](https://github.com/jensfossen/ez-ai-academy/issues/53)) |
 
 “Documented” means the setup contract was checked against current vendor documentation. It does not mean the complete learner scenario has passed. Record behavioral results only after running [`foundations-acceptance.md`](foundations-acceptance.md) in that harness.
 
@@ -31,6 +32,7 @@ Statuses: **supported** = a recorded Academy lesson on that phone/cloud-mobile s
 | Cursor | **partial** | [Cursor for iOS](https://cursor.com/docs/cloud-agent/mobile) is a Cloud Agent / Remote Control client (same backend as cursor.com/agents). Vendor: project and synced personal skills work on mobile as on web/CLI. The iOS app is not an IDE. Android is planned, not shipped. Cloud Agent Foundations **Pass** ([#10](https://github.com/jensfossen/ez-ai-academy/issues/10)) is not an iOS Academy run. Desktop IDE remains the rich-UI research surface ([#24](https://github.com/jensfossen/ez-ai-academy/issues/24)). |
 | Claude Code | **partial** | [Claude Code on mobile](https://code.claude.com/docs/en/mobile): the Claude iOS/Android app **Code** tab is a client for cloud sessions or Remote Control — code does not run on the phone. Some terminal-only commands do not work from the app. User-level `~/.claude/skills/ai-academy` on a cloud or phone session is **untested**. Desktop Foundations is still **To run**. Not a Pass. |
 | Microsoft Copilot Cowork | **blocked** | Microsoft: **custom skills aren’t supported in Cowork on mobile** ([Use Copilot Cowork](https://learn.microsoft.com/en-us/microsoft-365/copilot/cowork/use-cowork)). Already noted in [`adapters/microsoft-copilot-cowork/INSTALL.md`](../adapters/microsoft-copilot-cowork/INSTALL.md). Cowork itself may exist in the Copilot mobile app; that is not the Academy ZIP/OneDrive skill. Do not send an on-the-go learner to Cowork for EZ AI Academy. |
+| Grok Bot | **partial** | Vendor documents a mobile app alongside desktop ([Get started](https://docs.x.ai/grok-bot/get-started)). Academy Teacher on phone is **untested**. Desktop install contract is not a mobile Pass. Not a Foundations Pass ([#53](https://github.com/jensfossen/ez-ai-academy/issues/53)). |
 
 Checked against those vendor pages on **2026-09-10**. Vendor clients change quickly; re-verify the link before tightening a row to **supported**.
 
@@ -45,6 +47,7 @@ Semantic intents: `in_chat_video` and `native_choice_card` in `ui/interaction-pa
 | Codex | Unknown / to test | Link-or-markdown-fallback (documented) | Foundations Pass with adapter used numbered Markdown choices ([#13](https://github.com/jensfossen/ez-ai-academy/issues/13)). In-chat video not recorded. |
 | Claude Code | Unknown / to test | Unknown / to test | No video or choice-card run recorded. |
 | Microsoft Copilot Cowork | Unknown / to test | Unknown / to test | No video or choice-card run recorded. |
+| Grok Bot | Unknown / to test | Unknown / to test | No video or choice-card run recorded. Teacher chat is the learner interface. Not a Pass ([#53](https://github.com/jensfossen/ez-ai-academy/issues/53)). |
 
 Statuses mean: **research / partial / target** = intended native surface, mechanism unconfirmed; **link-or-markdown-fallback (documented)** = fallback is specified and has been used in a recorded run; **unknown / to test** = no evidence yet.
 

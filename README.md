@@ -14,7 +14,7 @@ Three principles govern the product:
 
 1. **It is not another learning app.** A lightweight site may help people discover and install the Academy, but it does not deliver the course.
 2. **The repository is the distribution package.** It contains the skill, lessons, checks, exercises, rubrics, images, curated media links, UI fallbacks, and portable progress schema.
-3. **Learning happens inside the harness.** Codex, Claude Code, Cursor, Microsoft Copilot Cowork, and future compatible hosts should teach, practice, coach, grade, and capture progress within the conversation.
+3. **Learning happens inside the harness.** Codex, Claude Code, Cursor, Microsoft Copilot Cowork, Grok Bot (Teacher), and future compatible hosts should teach, practice, coach, grade, and capture progress within the conversation.
 
 ## What is included
 
@@ -36,6 +36,7 @@ Context Engineering, Agents and Harness Engineering, and Loop Engineering are on
 | Claude Code | [Install guide](adapters/claude-code/INSTALL.md) | `/ai-academy` |
 | Cursor | [Install guide](adapters/cursor/INSTALL.md) | Choose `ai-academy`, `ez-ai-academy`, or `start` from the `/` menu |
 | Microsoft Copilot Cowork | [Install guide](adapters/microsoft-copilot-cowork/INSTALL.md) | Upload the prepared ZIP, then ask to start |
+| Grok Bot | [Install guide](adapters/grok-bot/INSTALL.md) | In Teacher, ask to start (skip create if you are already in that chat) |
 
 `SKILL.md` is the canonical entry point. It routes the host to only the curriculum, exercise, rubric, visual, or schema needed for the current learning step. See `PORTABILITY.md` for the host contract.
 
