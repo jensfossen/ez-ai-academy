@@ -57,7 +57,7 @@ For lesson resources marked `render_intent: in_chat_video`:
 - Prefer playing the curated video in chat when the host can.
 - Otherwise offer the curated URL plus the Academy text alternative. Never require watching.
 
-Patterns: `ui/interaction-patterns.md`. Cursor adapter note (not a Pass): `adapters/cursor/RICH_UI.md`. Do not fork curriculum per host.
+Patterns: `ui/interaction-patterns.md`. Cursor adapter note (repo checkout only; not a Pass): `adapters/cursor/RICH_UI.md`. Do not fork curriculum per host.
 
 ## Run each learning cycle
 

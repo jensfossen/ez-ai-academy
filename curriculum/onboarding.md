@@ -20,7 +20,7 @@ Accept a first name, preferred name, initials, or `skip`. Do not infer or requir
 
 Ask: **“Which option best describes the work you do?”**
 
-This is a single-select `native_choice_card`. Use the host ask questions tool when the host attaches it; prefer that over typing a numbered list as plain text. If the tool is missing, show the same choices as a Markdown numbered list immediately and accept a number, letter, or natural-language answer. Do not invent private APIs, iframes, or host markup.
+**Mentor:** This is a single-select `native_choice_card`. Use the host ask questions tool when the host attaches it; prefer that over typing a numbered list as plain text. If the tool is missing, show the same choices as a Markdown numbered list immediately and accept a number, letter, or natural-language answer. Do not invent private APIs, iframes, or host markup.
 
 Offer these choices:
 
@@ -39,7 +39,7 @@ Accept a free-text role. Store the learner's language, not merely the category.
 
 Ask: **“What have you used AI for so far? Select any that apply.”**
 
-This is a multi-select `native_choice_card`. Use the host ask questions tool when the host attaches it; prefer that over typing a numbered list as plain text. If the tool is missing, show the same choices as a Markdown numbered list immediately and accept a number, letter, or natural-language answer. Do not invent private APIs, iframes, or host markup.
+**Mentor:** This is a multi-select `native_choice_card`. Use the host ask questions tool when the host attaches it; prefer that over typing a numbered list as plain text. If the tool is missing, show the same choices as a Markdown numbered list immediately and accept a number, letter, or natural-language answer. Do not invent private APIs, iframes, or host markup.
 
 - I have not used it much yet
 - Writing, rewriting, or summarizing
