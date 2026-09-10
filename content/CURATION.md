@@ -14,7 +14,7 @@ Related backlog (do not treat as closed by this file):
 - [#39](https://github.com/jensfossen/ez-ai-academy/issues/39) plain-language models landscape — [outline](../curriculum/models-landscape-outline.md) in repo; full content held; leave open
 - [#40](https://github.com/jensfossen/ez-ai-academy/issues/40) mobile / on-the-go experience — principles + matrix notes in repo; leave open until remaining AC / Chief close
 - [#46](https://github.com/jensfossen/ez-ai-academy/issues/46) Graph Engineering — [outline](../curriculum/graph-engineering-outline.md) in repo; full content held; leave open
-- [#48](https://github.com/jensfossen/ez-ai-academy/issues/48) Claude Code in-harness Learn onboarding — [research note](../ui/competitive-learn-claude-code.md) and [checklist + Show me sketch](../ui/in-harness-checklist.md) in repo; leave open; not a Pass
+- [#48](https://github.com/jensfossen/ez-ai-academy/issues/48) Claude Code in-harness Learn onboarding — [research note](../ui/competitive-learn-claude-code.md), [checklist + Show me sketch](../ui/in-harness-checklist.md), and light `SKILL.md` mentor offer in repo; leave open; not a Pass
 
 ## Purpose
 

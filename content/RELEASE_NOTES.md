@@ -4,7 +4,7 @@ Learner- and operator-facing log of **curriculum, checks, exercises, visuals, cu
 
 The repository is the source of truth. The [discovery site](https://jensfossen.github.io/ez-ai-academy/) is not this log and does not host lessons.
 
-**Current content revision:** `2026-09-10` — same value as `metadata.academy_content_revision` in `SKILL.md`. Mentors may mention it when offering a skippable update reminder. It is not a grade, a Pass, or a website account.
+**Current content revision:** `2026-09-10b` — same value as `metadata.academy_content_revision` in `SKILL.md`. Mentors may mention it when offering a skippable update reminder. It is not a grade, a Pass, or a website account.
 
 Operator weekday scan, staffing, and proposal format: [`CURATION.md`](CURATION.md). That loop does not replace this log.
 
@@ -49,6 +49,30 @@ PRs that change curriculum, checks, exercises, learner-visible rubrics, visuals,
 Do not claim a Foundations or Prompt Engineering Pass from a changelog entry. Do not mark commercial-readiness gates here. Prototype exit is not commercial-ready.
 
 ---
+
+## 2026-09-10b — Session Zero checklist + Show me (mentor wiring)
+
+Mentors may offer a tiny Session Zero / early Module 1 checklist with **Show me** on the current incomplete item. Hide/skip never blocks learning. Checking a row is not module completion.
+
+### Added
+
+- Mentor wiring in `SKILL.md`: when to offer the card, how **Show me** works (short in-chat worked example), Hide/skip never a gate. Mock and item list stay in [`ui/in-harness-checklist.md`](../ui/in-harness-checklist.md). Not a Claude Code tour. Not a native-UI Pass.
+
+### Changed
+
+- `academy_content_revision` is now `2026-09-10b` so returning learners get a skippable freshness reminder. Cowork ZIP rebuilt so the uploaded skill matches. Session Zero pointer updated. Discovery Pages untouched. Harness-matrix Pass rows unchanged.
+
+### Removed
+
+- None.
+
+### Media
+
+- None.
+
+### Breaking for learners
+
+- None. Module 1 and Prompt Engineering still need three evidence types (contained exercise, workplace application, reusable artifact). This does not close [#48](https://github.com/jensfossen/ez-ai-academy/issues/48) or [#24](https://github.com/jensfossen/ez-ai-academy/issues/24). Claude Code Foundations remains blocked / not a Pass ([#14](https://github.com/jensfossen/ez-ai-academy/issues/14)).
 
 ## 2026-09-10 — In-harness checklist + Show me sketch (operators)
 

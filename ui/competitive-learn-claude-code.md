@@ -67,7 +67,7 @@ Do not copy the vendor tour blindly. EZ is a different product.
 
 ## Proposed EZ semantic intents
 
-Declare intent in mentor notes. Use the host’s native control **when it already exists**. If it does not, use the Markdown fallback immediately. **Do not invent private host APIs**, iframes, or undocumented markup. These intents are **not wired in `SKILL.md` yet**.
+Declare intent in mentor notes. Use the host’s native control **when it already exists**. If it does not, use the Markdown fallback immediately. **Do not invent private host APIs**, iframes, or undocumented markup. `SKILL.md` offers a **light** mentor route for these intents; Markdown fallbacks stay first-class. Not a native-UI Pass.
 
 | Intent | When to use | Native (only if the host already provides it) | Markdown fallback |
 |---|---|---|---|
@@ -82,7 +82,7 @@ Host-chrome entry is **not** a new Academy API. If the host shows a Learn afford
 - Pixel-clone Claude’s mascot, graduation-cap chrome, or orange **Show me**.
 - Replace Foundations acceptance with a vendor tour, or treat a screenshot as a Claude Code Pass.
 - Invent private host APIs, widget schemas, or skill-author markup for an overlay we do not control.
-- Wire these intents into `SKILL.md` in this slice (docs / pattern only).
+- Treat the light `SKILL.md` offer as a native-UI Pass or as closing #24 / #48.
 - Close [#24](https://github.com/jensfossen/ez-ai-academy/issues/24), [#14](https://github.com/jensfossen/ez-ai-academy/issues/14), [#4](https://github.com/jensfossen/ez-ai-academy/issues/4), or Foundations [#3](https://github.com/jensfossen/ez-ai-academy/issues/3).
 - Ship a website course that competes with the in-pane experience.
 
@@ -91,8 +91,8 @@ Host-chrome entry is **not** a new Academy API. If the host shows a Learn afford
 | Item | State |
 |---|---|
 | This note | Observation + pattern inventory (2026-09-10) |
-| Session Zero / Module 1 card | Pattern sketch only: [`in-harness-checklist.md`](in-harness-checklist.md) — not routed, not a Pass |
-| `SKILL.md` routing | Unchanged — checklist / Show me **not** implemented |
+| Session Zero / Module 1 card | Pattern sketch: [`in-harness-checklist.md`](in-harness-checklist.md) — light `SKILL.md` offer; not a Pass |
+| `SKILL.md` routing | Light mentor offer (`2026-09-10b`) — Markdown-first; not a Pass |
 | Claude Code Foundations [#14](https://github.com/jensfossen/ez-ai-academy/issues/14) | **Blocked / not a Pass** (no usable subscription) |
 | Harness-native UI [#24](https://github.com/jensfossen/ez-ai-academy/issues/24) | Related research only; Jens-gated Passes stay held |
 | Prompt Engineering [#4](https://github.com/jensfossen/ez-ai-academy/issues/4) / Foundations | Held. No Pass inventing. |

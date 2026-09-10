@@ -4,7 +4,7 @@ Pattern sketch for [#48](https://github.com/jensfossen/ez-ai-academy/issues/48) 
 
 **EZ AI Academy** stays in-harness. Tagline: **Learn AI where you work.** This is a **mentor pattern**, not a recorded Pass, not Foundations acceptance, and not a second LMS.
 
-`SKILL.md` does **not** route these intents yet. Hold [#4](https://github.com/jensfossen/ez-ai-academy/issues/4) Prompt Engineering Pass and Foundations exit. Do not invent a Pass from this sketch.
+`SKILL.md` offers a **light** mentor route (when to show the card, how **Show me** works, Hide/skip never a gate). This file stays the mock and item list. Hold [#4](https://github.com/jensfossen/ez-ai-academy/issues/4) Prompt Engineering Pass and Foundations exit. Do not invent a Pass from this pattern.
 
 ## Purpose
 
@@ -94,7 +94,7 @@ Welcome copy still comes from the welcome card in `interaction-patterns.md`. Men
 
 - Pixel-clone Claude’s mascot, cap icon, or orange **Show me**.
 - Treat a checked list as Module 1 completion or a Foundations / Prompt Engineering Pass.
-- Wire these intents into `SKILL.md` in this slice (docs / pattern only).
+- Treat this wiring as a native-UI Pass, a Foundations / Prompt Engineering Pass, or as closing #48 / #24.
 - Invent private host APIs or change harness-matrix Pass rows.
 - Close [#48](https://github.com/jensfossen/ez-ai-academy/issues/48), [#24](https://github.com/jensfossen/ez-ai-academy/issues/24), [#14](https://github.com/jensfossen/ez-ai-academy/issues/14), [#4](https://github.com/jensfossen/ez-ai-academy/issues/4), or Foundations [#3](https://github.com/jensfossen/ez-ai-academy/issues/3).
 
@@ -103,7 +103,7 @@ Welcome copy still comes from the welcome card in `interaction-patterns.md`. Men
 | Item | State |
 |---|---|
 | This file | Pattern sketch + Markdown mock (2026-09-10) |
-| `SKILL.md` routing | Unchanged — checklist / Show me **not** implemented |
+| `SKILL.md` routing | Light mentor offer (`2026-09-10b`) — Markdown-first; not a Pass |
 | Harness-matrix Pass rows | Unchanged |
 | Claude Code Foundations [#14](https://github.com/jensfossen/ez-ai-academy/issues/14) | **Blocked / not a Pass** (no usable subscription) |
 | Prompt Engineering [#4](https://github.com/jensfossen/ez-ai-academy/issues/4) / Foundations | Held. No Pass inventing. |
