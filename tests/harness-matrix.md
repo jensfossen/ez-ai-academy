@@ -70,4 +70,4 @@ Do not change shared curriculum to mask one harness limitation. Prefer a thin ha
 
 ## Persona library (later self-test loops)
 
-Scripted learners and metric definitions for future harness self-tests live in [`learner-personas.md`](learner-personas.md) and [`self-test-metrics.md`](self-test-metrics.md) ([#30](https://github.com/jensfossen/ez-ai-academy/issues/30) Phase A). They reuse this matrix’s result scale. They do not add Pass rows. Do not copy a persona score onto Foundations or Prompt Engineering cells.
+Scripted learners, metric definitions, and the runner guide for future harness self-tests live in [`learner-personas.md`](learner-personas.md), [`self-test-metrics.md`](self-test-metrics.md), and [`self-test-runner.md`](self-test-runner.md) ([#30](https://github.com/jensfossen/ez-ai-academy/issues/30)). They reuse this matrix’s result scale. They do not add Pass rows. Do not copy a persona score onto Foundations or Prompt Engineering cells.

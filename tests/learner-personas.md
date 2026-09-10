@@ -2,7 +2,7 @@
 
 Synthetic fixtures for later harness self-test loops ([#30](https://github.com/jensfossen/ez-ai-academy/issues/30) Phase A). Testers and future runners drive [`foundations-acceptance.md`](foundations-acceptance.md) (and later Prompt Engineering) as these learners.
 
-This file does **not** record a Pass. It does not rewrite Module 1 or Module 2 lessons. Scoring a run: [`self-test-metrics.md`](self-test-metrics.md).
+This file does **not** record a Pass. It does not rewrite Module 1 or Module 2 lessons. Scoring a run: [`self-test-metrics.md`](self-test-metrics.md). How to drive a host: [`self-test-runner.md`](self-test-runner.md).
 
 Product brand is **EZ AI Academy**. Never write “Easy AI Academy.”
 
@@ -16,7 +16,7 @@ Product brand is **EZ AI Academy**. Never write “Easy AI Academy.”
 
 Learning stays in-harness. Do not send the learner to a website gradebook. Use synthetic, redacted, or approved examples only (`resources/enterprise-baseline.md`).
 
-Phase A is this Markdown library. JSON companions, unattended runners, and tuning loops are later work. Do not treat these scripts as a recorded Foundations or PE Pass.
+Phase A is this Markdown library. Phase B is the runner guide ([`self-test-runner.md`](self-test-runner.md)), not an executed campaign. JSON companions, multi-persona runs, and tuning loops are later work. Do not treat these scripts as a recorded Foundations or PE Pass.
 
 ## Index
 
@@ -579,7 +579,7 @@ Map personas to [`foundations-acceptance.md`](foundations-acceptance.md) beats. 
 
 ## Handoff (Phase B / C)
 
-Phase B (not this PR): scripted runners in each target host; structured reports in `tests/self-test-metrics.md`; honest **Blocked** when a host cannot run unattended.
+Phase B runner guide: [`self-test-runner.md`](self-test-runner.md) (how to install, prompt, score, and file — not a campaign, not a Pass).
 
 Phase C (later): tuning loops may *propose* curriculum diffs (cut redundancy, clarify a check, tighten a workplace prompt) for human / Chief review. **Never auto-merge.** Confirm before paid external API spend.
 
@@ -595,6 +595,7 @@ Open questions from #30 (defaults until someone decides):
 ## Related files
 
 - Scoring: [`self-test-metrics.md`](self-test-metrics.md)
+- Runner guide: [`self-test-runner.md`](self-test-runner.md)
 - Foundations scenario: [`foundations-acceptance.md`](foundations-acceptance.md)
 - PE scenario (ready to run, not a Pass): [`prompt-engineering-acceptance.md`](prompt-engineering-acceptance.md)
 - Matrix (do not invent Passes): [`harness-matrix.md`](harness-matrix.md)
