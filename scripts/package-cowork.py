@@ -1,5 +1,12 @@
 #!/usr/bin/env python3
-"""Build the Microsoft Copilot Cowork distribution from canonical sources."""
+"""Build the Microsoft Copilot Cowork distribution from canonical sources.
+
+Cowork allows 20 companion files. This list prefers numbered-module runtime
+(Module 1–3) over optional companion extras. Full checkout still has
+`curriculum/graph-engineering.md`, `checks/models-landscape.md`,
+`resources/module-01-analogies.md`, and the Module 3 map PNG. Mentors skip
+those files when missing (`SKILL.md`).
+"""
 
 from pathlib import Path
 from zipfile import ZIP_DEFLATED, ZipFile, ZipInfo
@@ -16,19 +23,19 @@ RUNTIME_FILES = (
     "assets/module-01-llm.png",
     "assets/prompt-engineering-map.png",
     "checks/module-01-llm.md",
-    "checks/models-landscape.md",
     "checks/prompt-engineering.md",
+    "checks/context-engineering.md",
     "curriculum/foundations.md",
-    "curriculum/graph-engineering.md",
     "curriculum/models-landscape.md",
     "curriculum/module-01-llm.md",
     "curriculum/onboarding.md",
     "curriculum/program-map.md",
     "curriculum/prompt-engineering.md",
+    "curriculum/context-engineering.md",
     "exercises/module-01-llm.md",
     "exercises/prompt-engineering.md",
+    "exercises/context-engineering.md",
     "resources/curated-content.md",
-    "resources/module-01-analogies.md",
     "resources/visuals.md",
     "rubrics/interaction-grading.md",
     "schemas/progress-record.md",

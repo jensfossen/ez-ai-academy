@@ -10,7 +10,7 @@ Enable a nontechnical enterprise employee to direct AI toward useful work, suppl
 |---|---|---|---|
 | 1. What is an LLM? | Included | Explain an LLM, choose useful first tasks, and check important output | None |
 | 2. Prompt Engineering | Included | Direct AI toward a useful outcome, test the result, and improve the interaction | Module 1 |
-| 3. Context Engineering | Planned | Assemble and maintain the information AI needs for a task | Prompt Engineering |
+| 3. Context Engineering | Included | Assemble and maintain the information AI needs for a task | Prompt Engineering |
 | 4. Agents and Harness Engineering | Planned | Understand goal-seeking AI and configure the tools, rules, memory, files, and interfaces around a model | Context Engineering |
 | 5. Loop Engineering | Planned | Build measured feedback cycles that improve repeatable AI work | Harness Engineering |
 
@@ -91,6 +91,19 @@ Experienced learners take a shorter route through the same sequence. Do not add 
 6. Create a Prompt Working Card the learner can explain and adapt.
 
 Allow a fast-track attempt: give the learner an underspecified workplace request, ask them to improve it, run it, and ask them to diagnose the result. Use `rubrics/interaction-grading.md` to determine which *lessons* can be shortened. Fast-track does not waive the three evidence types.
+
+## Context Engineering sequence
+
+1. Form a practical habit: name the information set, keep needed sources, mark what is missing, keep the pack current, then notice when the pack caused a weak result.
+2. See one familiar workplace example at each teaching step.
+3. Complete one formative knowledge check after a teaching moment (never two checks in a row).
+4. Assemble or repair a contained pack-and-result interaction at B or above.
+5. Apply the habit to one sanitized work task at B or above.
+6. Create a Context Working Card the learner can explain and update.
+
+Allow a fast-track attempt: give the learner a mixed current-and-stale source set, ask them to assemble a current pack, run a request, and diagnose whether the miss came from the request or the pack. Use `rubrics/interaction-grading.md` to determine which *lessons* can be shortened. Fast-track does not waive the three evidence types.
+
+Teach from [`context-engineering.md`](context-engineering.md). Issue [#59](https://github.com/jensfossen/ez-ai-academy/issues/59) stays open until acceptance is met. This row is **Included**, not a recorded Pass. Do not claim Foundations exit or a Prompt Engineering Pass from this module.
 
 ## Future module contract
 

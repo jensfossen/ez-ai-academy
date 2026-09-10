@@ -131,6 +131,40 @@ Offer at most one of these after the learner has attempted at least one prompt. 
 - Placement: **link** — optional deepener.
 - Required for completion: no.
 
+## Module 3 — Context Engineering
+
+No separate learner deepener is registered. Teach from [`../curriculum/context-engineering.md`](../curriculum/context-engineering.md). If the learner asks to go further after assembling or inspecting a pack, you may re-offer **at most one** Module 2 written page (OpenAI Academy Prompting, or the Microsoft Copilot article if they are already in that workplace). Stay inside Module 3 vocabulary. Do not use those pages to introduce retrieval, RAG, agents, or token counting.
+
+### Curriculum evidence — pack quality and verification
+
+These sources back factual teaching and answer keys. Do not assign them to learners in Module 3.
+
+#### NIST — Generative AI Profile
+
+- URL: https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf
+- Use for: Curriculum claims about confidently stated false content, human oversight, and comparing output with known source material when a pack is missing or stale.
+- Learner use: Do not assign the full report in Module 3.
+- Source: NIST AI 600-1, *Artificial Intelligence Risk Management Framework: Generative Artificial Intelligence Profile*.
+- Review date: 2026-09-10 (concept). Link check: already live for Module 1. Next review: 2026-12-08.
+- Usage intent: Source note for Module 3 Checks C and E. Not a learner assignment.
+- Transcript / text alternative: Official PDF. Mentors cite the relevant finding in plain language.
+- Rights status: `third-party-link`.
+- Placement: **link** — curriculum evidence.
+- Required for completion: no.
+
+#### Anthropic — Effective context engineering for AI agents
+
+- URL: https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents
+- Use for: Distilling one workplace claim — context engineering is curating and maintaining the information set, not writing a longer request; extra or stale information can bury what is needed.
+- Learner use: Do not assign the essay. It uses agent, token, window, and retrieval language this module does not teach.
+- Source: Anthropic Engineering, *Effective context engineering for AI agents* (published 2025-09-29).
+- Review date: 2026-09-10 (concept and page). Next review: 2026-12-10.
+- Usage intent: Source note for Module 3 Checks A and D. Not a learner assignment.
+- Transcript / text alternative: Written essay. Academy text alternative is the in-chat Module 3 explanation.
+- Rights status: `third-party-link`. Do not rehost the essay.
+- Placement: **link** — curriculum evidence.
+- Required for completion: no.
+
 ## Companion — Models landscape
 
 **Live / offerable** after Module 1 (or when the learner asks about model names). Mentors must **not** offer these in Session Zero or before the Module 1 mental model. Never required for Module 1, Prompt Engineering, or this companion. Teach from [`../curriculum/models-landscape.md`](../curriculum/models-landscape.md). Design history: [`../curriculum/models-landscape-outline.md`](../curriculum/models-landscape-outline.md). Status **Included / Companion** on [`../curriculum/program-map.md`](../curriculum/program-map.md). Issue [#39](https://github.com/jensfossen/ez-ai-academy/issues/39) stays open.
@@ -309,4 +343,4 @@ Offer this only if the learner (or a coworker) mixes “graph” with knowledge-
 
 ## Embedded visual fallback
 
-When external content is blocked or distracting, use the current module image, its alt text, and the matching curriculum file (`curriculum/module-01-llm.md`, `curriculum/prompt-engineering.md`, or the in-chat Models landscape or Graph Engineering explanation). Keep every lesson fully functional without external media.
+When external content is blocked or distracting, use the current module image, its alt text or Markdown map, and the matching curriculum file (`curriculum/module-01-llm.md`, `curriculum/prompt-engineering.md`, `curriculum/context-engineering.md`, or the in-chat Models landscape or Graph Engineering explanation). Keep every lesson fully functional without external media.

@@ -2,7 +2,7 @@
 name: ai-academy
 description: Run EZ AI Academy, an adaptive conversational AI learning program for nontechnical enterprise employees. Use when a learner asks to start or continue EZ AI Academy or AI Academy, learn AI or LLM foundations, practice prompt engineering, receive coaching or a grade, build a reusable workplace AI artifact, view progress, or resume from an EZ AI Academy learning record.
 metadata:
-  academy_content_revision: "2026-09-10g"
+  academy_content_revision: "2026-09-10h"
 ---
 
 # EZ AI Academy
@@ -32,8 +32,9 @@ Remain platform-agnostic. Do not assume a particular model, chat product, tool p
 - For a returning learner in the same conversation, continue from visible progress. Offer the skippable update reminder in **Keep the skill current** when that section says to — never as a gate.
 - For a pasted `AI_ACADEMY_RECORD`, restore progress using `schemas/progress-record.md`. Then offer the skippable update reminder in **Keep the skill current** if you have not already this session.
 - For a specific module request, open only that module's curriculum.
-- For “who makes this model,” “what does this model name mean,” or Models landscape: if Module 1’s mental model is already taught, open `curriculum/models-landscape.md`. If not, finish that Module 1 idea first, then offer the companion. Never block Prompt Engineering.
-- For “wiring several AI helpers,” “multi-step handoffs,” stations/paths, or Graph Engineering: open `curriculum/graph-engineering.md` when that file’s **When to offer** rules say to. Modules 4–5 are still Planned — offer early only if handoff confusion is already here, and say those modules are upcoming. Never block Prompt Engineering or Foundations. Never teach GraphRAG internals.
+- For “who makes this model,” “what does this model name mean,” or Models landscape: if Module 1’s mental model is already taught, open `curriculum/models-landscape.md`. If not, finish that Module 1 idea first, then offer the companion. Never block Prompt Engineering. If that file is missing (Cowork ZIP), skip the companion and continue.
+- For “what should the AI know,” “source pack,” “stale notes,” missing information, or Context Engineering: if Prompt Engineering is complete, or the learner asks and Module 2 has already been taught, open `curriculum/context-engineering.md`. If Prompt Engineering is not complete, finish that habit first (what to include in *this* request), then offer this module. Never before Module 1. Never a Foundations gate.
+- For “wiring several AI helpers,” “multi-step handoffs,” stations/paths, or Graph Engineering: open `curriculum/graph-engineering.md` when that file exists and its **When to offer** rules say to. If that file is missing (Cowork ZIP), skip the companion — full checkout still has it. Modules 4–5 are still Planned — offer early only if handoff confusion is already here, and say those modules are upcoming. Never block Prompt Engineering, Context Engineering, or Foundations. Never teach GraphRAG internals.
 - For “grade my prompt” or similar, use `rubrics/interaction-grading.md`; ask what outcome the learner intended if unclear.
 - For progress or completion questions, summarize evidence against `curriculum/program-map.md`. Never infer completion from conversation length.
 
@@ -122,7 +123,7 @@ Keep these layers distinct and introduce each only in its own module:
 | Harness engineering | What tools, rules, and resources can it use? |
 | Loop engineering | How do we measure and improve the work? |
 
-The MVP includes Module 1 and Prompt Engineering. After Module 1, mentors may offer the optional Models landscape companion (orientation, not a numbered layer). Mentors may offer the optional Graph Engineering companion after Modules 4–5 when those exist, or earlier only if the learner already faces multi-helper handoff confusion — and must say Agents/Harness + Loop are still upcoming. Describe later numbered modules as upcoming unless their curriculum has been added.
+The MVP includes Module 1, Prompt Engineering, and Context Engineering (Included; not a recorded Pass). After Module 1, mentors may offer the optional Models landscape companion (orientation, not a numbered layer). After Prompt Engineering is complete, continue to Context Engineering unless the learner pauses. Mentors may offer the optional Graph Engineering companion after Modules 4–5 when those exist, or earlier only if the learner already faces multi-helper handoff confusion — and must say Agents/Harness + Loop are still upcoming. Describe later numbered modules as upcoming unless their curriculum has been added.
 
 ## Establish mastery
 
@@ -136,7 +137,7 @@ Invite a retry toward an A, but do not withhold completion after the learner mee
 
 Companions (Models landscape, Graph Engineering) do **not** use the three evidence types. Do not letter-grade them. Do not invent a companion gradebook.
 
-Do not letter-grade onboarding, a starting question, or a single selection. Use `checks/module-01-llm.md` or `checks/prompt-engineering.md` for formative checks with internal 0–3 quality levels. Use `checks/models-landscape.md` or `checks/graph-engineering.md` only for the matching optional companion check. Apply an A–F grade only to a completed exercise, work application, or reusable artifact.
+Do not letter-grade onboarding, a starting question, or a single selection. Use `checks/module-01-llm.md`, `checks/prompt-engineering.md`, or `checks/context-engineering.md` for formative checks with internal 0–3 quality levels. Use `checks/models-landscape.md` or `checks/graph-engineering.md` only for the matching optional companion check. If a companion check file is missing (Cowork ZIP), skip that check. Apply an A–F grade only to a completed exercise, work application, or reusable artifact.
 
 ## Protect enterprise learners
 
@@ -158,16 +159,20 @@ When a situation needs more than these bullets, read `resources/enterprise-basel
 - Read `resources/visuals.md` when starting a module or displaying an explainer.
 - Read `curriculum/foundations.md` only to choose a Foundations module.
 - Read `curriculum/module-01-llm.md` only while teaching Module 1.
-- Read `resources/module-01-analogies.md` when an analogy would make the LLM mental model easier to understand or explain.
+- Read `resources/module-01-analogies.md` when an analogy would make the LLM mental model easier to understand or explain. If that file is missing (Cowork ZIP), use the analogies already in `curriculum/module-01-llm.md`.
 - Read `checks/module-01-llm.md` only when selecting or interpreting a Module 1 knowledge check.
 - Read `exercises/module-01-llm.md` only when selecting Module 1 practice or completion evidence.
-- Read `curriculum/models-landscape.md` only after the Module 1 mental model is in place, and only when offering this optional companion (learner finished Module 1, or they ask who makes the AI / how to read a model name). Never before Module 1. Never in Session Zero. Never as a Prompt Engineering gate.
-- Read `checks/models-landscape.md` only when selecting the optional companion formative check.
-- Read `curriculum/graph-engineering.md` only when offering this optional companion (after Modules 4–5 when those exist, or when the learner asks about wiring several AI helpers / multi-step handoffs and already faces that confusion). If offering early, say Agents/Harness + Loop are still upcoming. Never in Session Zero. Never as a Prompt Engineering gate. Never as a Foundations blocker. Never GraphRAG internals.
+- Read `curriculum/models-landscape.md` only after the Module 1 mental model is in place, and only when offering this optional companion (learner finished Module 1, or they ask who makes the AI / how to read a model name). Never before Module 1. Never in Session Zero. Never as a Prompt Engineering gate. If that file is missing (Cowork ZIP), skip the companion.
+- Read `checks/models-landscape.md` only when selecting the optional companion formative check. If that file is missing (Cowork ZIP), skip the check.
+- Read `curriculum/graph-engineering.md` only when offering this optional companion (after Modules 4–5 when those exist, or when the learner asks about wiring several AI helpers / multi-step handoffs and already faces that confusion). If offering early, say Agents/Harness + Loop are still upcoming. Never in Session Zero. Never as a Prompt Engineering gate. Never as a Foundations blocker. Never GraphRAG internals. If that file is missing (Cowork ZIP), skip the companion.
 - Read `checks/graph-engineering.md` only when selecting the optional Graph Engineering formative check. If that file is missing (Cowork ZIP), skip the check.
 - Read `curriculum/prompt-engineering.md` only for Prompt Engineering instruction. Show `assets/prompt-engineering-map.png` when starting that module (`resources/visuals.md`).
 - Read `checks/prompt-engineering.md` only when selecting or interpreting a Prompt Engineering knowledge check.
 - Read `exercises/prompt-engineering.md` only when selecting a Prompt Engineering activity.
+- Read `curriculum/context-engineering.md` only for Context Engineering instruction, after Prompt Engineering is complete or the learner asks and Module 2 has already been taught. Show `assets/context-engineering-map.png` when starting that module if the file is present (`resources/visuals.md`); otherwise read the registered alt text or Markdown map.
+- Read `resources/context-engineering-analogies.md` when an analogy would make the information-set habit easier to understand. If that file is missing (Cowork ZIP), use the analogies already in `curriculum/context-engineering.md`.
+- Read `checks/context-engineering.md` only when selecting or interpreting a Context Engineering knowledge check.
+- Read `exercises/context-engineering.md` only when selecting a Context Engineering activity.
 - Read `rubrics/interaction-grading.md` whenever grading an exercise or work application.
 - Read `schemas/progress-record.md` when capturing, exporting, or restoring progress.
 - Read `schemas/sor-connector-contract.md` only when an organization asks to integrate optional LMS / LXP / custom reporting. Never treat a connector as required.
@@ -181,7 +186,7 @@ Do not dump an entire file into chat. Present only the next useful learning unit
 
 Curriculum, media, and mentor instructions change on `main`. A clone, personal skills folder, or uploaded ZIP can fall behind. This repository is the source of truth. The discovery site is not an update channel and is not required to learn.
 
-`metadata.academy_content_revision` in this file is the content vintage of **this checkout** (currently `2026-09-10g`). It is not `academy_version` (that is the progress-record schema). It is not a grade or a Pass.
+`metadata.academy_content_revision` in this file is the content vintage of **this checkout** (currently `2026-09-10h`). It is not `academy_version` (that is the progress-record schema). It is not a grade or a Pass.
 
 **When to offer a reminder** — at most once per session, never as a quiz or gate:
 

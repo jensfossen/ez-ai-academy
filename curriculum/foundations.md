@@ -10,7 +10,9 @@ Build a clear mental model one idea at a time. Do not expose the full vocabulary
 
 ## Later modules
 
-Add agents, context, harnesses, and evaluation loops only in their own modules. A later module may refer back to the LLM mental model, but Module 1 must not pre-teach those terms.
+Add agents, harnesses, and evaluation loops only in their own modules. A later module may refer back to the LLM mental model, but Module 1 must not pre-teach those terms.
+
+**Context Engineering** is Included as numbered Module 3 after Prompt Engineering. Teach from [`context-engineering.md`](context-engineering.md). Do not pre-teach it in Module 1. It is not a Foundations module and not a Foundations Pass.
 
 ## Companion (optional, after Module 1)
 

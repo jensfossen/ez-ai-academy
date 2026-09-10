@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200" role="img" aria-label="Context engineering map. Assemble and keep the information AI needs. Context, needed, enough, current, then notice.">
+  <rect width="900" height="1200" fill="#F5F8FB"/>
+  <rect width="900" height="168" fill="#0B1730"/>
+  <rect x="28" y="28" width="112" height="112" rx="20" fill="#F5F8FB"/>
+  <g transform="translate(30,22) scale(0.4531)">
+    <rect x="36" y="28" width="184" height="152" rx="40" fill="none" stroke="#0B1730" stroke-width="22"/>
+    <path d="M58 168 L28 232 L104 180" fill="none" stroke="#0B1730" stroke-width="22" stroke-linejoin="round" stroke-linecap="round"/>
+    <g fill="#72E0D1">
+      <rect x="86" y="128" width="22" height="22" rx="5"/>
+      <rect x="117" y="128" width="22" height="22" rx="5"/>
+      <rect x="117" y="97" width="22" height="22" rx="5"/>
+      <rect x="148" y="128" width="22" height="22" rx="5"/>
+      <rect x="148" y="97" width="22" height="22" rx="5"/>
+      <rect x="148" y="66" width="22" height="22" rx="5"/>
+    </g>
+  </g>
+  <text x="168" y="78" font-family="Inter, Noto Sans, sans-serif" font-size="34" font-weight="700" fill="#FFFFFF">CONTEXT ENGINEERING</text>
+  <text x="168" y="118" font-family="Inter, Noto Sans, sans-serif" font-size="20" fill="#72E0D1">Assemble and keep the information AI needs</text>
+  <rect x="168" y="142" width="692" height="6" fill="#72E0D1"/>
+  <g>
+    <rect x="40" y="196" width="820" height="168" rx="18" fill="#FFFFFF" stroke="#0B766D" stroke-width="2"/>
+    <circle cx="86" cy="240" r="22" fill="#72E0D1"/>
+    <text x="86" y="247" text-anchor="middle" font-family="Inter, Noto Sans, sans-serif" font-size="20" font-weight="700" fill="#0B1730">1</text>
+    <text x="126" y="244" font-family="Inter, Noto Sans, sans-serif" font-size="22" font-weight="700" fill="#0B1730">CONTEXT</text>
+    <text y="282" font-family="Inter, Noto Sans, sans-serif" font-size="18" fill="#4A5568"><tspan x="126" dy="0">Assemble the information set the job needs — not a longer</tspan><tspan x="126" dy="28">request.</tspan></text>
+  </g>
+  <g>
+    <rect x="40" y="382" width="820" height="168" rx="18" fill="#FFFFFF" stroke="#0B766D" stroke-width="2"/>
+    <circle cx="86" cy="426" r="22" fill="#72E0D1"/>
+    <text x="86" y="433" text-anchor="middle" font-family="Inter, Noto Sans, sans-serif" font-size="20" font-weight="700" fill="#0B1730">2</text>
+    <text x="126" y="430" font-family="Inter, Noto Sans, sans-serif" font-size="22" font-weight="700" fill="#0B1730">NEEDED</text>
+    <text y="468" font-family="Inter, Noto Sans, sans-serif" font-size="18" fill="#4A5568"><tspan x="126" dy="0">Keep sources that change the result. Leave background out.</tspan></text>
+  </g>
+  <g>
+    <rect x="40" y="568" width="820" height="168" rx="18" fill="#FFFFFF" stroke="#0B766D" stroke-width="2"/>
+    <circle cx="86" cy="612" r="22" fill="#72E0D1"/>
+    <text x="86" y="619" text-anchor="middle" font-family="Inter, Noto Sans, sans-serif" font-size="20" font-weight="700" fill="#0B1730">3</text>
+    <text x="126" y="616" font-family="Inter, Noto Sans, sans-serif" font-size="22" font-weight="700" fill="#0B1730">ENOUGH</text>
+    <text y="654" font-family="Inter, Noto Sans, sans-serif" font-size="18" fill="#4A5568"><tspan x="126" dy="0">Notice what is missing. Do not hope the model will invent</tspan><tspan x="126" dy="28">it.</tspan></text>
+  </g>
+  <g>
+    <rect x="40" y="754" width="820" height="168" rx="18" fill="#FFFFFF" stroke="#0B766D" stroke-width="2"/>
+    <circle cx="86" cy="798" r="22" fill="#72E0D1"/>
+    <text x="86" y="805" text-anchor="middle" font-family="Inter, Noto Sans, sans-serif" font-size="20" font-weight="700" fill="#0B1730">4</text>
+    <text x="126" y="802" font-family="Inter, Noto Sans, sans-serif" font-size="22" font-weight="700" fill="#0B1730">CURRENT</text>
+    <text y="840" font-family="Inter, Noto Sans, sans-serif" font-size="18" fill="#4A5568"><tspan x="126" dy="0">Use a fresh source. Replace a stale one.</tspan></text>
+  </g>
+  <g>
+    <rect x="40" y="940" width="820" height="168" rx="18" fill="#FFFFFF" stroke="#0B766D" stroke-width="2"/>
+    <circle cx="86" cy="984" r="22" fill="#72E0D1"/>
+    <text x="86" y="991" text-anchor="middle" font-family="Inter, Noto Sans, sans-serif" font-size="20" font-weight="700" fill="#0B1730">5</text>
+    <text x="126" y="988" font-family="Inter, Noto Sans, sans-serif" font-size="22" font-weight="700" fill="#0B1730">NOTICE</text>
+    <text y="1026" font-family="Inter, Noto Sans, sans-serif" font-size="18" fill="#4A5568"><tspan x="126" dy="0">If the result is weak, check whether the pack was missing</tspan><tspan x="126" dy="28">or stale.</tspan></text>
+  </g>
+  <rect y="1108" width="900" height="92" fill="#0B1730"/>
+  <text x="450" y="1162" text-anchor="middle" font-family="Inter, Noto Sans, sans-serif" font-size="16" font-weight="700" fill="#FFFFFF">Decide what to give, keep it current, notice when the pack caused the miss.</text>
+</svg>

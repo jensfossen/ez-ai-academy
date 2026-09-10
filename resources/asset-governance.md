@@ -4,7 +4,7 @@ Make adding images, videos, audio, and source-backed curriculum repeatable witho
 
 The product stays **in-harness**. A website may help people discover or install the Academy; it does not deliver lessons, grade work, or host a media library. External media is always optional. Thin adapters map hosts; they do not fork curriculum or assets.
 
-Use this file when adding or changing a visual, a curated link, or a factual answer / coaching key. Register live Module 1, Module 2, Models landscape, and Graph Engineering entries in `resources/visuals.md` and `resources/curated-content.md`. Companion pages (Models landscape and Graph Engineering, live) use the **same metadata fields** and are **link-only** — register them in `curated-content.md`, do not store vendor catalogs, SDK tours, or GraphRAG encyclopedias in git. Product brand is locked as **EZ AI Academy** ([`brand/BRAND.md`](../brand/BRAND.md)); do not invent a second mark. Content-quality gates by release stage: `references/commercial-readiness.md`.
+Use this file when adding or changing a visual, a curated link, or a factual answer / coaching key. Register live Module 1, Module 2, Module 3, Models landscape, and Graph Engineering entries in `resources/visuals.md` and `resources/curated-content.md`. Module 3 analogy cards: `resources/context-engineering-analogies.md` (full checkout; omitted from the Cowork ZIP). Companion pages (Models landscape and Graph Engineering, live) use the **same metadata fields** and are **link-only** — register them in `curated-content.md`, do not store vendor catalogs, SDK tours, or GraphRAG encyclopedias in git. Product brand is locked as **EZ AI Academy** ([`brand/BRAND.md`](../brand/BRAND.md)); do not invent a second mark. Content-quality gates by release stage: `references/commercial-readiness.md`.
 
 ## Selection standards
 
@@ -90,6 +90,10 @@ Audio and video binaries do not belong in the repo for optional deepeners. Store
 
 `assets/prompt-engineering-map.png` is a **900 × 1200**, 8-bit palette PNG, **16,293 bytes** (~16 KB) as of 2026-09-09. Vector source: `assets/prompt-engineering-map.svg` (4,957 bytes). Rebuild with `scripts/render-prompt-engineering-map.py`. Uses the locked mark (`brand/assets/logo-icon.png`) and locked palette only. No size exception.
 
+### Module 3 explainer
+
+`assets/context-engineering-map.png` is a **900 × 1200**, 8-bit palette PNG, **16,327 bytes** (~16 KB) as of 2026-09-10. Vector source: `assets/context-engineering-map.svg` (4,991 bytes). Rebuild with `scripts/render-context-engineering-map.py`. Uses the locked mark (`brand/assets/logo-icon.png`) and locked palette only. No size exception. Omitted from the Cowork ZIP (20-file cap); the Markdown map in `resources/visuals.md` is the ZIP fallback.
+
 ## External assets are optional
 
 Every external image, video, audio file, article, or PDF is **optional** to module completion.
@@ -128,7 +132,7 @@ Factual keys (scored choices, source-backed claims) and coaching keys (the mento
 
 Workflow:
 
-1. Every factual key carries a **source note** (standards body, primary research, or official documentation). Module 1 Check A and Module 2 checks already do this.
+1. Every factual key carries a **source note** (standards body, primary research, or official documentation). Module 1 Check A, Module 2 checks, and Module 3 checks already do this.
 2. The content owner reviews keys when the module changes, when a source is updated, or at least every 90 days for claims that cite a moving research page.
 3. Safety and verification claims stay tied to the cited source. If the source changes, hide or rewrite the key before the next learner session.
 4. Coaching copy may be edited for warmth without a Chief policy review. Changing *which* choice is best, or the underlying claim, is a content-owner review.
