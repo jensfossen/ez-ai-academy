@@ -60,6 +60,30 @@ Governance, metadata fields, size limits, and harness fallbacks: `resources/asse
 - Required for completion: The *concept* is required; the *raster file* is not. Meaningful alt text or the Markdown map satisfies the acceptance scenario when inline display fails.
 - Optimization: 900 × 1200, 8-bit palette PNG, 16,327 bytes (~16 KB) as of 2026-09-10. Under preferred 1200 px / 200 KB limits. SVG companion is 4,991 bytes. Locked palette only (navy / cyan / dark cyan / paper / white / slate). Official chat-bubble + 1-2-3 staircase mark from `brand/assets/logo-icon.png` / `logo-icon.svg`. No gold rule and no extra symbols.
 
+## Module 4 — Agents and Harness Engineering
+
+- Asset: `assets/agents-harness-engineering-map.png`
+- Title: `Agents and Harness Engineering`
+- Alt text: `Agents and harness engineering is how you recognize a goal-seeking helper and shape the setup around it. An agent can take steps toward a job, not only answer one question. A harness is the workplace setup around the model. A chat box with no tools is still a harness with few permissions. Give only the tools and permissions the job needs. Keep standing rules on. Choose what it may remember, which files it may see, and how you talk to it. If the result is weak, inspect the setup before you add more wording.`
+- Orientation: `This is our whole map for today. We'll take it one small step at a time.`
+- Text fallback: Use the alt text above, then continue with `curriculum/agents-harness-engineering.md`.
+- Markdown map (use when the PNG is missing, as in the Cowork ZIP):
+
+  1. **Agent** — A goal-seeking helper that can take steps — not only answer one question.
+  2. **Harness** — The workplace setup around the model. A chat box with no tools is still a harness.
+  3. **Tools** — Give only the tools and permissions the job needs. More access is not safer.
+  4. **Rules** — Must-follow limits that stay on. Not the same as this request’s wording.
+  5. **Notice** — Check memory, files, and how you talk to it. If the result is weak, inspect the setup.
+
+- Source: Academy-authored Module 4 explainer (`assets/agents-harness-engineering-map.png`). Vector source: `assets/agents-harness-engineering-map.svg`. Rebuild with `scripts/render-agents-harness-engineering-map.py`.
+- Review date: 2026-09-10. Next review: 2027-09-10 or the next Module 4 curriculum revision, whichever is first.
+- Usage intent: In-harness orientation at Module 4 start. Not a website lesson and not a substitute for the spoken explanation.
+- Transcript / text alternative: The alt text and Markdown map above are the complete text alternative. If the PNG does not render or is not in this checkout, read them and continue.
+- Rights status: `academy-original`. Created for this repository. No open-source license selected yet; public visibility is not permission to reuse outside the Academy.
+- Placement: **store** — required offline explainer for the live module in a full checkout. The Cowork ZIP may omit the raster to stay inside the 20-file cap; the Markdown map satisfies the lesson.
+- Required for completion: The *concept* is required; the *raster file* is not. Meaningful alt text or the Markdown map satisfies the acceptance scenario when inline display fails.
+- Optimization: 900 × 1200, 8-bit palette PNG, 17,613 bytes (~17 KB) as of 2026-09-10. Under preferred 1200 px / 200 KB limits. SVG companion is 5,141 bytes. Locked palette only (navy / cyan / dark cyan / paper / white / slate). Official chat-bubble + 1-2-3 staircase mark from `brand/assets/logo-icon.png` / `logo-icon.svg`. No gold rule and no extra symbols.
+
 ## Required pattern for future modules
 
 Add one explainer for every released module. Register:
@@ -77,10 +101,8 @@ Add one explainer for every released module. Register:
 11. Placement (`store` or `link`) and whether completion requires the file
 12. Measured dimensions and file size, or a written size exception
 
-Live Module 2 filename: `assets/prompt-engineering-map.png` (SVG source alongside). Live Module 3 filename: `assets/context-engineering-map.png` (SVG source alongside; omitted from the Cowork ZIP). Planned filenames for later modules:
+Live Module 2 filename: `assets/prompt-engineering-map.png` (SVG source alongside). Live Module 3 filename: `assets/context-engineering-map.png` (SVG source alongside; omitted from the Cowork ZIP). Live Module 4 filename: `assets/agents-harness-engineering-map.png` (SVG source alongside; omitted from the Cowork ZIP). Planned filenames for later modules:
 
-- `assets/agent-foundations-map.png`
-- `assets/harness-engineering-map.png`
 - `assets/loop-engineering-map.png`
 
 Do not reference a planned asset from a live lesson until the file exists.

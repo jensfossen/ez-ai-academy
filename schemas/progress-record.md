@@ -59,6 +59,13 @@ modules:
       exercise: null
       workplace_application: null
       reusable_artifact: null
+  agents_harness_engineering:
+    status: "not_started"
+    best_grade: null
+    evidence:
+      exercise: null
+      workplace_application: null
+      reusable_artifact: null
 artifacts: []
 strengths: []
 development_focus: []
@@ -67,7 +74,7 @@ next_recommended_action: ""
 
 Use only these status values: `not_started`, `in_progress`, `complete`. Companions (Models landscape, Graph Engineering) are not module ids — do not add `modules.models_landscape` or `modules.graph_engineering`. You may mention an optional companion stop in `next_recommended_action`.
 
-`context_engineering` is an additive Module 3 id under `academy_version: "0.1"`. Older exports without this key remain valid — treat a missing key as `not_started`. Do not bump the schema version for this additive id. Mentors emit the key when the learner starts or completes Module 3. Preserve unknown keys on restore.
+`context_engineering` is an additive Module 3 id under `academy_version: "0.1"`. `agents_harness_engineering` is an additive Module 4 id under the same version. Older exports without these keys remain valid — treat a missing key as `not_started`. Do not bump the schema version for these additive ids. Mentors emit each key when the learner starts or completes that module. Preserve unknown keys on restore.
 
 For each evidence field, use `null` or a concise object containing `description`, `grade` when applicable, and `demonstrated_at` as an ISO date when known (`YYYY-MM-DD` or a full ISO-8601 timestamp). Do not store sensitive source material or full confidential work products. Store an artifact title and sanitized description rather than its full content when needed.
 
@@ -79,7 +86,7 @@ For each evidence field, use `null` or a concise object containing `description`
 | `learner.role` | Functional work context (for example, "operations coordinator"). Not a job title that identifies a person. | No | No |
 | `learner.goal` | What the learner wants from the Academy. | No | No |
 | `learner.experience` | Self-reported AI use. Never used to skip Foundations evidence. | No | No |
-| `current.module` | Module id the learner should continue (`foundations`, `prompt_engineering`, `context_engineering`, or a later id). | Yes | No — implied by a `complete` module |
+| `current.module` | Module id the learner should continue (`foundations`, `prompt_engineering`, `context_engineering`, `agents_harness_engineering`, or a later id). | Yes | No — implied by a `complete` module |
 | `current.lesson` | Lesson or step id inside that module (for example, `F1`). | Recommended | No |
 | `modules.<id>.status` | `not_started` / `in_progress` / `complete`. | Yes for any module you make a claim about | `complete` |
 | `modules.<id>.best_grade` | Highest A–F on the graded evidence for that module. `null` if none. | No | No — grades on the evidence objects are the proof |
@@ -144,6 +151,13 @@ modules:
       exercise: null
       workplace_application: null
       reusable_artifact: null
+  agents_harness_engineering:
+    status: "not_started"
+    best_grade: null
+    evidence:
+      exercise: null
+      workplace_application: null
+      reusable_artifact: null
 next_recommended_action: "Start Prompt Engineering, or review Module 1 if the learner asks."
 ```
 
@@ -192,7 +206,77 @@ modules:
       exercise: null
       workplace_application: null
       reusable_artifact: null
+  agents_harness_engineering:
+    status: "not_started"
+    best_grade: null
+    evidence:
+      exercise: null
+      workplace_application: null
+      reusable_artifact: null
 next_recommended_action: "Start Context Engineering, or review Prompt Engineering if the learner asks."
+```
+
+Example — Context Engineering complete, ready for Module 4 (additive `agents_harness_engineering` key):
+
+```yaml
+academy_version: "0.1"
+current:
+  module: "agents_harness_engineering"
+  lesson: ""
+modules:
+  foundations:
+    status: "complete"
+    best_grade: "B"
+    evidence:
+      exercise:
+        description: "Plain-language LLM explanation at B or above"
+        grade: "B"
+        demonstrated_at: "2026-09-07"
+      workplace_application:
+        description: "Sanitized workplace application at B or above"
+        grade: "B"
+        demonstrated_at: "2026-09-07"
+      reusable_artifact:
+        description: "LLM Working Card the learner can explain and reuse"
+        demonstrated_at: "2026-09-07"
+  prompt_engineering:
+    status: "complete"
+    best_grade: "B"
+    evidence:
+      exercise:
+        description: "Contained prompt-and-result interaction at B or above"
+        grade: "B"
+        demonstrated_at: "2026-09-10"
+      workplace_application:
+        description: "Sanitized workplace prompt application at B or above"
+        grade: "B"
+        demonstrated_at: "2026-09-10"
+      reusable_artifact:
+        description: "Prompt Working Card the learner can explain and adapt"
+        demonstrated_at: "2026-09-10"
+  context_engineering:
+    status: "complete"
+    best_grade: "B"
+    evidence:
+      exercise:
+        description: "Contained pack-and-result interaction at B or above"
+        grade: "B"
+        demonstrated_at: "2026-09-10"
+      workplace_application:
+        description: "Sanitized workplace pack application at B or above"
+        grade: "B"
+        demonstrated_at: "2026-09-10"
+      reusable_artifact:
+        description: "Context Working Card the learner can explain and update"
+        demonstrated_at: "2026-09-10"
+  agents_harness_engineering:
+    status: "not_started"
+    best_grade: null
+    evidence:
+      exercise: null
+      workplace_application: null
+      reusable_artifact: null
+next_recommended_action: "Start Agents and Harness Engineering, or review Context Engineering if the learner asks."
 ```
 
 Do not mark `complete` from conversation length or a learner assertion. The three evidence objects are the contract (`curriculum/program-map.md`).
@@ -298,4 +382,5 @@ When a Foundations run checks Continuity, capture the same fields as `tests/foun
 - Continuity scenario: `tests/foundations-acceptance.md`
 - Prompt Engineering scenario (ready to run, not a Pass): `tests/prompt-engineering-acceptance.md`
 - Context Engineering scenario (ready to run, not a Pass): `tests/context-engineering-acceptance.md`
+- Agents and Harness Engineering scenario (ready to run, not a Pass): `tests/agents-harness-acceptance.md`
 - Stage gates (record compatibility and continuity metrics): `references/commercial-readiness.md`

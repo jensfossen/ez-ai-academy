@@ -4,7 +4,7 @@ Learner- and operator-facing log of **curriculum, checks, exercises, visuals, cu
 
 The repository is the source of truth. The [discovery site](https://jensfossen.github.io/ez-ai-academy/) is not this log and does not host lessons.
 
-**Current content revision:** `2026-09-10h` — same value as `metadata.academy_content_revision` in `SKILL.md`. Mentors may mention it when offering a skippable update reminder. It is not a grade, a Pass, or a website account.
+**Current content revision:** `2026-09-10i` — same value as `metadata.academy_content_revision` in `SKILL.md`. Mentors may mention it when offering a skippable update reminder. It is not a grade, a Pass, or a website account.
 
 Operator weekday scan, staffing, and proposal format: [`CURATION.md`](CURATION.md). That loop does not replace this log.
 
@@ -49,6 +49,35 @@ PRs that change curriculum, checks, exercises, learner-visible rubrics, visuals,
 Do not claim a Foundations or Prompt Engineering Pass from a changelog entry. Do not mark commercial-readiness gates here. Prototype exit is not commercial-ready.
 
 ---
+
+## 2026-09-10i — Module 4: Agents and Harness Engineering (Included)
+
+Learners who finished Context Engineering can recognize a goal-seeking helper and shape the setup around it: the tools it may use, the rules it must follow, what it can remember, which files it may see, and how they talk to it. A chat box with no tools is still a harness with few permissions. It is a numbered capability module at the same content bar as Module 1, Prompt Engineering, and Context Engineering. It is not a recorded Pass.
+
+### Added
+
+- Live module: [`curriculum/agents-harness-engineering.md`](../curriculum/agents-harness-engineering.md) — promise, language boundary, H1–H5 conversation path (agent vs harness; tools and permissions; standing rules; memory and files; notice the setup), short/guided/support adaptation, phone short-session note, and three-evidence completion.
+- Formative checks: [`checks/agents-harness-engineering.md`](../checks/agents-harness-engineering.md) — five `native_choice_card` checks (Markdown fallback).
+- Exercises: [`exercises/agents-harness-engineering.md`](../exercises/agents-harness-engineering.md) — contained harness repair, workplace application, and a **Harness Working Card** (tools, rules, memory, files, interface).
+- Analogy cards: [`resources/agents-harness-engineering-analogies.md`](../resources/agents-harness-engineering-analogies.md) — coworker badge, spare-key drawer, kitchen wall rules, labeled inbox, walk-up window. Not in the Cowork ZIP; mentors use the in-lesson analogies there.
+- Academy-original map: `assets/agents-harness-engineering-map.png` / `.svg` (rebuild with `scripts/render-agents-harness-engineering-map.py`). The Cowork ZIP omits the raster; mentors use the registered alt text or Markdown map.
+- Acceptance scenario (ready to run, not a Pass): [`tests/agents-harness-acceptance.md`](../tests/agents-harness-acceptance.md).
+
+### Changed
+
+- Program map Module 4 is now **Included**. Mentors route here after Context Engineering is complete, or when the learner asks and Module 3 has already been taught. Graph companion honesty now says Module 4 is Included and Module 5 (Loop) is still Planned — early Graph offers must say Loop is still upcoming. `academy_content_revision` is now `2026-09-10i`. Progress records may include additive `modules.agents_harness_engineering` under `academy_version: "0.1"` (older exports without the key stay valid). The shared rubric now grades a Module 4 setup-and-result (tools / rules / memory / files / interface) separately from a vague request or a weak pack. Cowork ZIP rebuilt: Module 4 curriculum, checks, and exercises replace the Foundations index, the Models landscape lesson, and the curated-content registry so the upload stays within 20 companion files. Full checkout still has those omitted files; mentors skip them when missing. Discovery Pages untouched. [#4](https://github.com/jensfossen/ez-ai-academy/issues/4) PE Pass, Foundations exit, and [#59](https://github.com/jensfossen/ez-ai-academy/issues/59) stay held.
+
+### Removed
+
+- None from a full checkout. The Cowork ZIP no longer includes `curriculum/foundations.md`, `curriculum/models-landscape.md`, or `resources/curated-content.md` (skip those paths there).
+
+### Media
+
+- New Academy-original Module 4 map (`academy-original`). No stock art. Anthropic’s *Building effective agents* essay is registered as **curriculum evidence only** — do not assign it as required; it uses workflow and loop language this module does not teach. At most one skippable offer if the learner asks. No new required learner link.
+
+### Breaking for learners
+
+- None. Module 1, Prompt Engineering, Context Engineering, and Agents and Harness Engineering each still need three evidence types (contained exercise, workplace application, reusable artifact). This does not close [#61](https://github.com/jensfossen/ez-ai-academy/issues/61), [#59](https://github.com/jensfossen/ez-ai-academy/issues/59), [#3](https://github.com/jensfossen/ez-ai-academy/issues/3), or [#4](https://github.com/jensfossen/ez-ai-academy/issues/4). Loop Engineering stays Planned.
 
 ## 2026-09-10h — Module 3: Context Engineering (Included)
 

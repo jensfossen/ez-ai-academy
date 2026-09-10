@@ -165,6 +165,40 @@ These sources back factual teaching and answer keys. Do not assign them to learn
 - Placement: **link** — curriculum evidence.
 - Required for completion: no.
 
+## Module 4 — Agents and Harness Engineering
+
+No separate learner deepener is registered. Teach from [`../curriculum/agents-harness-engineering.md`](../curriculum/agents-harness-engineering.md). Do not assign LangGraph, vendor agent-builder APIs, or multi-agent framework tutorials. If the learner asks to go further after naming or repairing a setup, you may offer **at most one** already-registered official page as a skippable contrast (Anthropic *Building effective agents*, already listed under Companion — Graph Engineering) — then return to Academy words. Stay inside Module 4 vocabulary. Do not use that page to teach loops, GraphRAG, or orchestration frameworks.
+
+### Curriculum evidence — setup quality and oversight
+
+These sources back factual teaching and answer keys. Do not assign them to learners in Module 4.
+
+#### NIST — Generative AI Profile
+
+- URL: https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf
+- Use for: Curriculum claims about human oversight proportional to impact, and comparing what happened with the intended control when send permission or another action was extra.
+- Learner use: Do not assign the full report in Module 4.
+- Source: NIST AI 600-1, *Artificial Intelligence Risk Management Framework: Generative Artificial Intelligence Profile*.
+- Review date: 2026-09-10 (concept). Link check: already live for Module 1. Next review: 2026-12-08.
+- Usage intent: Source note for Module 4 Checks B, C, and E. Not a learner assignment.
+- Transcript / text alternative: Official PDF. Mentors cite the relevant finding in plain language.
+- Rights status: `third-party-link`.
+- Placement: **link** — curriculum evidence.
+- Required for completion: no.
+
+#### Anthropic — Building effective agents
+
+- URL: https://www.anthropic.com/engineering/building-effective-agents
+- Use for: Distilling one workplace claim — a goal-seeking helper can take steps, and the environment around the model (tools, limits, how people interact) is what you shape.
+- Learner use: Do not assign the essay as required. It uses workflow, loop, and product language this module does not teach. At most one skippable offer if they ask where the idea comes from.
+- Source: Anthropic, *Building effective agents*.
+- Review date: 2026-09-10 (concept). Link already live for Graph Engineering. Next review: 2026-12-10.
+- Usage intent: Source note for Module 4 Checks A and D. Optional one-offer deepener only if the learner asks. Not required for completion.
+- Transcript / text alternative: Written essay. Academy text alternative is the in-chat Module 4 explanation.
+- Rights status: `third-party-link`. Do not rehost the essay.
+- Placement: **link** — curriculum evidence; optional offer at most once.
+- Required for completion: no.
+
 ## Companion — Models landscape
 
 **Live / offerable** after Module 1 (or when the learner asks about model names). Mentors must **not** offer these in Session Zero or before the Module 1 mental model. Never required for Module 1, Prompt Engineering, or this companion. Teach from [`../curriculum/models-landscape.md`](../curriculum/models-landscape.md). Design history: [`../curriculum/models-landscape-outline.md`](../curriculum/models-landscape-outline.md). Status **Included / Companion** on [`../curriculum/program-map.md`](../curriculum/program-map.md). Issue [#39](https://github.com/jensfossen/ez-ai-academy/issues/39) stays open.

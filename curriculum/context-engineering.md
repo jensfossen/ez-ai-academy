@@ -131,7 +131,7 @@ Diagnose missing or stale context before you rewrite the request.
 
 ### 10. Offer a bite-sized resource
 
-Read `resources/curated-content.md`. Offer one Module 3 deepener only if a live optional link is registered and the learner has assembled or inspected at least one pack. The lesson must continue without it. If no learner deepener is registered, skip this step.
+Read `resources/curated-content.md`. Offer one Module 3 deepener only if a live optional link is registered and the learner has assembled or inspected at least one pack. The lesson must continue without it. If that file is missing (Cowork ZIP) or no learner deepener is registered, skip this step.
 
 ### 11. Practice and apply
 
@@ -177,4 +177,4 @@ Guide the learner through this sequence (the exercise bank has scenario options 
 
 Confirm that the learner can explain what each part does and what they would update next week.
 
-After this module is complete, describe Agents and Harness Engineering as upcoming unless that curriculum has been added. Do not start those terms here. The optional Graph Engineering companion is later, after Modules 4–5.
+After this module is complete, continue to Agents and Harness Engineering (`curriculum/agents-harness-engineering.md`) unless the learner wants to pause. Do not start agent or harness terms here before this module's three evidence types exist, except when a returning learner asks and Context Engineering is already complete. The optional Graph Engineering companion is later, after Module 4 (and Module 5 when it exists); mentors may offer it early only if multi-helper handoff confusion is already here, and must say Loop is still upcoming.

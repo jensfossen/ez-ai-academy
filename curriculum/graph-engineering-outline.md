@@ -6,7 +6,7 @@ This file is **design history** for issue [#46](https://github.com/jensfossen/ez
 
 **Status:** Included / Companion. Not a numbered module. Hold [#4](https://github.com/jensfossen/ez-ai-academy/issues/4) Prompt Engineering Pass. Do not invent a Pass from this companion.
 
-Placement decision and why: [`program-map.md`](program-map.md) (Companion / orientation after Modules 4–5). Offerable links: [`../resources/curated-content.md`](../resources/curated-content.md). Governance: [`../resources/asset-governance.md`](../resources/asset-governance.md). Signal sources: [`../content/CURATION.md`](../content/CURATION.md).
+Placement decision and why: [`program-map.md`](program-map.md) (Companion / orientation after Modules 4–5). **Current honesty:** Module 4 is Included; Module 5 is still Planned. Offerable links: [`../resources/curated-content.md`](../resources/curated-content.md). Governance: [`../resources/asset-governance.md`](../resources/asset-governance.md). Signal sources: [`../content/CURATION.md`](../content/CURATION.md).
 
 ## Promise (shipped in the live companion)
 

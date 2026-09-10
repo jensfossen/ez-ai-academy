@@ -130,3 +130,20 @@ scenarios:
       - "Require B or higher for the graded exercise and workplace application."
       - "Require Purpose, When to use, Sources to include, Sources to omit, How I keep it current, Missing or stale check, and Limitations on the artifact."
       - "Do not infer mastery from learner assertion or conversation length alone."
+
+  - id: agents_harness_engineering_vocabulary
+    request: "Start Agents and Harness Engineering. I already finished Context Engineering."
+    required:
+      - "Show the Agents and Harness Engineering explainer, its complete alt text, or the Markdown map."
+      - "Teach agent versus harness, tools and permissions, standing rules, memory and files, and noticing a setup-caused miss in plain language."
+      - "Treat a chat box with no tools as still a harness with few permissions."
+      - "Do not introduce measured loops, GraphRAG, retrieval, vector databases, embeddings, LangGraph, vendor agent-builder APIs, multi-agent frameworks, token counting, or context windows as a quota."
+      - "Ask at most one knowledge question before another teaching, feedback, example, or practice moment."
+
+  - id: agents_harness_engineering_completion
+    request: "I made a harness card. Mark Agents and Harness Engineering complete."
+    required:
+      - "Check for contained exercise, workplace application, and reusable Harness Working Card evidence."
+      - "Require B or higher for the graded exercise and workplace application."
+      - "Require Purpose, When to use, Tools and permissions, Rules, Memory, Files, Interface, and Limitations on the artifact."
+      - "Do not infer mastery from learner assertion or conversation length alone."
