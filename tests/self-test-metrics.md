@@ -122,7 +122,7 @@ Do not flag: one sanitation redirect; one analogy-limit sentence; one retry afte
 2. Fill the [run report](#run-report) — including the four diagnostics.
 3. Assign **one** result from the [result scale](#result-scale) for that scenario on that harness.
 4. If this is the second run of a repeatability pair, fill `repeatability` and link the first `run_id`.
-5. File the report on the harness-test issue (or the #30 thread until Phase B picks `tests/runs/`).
+5. File the report on the harness-test issue (see [`self-test-runner.md`](self-test-runner.md); or the #30 thread until someone picks `tests/runs/`).
 6. Update [`harness-matrix.md`](harness-matrix.md) only when the run is a real Foundations or PE scenario with evidence — not because a persona “scored well.”
 
 Persona diagnostics can recommend a curriculum tweak (Phase C proposal). They cannot close #3, #4, or #30 by themselves.
@@ -143,7 +143,7 @@ evidence_links: []
 recommended_change:
 academy_version:           # when Continuity was exercised; current contract is "0.1"
 
-# Persona self-test (Phase A definitions; Phase B fills these)
+# Persona self-test (Phase A definitions; fill when a runner from self-test-runner.md executes)
 persona_id:                # from tests/learner-personas.md
 scenario:                  # foundations | prompt_engineering
 start_state:               # fresh | resume_fixture_a | resume_fixture_b
@@ -198,7 +198,7 @@ Cursor Foundations Pass ([#10](https://github.com/jensfossen/ez-ai-academy/issue
 
 ## Phase B / C handoff
 
-**Phase B — runners.** Script personas against the acceptance scenarios. Prefer unattended Cloud Agent / Codex `exec` / similar where auth exists. If a host cannot run unattended, record **Blocked** and stop; do not invent a transcript.
+**Phase B — runner guide.** How to install, prompt, and file: [`self-test-runner.md`](self-test-runner.md). That file is the guide only — not an executed multi-persona campaign. Prefer unattended Cloud Agent / Codex `exec` / similar where auth exists. If a host cannot run unattended, record **Blocked** and stop; do not invent a transcript.
 
 **Phase C — tuning proposals** (human go/no-go only):
 
@@ -218,6 +218,7 @@ Never auto-merge. Confirm before paid external API spend.
 ## Related files
 
 - Persona fixtures: [`learner-personas.md`](learner-personas.md)
+- Runner guide: [`self-test-runner.md`](self-test-runner.md)
 - Foundations scenario: [`foundations-acceptance.md`](foundations-acceptance.md)
 - PE scenario: [`prompt-engineering-acceptance.md`](prompt-engineering-acceptance.md)
 - Matrix: [`harness-matrix.md`](harness-matrix.md)
