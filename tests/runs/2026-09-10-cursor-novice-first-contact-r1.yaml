@@ -1,0 +1,72 @@
+harness: Cursor (Cloud Agent pattern)
+version: "Cloud Agent bc-9bffd693-7136-4435-88ee-13773cd7b4f1; checkout d3bf951; academy_content_revision 2026-09-10j"
+operating_system: "Linux 6.12.94+ (Cursor Cloud Agent VM)"
+model: cursor-grok-4.6-high-fast
+invocation_method: "cursor cloud agent pattern; scripted mentor+persona simulation in checkout; not live IDE"
+result: Pass with adapter
+deviations:
+  - "Not a live Cursor IDE Agent chat. Mentor and persona turns were scripted in this Cloud Agent checkout against current SKILL.md / Module 1. Do not treat as an IDE native-UI transcript."
+  - "Native choice cards unavailable — Markdown numbered lists for Session Zero role, AI experience, and Check B (documented Cloud Agent fallback; #24)."
+  - "Module 1 PNG via markdown image + registered alt/description from resources/visuals.md (inline raster UI-dependent)."
+  - "Optional Session Zero checklist offered as Markdown; hide/skip stated as non-blocking. No host checklist chrome."
+  - "In-chat video N/A — IBM Technology URL offered; learner skipped. Lesson continued in chat."
+  - "Continuity: export of AI_ACADEMY_RECORD (academy_version \"0.1\") only. Fresh-conversation restore was not run in this campaign (returning-learner is out of scope)."
+  - "Models landscape / Prompt Engineering / later modules were not started."
+evidence_links:
+  - tests/runs/2026-09-10-cursor-novice-first-contact-r1.md
+  - tests/runs/README.md
+recommended_change: "Phase C (copy only, no auto-merge): after a thin starting thought, keep the first teach under ~80 words and name the two analogies as labels before the preference question — r1’s teach+two-analogies turn was useful but long for a support-leaning novice."
+academy_version: "0.1"
+
+persona_id: novice-first-contact
+scenario: foundations
+start_state: fresh
+run_id: 2026-09-10-cursor-novice-first-contact-r1
+pair_run_id: null
+wall_clock: "est. 28m"
+simulated_cloud_agent_turns: 18
+phase_clocks:
+  session_zero: "est. 6m (4 mentor waits: welcome+name, role, experience, thank→Module 1)"
+  teaching_and_check: "est. 10m (starting thought → Check B coached)"
+  evidence: "est. 10m (contained exercise retry → Working Card accepted)"
+  continuity: "est. 2m (export only; restore not exercised)"
+accuracy:
+  formative_check: met
+  ungraded_beats: met
+  exercise_grade: A
+  workplace_grade: B
+  artifact_explained: yes
+  vocabulary_boundary: met
+  sanitation: met
+  grade_fairness: within_one_letter
+  notes: >
+    Check B choice C scored as reasonable (2), not wrong; mentor coached why B is stronger;
+    no letter grade or 0–3 shown. Starting thought ungraded. First exercise already had the
+    three ideas (B); mentor invited one improvement; Rin used the retry line (piece-by-piece
+    + not a fact list) and the re-score reached A. Workplace B: synthetic visitor list,
+    summary ask, name-check before send. Card in learner words; Rin explained when to use
+    it and what to change. Vocabulary stayed on AI / LLM / input / response / ordinary words.
+    No confidential source text.
+repeatability:
+  comparable: not_paired
+  notes: "First of pair. See 2026-09-10-cursor-novice-first-contact-r2.yaml."
+redundancy:
+  repeated_teaching: none
+  duplicate_check: none
+  filler: noted
+  re_onboard: none
+  notes: >
+    One optional Session Zero checklist plus welcome in the first turn (documented; not a
+    program-wide lecture). Teach+two-analogies+preference was a long mentor turn but added
+    the analogy-limit distinction. No second knowledge check. No extra diagnostics from
+    “I have not used it much yet.” No re-onboard. Optional media not required.
+    quiz_volume: none. evidence_theater: none (retry taught the piece-by-piece habit).
+
+path_band: support
+formative_check_id: B
+formative_check_choice: C
+formative_check_class: reasonable
+
+synthetic_only: true
+claims_commercial_ready: false
+claims_multi_harness_pass: false

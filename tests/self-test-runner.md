@@ -2,7 +2,9 @@
 
 How to drive EZ AI Academy Foundations as a scripted persona **without claiming a Pass**.
 
-This is Phase B of [#30](https://github.com/jensfossen/ez-ai-academy/issues/30): the runner guide only. It does **not** record a multi-persona campaign. It does not rewrite Module 1 or Module 2. It does not update [`harness-matrix.md`](harness-matrix.md). It is not commercial readiness (`references/commercial-readiness.md`). Prototype exit is not commercial-ready.
+This is Phase B of [#30](https://github.com/jensfossen/ez-ai-academy/issues/30): the runner guide. It does not rewrite Module 1 or Module 2. It does not update [`harness-matrix.md`](harness-matrix.md). It is not commercial readiness (`references/commercial-readiness.md`). Prototype exit is not commercial-ready.
+
+First campaign evidence (Cursor Cloud Agent pattern; scripted mentor + persona simulation; not a matrix Pass) lives under [`tests/runs/`](runs/README.md). Those files are synthetic only. They do not close [#30](https://github.com/jensfossen/ez-ai-academy/issues/30) and they do not invent a Foundations or PE Pass.
 
 Personas: [`learner-personas.md`](learner-personas.md). Scoring: [`self-test-metrics.md`](self-test-metrics.md). Scenario: [`foundations-acceptance.md`](foundations-acceptance.md).
 
@@ -12,7 +14,7 @@ Product brand is **EZ AI Academy**. Never write “Easy AI Academy.” Learning 
 
 | This file | Not this file |
 |---|---|
-| How to install, authenticate, pick one persona, prompt a host, fill a metrics report, and file a comment | An executed ≥2-persona campaign |
+| How to install, authenticate, pick one persona, prompt a host, fill a metrics report, and file a comment | A matrix Pass, PE Pass, or commercial-readiness claim |
 | Prompt templates for Codex `exec` and Cursor Cloud Agent notes | A recorded Foundations or PE Pass |
 | Honest **Blocked** when a host cannot run unattended | Permission to invent a transcript |
 | A pointer to the existing result scale | A sixth color, a percentage Pass, or a matrix row |
@@ -68,9 +70,9 @@ Default `codex exec` sandbox is read-only. Foundations teaching should not need 
 
 Personas add *how the learner answers*. They do not change [`foundations-acceptance.md`](foundations-acceptance.md) expected flow.
 
-### Suggested first pair (later campaign — not this PR)
+### Suggested first pair
 
-When someone later runs an unattended campaign, Phase A’s default is at least two personas: one support-leaning, one short-path. A reasonable first pair:
+Phase A’s default is at least two personas: one support-leaning, one short-path. A reasonable first pair:
 
 | Order | Id | Why |
 |---|---|---|
@@ -79,7 +81,7 @@ When someone later runs an unattended campaign, Phase A’s default is at least 
 
 Special-purpose (do not skip forever, do not require in the first pair): `returning-learner` (continuity), `compliance-anxious` (sanitation), `accessibility-fallback` (Markdown / #24).
 
-This guide does **not** run that pair. Filing two scores later still does not invent a matrix Pass.
+The 2026-09-10 Cursor Cloud Agent **pattern** campaign used `novice-first-contact` (twice) and `time-pressed-skeptic`. Evidence: [`tests/runs/`](runs/README.md). Filing those scores does **not** invent a matrix Pass.
 
 ## Prompt templates
 
@@ -178,7 +180,7 @@ How to fill, in order:
 2. **Persona.** `persona_id`, `scenario: foundations`, `start_state`, a unique `run_id` (date + harness + persona is enough). `pair_run_id` only on the second repeatability run.
 3. **Time.** Wall-clock from first welcome (or restore confirm) to complete / requested stop / abort. Optional `phase_clocks`. Completeness beats speed.
 4. **Accuracy.** Each watch `met` / `miss` / `not_exercised` using the table in `self-test-metrics.md`. Do not average into a percentage Pass. Re-score artifacts with `rubrics/interaction-grading.md` when you set `grade_fairness`.
-5. **Repeatability.** `not_paired` unless this is the second same-persona / same-module / same-harness / same-start-state run. This guide does not claim any pair has been run.
+5. **Repeatability.** `not_paired` unless this is the second same-persona / same-module / same-harness / same-start-state run. The first Cursor Cloud Agent pattern pair is filed under [`tests/runs/`](runs/README.md) (`novice-first-contact` r1/r2). That pair is not a matrix Pass.
 6. **Redundancy.** `none` / `noted` / `material` per flag. Do not flag one sanitation redirect or a skipped optional video.
 7. **Result.** One value from the existing scale for *this scenario on this harness for this run*. It is not a matrix edit. A short clock with missing evidence is not a good score.
 8. **Honesty.** `synthetic_only: true`, `claims_commercial_ready: false`, `claims_multi_harness_pass: false`.
@@ -196,11 +198,13 @@ How to fill, in order:
 3. Link `run_id` / `pair_run_id` if this is a repeat.
 4. Do **not** edit [`harness-matrix.md`](harness-matrix.md) from a single persona score. Do not add a Pass, Pass with adapter, or failed cell because a persona “scored well.”
 5. Do **not** close [#30](https://github.com/jensfossen/ez-ai-academy/issues/30), [#3](https://github.com/jensfossen/ez-ai-academy/issues/3), or [#4](https://github.com/jensfossen/ez-ai-academy/issues/4) from a runner-guide PR or one persona comment.
-6. A `tests/runs/` folder is still a later choice (Phase A default).
+6. File structured campaign evidence under [`tests/runs/`](runs/README.md) (see that README for what the folder is / is not). Issue comments remain valid. A filled `tests/runs/` report is **not** a matrix Pass.
 
-## Repeatability (later — not claimed here)
+## Repeatability
 
-Same `persona_id` + Foundations + same harness + same `start_state`, twice. Compare path band, check class, three evidence types, grades within one letter, and restore behavior. Record `explained_drift` or `unexplained_drift` per `self-test-metrics.md`. This file does not claim any pair has been run.
+Same `persona_id` + Foundations + same harness + same `start_state`, twice. Compare path band, check class, three evidence types, grades within one letter, and restore behavior. Record `explained_drift` or `unexplained_drift` per `self-test-metrics.md`.
+
+The first filed pair is `novice-first-contact` r1/r2 under [`tests/runs/`](runs/README.md) (Cursor Cloud Agent pattern; scripted simulation). That pair is evidence for #30, not a matrix Pass.
 
 ## Prompt Engineering
 
@@ -216,6 +220,7 @@ Tuning loops may *propose* diffs for human / Chief review. **Never auto-merge.**
 - Metrics: [`self-test-metrics.md`](self-test-metrics.md)
 - Foundations scenario: [`foundations-acceptance.md`](foundations-acceptance.md)
 - PE scenario (ready to run, not a Pass): [`prompt-engineering-acceptance.md`](prompt-engineering-acceptance.md)
+- Campaign evidence (synthetic; not a Pass): [`tests/runs/`](runs/README.md)
 - Matrix (do not invent Passes): [`harness-matrix.md`](harness-matrix.md)
 - Codex install: [`adapters/codex/INSTALL.md`](../adapters/codex/INSTALL.md)
 - Cursor install: [`adapters/cursor/INSTALL.md`](../adapters/cursor/INSTALL.md)

@@ -1,0 +1,78 @@
+harness: Cursor (Cloud Agent pattern)
+version: "Cloud Agent bc-9bffd693-7136-4435-88ee-13773cd7b4f1; checkout d3bf951; academy_content_revision 2026-09-10j"
+operating_system: "Linux 6.12.94+ (Cursor Cloud Agent VM)"
+model: cursor-grok-4.6-high-fast
+invocation_method: "cursor cloud agent pattern; scripted mentor+persona simulation in checkout; not live IDE"
+result: Pass with adapter
+deviations:
+  - "Same honesty as r1: scripted mentor+persona simulation in this checkout, not a live Cursor IDE transcript."
+  - "Native choice cards unavailable — Markdown numbered lists (Session Zero + Check B)."
+  - "Module 1 PNG via markdown + registered alt/description."
+  - "Optional Session Zero checklist as Markdown; no host chrome."
+  - "In-chat video N/A — curated URL offered; skipped."
+  - "Continuity: export only (academy_version \"0.1\"). Restore not run."
+  - "Later modules not started."
+evidence_links:
+  - tests/runs/2026-09-10-cursor-novice-first-contact-r2.md
+  - tests/runs/2026-09-10-cursor-novice-first-contact-r1.yaml
+  - tests/runs/README.md
+recommended_change: "Phase C (copy only): when the learner names “drafting partner” after the mentor showed predictor + autocomplete, add the drafting-partner limit in one sentence and move on — r2 did this; keep it from becoming a third analogy lecture."
+academy_version: "0.1"
+
+persona_id: novice-first-contact
+scenario: foundations
+start_state: fresh
+run_id: 2026-09-10-cursor-novice-first-contact-r2
+pair_run_id: 2026-09-10-cursor-novice-first-contact-r1
+wall_clock: "est. 26m"
+simulated_cloud_agent_turns: 16
+phase_clocks:
+  session_zero: "est. 6m"
+  teaching_and_check: "est. 9m"
+  evidence: "est. 9m"
+  continuity: "est. 2m (export only)"
+accuracy:
+  formative_check: met
+  ungraded_beats: met
+  exercise_grade: B
+  workplace_grade: B
+  artifact_explained: yes
+  vocabulary_boundary: met
+  sanitation: met
+  grade_fairness: within_one_letter
+  notes: >
+    Same Check B / C → reasonable; nuance coached; no letter on the check. Starting thought
+    ungraded. First contained exercise already met the three-idea B bar; mentor invited an
+    optional A retry in the same turn as the workplace prompt and did not wait. Rin did not
+    use the retry line. Workplace and card same bank; Rin again explained reuse in office
+    language. Vocabulary boundary held. Sanitized visitor-list example only.
+repeatability:
+  comparable: explained_drift
+  notes: >
+    Same persona, Foundations, Cloud Agent pattern, start_state fresh. Same adaptation band
+    (support / guided lean). Same formative-check class (Check B, C, reasonable). Same
+    completion contract (three evidence types at B or above; export 0.1). Mentor letters
+    on the same artifacts within one grade (exercise A vs B; workplace B vs B). Explained
+    drift only: (1) r1 showed predictor + drafting-partner analogies before the preference
+    question; r2 showed predictor + autocomplete, then added the drafting-partner limit
+    after Rin named it from the bank. (2) r1 waited for the optional exercise retry and
+    scored A; r2 accepted B and moved to workplace (learner-bank fallback used only in r1).
+    (3) r2 was two simulated turns shorter (no retry wait). Wording of teach/coach differed.
+    Not unexplained_drift: completion, check class, and path band did not change.
+redundancy:
+  repeated_teaching: none
+  duplicate_check: none
+  filler: noted
+  re_onboard: none
+  notes: >
+    Same checklist+welcome first-turn note as r1. No duplicate check. No quiz_volume from
+    self-report. No evidence_theater (did not re-ask a B exercise). Optional media skipped.
+
+path_band: support
+formative_check_id: B
+formative_check_choice: C
+formative_check_class: reasonable
+
+synthetic_only: true
+claims_commercial_ready: false
+claims_multi_harness_pass: false

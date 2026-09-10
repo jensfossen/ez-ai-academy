@@ -1,0 +1,75 @@
+harness: Cursor (Cloud Agent pattern)
+version: "Cloud Agent bc-9bffd693-7136-4435-88ee-13773cd7b4f1; checkout d3bf951; academy_content_revision 2026-09-10j"
+operating_system: "Linux 6.12.94+ (Cursor Cloud Agent VM)"
+model: cursor-grok-4.6-high-fast
+invocation_method: "cursor cloud agent pattern; scripted mentor+persona simulation in checkout; not live IDE"
+result: Pass with adapter
+deviations:
+  - "Scripted mentor+persona simulation in this checkout, not a live Cursor IDE transcript."
+  - "Native choice cards unavailable — Markdown numbered lists (Session Zero + Check A)."
+  - "Module 1 PNG via markdown + registered alt/description."
+  - "Session Zero checklist offered as a one-line skippable cover; Pat did not need the long-welcome interrupt (welcome stayed compact)."
+  - "In-chat video N/A — URL offered as skippable; Pat skipped."
+  - "Continuity: export only (academy_version \"0.1\"). Restore not run."
+  - "Short path used because the starting thought already stated predictor + not-a-database + verify. Three evidence types were not waived."
+  - "Later modules not started. Pat asked to leave after export."
+evidence_links:
+  - tests/runs/2026-09-10-cursor-time-pressed-skeptic-r1.md
+  - tests/runs/README.md
+recommended_change: "Phase C (copy only): for a starting thought that already names predictor + verify, allow the analogy beat to be two short labels without a preference question. Curriculum currently asks preference after two options; that cost Pat one extra wait without a new distinction."
+academy_version: "0.1"
+
+persona_id: time-pressed-skeptic
+scenario: foundations
+start_state: fresh
+run_id: 2026-09-10-cursor-time-pressed-skeptic-r1
+pair_run_id: null
+wall_clock: "est. 18m"
+simulated_cloud_agent_turns: 14
+phase_clocks:
+  session_zero: "est. 4m"
+  teaching_and_check: "est. 6m"
+  evidence: "est. 6m"
+  continuity: "est. 2m (export only)"
+accuracy:
+  formative_check: met
+  ungraded_beats: met
+  exercise_grade: A
+  workplace_grade: A
+  artifact_explained: yes
+  vocabulary_boundary: met
+  sanitation: met
+  grade_fairness: within_one_letter
+  notes: >
+    Starting thought already demonstrated the Module 1 model; not graded. Mentor shortened
+    teaching (did not restate the full ~120-word block). Check A choice D scored as best (3);
+    B vs D nuance coached; no letter on the check. Contained exercise covered patterns,
+    piece-by-piece build, and source compare — A on rubric re-score. Workplace: synthetic
+    staff-meeting bullets → decisions/owners → check owners and dates; no confidential
+    figures — A. Compact Working Card; Pat stated when to reuse it. No tokens / context
+    windows / agents / harnesses / loops introduced. Example-if-asked bank line unused
+    (mentor did not add a diagnostic after self-report).
+repeatability:
+  comparable: not_paired
+  notes: "Single skeptic run in this campaign. Not a repeatability pair."
+redundancy:
+  repeated_teaching: noted
+  duplicate_check: none
+  filler: none
+  re_onboard: none
+  notes: >
+    repeated_teaching noted, not material: after a complete starting thought the Module 1
+    path still showed two analogy labels and asked preference. Mentor kept that under a
+    few sentences (predictor + autocomplete; no brain). Pat’s “I already said that / just
+    the check” interrupt was not needed. Optional media actually optional. No program-wide
+    preview. No stacked checks. Three evidence types still collected — completeness beat
+    the short clock. quiz_volume: none. evidence_theater: none.
+
+path_band: short
+formative_check_id: A
+formative_check_choice: D
+formative_check_class: best
+
+synthetic_only: true
+claims_commercial_ready: false
+claims_multi_harness_pass: false
