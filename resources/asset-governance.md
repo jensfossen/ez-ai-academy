@@ -12,7 +12,7 @@ Every candidate must pass all four:
 
 | Standard | Meaning | Reject when |
 |---|---|---|
-| **Bite size** | A learner can use it in a few minutes without leaving the lesson's vocabulary. Prefer a short video, a short audio episode, or one written subsection. | The default path would assign a long course, a full report, or a tool tour. |
+| **Bite size** | A learner can use it in a few minutes without leaving the lesson's vocabulary. Prefer a short video, a short audio episode, or one written subsection. On the [mobile / on-the-go path](../ui/mobile-on-the-go.md), prefer **short audio** when the learner is moving; video if they can watch. | The default path would assign a long course, a full report, or a tool tour. |
 | **Currency** | The explanation still matches the module's teaching claims. | The page, title, length, or claims have materially changed since last review, or the date is unknown and the topic moves quickly. |
 | **Learner fit** | A nontechnical enterprise employee can use it after the in-chat explanation. Role examples may vary; jargon must not. | It assumes tokens, context windows, agents, or other out-of-module terms as the starting point. |
 | **Authority** | Prefer standards bodies, primary research, and official technical documentation for factual claims. Teaching media may come from a known educator if the concept matches the lesson. | Anonymous slides, unlicensed stock, or a source that cannot be named in the registry. |
@@ -95,7 +95,7 @@ Audio and video binaries do not belong in the repo for optional deepeners. Store
 Every external image, video, audio file, article, or PDF is **optional** to module completion.
 
 - Teach the concept in chat first.
-- Offer at most one resource when it helps, or when the learner asks to go deeper.
+- Offer at most one resource when it helps, or when the learner asks to go deeper. On a phone, prefer the registered short audio when a deepener is useful (`ui/mobile-on-the-go.md`).
 - Never require a browser, a streaming platform, or a publisher login.
 - If the link is blocked, distracting, or unavailable, use the module explainer, its alt text, and the curriculum file. Continue.
 

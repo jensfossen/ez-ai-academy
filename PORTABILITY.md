@@ -33,6 +33,14 @@ Use native cards, menus, images, and structured questions when available. Use cl
 
 Safety, accessibility, and privacy for controlled pilots live in `resources/enterprise-baseline.md`. Hosts do not need identical chrome. They must keep Markdown fallbacks first-class so keyboard and screen-reader users can finish the course. The Academy provides those fallbacks; it does not certify vendor harnesses for WCAG. Progress records follow data minimization in `schemas/progress-record.md`. A system-of-record connector is optional and must not be required to learn (`schemas/sor-connector-contract.md`). Prefer no optional analytics for v1 pilots.
 
+## Mobile / on-the-go
+
+A phone session is the same course with shorter turns. It is not a mobile app, not an LMS, and not a curriculum fork.
+
+Mentors follow `ui/mobile-on-the-go.md`: short messages, one question per stop, optional short audio, mid-module `AI_ACADEMY_RECORD` export, Markdown fallbacks first-class on a small screen. Honest supported / partial / blocked notes per harness: `tests/harness-matrix.md`. Do not claim every host works on mobile. Discovery Pages must not market a mobile course.
+
+Cowork custom skills are unavailable on mobile — treat that host as blocked for on-the-go Academy learning.
+
 ## Native rich UI
 
 Prefer the host's built-in cards and blocks for learner choices and in-chat video when those surfaces exist. Cursor IDE chat is the north-star example: plan-mode–like choice cards, and in-chat video when the host can play a lesson link in the conversation.

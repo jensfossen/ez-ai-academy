@@ -67,6 +67,8 @@ Read `exercises/module-01-llm.md`. Complete the contained explanation, then a wo
 
 Choose the path from demonstrated understanding during the module, not from self-reported experience alone.
 
+**Short session / phone:** Cut at the conversation-path seams (map + starting thought; teach + one example; optional short audio rather than video; one check; then each evidence type). Offer export while `in_progress`. Questions stay as hard; wording gets shorter. Do not fork this module. Details: `ui/mobile-on-the-go.md`.
+
 ## Completion
 
 Module 1 is complete when the learner:

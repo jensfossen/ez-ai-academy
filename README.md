@@ -64,7 +64,7 @@ Brand is locked: name, message, palette, type, and logo live in [`brand/BRAND.md
 | `resources/` | Analogies, curated media, visual guidance, [asset governance](resources/asset-governance.md), and the [enterprise baseline](resources/enterprise-baseline.md) |
 | `assets/` | Course visuals and skill icon |
 | `schemas/` | Portable learner progress record and [optional SoR connector contract](schemas/sor-connector-contract.md) |
-| `ui/` | Interaction patterns with text fallbacks |
+| `ui/` | Interaction patterns with text fallbacks; [mobile / on-the-go principles](ui/mobile-on-the-go.md) |
 | `adapters/` | Harness-specific installation and invocation guides |
 | `packages/` | Generated upload packages for hosts that require them |
 | `scripts/` | Deterministic packaging and validation utilities |
@@ -83,6 +83,8 @@ Brand is locked: name, message, palette, type, and logo live in [`brand/BRAND.md
 - Treat fluent output as something to inspect, not proof of correctness.
 
 Enterprise sanitation, human-review, accessibility, and privacy rules for controlled pilots: [`resources/enterprise-baseline.md`](resources/enterprise-baseline.md). Learning stays in-harness; Markdown fallbacks are first-class. The Academy does not certify vendor hosts for WCAG.
+
+Phone / short-session pacing (same meaning, shorter messages; not every harness): [`ui/mobile-on-the-go.md`](ui/mobile-on-the-go.md). Host contract: [`PORTABILITY.md`](PORTABILITY.md).
 
 ## Content PRs
 

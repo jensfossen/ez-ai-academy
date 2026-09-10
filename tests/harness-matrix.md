@@ -19,6 +19,21 @@ This matrix tracks whether EZ AI Academy delivers an equivalent learning experie
 
 Do not copy a Foundations Pass into a Prompt Engineering Pass. Do not mark a PE cell Pass, Pass with adapter, or failed until that scenario is actually run and evidenced. Content maturity in the repository is not cross-harness validation.
 
+## Mobile / on-the-go
+
+Mentor principles and the Session Zero / Module 1 short-session variant: [`ui/mobile-on-the-go.md`](../ui/mobile-on-the-go.md). This table is **vendor-surface + known limits**, not a Foundations or Prompt Engineering Pass. Do not copy a desktop Pass onto a phone row. Do not claim every harness works on mobile.
+
+Statuses: **supported** = a recorded Academy lesson on that phone/cloud-mobile surface (none yet); **partial** = vendor documents a phone-friendly coding/agent client, but Academy skill load or a lesson on that surface is untested or has a known gap; **blocked** = the Academy delivery mechanism does not run on mobile.
+
+| Harness | Mobile | Evidence / caveat |
+|---|---|---|
+| Codex | **partial** | Interesting path: ChatGPT mobile can steer Codex (Remote to a Mac running Codex, and/or Codex Cloud) so a learner can stay in a coding harness from a phone ([OpenAI — Remote connections](https://developers.openai.com/codex/remote-connections), [What’s new](https://developers.openai.com/codex/whats-new)). Standalone skills (`~/.codex/skills`, this repo’s install) are documented for desktop / CLI / IDE; plugin-bundled skills are what OpenAI lists for ChatGPT mobile Chat/Work ([Build skills](https://developers.openai.com/codex/build-skills)). Academy-on-phone is **not recorded**. Foundations **Pass with adapter** is Codex CLI on a Mac mini ([#13](https://github.com/jensfossen/ez-ai-academy/issues/13)), not a mobile session. |
+| Cursor | **partial** | [Cursor for iOS](https://cursor.com/docs/cloud-agent/mobile) is a Cloud Agent / Remote Control client (same backend as cursor.com/agents). Vendor: project and synced personal skills work on mobile as on web/CLI. The iOS app is not an IDE. Android is planned, not shipped. Cloud Agent Foundations **Pass** ([#10](https://github.com/jensfossen/ez-ai-academy/issues/10)) is not an iOS Academy run. Desktop IDE remains the rich-UI research surface ([#24](https://github.com/jensfossen/ez-ai-academy/issues/24)). |
+| Claude Code | **partial** | [Claude Code on mobile](https://code.claude.com/docs/en/mobile): the Claude iOS/Android app **Code** tab is a client for cloud sessions or Remote Control — code does not run on the phone. Some terminal-only commands do not work from the app. User-level `~/.claude/skills/ai-academy` on a cloud or phone session is **untested**. Desktop Foundations is still **To run**. Not a Pass. |
+| Microsoft Copilot Cowork | **blocked** | Microsoft: **custom skills aren’t supported in Cowork on mobile** ([Use Copilot Cowork](https://learn.microsoft.com/en-us/microsoft-365/copilot/cowork/use-cowork)). Already noted in [`adapters/microsoft-copilot-cowork/INSTALL.md`](../adapters/microsoft-copilot-cowork/INSTALL.md). Cowork itself may exist in the Copilot mobile app; that is not the Academy ZIP/OneDrive skill. Do not send an on-the-go learner to Cowork for EZ AI Academy. |
+
+Checked against those vendor pages on **2026-09-10**. Vendor clients change quickly; re-verify the link before tightening a row to **supported**.
+
 ## Native rich UI (video + choice cards)
 
 Semantic intents: `in_chat_video` and `native_choice_card` in `ui/interaction-patterns.md`. These rows are **capability notes**, not Foundations Pass claims. Do not mark Pass without a recorded run.

@@ -36,7 +36,7 @@ Sound like a patient, capable coworker who wants the learner to succeed.
 
 ## Free-text question
 
-Ask one concise question and wait. Do not combine the learner's name with role or experience in one message.
+Ask one concise question and wait. Do not combine the learner's name with role or experience in one message. Phone / short-session stops: `ui/mobile-on-the-go.md`.
 
 ## Select questions
 
