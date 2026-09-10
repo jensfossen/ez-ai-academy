@@ -12,7 +12,7 @@ Related backlog (do not treat as closed by this file):
 - [#37](https://github.com/jensfossen/ez-ai-academy/issues/37) content release notes
 - [#38](https://github.com/jensfossen/ez-ai-academy/issues/38) this standing loop
 - [#39](https://github.com/jensfossen/ez-ai-academy/issues/39) plain-language models module (candidate)
-- [#40](https://github.com/jensfossen/ez-ai-academy/issues/40) mobile / on-the-go experience
+- [#40](https://github.com/jensfossen/ez-ai-academy/issues/40) mobile / on-the-go experience — principles + matrix notes in repo; leave open until remaining AC / Chief close
 
 ## Purpose
 
@@ -131,7 +131,7 @@ Named so scans do not lose them. **Do not write the module in this loop.**
 |---|---|---|
 | Plain-language AI models landscape | Issue [#39](https://github.com/jensfossen/ez-ai-academy/issues/39) | Distill the sources above. Not an in-repo encyclopedia. |
 | Graph Engineering | Named by Jens; no issue required to remember it | Future module when the concept is stable enough to teach in-harness. Not on [`../curriculum/program-map.md`](../curriculum/program-map.md) yet. |
-| Mobile / on-the-go path | Issue [#40](https://github.com/jensfossen/ez-ai-academy/issues/40) | UX principles and honest harness notes — not a native app. |
+| Mobile / on-the-go path | Issue [#40](https://github.com/jensfossen/ez-ai-academy/issues/40) | Principles: [`../ui/mobile-on-the-go.md`](../ui/mobile-on-the-go.md). Honest matrix rows. Leave **#40 open** until remaining AC / Chief close. Not a native app. |
 
 Program map still lists Context Engineering, Agents and Harness Engineering, and Loop Engineering as planned. Curation does not reorder that map.
 

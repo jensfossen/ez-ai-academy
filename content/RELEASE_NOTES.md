@@ -50,6 +50,31 @@ Do not claim a Foundations or Prompt Engineering Pass from a changelog entry. Do
 
 ---
 
+## 2026-09-10 — Mobile / on-the-go mentor path
+
+Mentors can run Session Zero and Module 1 in short phone stops. Teaching meaning, evidence types, and harness Pass rows are unchanged. Installed skills do not need a pull for this entry alone.
+
+### Added
+
+- Mentor principles: [`ui/mobile-on-the-go.md`](../ui/mobile-on-the-go.md) — shorter messages, one question per stop, optional short audio, mid-module export, Markdown fallbacks on small screens. Not a mobile app or a second curriculum.
+- Honest **Mobile / on-the-go** notes in [`tests/harness-matrix.md`](../tests/harness-matrix.md): Codex / Cursor / Claude Code **partial**; Microsoft Copilot Cowork **blocked** (custom skills unavailable on mobile). No new Pass.
+
+### Changed
+
+- Brief short-session notes in Session Zero and Module 1 plans. PORTABILITY, README, interaction patterns, and asset-governance now point at the mobile path (prefer short audio when moving). `academy_content_revision` in `SKILL.md` stays `2026-09-10`. Cowork ZIP not rebuilt. Discovery Pages untouched.
+
+### Removed
+
+- None.
+
+### Media
+
+- None added. Mentors may prefer the existing optional Cognixia short podcast on a phone; it stays optional. The in-chat lesson remains the complete alternative.
+
+### Breaking for learners
+
+- None.
+
 ## 2026-09-10 — Standing content curation loop (operators)
 
 Operators now have a weekday scan and a first dry-run. Teaching meaning for learners is unchanged. Installed skills do not need a pull for this entry alone.

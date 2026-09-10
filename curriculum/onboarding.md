@@ -57,3 +57,5 @@ Ask for one short example only when it will help personalize the first lesson. D
 Thank the learner and move directly into `curriculum/module-01-llm.md`. Show the module explainer, then ask one open starting question. Do not give an onboarding grade, administer a baseline quiz, or preview agents, harnesses, or loops.
 
 Use the profile only to personalize examples. A learner with broad AI experience receives a shorter explanation and a more nuanced LLM example, not more questions.
+
+**Short session / phone:** If the learner is on the go, treat Session Zero as four stops (welcome+name, role, experience, thank). Do not open Module 1 teaching in the same turn as the thank-you. Offer `pause` and an `AI_ACADEMY_RECORD` export after the thank-you. One question per message. Details: `ui/mobile-on-the-go.md`.
