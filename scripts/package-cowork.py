@@ -2,11 +2,13 @@
 """Build the Microsoft Copilot Cowork distribution from canonical sources.
 
 Cowork allows 20 companion files. This list prefers numbered-module runtime
-(Module 1–4) over optional companion extras. Full checkout still has
-`curriculum/foundations.md`, `curriculum/models-landscape.md`,
-`resources/curated-content.md`, `curriculum/graph-engineering.md`,
-`checks/models-landscape.md`, `resources/module-01-analogies.md`, and the
-Module 3–4 map PNGs. Mentors skip those files when missing (`SKILL.md`).
+(Module 1–5) over optional companion extras. Full checkout still has
+`curriculum/onboarding.md`, `ui/interaction-patterns.md`,
+`assets/prompt-engineering-map.png`, `curriculum/foundations.md`,
+`curriculum/models-landscape.md`, `resources/curated-content.md`,
+`curriculum/graph-engineering.md`, `checks/models-landscape.md`,
+`resources/module-01-analogies.md`, and the Module 3–5 map PNGs.
+Mentors skip those files when missing (`SKILL.md`).
 """
 
 from pathlib import Path
@@ -22,25 +24,25 @@ MAX_SKILL_BYTES = 1 * 1024 * 1024
 RUNTIME_FILES = (
     "SKILL.md",
     "assets/module-01-llm.png",
-    "assets/prompt-engineering-map.png",
     "checks/module-01-llm.md",
     "checks/prompt-engineering.md",
     "checks/context-engineering.md",
     "checks/agents-harness-engineering.md",
+    "checks/loop-engineering.md",
     "curriculum/module-01-llm.md",
-    "curriculum/onboarding.md",
     "curriculum/program-map.md",
     "curriculum/prompt-engineering.md",
     "curriculum/context-engineering.md",
     "curriculum/agents-harness-engineering.md",
+    "curriculum/loop-engineering.md",
     "exercises/module-01-llm.md",
     "exercises/prompt-engineering.md",
     "exercises/context-engineering.md",
     "exercises/agents-harness-engineering.md",
+    "exercises/loop-engineering.md",
     "resources/visuals.md",
     "rubrics/interaction-grading.md",
     "schemas/progress-record.md",
-    "ui/interaction-patterns.md",
 )
 
 

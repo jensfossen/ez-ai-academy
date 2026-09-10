@@ -70,7 +70,7 @@ Quiet when nothing material moved. A quiet day is a valid outcome: file the dry-
 
 Use a **short** list. Distill into non-technical Academy language (who makes it, when a workplace learner should care, how to read a model name). Do **not** copy spec sheets, token tables, or benchmark dumps into curriculum.
 
-The Models landscape live companion is [`../curriculum/models-landscape.md`](../curriculum/models-landscape.md) (Refs [#39](https://github.com/jensfossen/ez-ai-academy/issues/39)). Placement: **Module 1 companion / Included**. Design history: [`../curriculum/models-landscape-outline.md`](../curriculum/models-landscape-outline.md). The Graph Engineering live companion is [`../curriculum/graph-engineering.md`](../curriculum/graph-engineering.md) (Refs [#46](https://github.com/jensfossen/ez-ai-academy/issues/46)). Placement: **Included / Companion after Modules 4–5**. Module 4 is Included; Module 5 remains Planned; early offer only if handoff confusion is already here, and say Loop is still upcoming. This loop notices drift; it does not write new lessons from a scan.
+The Models landscape live companion is [`../curriculum/models-landscape.md`](../curriculum/models-landscape.md) (Refs [#39](https://github.com/jensfossen/ez-ai-academy/issues/39)). Placement: **Module 1 companion / Included**. Design history: [`../curriculum/models-landscape-outline.md`](../curriculum/models-landscape-outline.md). The Graph Engineering live companion is [`../curriculum/graph-engineering.md`](../curriculum/graph-engineering.md) (Refs [#46](https://github.com/jensfossen/ez-ai-academy/issues/46)). Placement: **Included / Companion after Modules 4–5**. Modules 4–5 are Included; early offer only if handoff confusion is already here — say this stop is about wiring several helpers, not making one loop reliable. This loop notices drift; it does not write new lessons from a scan.
 
 ### Official vendor model pages (start here)
 
@@ -134,19 +134,20 @@ Named so scans do not lose them. **Do not write the module in this loop.**
 | Candidate | Status | Notes |
 |---|---|---|
 | Plain-language AI models landscape | Live companion ([`models-landscape.md`](../curriculum/models-landscape.md)); issue [#39](https://github.com/jensfossen/ez-ai-academy/issues/39) stays open | Distill the sources above. Not an in-repo encyclopedia. Do not promote to a numbered module from a scan. |
-| Graph Engineering | Live companion ([`graph-engineering.md`](../curriculum/graph-engineering.md)); issue [#46](https://github.com/jensfossen/ez-ai-academy/issues/46) stays open | Organization of work across agents/loops — not GraphRAG. Included / Companion after Modules 4–5. Module 4 Included; Module 5 Planned. Do not promote to a numbered module from a scan. |
+| Graph Engineering | Live companion ([`graph-engineering.md`](../curriculum/graph-engineering.md)); issue [#46](https://github.com/jensfossen/ez-ai-academy/issues/46) stays open | Organization of work across agents/loops — not GraphRAG. Included / Companion after Modules 4–5. Modules 4–5 Included. Do not promote to a numbered module from a scan. |
 | Context Engineering | Live numbered Module 3 ([`context-engineering.md`](../curriculum/context-engineering.md)); issue [#59](https://github.com/jensfossen/ez-ai-academy/issues/59) stays open until AC | Assemble and maintain the information set. Included, not a recorded Pass. Do not expand from a scan. |
-| Agents and Harness Engineering | Live numbered Module 4 ([`agents-harness-engineering.md`](../curriculum/agents-harness-engineering.md)); issue [#61](https://github.com/jensfossen/ez-ai-academy/issues/61) stays open until AC | Recognize goal-seeking AI and shape the setup around it. Included, not a recorded Pass. Do not expand from a scan. Do not ship Loop Engineering from a scan. |
+| Agents and Harness Engineering | Live numbered Module 4 ([`agents-harness-engineering.md`](../curriculum/agents-harness-engineering.md)); issue [#61](https://github.com/jensfossen/ez-ai-academy/issues/61) stays open until AC | Recognize goal-seeking AI and shape the setup around it. Included, not a recorded Pass. Do not expand from a scan. |
+| Loop Engineering | Live numbered Module 5 ([`loop-engineering.md`](../curriculum/loop-engineering.md)); issue [#63](https://github.com/jensfossen/ez-ai-academy/issues/63) stays open until AC | Build a measured feedback cycle on repeatable AI work. Included, not a recorded Pass. Do not expand from a scan. Do not promote Graph to a numbered module from a scan. |
 | Mobile / on-the-go path | Issue [#40](https://github.com/jensfossen/ez-ai-academy/issues/40) | Principles: [`../ui/mobile-on-the-go.md`](../ui/mobile-on-the-go.md). Honest matrix rows. Leave **#40 open** until remaining AC / Chief close. Not a native app. |
 
-Program map lists Context Engineering and Agents and Harness Engineering as **Included**. Loop Engineering stays a planned numbered module. Models landscape and Graph Engineering are **Included / Companion**. Curation does not reorder that map.
+Program map lists Context Engineering, Agents and Harness Engineering, and Loop Engineering as **Included**. Models landscape and Graph Engineering are **Included / Companion**. Curation does not reorder that map and does not promote Graph to a numbered module.
 
 ## Link rot
 
 External media is optional. The lesson text is the complete alternative.
 
 - Selection standards, rights, 90-day review, and hide rules: [`../resources/asset-governance.md`](../resources/asset-governance.md).
-- Live Module 1, Module 2, Module 3, Module 4, Models landscape, and Graph Engineering entries: [`../resources/curated-content.md`](../resources/curated-content.md).
+- Live Module 1, Module 2, Module 3, Module 4, Module 5, Models landscape, and Graph Engineering entries: [`../resources/curated-content.md`](../resources/curated-content.md).
 - Visuals: [`../resources/visuals.md`](../resources/visuals.md).
 
 A `403` from a bot-protected publisher is **unverified**, not automatically broken. A human should open the URL before retiring a previously good source. Do not rehost third-party video, audio, or articles in `assets/`.

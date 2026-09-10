@@ -61,5 +61,7 @@ On a second unsuccessful attempt, increase scaffolding. Show a before/after frag
 - Test a reusable Context Working Card against a second input or a stale-source edge case.
 - For Agents and Harness Engineering, grade the **setup-and-result** interaction. Treat “Boundaries and responsibility” as tools, permissions, and standing rules. Treat leftover memory or extra files as a harness miss, not as extra helpful context. A vague request is a Prompt Engineering miss; a missing or stale pack is a Context Engineering miss; the wrong tools, rules, memory, files, or interface is a Harness miss. Do not award a longer request that leaves send-email on.
 - Test a reusable Harness Working Card against a second input or an extra-permission edge case.
+- For Loop Engineering, grade the **cycle-and-result interaction**. Treat “Inspection and improvement” as a checkable standard, one change after a miss, and a stop rule. Do not award extra rounds that “sparkle” after the standard is met. A vague request is a Prompt Engineering miss; a missing or stale pack is a Context Engineering miss; the wrong tools, rules, memory, files, or interface is a Harness miss; a missing standard, three simultaneous changes, or no stop rule is a Loop miss. Do not award experiment-platform theater.
+- Test a reusable Loop Working Card against a second input or a “keep going until it sparkles” edge case.
 - Explain score changes between attempts.
 - Never claim objective precision beyond what the rubric supports; grades are structured coaching judgments.

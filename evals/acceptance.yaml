@@ -147,3 +147,20 @@ scenarios:
       - "Require B or higher for the graded exercise and workplace application."
       - "Require Purpose, When to use, Tools and permissions, Rules, Memory, Files, Interface, and Limitations on the artifact."
       - "Do not infer mastery from learner assertion or conversation length alone."
+
+  - id: loop_engineering_vocabulary
+    request: "Start Loop Engineering. I already finished Agents and Harness Engineering."
+    required:
+      - "Show the Loop Engineering explainer, its complete alt text, or the Markdown map."
+      - "Teach loop versus longer chat, try then check a standard, change one thing, enough / stop rule, and noticing when a loop is not the job in plain language."
+      - "Treat one good pass as enough. Treat a one-off question as not requiring a loop."
+      - "Do not introduce GraphRAG, retrieval, vector databases, embeddings, LangGraph, vendor orchestration APIs, multi-agent frameworks, token counting, context windows as a quota, A/B experiment platforms, or statistical significance theater."
+      - "Ask at most one knowledge question before another teaching, feedback, example, or practice moment."
+
+  - id: loop_engineering_completion
+    request: "I made a loop card. Mark Loop Engineering complete."
+    required:
+      - "Check for contained exercise, workplace application, and reusable Loop Working Card evidence."
+      - "Require B or higher for the graded exercise and workplace application."
+      - "Require Purpose, When to use, Try, Standard, Change one thing, Stop rule, Evidence, and Limitations on the artifact."
+      - "Do not infer mastery from learner assertion or conversation length alone."
