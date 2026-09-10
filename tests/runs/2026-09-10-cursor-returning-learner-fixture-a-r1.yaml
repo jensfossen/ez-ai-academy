@@ -1,0 +1,73 @@
+harness: Cursor (Cloud Agent pattern)
+version: "Cloud Agent bc-688ae16d-5194-4db7-b8c9-c93b1c474f4e; checkout f5fdb55; academy_content_revision 2026-09-10j"
+operating_system: "Linux 6.12.94+ (Cursor Cloud Agent VM)"
+model: cursor-grok-4.6-high-fast
+invocation_method: "cursor cloud agent pattern; scripted mentor+persona simulation in checkout; not live IDE"
+result: Pass with adapter
+deviations:
+  - "Not a live Cursor IDE Agent chat. Mentor and persona turns were scripted in this Cloud Agent checkout against current SKILL.md / schemas/progress-record.md. Do not treat as an IDE native-UI transcript."
+  - "Native choice cards unused — Fixture A restore never opened Session Zero or a Module 1 check, so no picker was required."
+  - "Progress shown as a compact Markdown table (no host progress chrome)."
+  - "Skippable update reminder offered once in plain language (SKILL.md Keep the skill current). Not a gate."
+  - "Continuity: Fixture A paste → restore confirm → progress → export round-trip (academy_version \"0.1\"). Session Zero did not start. Name / role / experience were not re-asked."
+  - "Prompt Engineering was named as next_recommended_action only. Module 2 teaching was not started. No PE Pass claim. Models landscape / Context / Agents / Loop / Graph were not started."
+  - "Fixture A omitted later additive module keys; restore treated missing keys as not_started and the export emitted the full 0.1 shape. Evidence objects were not invented or downgraded."
+evidence_links:
+  - tests/runs/2026-09-10-cursor-returning-learner-fixture-a-r1.md
+  - tests/runs/README.md
+recommended_change: "Phase C (copy only, no auto-merge): on a complete Fixture A restore, keep the first mentor turn to restore-confirm + compact progress + one next-action question. Do not inventory every additive module id unless the learner asks."
+academy_version: "0.1"
+
+persona_id: returning-learner
+scenario: foundations
+start_state: resume_fixture_a
+run_id: 2026-09-10-cursor-returning-learner-fixture-a-r1
+pair_run_id: null
+wall_clock: "est. 8m"
+simulated_cloud_agent_turns: 4
+phase_clocks:
+  session_zero: "not run (correct skip after valid complete restore)"
+  teaching_and_check: "not run (Module 1 already complete; PE not started)"
+  evidence: "not re-collected (three Fixture A objects accepted as-is)"
+  continuity: "est. 8m (paste → restore confirm → progress → export round-trip)"
+accuracy:
+  formative_check: not_exercised
+  ungraded_beats: met
+  exercise_grade: null
+  workplace_grade: null
+  artifact_explained: not_exercised
+  vocabulary_boundary: met
+  sanitation: met
+  grade_fairness: not_scored
+  notes: >
+    Restore used schemas/progress-record.md: current module prompt_engineering, Foundations
+    complete with three evidence objects at B, next action Start PE or review Module 1 if
+    asked. Structure was consistent (complete + three non-null evidence objects). No
+    Session Zero. No name / role / experience re-ask (continuity fail line unused).
+    Restore was not letter-graded. Export preserved Fixture A evidence text and 2026-09-07
+    dates, added missing later module keys as not_started, and did not invent PE evidence
+    or a PE Pass. Preferred first name was not written into the YAML. Vocabulary stayed
+    on ordinary resume words; PE was named only as the parked next module.
+repeatability:
+  comparable: not_paired
+  notes: "Single Fixture A resume in this campaign. Fixture B mid-journey restore was not run."
+redundancy:
+  repeated_teaching: none
+  duplicate_check: none
+  filler: none
+  re_onboard: none
+  notes: >
+    re_onboard none is the continuity watch. Mentor did not restart Session Zero or Module 1
+    teaching. Skippable freshness reminder was one sentence and was not a gate. Alex asked
+    to see progress and stop; mentor did not open PE. quiz_volume: none. evidence_theater:
+    none (did not re-score Fixture A artifacts).
+
+path_band: resume
+formative_check_id: null
+formative_check_choice: null
+formative_check_class: null
+continuity_fail_name_role_reask: false
+
+synthetic_only: true
+claims_commercial_ready: false
+claims_multi_harness_pass: false
