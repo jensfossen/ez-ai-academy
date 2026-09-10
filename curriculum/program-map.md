@@ -23,7 +23,7 @@ These are **not** numbered modules. They are optional orientation. They do **not
 | Unit | Status | Learner outcome | Placement |
 |---|---|---|---|
 | Models landscape | **Included / Companion** | Name who makes common workplace models, when a model name matters, and how to read one — by pointing at official pages, not by memorizing a catalog | After Module 1; optional **before or beside** Prompt Engineering. Never a PE prerequisite. Teach from [`models-landscape.md`](models-landscape.md). Design history: [`models-landscape-outline.md`](models-landscape-outline.md). Issue [#39](https://github.com/jensfossen/ez-ai-academy/issues/39). |
-| Graph Engineering | **Planned / Companion** | Say when one loop is enough, how to wire stations / handoffs / shared notes, and when not to draw that map — organization of work across loops, not GraphRAG | After Modules 4–5 (Agents/Harness + Loop); optional orientation **before** a future numbered Graph module. Never a PE gate. Never a Foundations blocker. **Not Included.** Outline only: [`graph-engineering-outline.md`](graph-engineering-outline.md). Issue [#46](https://github.com/jensfossen/ez-ai-academy/issues/46). |
+| Graph Engineering | **Included / Companion** | Say when one loop is enough, how to wire stations / handoffs / shared notes, and when not to draw that map — organization of work across loops, not GraphRAG | After Modules 4–5 (Agents/Harness + Loop) when those exist; optional when the learner asks about wiring several AI helpers. Modules 4–5 are still **Planned** — mentors may offer early only if multi-helper handoff confusion is already here, and must say those modules are upcoming. Never a PE gate. Never a Foundations blocker. Teach from [`graph-engineering.md`](graph-engineering.md). Design history: [`graph-engineering-outline.md`](graph-engineering-outline.md). Issue [#46](https://github.com/jensfossen/ez-ai-academy/issues/46). |
 
 ### Placement decision (Models landscape)
 
@@ -43,22 +43,22 @@ Live units shipped as a companion. Do not promote this to a numbered module from
 
 ### Placement decision (Graph Engineering)
 
-**Pick: Planned / Companion after Modules 4–5** — optional orientation before a future numbered Graph module. Not Included. Not a PE gate. Not a Foundations blocker.
+**Pick: Included / Companion after Modules 4–5** — optional orientation before a future numbered Graph module. Not a PE gate. Not a Foundations blocker.
 
 Why this, verified against the map above:
 
 1. Rows 1–5 are **capabilities** (explain → direct → assemble context → configure a harness → run a measured loop). Graph Engineering is **organization of work across several loops** — wiring, handoffs, checkpoints — not a sixth capability until Chief / Jens promote it.
-2. It sits **above** Loop Engineering and **beside** harness engineering: once one loop is reliable, the hard problems are stations, paths, shared notes, and failure isolation. Teaching it before Modules 4–5 would pre-teach agents and loops.
+2. It sits **above** Loop Engineering and **beside** harness engineering: once one loop is reliable, the hard problems are stations, paths, shared notes, and failure isolation. Teaching it as if Modules 4–5 were already shipped would pretend those modules exist.
 3. The [module completion contract](#module-completion-contract) would force contained, workplace, and artifact evidence. Issue #46 allows three-part completion **only if** this becomes a full module. A companion stays optional.
 4. Prompt Engineering is already **Included**. This unit must not delay or block PE or Foundations exit. Session Zero still opens Module 1 (`curriculum/onboarding.md`).
 5. **GraphRAG** (knowledge-graph retrieval) is a related word and a different job. This companion is not a retrieval module.
-6. Foundations exit and [#4](https://github.com/jensfossen/ez-ai-academy/issues/4) PE Pass stay held. **Planned / Companion** is honest: outline in repo, no shipped teaching, no Pass.
+6. Modules 4 and 5 remain **Planned**. Mentors may offer this companion **early** only if the learner already faces multi-helper handoff confusion, and must say Agents/Harness + Loop are still upcoming. Foundations exit and [#4](https://github.com/jensfossen/ez-ai-academy/issues/4) PE Pass stay held. **Included / Companion** is honest: live orientation exists; it is not a numbered module, not three-evidence completion, and not a Pass.
 
 Rejected alternative: insert **Module 6 — Graph Engineering** on the numbered table now. That would imply the future-module contract (diagnostic, three evidence types, progress record) before anyone agreed this should be a numbered module.
 
 Rejected alternative: a Module 1 companion (the #39 pattern). “Who makes models” is literacy after an LLM mental model. Wiring several loops is a later-capability orientation.
 
-Hold implement until Foundations exit / Chief go. Do not add Included/shipped content from a curation scan.
+Live units shipped as a companion. Do not promote this to a numbered module from a curation scan. Do not invent a gradebook.
 
 ## Module completion contract
 

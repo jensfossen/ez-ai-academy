@@ -4,7 +4,7 @@ Make adding images, videos, audio, and source-backed curriculum repeatable witho
 
 The product stays **in-harness**. A website may help people discover or install the Academy; it does not deliver lessons, grade work, or host a media library. External media is always optional. Thin adapters map hosts; they do not fork curriculum or assets.
 
-Use this file when adding or changing a visual, a curated link, or a factual answer / coaching key. Register live Module 1, Module 2, and Models landscape entries in `resources/visuals.md` and `resources/curated-content.md`. Companion pages (Models landscape, live; Graph Engineering, planned) use the **same metadata fields** and are **link-only** — register them in `curated-content.md`, do not store vendor catalogs, SDK tours, or GraphRAG encyclopedias in git. Product brand is locked as **EZ AI Academy** ([`brand/BRAND.md`](../brand/BRAND.md)); do not invent a second mark. Content-quality gates by release stage: `references/commercial-readiness.md`.
+Use this file when adding or changing a visual, a curated link, or a factual answer / coaching key. Register live Module 1, Module 2, Models landscape, and Graph Engineering entries in `resources/visuals.md` and `resources/curated-content.md`. Companion pages (Models landscape and Graph Engineering, live) use the **same metadata fields** and are **link-only** — register them in `curated-content.md`, do not store vendor catalogs, SDK tours, or GraphRAG encyclopedias in git. Product brand is locked as **EZ AI Academy** ([`brand/BRAND.md`](../brand/BRAND.md)); do not invent a second mark. Content-quality gates by release stage: `references/commercial-readiness.md`.
 
 ## Selection standards
 

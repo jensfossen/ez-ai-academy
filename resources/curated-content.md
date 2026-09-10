@@ -237,11 +237,11 @@ Offer at most one of these, and only if the learner asks “which is best.” Ne
 - Placement: **link**.
 - Required for completion: no.
 
-## Planned companion — Graph Engineering
+## Companion — Graph Engineering
 
-**Not live teaching.** Mentors must **not** offer these in Session Zero, Module 1, Prompt Engineering, or any numbered module. Outline only: [`../curriculum/graph-engineering-outline.md`](../curriculum/graph-engineering-outline.md). Status **Planned / Companion** on [`../curriculum/program-map.md`](../curriculum/program-map.md). Issue [#46](https://github.com/jensfossen/ez-ai-academy/issues/46) stays open.
+**Live / offerable** after Modules 4–5 when those exist, or earlier only if the learner already faces multi-helper handoff confusion. Mentors must **not** offer these in Session Zero. Never required for Module 1, Prompt Engineering, Foundations, or this companion. If offering early, say Agents/Harness + Loop are still upcoming. Teach from [`../curriculum/graph-engineering.md`](../curriculum/graph-engineering.md). Design history: [`../curriculum/graph-engineering-outline.md`](../curriculum/graph-engineering-outline.md). Status **Included / Companion** on [`../curriculum/program-map.md`](../curriculum/program-map.md). Issue [#46](https://github.com/jensfossen/ez-ai-academy/issues/46) stays open.
 
-These are official conceptual / engineering pages (plus one GraphRAG boundary page). **Link, do not store.** Rights = `third-party-link`. Required for completion = **no** — including when this companion eventually ships. Do not copy SDK tours, workflow screenshots, or GraphRAG encyclopedias into git.
+These are official conceptual / engineering pages (plus one GraphRAG boundary page). **Link, do not store.** Rights = `third-party-link`. Required for completion = **no**. Do not copy SDK tours, workflow screenshots, or GraphRAG encyclopedias into git. Offer **at most one** conceptual page, and only if the learner asks where the idea comes from.
 
 Review cadence: 90 days, same as live entries. Weekday glance: [`../content/CURATION.md`](../content/CURATION.md). Automated HTTP 2026-09-10 is not a hide. Next review: 2026-12-10.
 
@@ -255,8 +255,8 @@ Review cadence: 90 days, same as live entries. Weekday glance: [`../content/CURA
 - Caution: The page is a framework tutorial. Stay on the *thinking*. Deferred: APIs, checkpointers, interrupts.
 - Source: LangChain, *Thinking in LangGraph*.
 - Review date: 2026-09-10 (concept and link check, HTTP 200). Next review: 2026-12-10.
-- Usage intent: Planned orientation — how to map a workplace flow. Not a live lesson offer.
-- Transcript / text alternative: Written documentation. When units ship, the Academy text alternative is the in-chat companion explanation. Until then, do not assign this page.
+- Usage intent: Optional orientation — how to map a workplace flow. Distill the *thinking*. Offer at most one official page after in-chat teaching, and only if the learner asks.
+- Transcript / text alternative: Written documentation. The Academy text alternative is the in-chat companion explanation.
 - Rights status: `third-party-link`. View on the publisher's site; do not download or store a tutorial in this repo.
 - Placement: **link**.
 - Required for completion: no.
@@ -269,8 +269,8 @@ Review cadence: 90 days, same as live entries. Weekday glance: [`../content/CURA
 - Caution: Product and SDK surface. Teach handoffs and checkpoints in workplace words. Do not open a builder canvas tour.
 - Source: OpenAI Developers, Agents SDK guide.
 - Review date: 2026-09-10 (concept and link check, HTTP 200). Next review: 2026-12-10.
-- Usage intent: Planned orientation. Not a live lesson offer.
-- Transcript / text alternative: Written documentation. In-chat explanation is the complete alternative when units exist.
+- Usage intent: Optional orientation. Offer at most one official page after in-chat teaching, and only if the learner asks. Do not assign the SDK.
+- Transcript / text alternative: Written documentation. In-chat explanation is the complete alternative.
 - Rights status: `third-party-link`.
 - Placement: **link**.
 - Required for completion: no.
@@ -283,15 +283,15 @@ Review cadence: 90 days, same as live entries. Weekday glance: [`../content/CURA
 - Caution: Published 2024-12-19; the page notes the tooling landscape has moved. Distill the *simplicity* claim, not a frozen framework list.
 - Source: Anthropic Engineering, *Building effective agents*.
 - Review date: 2026-09-10 (concept and link check, HTTP 200). Next review: 2026-12-10.
-- Usage intent: Planned orientation / “when not to.” Not a live lesson offer.
-- Transcript / text alternative: Written essay. Academy text alternative (when written) is the in-chat rule: stay with one loop unless work keeps dropping between people.
+- Usage intent: Optional orientation / “when not to.” Offer at most one official page after in-chat teaching, and only if the learner asks.
+- Transcript / text alternative: Written essay. Academy text alternative is the in-chat rule: stay with one loop unless work keeps dropping between people.
 - Rights status: `third-party-link`. Do not rehost the essay.
 - Placement: **link**.
 - Required for completion: no.
 
 ### Related-but-different (boundary only)
 
-Offer this only if a future unit 7 exists and the learner (or a coworker) mixes “graph” with knowledge-graph retrieval. Never teach GraphRAG internals.
+Offer this only if the learner (or a coworker) mixes “graph” with knowledge-graph retrieval. Never teach GraphRAG internals.
 
 #### IBM — What is GraphRAG?
 
@@ -301,7 +301,7 @@ Offer this only if a future unit 7 exists and the learner (or a coworker) mixes 
 - Caution: The page goes deep (GNN, Cypher, applications). Do not assign it. Do not teach those terms.
 - Source: IBM Think, *What is GraphRAG?*
 - Review date: 2026-09-10 (concept and link check, HTTP 200). Next review: 2026-12-10.
-- Usage intent: Planned boundary note. Not a live lesson offer.
+- Usage intent: Optional boundary note only if they mix “graph” with retrieval. Not an assignment.
 - Transcript / text alternative: Written explainer. Academy text alternative: if “graph” means a web of facts to look up, that is a different job.
 - Rights status: `third-party-link`. Do not rehost the article.
 - Placement: **link**.
@@ -309,4 +309,4 @@ Offer this only if a future unit 7 exists and the learner (or a coworker) mixes 
 
 ## Embedded visual fallback
 
-When external content is blocked or distracting, use the current module image, its alt text, and the matching curriculum file (`curriculum/module-01-llm.md`, `curriculum/prompt-engineering.md`, or the in-chat Models landscape explanation). Keep every lesson fully functional without external media.
+When external content is blocked or distracting, use the current module image, its alt text, and the matching curriculum file (`curriculum/module-01-llm.md`, `curriculum/prompt-engineering.md`, or the in-chat Models landscape or Graph Engineering explanation). Keep every lesson fully functional without external media.

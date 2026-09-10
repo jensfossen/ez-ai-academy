@@ -38,6 +38,7 @@ Run this scenario in a fresh conversation with no prior Academy state. Use synth
 - Co-creates an LLM Working Card the learner can explain and reuse.
 - Marks the module complete only when all three evidence types exist.
 - The optional Models landscape companion (`curriculum/models-landscape.md`) is **not** part of this scenario. Do not require it. Offering or skipping it is not Foundations evidence and is not a Pass claim.
+- The optional Graph Engineering companion (`curriculum/graph-engineering.md`) is **not** part of this scenario and is **not** a Foundations companion. Do not require it. Offering or skipping it is not Foundations evidence and is not a Pass claim.
 
 ### 5. Continuity
 

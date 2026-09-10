@@ -4,7 +4,7 @@ Learner- and operator-facing log of **curriculum, checks, exercises, visuals, cu
 
 The repository is the source of truth. The [discovery site](https://jensfossen.github.io/ez-ai-academy/) is not this log and does not host lessons.
 
-**Current content revision:** `2026-09-10f` — same value as `metadata.academy_content_revision` in `SKILL.md`. Mentors may mention it when offering a skippable update reminder. It is not a grade, a Pass, or a website account.
+**Current content revision:** `2026-09-10g` — same value as `metadata.academy_content_revision` in `SKILL.md`. Mentors may mention it when offering a skippable update reminder. It is not a grade, a Pass, or a website account.
 
 Operator weekday scan, staffing, and proposal format: [`CURATION.md`](CURATION.md). That loop does not replace this log.
 
@@ -49,6 +49,31 @@ PRs that change curriculum, checks, exercises, learner-visible rubrics, visuals,
 Do not claim a Foundations or Prompt Engineering Pass from a changelog entry. Do not mark commercial-readiness gates here. Prototype exit is not commercial-ready.
 
 ---
+
+## 2026-09-10g — Graph Engineering companion (live units)
+
+Learners who already face multi-helper handoff confusion can take an optional short stop: when one measured loop is enough, how to name stations, paths, and a shared notebook, and when not to draw that map. Agents/Harness and Loop are still upcoming. It never blocks Prompt Engineering or Foundations. It is not a numbered module and not a Graph Engineering Pass.
+
+### Added
+
+- Live companion: [`curriculum/graph-engineering.md`](../curriculum/graph-engineering.md) — bite-size units (when one loop is enough; stations, paths, and the shared notebook; handoffs; human checkpoints; research → draft → review vignette; one-after-another vs side-by-side; when not to draw a graph; optional GraphRAG one-liner). Mentor scripts, language boundary, short/guided/support paths, and a phone short-session note. Orientation is done when those outcomes are covered — not three artifacts.
+- Optional formative check: [`checks/graph-engineering.md`](../checks/graph-engineering.md) — one nuanced `native_choice_card` (Markdown fallback). No exercises or rubrics. Not in the Cowork ZIP (20-file cap); skip the check there.
+
+### Changed
+
+- Program map status is now **Included / Companion**. Mentors may offer the companion after Modules 4–5 when those exist, or earlier only if handoff confusion is already here — and must say those modules are upcoming. Never a PE gate. Never a Foundations blocker. `academy_content_revision` is now `2026-09-10g`. Cowork ZIP rebuilt (swapped Builder Mode reference for the live lesson so the uploaded skill stays within 20 companion files). Outline kept as design history. Discovery Pages untouched. [#4](https://github.com/jensfossen/ez-ai-academy/issues/4) PE Pass and Foundations exit stay held. [#15](https://github.com/jensfossen/ez-ai-academy/issues/15) / [#24](https://github.com/jensfossen/ez-ai-academy/issues/24) stay Jens-gated.
+
+### Removed
+
+- None. The outline file remains as design history. Builder Mode (`references/builder-mode.md`) remains in the full checkout; it is no longer inside the Cowork ZIP.
+
+### Media
+
+- Official LangChain “Thinking in LangGraph,” OpenAI Agents guide, and Anthropic “Building effective agents” pages are now **live / offerable** optional links (at most one, only if the learner asks where the idea comes from). IBM GraphRAG stays a one-line contrast if someone mixes “graph” with retrieval. All remain `third-party-link`, required for completion = no. No SDK tour stored in git.
+
+### Breaking for learners
+
+- None. Module 1 and Prompt Engineering still need three evidence types (contained exercise, workplace application, reusable artifact). This companion does not add a gradebook row and is not a PE or Foundations prerequisite. This does not close [#46](https://github.com/jensfossen/ez-ai-academy/issues/46), [#3](https://github.com/jensfossen/ez-ai-academy/issues/3), or [#4](https://github.com/jensfossen/ez-ai-academy/issues/4).
 
 ## 2026-09-10f — Models landscape companion (live units)
 
