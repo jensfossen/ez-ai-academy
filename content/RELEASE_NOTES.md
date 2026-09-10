@@ -4,7 +4,7 @@ Learner- and operator-facing log of **curriculum, checks, exercises, visuals, cu
 
 The repository is the source of truth. The [discovery site](https://jensfossen.github.io/ez-ai-academy/) is not this log and does not host lessons.
 
-**Current content revision:** `2026-09-10c` — same value as `metadata.academy_content_revision` in `SKILL.md`. Mentors may mention it when offering a skippable update reminder. It is not a grade, a Pass, or a website account.
+**Current content revision:** `2026-09-10f` — same value as `metadata.academy_content_revision` in `SKILL.md`. Mentors may mention it when offering a skippable update reminder. It is not a grade, a Pass, or a website account.
 
 Operator weekday scan, staffing, and proposal format: [`CURATION.md`](CURATION.md). That loop does not replace this log.
 
@@ -49,6 +49,31 @@ PRs that change curriculum, checks, exercises, learner-visible rubrics, visuals,
 Do not claim a Foundations or Prompt Engineering Pass from a changelog entry. Do not mark commercial-readiness gates here. Prototype exit is not commercial-ready.
 
 ---
+
+## 2026-09-10f — Models landscape companion (live units)
+
+Learners who finished Module 1 can take an optional short stop: who makes the AI they already meet at work, when a model name is worth noticing, and how to read that name. It sits beside Prompt Engineering. It never blocks PE. It is not a numbered module and not a Foundations or PE Pass.
+
+### Added
+
+- Live companion: [`curriculum/models-landscape.md`](../curriculum/models-landscape.md) — six bite-size units (makers you already meet; when the name matters; how to read a name; Amazon Nova on AWS vignette; where to look next; optional public comparisons). Mentor scripts, language boundary, short/guided/support paths, and a phone short-session note. Orientation is done when those outcomes are covered — not three artifacts.
+- Optional formative check: [`checks/models-landscape.md`](../checks/models-landscape.md) — one nuanced `native_choice_card` (Markdown fallback). No exercises or rubrics.
+
+### Changed
+
+- Program map status is now **Included / Companion**. Mentors may offer the companion after Module 1, or when a learner asks about model names. Never before the Module 1 mental model. Never a PE gate. `academy_content_revision` is now `2026-09-10f`. Cowork ZIP rebuilt so the uploaded skill matches. Outline kept as design history. Discovery Pages untouched. [#4](https://github.com/jensfossen/ez-ai-academy/issues/4) PE Pass and Foundations exit stay held.
+
+### Removed
+
+- None. The outline file remains as design history.
+
+### Media
+
+- Official OpenAI, Anthropic, Gemini, Amazon Nova, and Microsoft Foundry overviews are now **live / offerable** optional links (at most one). LMArena and Stanford HELM stay curiosity-only if someone asks “which is best.” All remain `third-party-link`, required for completion = no. No catalog stored in git.
+
+### Breaking for learners
+
+- None. Module 1 and Prompt Engineering still need three evidence types (contained exercise, workplace application, reusable artifact). This companion does not add a gradebook row and is not a PE prerequisite. This does not close [#39](https://github.com/jensfossen/ez-ai-academy/issues/39), [#3](https://github.com/jensfossen/ez-ai-academy/issues/3), or [#4](https://github.com/jensfossen/ez-ai-academy/issues/4).
 
 ## 2026-09-10e — Grok Bot Foundations Pass with adapter (operators)
 

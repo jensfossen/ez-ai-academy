@@ -58,7 +58,7 @@ development_focus: []
 next_recommended_action: ""
 ```
 
-Use only these status values: `not_started`, `in_progress`, `complete`.
+Use only these status values: `not_started`, `in_progress`, `complete`. Companions (Models landscape) are not module ids — do not add `modules.models_landscape`. You may mention an optional companion stop in `next_recommended_action`.
 
 For each evidence field, use `null` or a concise object containing `description`, `grade` when applicable, and `demonstrated_at` as an ISO date when known (`YYYY-MM-DD` or a full ISO-8601 timestamp). Do not store sensitive source material or full confidential work products. Store an artifact title and sanitized description rather than its full content when needed.
 

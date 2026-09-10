@@ -1,14 +1,14 @@
-# Models landscape — outline only
+# Models landscape — outline (design history)
 
 **EZ AI Academy** · Learn AI where you work.
 
-This file is an **outline** for issue [#39](https://github.com/jensfossen/ez-ai-academy/issues/39). It is **not** a lesson, check, exercise, or rubric. Mentors must **not** teach from it yet. `SKILL.md` does not route here.
+This file is **design history** for issue [#39](https://github.com/jensfossen/ez-ai-academy/issues/39). Live teaching is [`models-landscape.md`](models-landscape.md). Mentors teach from that file, not from this outline.
 
-**Status:** Planned / Companion. **Not Included.** Full units are held until Foundations exit / Chief go. Hold [#4](https://github.com/jensfossen/ez-ai-academy/issues/4) Prompt Engineering Pass. Do not invent a Pass from this outline.
+**Status:** Included / Companion. Not a numbered module. Hold [#4](https://github.com/jensfossen/ez-ai-academy/issues/4) Prompt Engineering Pass. Do not invent a Pass from this companion.
 
-Placement decision and why: [`program-map.md`](program-map.md) (Companion / orientation). Planned links: [`../resources/curated-content.md`](../resources/curated-content.md). Governance: [`../resources/asset-governance.md`](../resources/asset-governance.md). Signal sources: [`../content/CURATION.md`](../content/CURATION.md).
+Placement decision and why: [`program-map.md`](program-map.md) (Companion / orientation). Offerable links: [`../resources/curated-content.md`](../resources/curated-content.md). Governance: [`../resources/asset-governance.md`](../resources/asset-governance.md). Signal sources: [`../content/CURATION.md`](../content/CURATION.md).
 
-## Promise (when it ships)
+## Promise (shipped in the live companion)
 
 A nontechnical enterprise employee can say **who makes** the AI they already meet at work, **when a model name is worth noticing**, and **how to read that name** — by using a few official pages, not by memorizing a catalog.
 
@@ -26,7 +26,7 @@ Plain-language. Three to five. No unexplained jargon.
 
 Module 1 still owns `AI`, `large language model`, `LLM`, `input`, `response`, and `check`. This companion may add only the words below. Prefer ordinary language.
 
-### Allowed (when units are written)
+### Allowed (live companion uses only these)
 
 | Term | Plain meaning |
 |---|---|
@@ -55,7 +55,7 @@ If the learner uses one of these words, answer in one plain sentence and return 
 
 ## Bite-size units (titles + teaching intent)
 
-Not written. Each unit is one short conversation stop. Optional media only. One active question per stop. Same meaning on a phone; shorter wording (`ui/mobile-on-the-go.md`).
+Written in [`models-landscape.md`](models-landscape.md). Each unit is one short conversation stop. Optional media only. One active question per stop. Same meaning on a phone; shorter wording (`ui/mobile-on-the-go.md`).
 
 ### 1. Who makes the models you already meet
 
@@ -71,7 +71,7 @@ Walk through maker + family + extra words (a number, “Lite,” a year). Extra 
 
 ### 4. Amazon Nova on AWS (sample vignette)
 
-One workplace story: what “Nova” means in plain language if the company already uses Amazon Web Services. Intent: practice units 1–3 on Jens’s example. Not a Bedrock tour. Sketch below — still not a lesson.
+One workplace story: what “Nova” means in plain language if the company already uses Amazon Web Services. Intent: practice units 1–3 on Jens’s example. Not a Bedrock tour. Voiced in the live companion.
 
 ### 5. Where to look next
 
@@ -85,7 +85,7 @@ Do not add more units in a scan. Bite-size stays bite-size.
 
 ## Sample vignette sketch — Amazon Nova (AWS)
 
-**Not a lesson.** A few sentences a future unit may voice. Distilled from Amazon’s official Nova overview (canonical page `https://aws.amazon.com/nova/`; the CURATION URL redirects there). Do not paste SKUs, prices, or every Nova service.
+Voiced in [`models-landscape.md`](models-landscape.md) unit 6. Distilled from Amazon’s official Nova overview (canonical page `https://aws.amazon.com/nova/`; the CURATION URL redirects there). Do not paste SKUs, prices, or every Nova service.
 
 > Amazon is the company. **Nova** is the family name for Amazon’s own AI models that workplaces can use on **Amazon Web Services (AWS)** — the same cloud many enterprises already pay for. If a coworker says “use Nova,” they usually mean that family, not a different maker. Extra words after Nova (a number, or a size word like Lite) are editions: newer or lighter members of the same family. You still give a clear request and **check** important output, the way Module 1 already taught. You do not need to memorize Amazon’s full catalog.
 
@@ -102,10 +102,10 @@ Do not add more units in a scan. Bite-size stays bite-size.
 | Numbered module on the capability map? | **No.** Does not become Module 1.5 or bump Prompt Engineering. |
 | Three evidence types (contained / workplace / artifact)? | **No**, while it stays a companion. Those apply only if Chief / Jens later promote it to a full module. |
 | Required for Module 1 or Prompt Engineering? | **No.** Optional orientation after Module 1; may sit beside PE. Never a PE gate. |
-| Formative check / exercise / rubric files? | **Not in this PR.** Do not invent them “to look complete.” |
+| Formative check / exercise / rubric files? | **At most one** optional formative check (`../checks/models-landscape.md`). No exercises or rubrics. Not three-evidence. |
 | Offer in Session Zero? | **No.** Session Zero still goes straight into Module 1. |
 
-If this is later promoted to a full module, write lessons then, add the three evidence types, and treat that as material curriculum (Chief / Jens go). Until then, finishing Module 1 and Prompt Engineering does **not** require this outline.
+If this is later promoted to a full module, add the three evidence types and treat that as material curriculum (Chief / Jens go). Finishing Module 1 and Prompt Engineering does **not** require this companion.
 
 ## Source list
 
@@ -130,7 +130,7 @@ Reuse the CURATION signal set. **Seven named sources** — five official vendor 
 
 Do not add a third tracker, affiliate “top models” lists, or a git-hosted catalog. If a URL moves, update CURATION, this outline, and the curated-content row in the same PR.
 
-Registry rows with required governance fields: [`../resources/curated-content.md`](../resources/curated-content.md) (Planned companion — Models landscape).
+Registry rows with required governance fields: [`../resources/curated-content.md`](../resources/curated-content.md) (Companion — Models landscape).
 
 ## Governance
 
@@ -151,10 +151,10 @@ Selection standards (bite size, currency, learner fit, authority) still apply: [
 | Moment | What to write |
 |---|---|
 | **This PR (outline landed)** | [`../content/RELEASE_NOTES.md`](../content/RELEASE_NOTES.md) **Added**: outline + planned links + map status. Teaching meaning for learners is unchanged. Do **not** bump `academy_content_revision`. Do **not** rebuild the Cowork ZIP. |
-| **Later: live companion units** | New dated entry. **Added**: the bite-size units actually taught. **Media**: which official links mentors may offer (still optional). **Breaking**: none unless completion rules change. Then bump `metadata.academy_content_revision` in `SKILL.md` to that date. Only then may SKILL route to a real lesson file. |
+| **Later: live companion units** | Shipped: [`../content/RELEASE_NOTES.md`](../content/RELEASE_NOTES.md) `2026-09-10f`. **Added**: the bite-size units in [`models-landscape.md`](models-landscape.md). **Media**: official links mentors may offer (still optional). **Breaking**: none. `metadata.academy_content_revision` is `2026-09-10f`. SKILL routes to the live lesson. |
 | **Later: promote to a full module** | Material curriculum. Chief / Jens go. New entry must say three evidence types now apply, and whether PE’s prerequisite changed. That is a breaking note for learners. |
 
-Until live units exist, returning learners should see **no** new lesson. Operators may read this outline.
+Live units exist. Returning learners who pull this revision may be offered the companion after Module 1. This outline stays as design history.
 
 ## Non-goals
 
@@ -162,4 +162,4 @@ Until live units exist, returning learners should see **no** new lesson. Operato
 - Vendor affiliate or SEO pages on GitHub Pages
 - Replacing Foundations or Prompt Engineering gates
 - Graph Engineering, agents, context, or harness teaching
-- Checks, exercises, rubrics, or SKILL routing in this slice
+- Three-evidence completion, a numbered module, or a companion gradebook

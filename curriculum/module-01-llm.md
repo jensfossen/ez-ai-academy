@@ -78,3 +78,5 @@ Module 1 is complete when the learner:
 3. creates an LLM Working Card they can reuse and explain.
 
 Use `rubrics/interaction-grading.md` for the two graded artifacts. Do not combine formative check points into the letter grade.
+
+After this module is complete, you may offer the optional Models landscape companion (`curriculum/models-landscape.md`). Skip it if they want Prompt Engineering now. Never require it. Never treat it as a PE gate. Never offer it before the mental model in this file is in place.
