@@ -11,3 +11,7 @@ Build a clear mental model one idea at a time. Do not expose the full vocabulary
 ## Later modules
 
 Add agents, context, harnesses, and evaluation loops only in their own modules. A later module may refer back to the LLM mental model, but Module 1 must not pre-teach those terms.
+
+## Companion (planned, not released)
+
+- **Models landscape** — outline only: [`models-landscape-outline.md`](models-landscape-outline.md). Status **Planned / Companion** on [`program-map.md`](program-map.md). Do not teach it in Session Zero or Module 1. Full units held.
