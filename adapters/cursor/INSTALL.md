@@ -36,7 +36,14 @@ Then start the same way: type `/` and choose `ai-academy`, or ask naturally to s
 
 Clone the repository to `.cursor/skills/ai-academy` or `.agents/skills/ai-academy` in that project. Cursor can also discover compatible Claude and Codex skill directories.
 
-To update any clone later, run `git pull` inside the installed `ai-academy` directory.
+## Stay current
+
+This checkout does not update itself. Curriculum and media change on `main`.
+
+- **Clone repo (primary):** in a terminal at the repository root, run `git pull origin main`. Or open a new window and clone `https://github.com/jensfossen/ez-ai-academy` again.
+- **Personal or project skills folder:** run `git pull` inside the installed `ai-academy` directory.
+- Start a new chat (or type `/` and choose `ai-academy` again) so the mentor loads the new `SKILL.md`.
+- What changed for learners: [`content/RELEASE_NOTES.md`](../../content/RELEASE_NOTES.md). Updating is optional and never required to finish a lesson you already started.
 
 ## Cursor IDE chat vs Cloud Agent
 

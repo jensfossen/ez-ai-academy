@@ -39,6 +39,8 @@ Context Engineering, Agents and Harness Engineering, and Loop Engineering are on
 
 `SKILL.md` is the canonical entry point. It routes the host to only the curriculum, exercise, rubric, visual, or schema needed for the current learning step. See `PORTABILITY.md` for the host contract.
 
+Installed copies do not update themselves. Use **Stay current** in the harness install guide, then read [`content/RELEASE_NOTES.md`](content/RELEASE_NOTES.md) for what changed. Updating is optional and never required to finish a lesson you already started.
+
 The current package is ready for prototype testing, not production rollout. Release stages (Prototype → Private pilot → Enterprise beta → Commercial release) and their gates live in [`references/commercial-readiness.md`](references/commercial-readiness.md). Prototype exit is not commercial-ready. The setup adapters map host capabilities without duplicating or forking the curriculum. See [`adapters/`](adapters/README.md) for the complete setup router.
 
 ## Build or preview the curriculum
@@ -54,6 +56,7 @@ Brand is locked: name, message, palette, type, and logo live in [`brand/BRAND.md
 | Path | Purpose |
 |---|---|
 | `SKILL.md` | Platform-neutral entry point and learning loop |
+| `content/` | Learner-facing [content release notes](content/RELEASE_NOTES.md) (added / changed / removed) |
 | `curriculum/` | Module plans and program sequence |
 | `checks/` | Formative, non-letter-graded knowledge checks |
 | `exercises/` | Contained work, workplace application, and artifacts |
@@ -80,6 +83,10 @@ Brand is locked: name, message, palette, type, and logo live in [`brand/BRAND.md
 - Treat fluent output as something to inspect, not proof of correctness.
 
 Enterprise sanitation, human-review, accessibility, and privacy rules for controlled pilots: [`resources/enterprise-baseline.md`](resources/enterprise-baseline.md). Learning stays in-harness; Markdown fallbacks are first-class. The Academy does not certify vendor hosts for WCAG.
+
+## Content PRs
+
+PRs that change curriculum, checks, exercises, visuals, curated links, learner-visible copy, or packages must add or extend an entry in [`content/RELEASE_NOTES.md`](content/RELEASE_NOTES.md) using **Added / Changed / Removed / Media / Breaking for learners**. When teaching meaning changed, bump `metadata.academy_content_revision` in `SKILL.md` to that entry's date. Checklist: the same file.
 
 ## License
 

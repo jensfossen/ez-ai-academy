@@ -227,6 +227,7 @@ When a Foundations run checks Continuity, capture the same fields as `tests/foun
 
 ## Related files
 
+- Content vintage of a skill checkout (not this schema): `metadata.academy_content_revision` in `SKILL.md`. Learner-facing deltas: `content/RELEASE_NOTES.md`. Do not store a website account or require a remote sync to resume.
 - Optional connector draft: `schemas/sor-connector-contract.md`
 - Privacy floor: `resources/enterprise-baseline.md`
 - Host contract: `PORTABILITY.md`

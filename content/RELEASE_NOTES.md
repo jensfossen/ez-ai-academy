@@ -1,0 +1,88 @@
+# Content release notes
+
+Learner- and operator-facing log of **curriculum, checks, exercises, visuals, curated media, and packages**. Git history still holds engineering PR titles. This file answers: what can someone learn, practice, or see now that they could not last time they pulled?
+
+The repository is the source of truth. The [discovery site](https://jensfossen.github.io/ez-ai-academy/) is not this log and does not host lessons.
+
+**Current content revision:** `2026-09-10` — same value as `metadata.academy_content_revision` in `SKILL.md`. Mentors may mention it when offering a skippable update reminder. It is not a grade, a Pass, or a website account.
+
+## How to read this file
+
+Newest entry first. Every entry uses the same five headings. Write `None` rather than omitting a heading.
+
+## Template (copy for the next entry)
+
+```markdown
+## YYYY-MM-DD — Short learner-facing title
+
+One or two sentences on **learning meaning** (what a returning learner can do or see now).
+
+### Added
+- New lesson, check, exercise, artifact, or optional aid.
+
+### Changed
+- Revised explanation, check, habit, brand, or install path that changes how someone learns.
+
+### Removed
+- Retired lesson, video, phrase, or path a returning learner might still look for.
+
+### Media
+- Images, curated video/audio/links: added, replaced, or left as-is. Note if a link is still optional.
+
+### Breaking for learners
+- None.
+- Or: what a returning learner should know before they continue (renamed module, changed completion evidence, retired artifact). Not a commercial-readiness claim.
+```
+
+## Content PRs (required)
+
+PRs that change curriculum, checks, exercises, learner-visible rubrics, visuals, curated links, adapter learner copy, or packages must update this file.
+
+- [ ] Add a dated entry at the top (or extend today's entry if it is the same teaching change).
+- [ ] Include all five headings. Use `None` if a heading does not apply.
+- [ ] Write for learners and operators. Do not paste PR titles.
+- [ ] When teaching meaning changed, set `metadata.academy_content_revision` in `SKILL.md` to this entry's date (`YYYY-MM-DD`).
+- [ ] Point returning learners at the matching adapter **Stay current** section if the update path changed.
+
+Do not claim a Foundations or Prompt Engineering Pass from a changelog entry. Do not mark commercial-readiness gates here. Prototype exit is not commercial-ready.
+
+---
+
+## 2026-09-10 — First log: Foundations, Prompt Engineering, EZ brand, and learning in chat
+
+Snapshot of teaching already on `main` through 2026-09-10, plus this log and a skippable “pull the latest” reminder. Earlier work is summarized by **learning meaning**, not by PR.
+
+Module 1 content is available. Prompt Engineering is in-repo at the same content maturity. Harness acceptance remains partial. The Prompt Engineering scenario is ready to run; it is not a recorded Pass. This entry does not close Foundations or invent a Pass.
+
+### Added
+
+- **Module 1 — What is an LLM?** A full in-chat path: a practical mental model (pattern-based predictor), one familiar workplace example, one formative check, a plain-language explanation, a sanitized work application, and an **LLM Working Card** the learner can reuse. Experienced learners get a shorter route through the same sequence — self-report never skips the three evidence types.
+- **Prompt Engineering** at Module 1 content maturity. The habit is outcome, useful inputs, boundaries, shape, then check — not a long magic prompt. Learners finish with a contained prompt-and-result, a workplace application, and a **Prompt Working Card**.
+- Optional short video and podcast after the in-chat explanation. Watching or listening is never required to understand, practice, or complete a module.
+- A portable `AI_ACADEMY_RECORD` the learner can copy from chat and paste later. No website account, LMS, or backend is required to resume.
+- Operator fixtures: a learner persona library and a Foundations self-test runner guide, so testers can rehearse as different people. These are scripts and scoring notes, not a recorded multi-persona Pass.
+- This content log, and a mentor reminder to pull the latest skill from the repo when a copy may be stale (`SKILL.md`, adapter **Stay current** sections).
+
+### Changed
+
+- Public name is **EZ AI Academy**. Never “Easy AI Academy.” Tagline: **Learn AI where you work.**
+- Discovery Pages stay slim: find the repo and install a harness. Setup cards lead with Cursor **Clone repo**. The site is not a status board, gradebook, or lesson host.
+- In-chat teaching prefers the host’s own choice picker when the host attaches it (Cursor: ask-questions / AskQuestion research — not a published Academy widget API) and in-chat video when the host can play a lesson link. Numbered Markdown choices and a link plus text alternative remain first-class. Missing native UI never blocks a lesson.
+- Cursor’s documented install path now starts with **Clone repo** in the app. Personal skills-folder and terminal clones are secondary.
+
+### Removed
+
+- Leftover “Easy AI Academy” wording from shipped learner-facing copy.
+- Heavy discovery-page status and setup dump. Install detail lives in `adapters/*/INSTALL.md`.
+
+### Media
+
+- Module 1 explainer image (`assets/module-01-llm.png`) and the Prompt Engineering map (`assets/prompt-engineering-map.png`) are the in-lesson visuals.
+- Curated Module 1 video (IBM Technology, *How Large Language Models Work*) and optional short podcast remain **optional** deepeners. The lesson text is the complete alternative.
+- Brand lock: EZ wordmark and logo assets. Technical skill id stays `ai-academy`.
+
+### Breaking for learners
+
+- None for completion rules. Module 1 and Prompt Engineering still need three evidence types at B or above (contained exercise, workplace application, reusable artifact). The progress schema stays `academy_version: "0.1"`.
+- If you installed under the old “Easy AI Academy” name, update your skill copy and look for **EZ AI Academy**. Your learning record still works; the product name on the cover changed, not the completion contract.
+- Installed skills do not update themselves. Pull or re-upload when you want this snapshot (see **Stay current** in your harness install guide). Skipping the reminder is fine — it never blocks learning.
