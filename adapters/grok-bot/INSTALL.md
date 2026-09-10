@@ -2,7 +2,7 @@
 
 Learners study in **Grok Bot** through a dedicated **Teacher** bot (or **EZ AI Academy Teacher**). Teacher mentors using EZ AI Academy. Same root `SKILL.md` and curriculum as Cursor, Codex, Claude Code, and Cowork. Canonical skill id remains `ai-academy`. This adapter does not fork the course.
 
-This page is an **install contract**. It is **not** a Foundations Pass and does not close [#4](https://github.com/jensfossen/ez-ai-academy/issues/4).
+This page is an **install contract**. Foundations on this path is recorded as **Pass with adapter** (2026-09-10), not a bare Pass. It does not close [#3](https://github.com/jensfossen/ez-ai-academy/issues/3) or [#4](https://github.com/jensfossen/ez-ai-academy/issues/4).
 
 ## Open Grok Bot / get access
 
@@ -75,12 +75,14 @@ This install does not update itself. Curriculum and media change on `main`.
 - Start or continue in the **same** Teacher chat. Do not create another Teacher to pick up updates.
 - Updating is optional and never required to finish a lesson you already started.
 
-A clone-on-the-Bot-computer path is documented, not recorded. It is not a Foundations Pass.
+A clone-on-the-Bot-computer path is documented. The recorded Pass with adapter used GitHub fetch of root `SKILL.md`, not a clone-on-box install.
 
 ## Honest limits
 
-- No recorded Session Zero → Module 1 run on Grok Bot. Matrix status: **Install contract / To run**.
+- Foundations: **Pass with adapter** (2026-09-10). Continuity export+restore Pass (`academy_version` `"0.1"`). Not a full Pass. Not a PE Pass. Not a multi-harness exit. Matrix: [`tests/harness-matrix.md`](../../tests/harness-matrix.md).
+- Skill loaded via GitHub fetch / Teacher install contract (not Cursor IDE skill install).
+- Native choice cards unavailable — Markdown numbered choices. Module 1 image via markdown+alt (no raster). In-chat video N/A; optional curated URL offered.
 - Bot memory is not the progress system of record. Use `AI_ACADEMY_RECORD`.
-- Native cards, in-chat video, and phone lessons are untested here.
+- Phone lessons remain untested. Desktop native cards were not tested.
 
 Source: [Grok Bot overview](https://docs.x.ai/grok-bot/overview), [Get started](https://docs.x.ai/grok-bot/get-started), [Create and manage Bots](https://docs.x.ai/grok-bot/bots). Last verified 2026-09-10. Tracked in [#53](https://github.com/jensfossen/ez-ai-academy/issues/53).
