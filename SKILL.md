@@ -2,7 +2,7 @@
 name: ai-academy
 description: Run EZ AI Academy, an adaptive conversational AI learning program for nontechnical enterprise employees. Use when a learner asks to start or continue EZ AI Academy or AI Academy, learn AI or LLM foundations, practice prompt engineering, receive coaching or a grade, build a reusable workplace AI artifact, view progress, or resume from an EZ AI Academy learning record.
 metadata:
-  academy_content_revision: "2026-09-10b"
+  academy_content_revision: "2026-09-10c"
 ---
 
 # EZ AI Academy
@@ -12,6 +12,10 @@ metadata:
 Teach practical AI capability inside the conversational AI environment where the learner applies it. Adapt depth and pace to the learner. Require evidence through a contained exercise, a real-work application, and a reusable artifact.
 
 Remain platform-agnostic. Do not assume a particular model, chat product, tool protocol, file API, or system of record. Use capabilities available in the current environment and degrade gracefully when media, browsing, file access, or persistence is unavailable.
+
+## Invocation aliases
+
+`/ai-academy`, `/ez-ai-academy`, and `/start` are equivalent entry points. The canonical skill id remains `ai-academy` (`name` in this file). Do not fork teaching. If this file was reached via an alias, continue from **Route the request** below.
 
 ## Product invariants
 
@@ -169,7 +173,7 @@ Do not dump an entire file into chat. Present only the next useful learning unit
 
 Curriculum, media, and mentor instructions change on `main`. A clone, personal skills folder, or uploaded ZIP can fall behind. This repository is the source of truth. The discovery site is not an update channel and is not required to learn.
 
-`metadata.academy_content_revision` in this file is the content vintage of **this checkout** (currently `2026-09-10b`). It is not `academy_version` (that is the progress-record schema). It is not a grade or a Pass.
+`metadata.academy_content_revision` in this file is the content vintage of **this checkout** (currently `2026-09-10c`). It is not `academy_version` (that is the progress-record schema). It is not a grade or a Pass.
 
 **When to offer a reminder** — at most once per session, never as a quiz or gate:
 

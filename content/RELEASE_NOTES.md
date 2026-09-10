@@ -4,7 +4,7 @@ Learner- and operator-facing log of **curriculum, checks, exercises, visuals, cu
 
 The repository is the source of truth. The [discovery site](https://jensfossen.github.io/ez-ai-academy/) is not this log and does not host lessons.
 
-**Current content revision:** `2026-09-10b` — same value as `metadata.academy_content_revision` in `SKILL.md`. Mentors may mention it when offering a skippable update reminder. It is not a grade, a Pass, or a website account.
+**Current content revision:** `2026-09-10c` — same value as `metadata.academy_content_revision` in `SKILL.md`. Mentors may mention it when offering a skippable update reminder. It is not a grade, a Pass, or a website account.
 
 Operator weekday scan, staffing, and proposal format: [`CURATION.md`](CURATION.md). That loop does not replace this log.
 
@@ -49,6 +49,30 @@ PRs that change curriculum, checks, exercises, learner-visible rubrics, visuals,
 Do not claim a Foundations or Prompt Engineering Pass from a changelog entry. Do not mark commercial-readiness gates here. Prototype exit is not commercial-ready.
 
 ---
+
+## 2026-09-10c — Cursor slash aliases (`/ez-ai-academy`, `/start`)
+
+In a Cursor checkout you can start from `/ai-academy`, `/ez-ai-academy`, or `/start`. All three run the same mentor path (Session Zero → Module 1). Teaching meaning, evidence types, and harness Pass rows are unchanged.
+
+### Added
+
+- Thin Cursor project skills: [`.cursor/skills/ez-ai-academy/SKILL.md`](../.cursor/skills/ez-ai-academy/SKILL.md) and [`.cursor/skills/start/SKILL.md`](../.cursor/skills/start/SKILL.md). Each only tells the mentor to read the repository-root `SKILL.md`. No second curriculum.
+
+### Changed
+
+- Cursor install, adapters router, README harness table, brand note, and the slim Pages Cursor step now list all three slash commands. `academy_content_revision` is now `2026-09-10c` so returning learners get a skippable freshness reminder. Codex still starts with `$ai-academy`. Cowork still uses natural language (“Start EZ AI Academy as a new learner.”) — the ZIP was **not** rebuilt; alias skills are checkout-only. Personal `git pull` of an existing `~/.cursor/skills/ai-academy` install still works. A personal global `/start` may collide with other projects; repo checkout is the intended primary path. Not a harness Pass.
+
+### Removed
+
+- None.
+
+### Media
+
+- None.
+
+### Breaking for learners
+
+- None. Module 1 and Prompt Engineering still need three evidence types (contained exercise, workplace application, reusable artifact). Canonical skill id stays `ai-academy`. This does not close [#4](https://github.com/jensfossen/ez-ai-academy/issues/4) or invent a Foundations / PE Pass.
 
 ## 2026-09-10b — Session Zero checklist + Show me (mentor wiring)
 
