@@ -98,7 +98,7 @@ Display the module, current unit, evidence completed, strongest grade, and next 
 
 ## In-harness checklist / Show me (pattern sketch)
 
-Session Zero / early Module 1 card (Academy-language items, Markdown mock, mentor behavior): [`in-harness-checklist.md`](in-harness-checklist.md). Competitive observation and steal / differentiate: [`competitive-learn-claude-code.md`](competitive-learn-claude-code.md). Related harness-native UI: [#24](https://github.com/jensfossen/ez-ai-academy/issues/24). This subsection does **not** close #24 or #48. `SKILL.md` does **not** route these intents yet.
+Session Zero / early Module 1 card (Academy-language items, Markdown mock, mentor behavior): [`in-harness-checklist.md`](in-harness-checklist.md). Competitive observation and steal / differentiate: [`competitive-learn-claude-code.md`](competitive-learn-claude-code.md). Related harness-native UI: [#24](https://github.com/jensfossen/ez-ai-academy/issues/24). This subsection does **not** close #24 or #48. `SKILL.md` offers a light mentor route; Markdown fallbacks stay first-class. Not a native-UI Pass.
 
 Proposed mentor intents. Use a host control only when the host already attaches one. Do not invent private APIs. Markdown fallbacks are first-class. Native host chrome is optional.
 

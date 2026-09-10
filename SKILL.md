@@ -2,7 +2,7 @@
 name: ai-academy
 description: Run EZ AI Academy, an adaptive conversational AI learning program for nontechnical enterprise employees. Use when a learner asks to start or continue EZ AI Academy or AI Academy, learn AI or LLM foundations, practice prompt engineering, receive coaching or a grade, build a reusable workplace AI artifact, view progress, or resume from an EZ AI Academy learning record.
 metadata:
-  academy_content_revision: "2026-09-10"
+  academy_content_revision: "2026-09-10b"
 ---
 
 # EZ AI Academy
@@ -35,7 +35,7 @@ Remain platform-agnostic. Do not assume a particular model, chat product, tool p
 
 Read `curriculum/onboarding.md` and `ui/interaction-patterns.md`. Run Session Zero exactly once for a new learner:
 
-1. Show the welcome card.
+1. Show the welcome card. When a first-run or early-return learner would benefit from seeing what this session covers, offer the optional tiny checklist (see **Session Zero checklist and Show me**).
 2. Ask what to call the learner.
 3. Ask the learner's role or function (single-select `native_choice_card`). Use the host ask questions tool when the host attaches it; otherwise Markdown numbered choices plus a free-text option.
 4. Ask what the learner has used AI for (multi-select `native_choice_card`). Use the host ask questions tool when the host attaches it; otherwise Markdown numbered choices plus a free-text option.
@@ -61,6 +61,18 @@ For lesson resources marked `render_intent: in_chat_video`:
 
 Patterns: `ui/interaction-patterns.md`. Cursor adapter note (repo checkout only; not a Pass): `adapters/cursor/RICH_UI.md`. Do not fork curriculum per host.
 
+## Session Zero checklist and Show me
+
+For a first-run learner, or an early return who would benefit from seeing “what we will do,” offer a **tiny** Session Zero / early Module 1 checklist card. Prefer a host checklist, task list, “show me,” or dismiss control when the host already attaches one. If it does not, use the Markdown fallback immediately. A missing native card is not a blocker. Do not invent private APIs, iframes, or host markup.
+
+- **When:** After the welcome card, or when resuming early Module 1 and a cover would help. One current item only. Then ask **one** question and wait. Do not stack a second question under the card.
+- **Show me:** A short worked example **in this chat** for the **current incomplete** item only. Prefer a host demo if attached. Never require Pages, a vendor academy, or a video. After the sample: “your turn,” then one question.
+- **Hide / skip:** Never blocks teaching, practice, grading, or resume. Same ethos as the skippable freshness reminder. They can ask for the card later.
+
+This is **not** a Claude Code (or any vendor) tour. Labels stay portable Academy workplace verbs for nontechnical enterprise employees. Checking a row means “we did this step in chat.” It does **not** complete Module 1. Completion still needs the three evidence types (contained exercise, workplace application, reusable artifact).
+
+Items in Academy language: set your role so examples fit; try one workplace question; check an answer before you use it; practice with a familiar work example; export progress so you can continue later. Full mock and mentor examples: `ui/in-harness-checklist.md`. Intents: `ui/interaction-patterns.md`. Do not claim a native-UI or harness Pass from offering this card.
+
 ## Run each learning cycle
 
 Use this loop across the conversation, not as consecutive questions:
@@ -78,7 +90,7 @@ Use this loop across the conversation, not as consecutive questions:
 
 Ask only one active exercise question at a time. Keep the learner in control with `pause`, `continue`, `go deeper`, `show an example`, `try a harder challenge`, and `show my progress`.
 
-Use native host controls for cards, single-select questions, multi-select questions, knowledge checks, and progress displays when available. Preserve identical meaning with Markdown and numbered choices when controls are unavailable. Never make a UI-specific control part of the curriculum's meaning. See **Prefer host-native questions and video**.
+Use native host controls for cards, single-select questions, multi-select questions, knowledge checks, progress displays, and the optional Session Zero checklist when available. Preserve identical meaning with Markdown and numbered choices when controls are unavailable. Never make a UI-specific control part of the curriculum's meaning. See **Prefer host-native questions and video** and **Session Zero checklist and Show me**.
 
 Teach before testing. Never ask more than one knowledge question without a teaching, feedback, example, or practice moment in between. Keep every check inside the current module's vocabulary.
 
@@ -134,6 +146,7 @@ When a situation needs more than these bullets, read `resources/enterprise-basel
 - Read `curriculum/onboarding.md` only during Session Zero.
 - Read `references/builder-mode.md` when creating, critiquing, or testing the Academy experience.
 - Read `ui/interaction-patterns.md` when selecting a host-appropriate interaction or coaching tone.
+- Read `ui/in-harness-checklist.md` when offering the Session Zero / early Module 1 checklist. Present the next useful card; do not paste the whole mock.
 - Read `resources/visuals.md` when starting a module or displaying an explainer.
 - Read `curriculum/foundations.md` only to choose a Foundations module.
 - Read `curriculum/module-01-llm.md` only while teaching Module 1.
@@ -156,7 +169,7 @@ Do not dump an entire file into chat. Present only the next useful learning unit
 
 Curriculum, media, and mentor instructions change on `main`. A clone, personal skills folder, or uploaded ZIP can fall behind. This repository is the source of truth. The discovery site is not an update channel and is not required to learn.
 
-`metadata.academy_content_revision` in this file is the content vintage of **this checkout** (currently `2026-09-10`). It is not `academy_version` (that is the progress-record schema). It is not a grade or a Pass.
+`metadata.academy_content_revision` in this file is the content vintage of **this checkout** (currently `2026-09-10b`). It is not `academy_version` (that is the progress-record schema). It is not a grade or a Pass.
 
 **When to offer a reminder** — at most once per session, never as a quiz or gate:
 
