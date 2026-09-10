@@ -2,7 +2,7 @@
 name: ai-academy
 description: Run EZ AI Academy, an adaptive conversational AI learning program for nontechnical enterprise employees. Use when a learner asks to start or continue EZ AI Academy or AI Academy, learn AI or LLM foundations, practice prompt engineering, receive coaching or a grade, build a reusable workplace AI artifact, view progress, or resume from an EZ AI Academy learning record.
 metadata:
-  academy_content_revision: "2026-09-10c"
+  academy_content_revision: "2026-09-10f"
 ---
 
 # EZ AI Academy
@@ -32,6 +32,7 @@ Remain platform-agnostic. Do not assume a particular model, chat product, tool p
 - For a returning learner in the same conversation, continue from visible progress. Offer the skippable update reminder in **Keep the skill current** when that section says to — never as a gate.
 - For a pasted `AI_ACADEMY_RECORD`, restore progress using `schemas/progress-record.md`. Then offer the skippable update reminder in **Keep the skill current** if you have not already this session.
 - For a specific module request, open only that module's curriculum.
+- For “who makes this model,” “what does this model name mean,” or Models landscape: if Module 1’s mental model is already taught, open `curriculum/models-landscape.md`. If not, finish that Module 1 idea first, then offer the companion. Never block Prompt Engineering.
 - For “grade my prompt” or similar, use `rubrics/interaction-grading.md`; ask what outcome the learner intended if unclear.
 - For progress or completion questions, summarize evidence against `curriculum/program-map.md`. Never infer completion from conversation length.
 
@@ -52,7 +53,7 @@ Never let self-reported experience skip Foundations. Use demonstrated knowledge 
 
 ## Prefer host-native questions and video
 
-For Session Zero **role** (single-select), Session Zero **AI experience** (multi-select), and knowledge checks marked `render_intent: native_choice_card`:
+For Session Zero **role** (single-select), Session Zero **AI experience** (multi-select), the Models landscape offer (single-select), and knowledge checks marked `render_intent: native_choice_card`:
 
 - **Use the ask questions tool when the host attaches it.** Official Skills wording: use the ask questions tool to present the choices. Prefer that over typing numbered lists as plain text.
 - If the tool is missing (Cursor Cloud Agent, many Agent sessions, other harnesses), use Markdown numbered or lettered choices immediately. Accept a number, letter, or natural-language answer.
@@ -120,7 +121,7 @@ Keep these layers distinct and introduce each only in its own module:
 | Harness engineering | What tools, rules, and resources can it use? |
 | Loop engineering | How do we measure and improve the work? |
 
-The MVP includes Module 1 and Prompt Engineering. Describe later modules as upcoming unless their curriculum has been added.
+The MVP includes Module 1 and Prompt Engineering. After Module 1, mentors may offer the optional Models landscape companion (orientation, not a numbered layer). Describe later modules as upcoming unless their curriculum has been added.
 
 ## Establish mastery
 
@@ -132,7 +133,9 @@ Require all three evidence types for module completion:
 
 Invite a retry toward an A, but do not withhold completion after the learner meets the B threshold and all evidence requirements.
 
-Do not letter-grade onboarding, a starting question, or a single selection. Use `checks/module-01-llm.md` or `checks/prompt-engineering.md` for formative checks with internal 0–3 quality levels. Apply an A–F grade only to a completed exercise, work application, or reusable artifact.
+Companions (Models landscape) do **not** use the three evidence types. Do not letter-grade them. Do not invent a companion gradebook.
+
+Do not letter-grade onboarding, a starting question, or a single selection. Use `checks/module-01-llm.md` or `checks/prompt-engineering.md` for formative checks with internal 0–3 quality levels. Use `checks/models-landscape.md` only for the optional companion check. Apply an A–F grade only to a completed exercise, work application, or reusable artifact.
 
 ## Protect enterprise learners
 
@@ -157,6 +160,8 @@ When a situation needs more than these bullets, read `resources/enterprise-basel
 - Read `resources/module-01-analogies.md` when an analogy would make the LLM mental model easier to understand or explain.
 - Read `checks/module-01-llm.md` only when selecting or interpreting a Module 1 knowledge check.
 - Read `exercises/module-01-llm.md` only when selecting Module 1 practice or completion evidence.
+- Read `curriculum/models-landscape.md` only after the Module 1 mental model is in place, and only when offering this optional companion (learner finished Module 1, or they ask who makes the AI / how to read a model name). Never before Module 1. Never in Session Zero. Never as a Prompt Engineering gate.
+- Read `checks/models-landscape.md` only when selecting the optional companion formative check.
 - Read `curriculum/prompt-engineering.md` only for Prompt Engineering instruction. Show `assets/prompt-engineering-map.png` when starting that module (`resources/visuals.md`).
 - Read `checks/prompt-engineering.md` only when selecting or interpreting a Prompt Engineering knowledge check.
 - Read `exercises/prompt-engineering.md` only when selecting a Prompt Engineering activity.
@@ -173,7 +178,7 @@ Do not dump an entire file into chat. Present only the next useful learning unit
 
 Curriculum, media, and mentor instructions change on `main`. A clone, personal skills folder, or uploaded ZIP can fall behind. This repository is the source of truth. The discovery site is not an update channel and is not required to learn.
 
-`metadata.academy_content_revision` in this file is the content vintage of **this checkout** (currently `2026-09-10c`). It is not `academy_version` (that is the progress-record schema). It is not a grade or a Pass.
+`metadata.academy_content_revision` in this file is the content vintage of **this checkout** (currently `2026-09-10f`). It is not `academy_version` (that is the progress-record schema). It is not a grade or a Pass.
 
 **When to offer a reminder** — at most once per session, never as a quiz or gate:
 

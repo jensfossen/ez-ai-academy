@@ -131,13 +131,13 @@ Offer at most one of these after the learner has attempted at least one prompt. 
 - Placement: **link** — optional deepener.
 - Required for completion: no.
 
-## Planned companion — Models landscape
+## Companion — Models landscape
 
-**Not live teaching.** Mentors must **not** offer these in Session Zero, Module 1, or Prompt Engineering. Outline only: [`../curriculum/models-landscape-outline.md`](../curriculum/models-landscape-outline.md). Status **Planned / Companion** on [`../curriculum/program-map.md`](../curriculum/program-map.md). Issue [#39](https://github.com/jensfossen/ez-ai-academy/issues/39) stays open.
+**Live / offerable** after Module 1 (or when the learner asks about model names). Mentors must **not** offer these in Session Zero or before the Module 1 mental model. Never required for Module 1, Prompt Engineering, or this companion. Teach from [`../curriculum/models-landscape.md`](../curriculum/models-landscape.md). Design history: [`../curriculum/models-landscape-outline.md`](../curriculum/models-landscape-outline.md). Status **Included / Companion** on [`../curriculum/program-map.md`](../curriculum/program-map.md). Issue [#39](https://github.com/jensfossen/ez-ai-academy/issues/39) stays open.
 
-These are official maker overviews (plus two landscape trackers). **Link, do not store.** Rights = `third-party-link`. Required for completion = **no** — including when this companion eventually ships. Do not copy catalogs, spec sheets, or leaderboard dumps into git.
+These are official maker overviews (plus two landscape trackers). **Link, do not store.** Rights = `third-party-link`. Required for completion = **no**. Do not copy catalogs, spec sheets, or leaderboard dumps into git. Offer **at most one** official vendor page; offer a tracker only if the learner asks “which is best.”
 
-Review cadence: 90 days, same as live entries. Weekday glance: [`../content/CURATION.md`](../content/CURATION.md). Automated HTTP 2026-09-10 is not a hide. Next review: 2026-12-10.
+Review cadence: 90 days, same as other live entries. Weekday glance: [`../content/CURATION.md`](../content/CURATION.md). Automated HTTP 2026-09-10 is not a hide. Next review: 2026-12-10.
 
 ### Official vendor overviews
 
@@ -145,11 +145,11 @@ Review cadence: 90 days, same as live entries. Weekday glance: [`../content/CURA
 
 - URL: https://developers.openai.com/api/docs/models
 - Format: Official models overview.
-- Best for: A future companion stop on names learners already hear (ChatGPT / API family labels).
+- Best for: Optional companion stop on names learners already hear (ChatGPT / API family labels).
 - Source: OpenAI, Models documentation.
 - Review date: 2026-09-10 (concept and link check, HTTP 200). Next review: 2026-12-10.
-- Usage intent: Planned orientation — who makes it, how to read a name. Not a live Module 1 or Module 2 deepener.
-- Transcript / text alternative: The page is written text. When units ship, the Academy text alternative is the in-chat companion explanation. Until then, do not assign this page.
+- Usage intent: Optional orientation — who makes it, how to read a name. Offer at most one official page after in-chat teaching. Not a Module 1 or Module 2 deepener.
+- Transcript / text alternative: The page is written text. The Academy text alternative is the in-chat companion explanation.
 - Rights status: `third-party-link`. View on the publisher's site; do not download or store a catalog in this repo.
 - Placement: **link**.
 - Required for completion: no.
@@ -158,11 +158,11 @@ Review cadence: 90 days, same as live entries. Weekday glance: [`../content/CURA
 
 - URL: https://platform.claude.com/docs/en/models/overview
 - Format: Official Claude models overview.
-- Best for: A future companion stop on Claude family names in enterprise chat.
+- Best for: Optional companion stop on Claude family names in enterprise chat.
 - Source: Anthropic, Claude models overview.
 - Review date: 2026-09-10 (concept and link check, HTTP 200). Next review: 2026-12-10.
-- Usage intent: Planned orientation. Not a live lesson offer.
-- Transcript / text alternative: Written documentation. In-chat explanation is the complete alternative when units exist.
+- Usage intent: Optional orientation. Offer at most one official page after in-chat teaching.
+- Transcript / text alternative: Written documentation. In-chat explanation is the complete alternative.
 - Rights status: `third-party-link`.
 - Placement: **link**.
 - Required for completion: no.
@@ -171,11 +171,11 @@ Review cadence: 90 days, same as live entries. Weekday glance: [`../content/CURA
 
 - URL: https://ai.google.dev/gemini-api/docs/models
 - Format: Official Gemini models overview.
-- Best for: A future companion stop on Gemini family names; keep workplace-plain.
+- Best for: Optional companion stop on Gemini family names; keep workplace-plain.
 - Source: Google AI for Developers, Gemini models.
 - Review date: 2026-09-10 (concept and link check, HTTP 200). Next review: 2026-12-10.
-- Usage intent: Planned orientation. Not a live lesson offer.
-- Transcript / text alternative: Written documentation. In-chat explanation is the complete alternative when units exist.
+- Usage intent: Optional orientation. Offer at most one official page after in-chat teaching.
+- Transcript / text alternative: Written documentation. In-chat explanation is the complete alternative.
 - Rights status: `third-party-link`.
 - Placement: **link**.
 - Required for completion: no.
@@ -188,8 +188,8 @@ Review cadence: 90 days, same as live entries. Weekday glance: [`../content/CURA
 - Caution: The page also markets other Nova *services*. Stay on the model family. Do not teach agents from this link.
 - Source: Amazon Web Services, Amazon Nova.
 - Review date: 2026-09-10 (concept and link check, HTTP 200 after redirect). Next review: 2026-12-10.
-- Usage intent: Planned orientation / sample teaching moment. Not a live lesson offer.
-- Transcript / text alternative: Marketing + overview page. Academy text alternative (when written) is the Nova vignette sketch in the outline — not this page.
+- Usage intent: Optional orientation / sample teaching moment. Offer only if the learner asks or already meets Nova / AWS.
+- Transcript / text alternative: Marketing + overview page. Academy text alternative is the Nova vignette in `curriculum/models-landscape.md` — not this page.
 - Rights status: `third-party-link`. Do not rehost the page or a model table.
 - Placement: **link**.
 - Required for completion: no.
@@ -198,18 +198,18 @@ Review cadence: 90 days, same as live entries. Weekday glance: [`../content/CURA
 
 - URL: https://azure.microsoft.com/en-us/products/ai-foundry/models
 - Format: Official enterprise models catalog landing.
-- Best for: A future companion stop that many Microsoft-oriented workplaces already sit in. Teach “your company may already have a list,” not a shopping tour.
+- Best for: Optional companion stop that many Microsoft-oriented workplaces already sit in. Teach “your company may already have a list,” not a shopping tour.
 - Source: Microsoft Azure, Foundry Models.
 - Review date: 2026-09-10 (concept and link check, HTTP 200). Next review: 2026-12-10.
-- Usage intent: Planned orientation. Not a live lesson offer.
-- Transcript / text alternative: Written product page. In-chat explanation is the complete alternative when units exist.
+- Usage intent: Optional orientation. Offer at most one official page after in-chat teaching.
+- Transcript / text alternative: Written product page. In-chat explanation is the complete alternative.
 - Rights status: `third-party-link`.
 - Placement: **link**.
 - Required for completion: no.
 
 ### Landscape trackers (optional; not a rank)
 
-Offer at most one of these, and only if a future unit 6 exists and the learner asks “which is best.” Never treat a rank as a teaching claim.
+Offer at most one of these, and only if the learner asks “which is best.” Never treat a rank as a teaching claim.
 
 #### LMArena
 
@@ -218,7 +218,7 @@ Offer at most one of these, and only if a future unit 6 exists and the learner a
 - Best for: Optional landscape only — people compare models in public. Do not teach Elo or “the best model.”
 - Source: LMArena (LMSYS Chatbot Arena).
 - Review date: 2026-09-10 (concept and link check, HTTP 200 after redirect). Next review: 2026-12-10.
-- Usage intent: Planned optional landscape signal. Not a live lesson offer.
+- Usage intent: Optional landscape signal only if the learner asks “which is best.” Not a rank and not an assignment.
 - Transcript / text alternative: Interactive site. Academy text alternative: a rank is not a workplace rule.
 - Rights status: `third-party-link`. Do not dump leaderboards into git.
 - Placement: **link**.
@@ -231,7 +231,7 @@ Offer at most one of these, and only if a future unit 6 exists and the learner a
 - Best for: Optional landscape only. Distill one workplace point, or skip.
 - Source: Stanford CRFM, HELM.
 - Review date: 2026-09-10 (concept and link check, HTTP 200). Next review: 2026-12-10.
-- Usage intent: Planned optional landscape signal. Not a live lesson offer.
+- Usage intent: Optional landscape signal only if the learner asks “which is best.” Distill one workplace point, or skip.
 - Transcript / text alternative: Research site. Academy text alternative: comparisons exist; they do not assign the learner a model.
 - Rights status: `third-party-link`. Do not rehost reports or score tables.
 - Placement: **link**.
@@ -309,4 +309,4 @@ Offer this only if a future unit 7 exists and the learner (or a coworker) mixes 
 
 ## Embedded visual fallback
 
-When external content is blocked or distracting, use the current module image, its alt text, and the matching curriculum file (`curriculum/module-01-llm.md` or `curriculum/prompt-engineering.md`). Keep every lesson fully functional without external media.
+When external content is blocked or distracting, use the current module image, its alt text, and the matching curriculum file (`curriculum/module-01-llm.md`, `curriculum/prompt-engineering.md`, or the in-chat Models landscape explanation). Keep every lesson fully functional without external media.

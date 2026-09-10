@@ -22,7 +22,7 @@ These are **not** numbered modules. They are optional orientation. They do **not
 
 | Unit | Status | Learner outcome | Placement |
 |---|---|---|---|
-| Models landscape | **Planned / Companion** | Name who makes common workplace models, when a model name matters, and how to read one — by pointing at official pages, not by memorizing a catalog | After Module 1; optional **before or beside** Prompt Engineering. Never a PE prerequisite. **Not Included.** Outline only: [`models-landscape-outline.md`](models-landscape-outline.md). Issue [#39](https://github.com/jensfossen/ez-ai-academy/issues/39). |
+| Models landscape | **Included / Companion** | Name who makes common workplace models, when a model name matters, and how to read one — by pointing at official pages, not by memorizing a catalog | After Module 1; optional **before or beside** Prompt Engineering. Never a PE prerequisite. Teach from [`models-landscape.md`](models-landscape.md). Design history: [`models-landscape-outline.md`](models-landscape-outline.md). Issue [#39](https://github.com/jensfossen/ez-ai-academy/issues/39). |
 | Graph Engineering | **Planned / Companion** | Say when one loop is enough, how to wire stations / handoffs / shared notes, and when not to draw that map — organization of work across loops, not GraphRAG | After Modules 4–5 (Agents/Harness + Loop); optional orientation **before** a future numbered Graph module. Never a PE gate. Never a Foundations blocker. **Not Included.** Outline only: [`graph-engineering-outline.md`](graph-engineering-outline.md). Issue [#46](https://github.com/jensfossen/ez-ai-academy/issues/46). |
 
 ### Placement decision (Models landscape)
@@ -35,11 +35,11 @@ Why this, verified against the map above:
 2. The [module completion contract](#module-completion-contract) would force contained, workplace, and artifact evidence. Issue #39 allows three-part completion **only if** this becomes a full module. A companion stays optional.
 3. Prompt Engineering is already **Included**. A numbered “Module 1.5” would look like a PE gate and would go stale as names change. This unit must not delay or block PE.
 4. Module 1 already teaches what an LLM is. The companion only makes sense **after** that mental model. Session Zero still opens Module 1 (`curriculum/onboarding.md`).
-5. Foundations exit and [#4](https://github.com/jensfossen/ez-ai-academy/issues/4) PE Pass stay held. **Planned / Companion** is honest: outline in repo, no shipped teaching, no Pass.
+5. Foundations exit and [#4](https://github.com/jensfossen/ez-ai-academy/issues/4) PE Pass stay held. **Included / Companion** is honest: live orientation exists; it is not a numbered module, not three-evidence completion, and not a Pass.
 
 Rejected alternative: a planned numbered row between Module 1 and PE. That would imply the future-module contract (diagnostic, three evidence types, progress record) before anyone agreed this should be a module.
 
-Hold implement until Foundations exit / Chief go. Do not add Included/shipped content from a curation scan.
+Live units shipped as a companion. Do not promote this to a numbered module from a curation scan. Do not invent a gradebook.
 
 ### Placement decision (Graph Engineering)
 
