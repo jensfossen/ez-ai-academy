@@ -34,4 +34,6 @@ This install does not update itself. Curriculum and media change on `main`.
 - Restart Claude Code if you just created the top-level skills folder; later pulls into an existing skill usually apply without a restart.
 - What changed for learners: [`content/RELEASE_NOTES.md`](../../content/RELEASE_NOTES.md). Updating is optional and never required to finish a lesson you already started.
 
+Competitive UX (in-pane Learn checklist): [`ui/competitive-learn-claude-code.md`](../../ui/competitive-learn-claude-code.md). Pattern research only — Claude Code Foundations remains **blocked / not a Pass** ([#14](https://github.com/jensfossen/ez-ai-academy/issues/14)).
+
 Source: [Claude Code — Extend Claude with skills](https://code.claude.com/docs/en/skills). Last verified 2026-09-07.

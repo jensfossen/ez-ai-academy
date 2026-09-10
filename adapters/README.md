@@ -15,4 +15,6 @@ Installed copies do not auto-update. Each install guide has a **Stay current** s
 
 Cursor Foundations acceptance has been validated via Cloud Agent with Markdown choice and image fallbacks ([#10](https://github.com/jensfossen/ez-ai-academy/issues/10)); that run did not test the IDE `/` menu. Cursor IDE chat vs Cloud Agent, plus video/choice-card research: [`cursor/INSTALL.md`](cursor/INSTALL.md), [`cursor/RICH_UI.md`](cursor/RICH_UI.md), [#24](https://github.com/jensfossen/ez-ai-academy/issues/24).
 
+Claude Code in-pane Learn onboarding (competitive research, not a Foundations run): [`../ui/competitive-learn-claude-code.md`](../ui/competitive-learn-claude-code.md). [#14](https://github.com/jensfossen/ez-ai-academy/issues/14) remains blocked / not a Pass.
+
 These instructions were last checked against vendor documentation on **2026-09-07**. Harness behavior changes quickly; record any deviation with the harness version in the [test matrix](../tests/harness-matrix.md).
