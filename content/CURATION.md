@@ -15,6 +15,7 @@ Related backlog (do not treat as closed by this file):
 - [#40](https://github.com/jensfossen/ez-ai-academy/issues/40) mobile / on-the-go experience — principles + matrix notes in repo; leave open until remaining AC / Chief close
 - [#46](https://github.com/jensfossen/ez-ai-academy/issues/46) Graph Engineering — live companion in [`graph-engineering.md`](../curriculum/graph-engineering.md); leave open (Refs, do not Closes from a scan)
 - [#48](https://github.com/jensfossen/ez-ai-academy/issues/48) Claude Code in-harness Learn onboarding — [research note](../ui/competitive-learn-claude-code.md), [checklist + Show me sketch](../ui/in-harness-checklist.md), and light `SKILL.md` mentor offer in repo; leave open; not a Pass
+- [#59](https://github.com/jensfossen/ez-ai-academy/issues/59) Module 3 Context Engineering — live numbered module in [`context-engineering.md`](../curriculum/context-engineering.md); leave open until acceptance is met (Refs, do not Closes from a scan). Not a Pass.
 
 ## Purpose
 
@@ -133,16 +134,17 @@ Named so scans do not lose them. **Do not write the module in this loop.**
 |---|---|---|
 | Plain-language AI models landscape | Live companion ([`models-landscape.md`](../curriculum/models-landscape.md)); issue [#39](https://github.com/jensfossen/ez-ai-academy/issues/39) stays open | Distill the sources above. Not an in-repo encyclopedia. Do not promote to a numbered module from a scan. |
 | Graph Engineering | Live companion ([`graph-engineering.md`](../curriculum/graph-engineering.md)); issue [#46](https://github.com/jensfossen/ez-ai-academy/issues/46) stays open | Organization of work across agents/loops — not GraphRAG. Included / Companion after Modules 4–5. Do not promote to a numbered module from a scan. |
+| Context Engineering | Live numbered Module 3 ([`context-engineering.md`](../curriculum/context-engineering.md)); issue [#59](https://github.com/jensfossen/ez-ai-academy/issues/59) stays open until AC | Assemble and maintain the information set. Included, not a recorded Pass. Do not expand from a scan. |
 | Mobile / on-the-go path | Issue [#40](https://github.com/jensfossen/ez-ai-academy/issues/40) | Principles: [`../ui/mobile-on-the-go.md`](../ui/mobile-on-the-go.md). Honest matrix rows. Leave **#40 open** until remaining AC / Chief close. Not a native app. |
 
-Program map still lists Context Engineering, Agents and Harness Engineering, and Loop Engineering as planned numbered modules. Models landscape and Graph Engineering are **Included / Companion**. Curation does not reorder that map.
+Program map lists Context Engineering as **Included**. Agents and Harness Engineering and Loop Engineering stay planned numbered modules. Models landscape and Graph Engineering are **Included / Companion**. Curation does not reorder that map.
 
 ## Link rot
 
 External media is optional. The lesson text is the complete alternative.
 
 - Selection standards, rights, 90-day review, and hide rules: [`../resources/asset-governance.md`](../resources/asset-governance.md).
-- Live Module 1, Module 2, Models landscape, and Graph Engineering entries: [`../resources/curated-content.md`](../resources/curated-content.md).
+- Live Module 1, Module 2, Module 3, Models landscape, and Graph Engineering entries: [`../resources/curated-content.md`](../resources/curated-content.md).
 - Visuals: [`../resources/visuals.md`](../resources/visuals.md).
 
 A `403` from a bot-protected publisher is **unverified**, not automatically broken. A human should open the URL before retiring a previously good source. Do not rehost third-party video, audio, or articles in `assets/`.

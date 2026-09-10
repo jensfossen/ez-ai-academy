@@ -4,7 +4,7 @@ Learner- and operator-facing log of **curriculum, checks, exercises, visuals, cu
 
 The repository is the source of truth. The [discovery site](https://jensfossen.github.io/ez-ai-academy/) is not this log and does not host lessons.
 
-**Current content revision:** `2026-09-10g` — same value as `metadata.academy_content_revision` in `SKILL.md`. Mentors may mention it when offering a skippable update reminder. It is not a grade, a Pass, or a website account.
+**Current content revision:** `2026-09-10h` — same value as `metadata.academy_content_revision` in `SKILL.md`. Mentors may mention it when offering a skippable update reminder. It is not a grade, a Pass, or a website account.
 
 Operator weekday scan, staffing, and proposal format: [`CURATION.md`](CURATION.md). That loop does not replace this log.
 
@@ -49,6 +49,34 @@ PRs that change curriculum, checks, exercises, learner-visible rubrics, visuals,
 Do not claim a Foundations or Prompt Engineering Pass from a changelog entry. Do not mark commercial-readiness gates here. Prototype exit is not commercial-ready.
 
 ---
+
+## 2026-09-10h — Module 3: Context Engineering (Included)
+
+Learners who finished Prompt Engineering can assemble and maintain the information AI needs for a task: decide what to give, keep it current, and notice when missing or stale context caused a weak result. It is a numbered capability module at the same content bar as Module 1 and Prompt Engineering. It is not a recorded Pass.
+
+### Added
+
+- Live module: [`curriculum/context-engineering.md`](../curriculum/context-engineering.md) — promise, language boundary, C1–C5 conversation path (information set; needed vs background; enough / missing; fresh vs stale; notice the pack), short/guided/support adaptation, phone short-session note, and three-evidence completion.
+- Formative checks: [`checks/context-engineering.md`](../checks/context-engineering.md) — five `native_choice_card` checks (Markdown fallback).
+- Exercises: [`exercises/context-engineering.md`](../exercises/context-engineering.md) — contained pack repair, workplace application, and a **Context Working Card** (source pack card).
+- Academy-original map: `assets/context-engineering-map.png` / `.svg` (rebuild with `scripts/render-context-engineering-map.py`). The Cowork ZIP omits the raster; mentors use the registered alt text or Markdown map.
+- Acceptance scenario (ready to run, not a Pass): [`tests/context-engineering-acceptance.md`](../tests/context-engineering-acceptance.md).
+
+### Changed
+
+- Program map Module 3 is now **Included**. Mentors route here after Prompt Engineering is complete, or when the learner asks and Module 2 has already been taught. `academy_content_revision` is now `2026-09-10h`. Progress records may include additive `modules.context_engineering` under `academy_version: "0.1"` (older exports without the key stay valid). Cowork ZIP rebuilt: Module 3 curriculum, checks, and exercises replace Graph Engineering live lesson, the Models landscape check, and the Module 1 analogies file so the upload stays within 20 companion files. Full checkout still has those omitted files; mentors skip them when missing. Discovery Pages untouched. [#4](https://github.com/jensfossen/ez-ai-academy/issues/4) PE Pass and Foundations exit stay held.
+
+### Removed
+
+- None from a full checkout. The Cowork ZIP no longer includes `curriculum/graph-engineering.md`, `checks/models-landscape.md`, or `resources/module-01-analogies.md` (skip those paths there).
+
+### Media
+
+- New Academy-original Module 3 map (`academy-original`). No stock art. Anthropic’s *Effective context engineering* essay is registered as **curriculum evidence only** — do not assign it; it uses agent and token language this module does not teach. No new required learner link.
+
+### Breaking for learners
+
+- None. Module 1, Prompt Engineering, and Context Engineering each still need three evidence types (contained exercise, workplace application, reusable artifact). This does not close [#59](https://github.com/jensfossen/ez-ai-academy/issues/59), [#3](https://github.com/jensfossen/ez-ai-academy/issues/3), or [#4](https://github.com/jensfossen/ez-ai-academy/issues/4). Agents/Harness and Loop stay Planned.
 
 ## 2026-09-10g — Graph Engineering companion (live units)
 

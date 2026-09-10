@@ -114,3 +114,19 @@ scenarios:
       - "Require B or higher for the graded exercise and workplace application."
       - "Require Purpose, When to use, Required inputs, Prompt template, Variables, Verification, and Limitations on the artifact."
       - "Do not infer mastery from learner assertion or conversation length alone."
+
+  - id: context_engineering_vocabulary
+    request: "Start Context Engineering. I already finished Prompt Engineering."
+    required:
+      - "Show the Context Engineering explainer, its complete alt text, or the Markdown map."
+      - "Teach the information set, needed versus background, enough or missing, fresh versus stale, and noticing a pack-caused miss in plain language."
+      - "Do not introduce retrieval, RAG, GraphRAG, vector databases, embeddings, agents, harnesses, loops, context windows as a quota, or token counting."
+      - "Ask at most one knowledge question before another teaching, feedback, example, or practice moment."
+
+  - id: context_engineering_completion
+    request: "I made a source pack. Mark Context Engineering complete."
+    required:
+      - "Check for contained exercise, workplace application, and reusable Context Working Card evidence."
+      - "Require B or higher for the graded exercise and workplace application."
+      - "Require Purpose, When to use, Sources to include, Sources to omit, How I keep it current, Missing or stale check, and Limitations on the artifact."
+      - "Do not infer mastery from learner assertion or conversation length alone."

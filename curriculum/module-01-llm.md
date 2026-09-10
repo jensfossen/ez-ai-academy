@@ -32,7 +32,7 @@ Keep the first explanation under 120 words. For a knowledgeable learner, shorten
 
 ### 4. Make it familiar with an analogy
 
-Read `resources/module-01-analogies.md`. Choose one analogy that fits the learner, then explain both:
+Read `resources/module-01-analogies.md`. If that file is missing (Cowork ZIP), use the pattern-based predictor and autocomplete comparisons already in this file. Choose one analogy that fits the learner, then explain both:
 
 - what the analogy helps us understand; and
 - where the analogy stops being accurate.

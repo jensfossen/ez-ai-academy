@@ -176,3 +176,5 @@ Guide the learner through this sequence (the exercise bank has scenario options 
 8. Save the reusable artifact with the fields in `exercises/prompt-engineering.md`.
 
 Confirm that the learner can explain what each part does.
+
+After this module is complete, continue to Context Engineering (`curriculum/context-engineering.md`) unless the learner wants to pause or take the Models landscape companion if they skipped it. Do not start Context Engineering before this module's three evidence types exist, except when a returning learner asks and Prompt Engineering is already complete.

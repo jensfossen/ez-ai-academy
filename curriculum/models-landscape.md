@@ -153,7 +153,7 @@ Ask: **“Shall we leave the comparison as curiosity, and stick with the AI your
 
 ### 9. Optional — one formative check
 
-If a check would help after a teaching moment — and you have not already asked one — read `checks/models-landscape.md` and run the single check. Use a tappable single-select control if available. Several options may contain a useful idea; ask for the **best** response and coach the nuance afterward.
+If a check would help after a teaching moment — and you have not already asked one — read `checks/models-landscape.md` and run the single check. If that file is missing (Cowork ZIP), skip the check. Use a tappable single-select control if available. Several options may contain a useful idea; ask for the **best** response and coach the nuance afterward.
 
 Skip the check on the short path unless the learner asks. Never run a second check. This check is **not** completion evidence.
 
