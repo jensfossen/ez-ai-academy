@@ -49,6 +49,12 @@ Foundations Pass [#10](https://github.com/jensfossen/ez-ai-academy/issues/10) al
 3. Video: offer the registered URL; keep the Academy text alternative; never require watching.
 4. Continue the lesson. Learning must not depend on native UI (`PORTABILITY.md`).
 
+## Skill wiring
+
+`SKILL.md` now instructs mentors to **use the ask questions tool when the host attaches it** for Session Zero role (single-select), Session Zero AI experience (multi-select), and knowledge checks marked `native_choice_card`. Prefer that over typing numbered lists as plain text. When the tool is missing, use Markdown numbered or lettered choices immediately.
+
+This is mentor wiring, not a published widget API. **IDE chat vs Cloud Agent still differs:** Cloud Agent and many Agent sessions will not attach the tool; Markdown fallback is expected. This wiring is **not an IDE Pass.** A recorded IDE chat run is still required before claiming native choice cards.
+
 ## Open questions (do not block content)
 
 - Recorded Cursor **IDE chat** Session Zero / Check A run noting whether the ask-questions picker fired vs Markdown fallback.

@@ -35,14 +35,29 @@ Read `curriculum/onboarding.md` and `ui/interaction-patterns.md`. Run Session Ze
 
 1. Show the welcome card.
 2. Ask what to call the learner.
-3. Ask the learner's role or function. Use tappable single-select choices plus a free-text option when supported.
-4. Ask what the learner has used AI for. Use tappable multi-select choices plus a free-text option when supported.
+3. Ask the learner's role or function (single-select `native_choice_card`). Use the host ask questions tool when the host attaches it; otherwise Markdown numbered choices plus a free-text option.
+4. Ask what the learner has used AI for (multi-select `native_choice_card`). Use the host ask questions tool when the host attaches it; otherwise Markdown numbered choices plus a free-text option.
 5. Begin Module 1. Read `curriculum/module-01-llm.md` and `resources/visuals.md`; show `assets/module-01-llm.png`.
 6. Ask one open, low-pressure starting question about LLMs. Do not grade it or stack a quiz behind onboarding.
 
 Accept “skip” or uncertainty. Do not ask for confidential, personal, regulated, or proprietary information.
 
 Never let self-reported experience skip Foundations. Use demonstrated knowledge to shorten explanations or choose a subtler example. Do not add extra diagnostic questions simply because the learner is experienced.
+
+## Prefer host-native questions and video
+
+For Session Zero **role** (single-select), Session Zero **AI experience** (multi-select), and knowledge checks marked `render_intent: native_choice_card`:
+
+- **Use the ask questions tool when the host attaches it.** Official Skills wording: use the ask questions tool to present the choices. Prefer that over typing numbered lists as plain text.
+- If the tool is missing (Cursor Cloud Agent, many Agent sessions, other harnesses), use Markdown numbered or lettered choices immediately. Accept a number, letter, or natural-language answer.
+- Do not invent private APIs, iframes, or host markup in curriculum. A missing picker is not a blocker.
+
+For lesson resources marked `render_intent: in_chat_video`:
+
+- Prefer playing the curated video in chat when the host can.
+- Otherwise offer the curated URL plus the Academy text alternative. Never require watching.
+
+Patterns: `ui/interaction-patterns.md`. Cursor adapter note (not a Pass): `adapters/cursor/RICH_UI.md`. Do not fork curriculum per host.
 
 ## Run each learning cycle
 
@@ -61,7 +76,7 @@ Use this loop across the conversation, not as consecutive questions:
 
 Ask only one active exercise question at a time. Keep the learner in control with `pause`, `continue`, `go deeper`, `show an example`, `try a harder challenge`, and `show my progress`.
 
-Use native host controls for cards, single-select questions, multi-select questions, knowledge checks, and progress displays when available. Preserve identical meaning with Markdown and numbered choices when controls are unavailable. Never make a UI-specific control part of the curriculum's meaning.
+Use native host controls for cards, single-select questions, multi-select questions, knowledge checks, and progress displays when available. Preserve identical meaning with Markdown and numbered choices when controls are unavailable. Never make a UI-specific control part of the curriculum's meaning. See **Prefer host-native questions and video**.
 
 Teach before testing. Never ask more than one knowledge question without a teaching, feedback, example, or practice moment in between. Keep every check inside the current module's vocabulary.
 
