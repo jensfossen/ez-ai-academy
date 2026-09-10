@@ -50,6 +50,34 @@ Do not claim a Foundations or Prompt Engineering Pass from a changelog entry. Do
 
 ---
 
+## 2026-09-10 — Models landscape outline (operators)
+
+Operators have a planned Module 1 companion outline for a plain-language AI models landscape. Learners are **not** taught this yet. Full units, checks, exercises, and SKILL routing are held. Installed skills do not need a pull for this entry alone.
+
+When live units eventually ship, add a **new** dated entry (Added lessons / optional official links; bump `academy_content_revision` only then). This entry is the outline landing, not that ship.
+
+### Added
+
+- Outline: [`curriculum/models-landscape-outline.md`](../curriculum/models-landscape-outline.md) — outcomes, vocabulary boundary, bite-size unit list, Nova/AWS vignette sketch, companion completion stance, seven named sources, governance.
+- Planned curated links (official OpenAI, Anthropic, Gemini, Amazon Nova, Microsoft Foundry overviews; LMArena + HELM as landscape only) in [`resources/curated-content.md`](../resources/curated-content.md). Link only; required for completion = no; not offered in live lessons.
+- Program map **Planned / Companion** row — Module 1 companion, not a numbered module, not Included.
+
+### Changed
+
+- CURATION, README, foundations index, and asset-governance now point at the outline. `academy_content_revision` in `SKILL.md` stays `2026-09-10`. Cowork ZIP not rebuilt. Discovery Pages untouched.
+
+### Removed
+
+- None.
+
+### Media
+
+- No files stored. No new in-chat offer. The seven overview pages are registered as **planned** `third-party-link` entries. Mentors keep using existing optional Module 1 / Module 2 deepeners only.
+
+### Breaking for learners
+
+- None. Module 1 and Prompt Engineering completion rules are unchanged. This companion is not a PE gate and is not a Foundations or Prompt Engineering Pass.
+
 ## 2026-09-10 — Mobile / on-the-go mentor path
 
 Mentors can run Session Zero and Module 1 in short phone stops. Teaching meaning, evidence types, and harness Pass rows are unchanged. Installed skills do not need a pull for this entry alone.
