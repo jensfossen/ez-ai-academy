@@ -8,7 +8,7 @@ The product brand is **locked**. Do not invent a new name, mark, palette, or tag
 
 Never write “Easy AI Academy” in learner-facing or public copy (README, `dist/`, adapter start phrases, acceptance prompts, commercial-readiness, GitHub Pages).
 
-The skill folder id and invocation remain `ai-academy` (`$ai-academy`, `/ai-academy`). Do not rename technical paths to match the wordmark.
+The canonical skill folder id remains `ai-academy` (`$ai-academy`, `/ai-academy`). Do not rename technical paths, git repo name, or progress schema to match the wordmark. Cursor checkout aliases `/ez-ai-academy` and `/start` are allowed; they must load the same root `SKILL.md` and must not fork curriculum.
 
 ## Message
 

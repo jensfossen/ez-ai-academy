@@ -1,6 +1,6 @@
 interface:
   display_name: EZ AI Academy
-  short_description: Adaptive workplace AI learning and practice
+  short_description: Adaptive workplace AI learning and practice. Cursor checkout aliases /ez-ai-academy and /start load the same skill as $ai-academy.
   default_prompt: Use $ai-academy to start my adaptive EZ AI Academy journey.
   icon_small: assets/icon.svg
   icon_large: assets/icon.svg

@@ -34,7 +34,7 @@ Context Engineering, Agents and Harness Engineering, and Loop Engineering are on
 |---|---|---|
 | Codex | [Install guide](adapters/codex/INSTALL.md) | `Use $ai-academy to start a new learning journey.` |
 | Claude Code | [Install guide](adapters/claude-code/INSTALL.md) | `/ai-academy` |
-| Cursor | [Install guide](adapters/cursor/INSTALL.md) | Choose `ai-academy` from the `/` menu |
+| Cursor | [Install guide](adapters/cursor/INSTALL.md) | Choose `ai-academy`, `ez-ai-academy`, or `start` from the `/` menu |
 | Microsoft Copilot Cowork | [Install guide](adapters/microsoft-copilot-cowork/INSTALL.md) | Upload the prepared ZIP, then ask to start |
 
 `SKILL.md` is the canonical entry point. It routes the host to only the curriculum, exercise, rubric, visual, or schema needed for the current learning step. See `PORTABILITY.md` for the host contract.
@@ -55,7 +55,8 @@ Brand is locked: name, message, palette, type, and logo live in [`brand/BRAND.md
 
 | Path | Purpose |
 |---|---|
-| `SKILL.md` | Platform-neutral entry point and learning loop |
+| `SKILL.md` | Platform-neutral entry point and learning loop (canonical skill id `ai-academy`) |
+| `.cursor/skills/` | Thin Cursor slash aliases (`/ez-ai-academy`, `/start`) that load root `SKILL.md` |
 | `content/` | Learner-facing [content release notes](content/RELEASE_NOTES.md) and the operator [curation loop](content/CURATION.md) (weekday scan, sources, dry-runs) |
 | `curriculum/` | Module plans, [program sequence](curriculum/program-map.md), and planned companion outlines ([models landscape](curriculum/models-landscape-outline.md), [Graph Engineering](curriculum/graph-engineering-outline.md) — not shipped teaching) |
 | `checks/` | Formative, non-letter-graded knowledge checks |
