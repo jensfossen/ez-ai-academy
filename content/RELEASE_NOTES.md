@@ -50,6 +50,30 @@ Do not claim a Foundations or Prompt Engineering Pass from a changelog entry. Do
 
 ---
 
+## 2026-09-10 — Claude Code Learn onboarding (operators)
+
+Operators have a competitive UX note for Claude Code’s in-pane **Learn** checklist. Learners are **not** shown a new checklist yet. `SKILL.md` routing is unchanged. Installed skills do not need a pull for this entry alone.
+
+### Added
+
+- Research note: [`ui/competitive-learn-claude-code.md`](../ui/competitive-learn-claude-code.md) — 2026-09-10 observation, pattern inventory, steal vs differentiate, proposed intents (`in_harness_checklist`, `show_me_demo`, `hideable_onboarding`) with Markdown fallbacks. Not a pixel clone. Not a Foundations Pass.
+
+### Changed
+
+- Short pointers in interaction patterns, Claude Code INSTALL, adapters README, and CURATION backlog. `academy_content_revision` in `SKILL.md` stays `2026-09-10`. Cowork ZIP not rebuilt. Discovery Pages untouched. Harness-matrix Pass rows unchanged.
+
+### Removed
+
+- None.
+
+### Media
+
+- None. Optional mention only of the separate web [Claude Academy / Claude Code 101](https://academy.claude.com/courses/claude-code-101). The product signal is the in-pane checklist, not that course.
+
+### Breaking for learners
+
+- None. Module 1 and Prompt Engineering completion rules are unchanged. Claude Code Foundations remains blocked / not a Pass ([#14](https://github.com/jensfossen/ez-ai-academy/issues/14)). This note does not close [#48](https://github.com/jensfossen/ez-ai-academy/issues/48) or [#24](https://github.com/jensfossen/ez-ai-academy/issues/24).
+
 ## 2026-09-10 — Graph Engineering outline (operators)
 
 Operators have a planned companion outline for Graph Engineering — organization of work across agents and loops, not GraphRAG. Learners are **not** taught this yet. Full units, checks, exercises, and SKILL routing are held. Installed skills do not need a pull for this entry alone.

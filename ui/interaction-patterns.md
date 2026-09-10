@@ -95,3 +95,37 @@ Use a grade card only for a completed exercise, work application, or artifact. D
 ## Progress card
 
 Display the module, current unit, evidence completed, strongest grade, and next activity. Use a compact table or checklist fallback. Do not claim a percentage when the curriculum does not define one.
+
+## In-harness checklist / Show me (research)
+
+Competitive observation (Claude Code **Learn** overlay, 2026-09-10) and steal / differentiate: [`competitive-learn-claude-code.md`](competitive-learn-claude-code.md). Related harness-native UI: [#24](https://github.com/jensfossen/ez-ai-academy/issues/24). This subsection does **not** close #24 or #48. `SKILL.md` does **not** route these intents yet.
+
+Proposed mentor intents. Use a host control only when the host already attaches one. Do not invent private APIs. Markdown fallbacks are first-class.
+
+### Checklist — `in_harness_checklist`
+
+A short (3–5) workplace-skill list. One current item. Not completion evidence and not a vendor tour.
+
+**Markdown fallback**
+
+```markdown
+**This session**
+- [x] Welcome
+- [ ] **Now:** What to call you
+- [ ] Your role
+- [ ] What you have used AI for
+```
+
+Then ask **one** question. Accept a number, a check, or “continue.”
+
+### Show me — `show_me_demo`
+
+A worked example **in this conversation** for the current step. Prefer a host demo if attached. Never require Pages, a vendor academy, or a video.
+
+**Markdown fallback:** a short blockquote or fenced sample, then “your turn,” then one question.
+
+### Hide — `hideable_onboarding`
+
+Skippable. Never a gate.
+
+**Markdown fallback:** “Reply `hide onboarding` or `skip` to continue without the list. You can ask for it later.”
