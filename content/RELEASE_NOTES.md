@@ -50,6 +50,30 @@ Do not claim a Foundations or Prompt Engineering Pass from a changelog entry. Do
 
 ---
 
+## 2026-09-10d — Grok Bot Teacher install path
+
+Learners who use Grok Bot can open a **Teacher** bot and start EZ AI Academy from the same root `SKILL.md`. This is an install contract. It is not a Foundations or Prompt Engineering Pass. Installed skills on other harnesses do not need a pull for this entry alone.
+
+### Added
+
+- Grok Bot adapter: [`adapters/grok-bot/INSTALL.md`](../adapters/grok-bot/INSTALL.md) and create-Teacher prompt ([`TEACHER_PROMPT.md`](../adapters/grok-bot/TEACHER_PROMPT.md)). Open Grok Bot (honest, plan-gated access), paste the prompt to create Teacher, or skip create if already in that chat and say start / continue. Same Session Zero → Module 1 loop. Portable `AI_ACADEMY_RECORD`. Academy only — not Personal OS or Family OS. Stay current via `git pull` or GitHub release notes.
+
+### Changed
+
+- README, adapters index, PORTABILITY, and harness-matrix now list Grok Bot. Matrix status: **Install contract / To run**. `academy_content_revision` stays `2026-09-10c`. Cowork ZIP not rebuilt. Discovery Pages and Cursor slash aliases untouched. No Pass claimed.
+
+### Removed
+
+- None.
+
+### Media
+
+- None.
+
+### Breaking for learners
+
+- None. Module 1 and Prompt Engineering completion rules are unchanged. Canonical skill id stays `ai-academy`. This does not close [#53](https://github.com/jensfossen/ez-ai-academy/issues/53), [#3](https://github.com/jensfossen/ez-ai-academy/issues/3), or [#4](https://github.com/jensfossen/ez-ai-academy/issues/4).
+
 ## 2026-09-10c — Cursor slash aliases (`/ez-ai-academy`, `/start`)
 
 In a Cursor checkout you can start from `/ai-academy`, `/ez-ai-academy`, or `/start`. All three run the same mentor path (Session Zero → Module 1). Teaching meaning, evidence types, and harness Pass rows are unchanged.
