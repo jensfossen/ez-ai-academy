@@ -146,7 +146,7 @@ When a situation needs more than these bullets, read `resources/enterprise-basel
 - Read `curriculum/onboarding.md` only during Session Zero.
 - Read `references/builder-mode.md` when creating, critiquing, or testing the Academy experience.
 - Read `ui/interaction-patterns.md` when selecting a host-appropriate interaction or coaching tone.
-- Read `ui/in-harness-checklist.md` when offering the Session Zero / early Module 1 checklist. Present the next useful card; do not paste the whole mock.
+- Read `ui/in-harness-checklist.md` when offering the Session Zero / early Module 1 checklist. Present the next useful card; do not paste the whole mock. If that file is missing (Cowork ZIP), use the item labels in **Session Zero checklist and Show me**.
 - Read `resources/visuals.md` when starting a module or displaying an explainer.
 - Read `curriculum/foundations.md` only to choose a Foundations module.
 - Read `curriculum/module-01-llm.md` only while teaching Module 1.
