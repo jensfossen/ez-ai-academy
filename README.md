@@ -56,7 +56,7 @@ Brand is locked: name, message, palette, type, and logo live in [`brand/BRAND.md
 | Path | Purpose |
 |---|---|
 | `SKILL.md` | Platform-neutral entry point and learning loop |
-| `content/` | Learner-facing [content release notes](content/RELEASE_NOTES.md) (added / changed / removed) |
+| `content/` | Learner-facing [content release notes](content/RELEASE_NOTES.md) and the operator [curation loop](content/CURATION.md) (weekday scan, sources, dry-runs) |
 | `curriculum/` | Module plans and program sequence |
 | `checks/` | Formative, non-letter-graded knowledge checks |
 | `exercises/` | Contained work, workplace application, and artifacts |
@@ -87,6 +87,8 @@ Enterprise sanitation, human-review, accessibility, and privacy rules for contro
 ## Content PRs
 
 PRs that change curriculum, checks, exercises, visuals, curated links, learner-visible copy, or packages must add or extend an entry in [`content/RELEASE_NOTES.md`](content/RELEASE_NOTES.md) using **Added / Changed / Removed / Media / Breaking for learners**. When teaching meaning changed, bump `metadata.academy_content_revision` in `SKILL.md` to that entry's date. Checklist: the same file.
+
+Weekday content curation (owner, scan, signal sources, draft proposals): [`content/CURATION.md`](content/CURATION.md). Ops-only slices do not bump the skill revision and do not rebuild the Cowork ZIP.
 
 ## License
 
