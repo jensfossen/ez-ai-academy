@@ -1,6 +1,6 @@
 # Install in Microsoft Copilot Cowork
 
-Cowork accepts custom skills from its Customize page or from a OneDrive skill folder. The prebuilt Academy package contains the canonical `SKILL.md` plus only the runtime learning files; development tests, site files, and GitHub configuration are excluded to stay within Cowork's package limits. The ZIP prefers numbered Modules 1–3. Graph Engineering live lesson, the Models landscape check, Module 1 analogies, and the Module 3 map PNG stay in a full checkout; mentors skip those files when missing.
+Cowork accepts custom skills from its Customize page or from a OneDrive skill folder. The prebuilt Academy package contains the canonical `SKILL.md` plus only the runtime learning files; development tests, site files, and GitHub configuration are excluded to stay within Cowork's package limits. The ZIP prefers numbered Modules 1–4. Foundations index, Models landscape lesson, curated-content registry, Graph Engineering live lesson, the Models landscape check, Module 1 analogies, and the Module 3–4 map PNGs stay in a full checkout; mentors skip those files when missing.
 
 ## Recommended: upload the package
 

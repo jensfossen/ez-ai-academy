@@ -6,7 +6,7 @@ This is an **optional companion** after Modules 4–5 (Agents/Harness + Loop) wh
 
 Teach from this file. The outline in [`graph-engineering-outline.md`](graph-engineering-outline.md) is design history only.
 
-**Honest placement:** Modules 4 and 5 are still **Planned** on the program map. Mentors may offer this companion **early** only if the learner already faces multi-helper handoff confusion. Say that Agents/Harness and Loop are still upcoming. Never invent those modules. Never teach GraphRAG internals.
+**Honest placement:** **Module 4 (Agents and Harness Engineering) is Included.** Module 5 (Loop Engineering) is still **Planned** on the program map. Mentors may offer this companion after Module 4, or **early** only if the learner already faces multi-helper handoff confusion. Say that Loop is still upcoming. Never invent Module 5. Never teach GraphRAG internals. Never promote this companion to a numbered module.
 
 ## Promise to the learner
 
@@ -14,7 +14,7 @@ By the end, you can say **when one reliable loop is enough**, **what it means to
 
 ## Language boundary
 
-Modules 4–5 still own `agent`, `harness`, and `loop` when those modules exist. This companion may add only the words below. Prefer ordinary language. Do not pre-teach this list in Module 1, Prompt Engineering, or Session Zero.
+Module 4 owns `agent` and `harness`. Module 5 still owns `loop` when that module exists. This companion may add only the words below. Prefer ordinary language. Do not pre-teach this list in Module 1, Prompt Engineering, or Session Zero.
 
 | Term | Plain meaning |
 |---|---|
@@ -33,11 +33,11 @@ If the learner uses a deferred word (LangGraph or vendor APIs, GraphRAG internal
 
 ## When to offer
 
-**Preferred:** after Modules 4–5 exist and the learner has that context — or when they ask about wiring several AI helpers / multi-step handoffs.
+**Preferred:** after Module 4, and after Module 5 when it exists — or when they ask about wiring several AI helpers / multi-step handoffs.
 
-**Today (Modules 4–5 still Planned):** offer only if the learner **already** faces multi-helper handoff confusion (work stalling between helpers, two people doing the same step, a draft with no source list). Say this sentence before you teach:
+**Today (Module 4 Included; Module 5 still Planned):** after Agents and Harness Engineering, or earlier only if the learner **already** faces multi-helper handoff confusion (work stalling between helpers, two people doing the same step, a draft with no source list). If offering before Loop exists, say this sentence before you teach:
 
-> Agents/Harness and Loop are still upcoming modules. This is an optional early stop about who hands what to whom — not those modules, and not a gate.
+> Loop Engineering is still upcoming. This is an optional stop about who hands what to whom — not that module, and not a gate.
 
 **Never** offer it in Session Zero. **Never** require it before Prompt Engineering or Foundations. **Never** treat it as a PE gate or a Foundations blocker. If they want PE or to finish Module 1, go there.
 
@@ -49,7 +49,7 @@ Ask **one** active question at a time and wait. Do not stack a second question u
 
 **Mentor (when they ask about wiring helpers / handoffs, or already show that confusion):**
 
-> You asked about handing work across several AI helpers. There is a short optional stop for that: when one measured loop is enough, how to name stations, paths, and a shared notebook, and when not to draw that map. It is not a new module. It does not block Prompt Engineering or Foundations. Agents/Harness and Loop are still upcoming — we can do this early only because the handoff confusion is already here. Want to do that now, skip it, or go back to what you were learning?
+> You asked about handing work across several AI helpers. There is a short optional stop for that: when one measured loop is enough, how to name stations, paths, and a shared notebook, and when not to draw that map. It is not a new module. It does not block Prompt Engineering, Context Engineering, Agents and Harness Engineering, or Foundations. Loop Engineering is still upcoming — we can do this early only because the handoff confusion is already here. Want to do that now, skip it, or go back to what you were learning?
 
 **render_intent:** `native_choice_card` (single-select). Use the host ask questions tool when the host attaches it; otherwise Markdown numbered choices. Accept a number, letter, or natural-language answer.
 
