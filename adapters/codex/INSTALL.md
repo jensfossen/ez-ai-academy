@@ -22,6 +22,12 @@ Restart Codex if the skill does not appear. Then start with:
 Use $ai-academy to start a new learning journey.
 ```
 
-To update later, run `git pull` inside the installed `ai-academy` directory.
+## Stay current
+
+This install does not update itself. Curriculum and media change on `main`.
+
+- In a terminal, `cd` into the installed `ai-academy` directory (`~/.codex/skills/ai-academy` on macOS/Linux) and run `git pull`.
+- Restart Codex if the skill does not pick up the new files.
+- What changed for learners: [`content/RELEASE_NOTES.md`](../../content/RELEASE_NOTES.md). Updating is optional and never required to finish a lesson you already started.
 
 Source: [OpenAI — Agent Skills](https://developers.openai.com/plugins/build/skills.md). Last verified 2026-09-07.

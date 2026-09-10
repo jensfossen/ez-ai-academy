@@ -24,6 +24,14 @@ Start the Academy with:
 
 If Claude Code was already running when the top-level skill directory was created, restart it once. Claude Code normally detects later edits to an existing skill without a restart.
 
-For a project-only install, clone the repository to `.claude/skills/ai-academy` in that project. To update either installation, run `git pull` inside the installed directory.
+For a project-only install, clone the repository to `.claude/skills/ai-academy` in that project.
+
+## Stay current
+
+This install does not update itself. Curriculum and media change on `main`.
+
+- In a terminal, `cd` into the installed `ai-academy` directory (`~/.claude/skills/ai-academy` or the project `.claude/skills/ai-academy`) and run `git pull`.
+- Restart Claude Code if you just created the top-level skills folder; later pulls into an existing skill usually apply without a restart.
+- What changed for learners: [`content/RELEASE_NOTES.md`](../../content/RELEASE_NOTES.md). Updating is optional and never required to finish a lesson you already started.
 
 Source: [Claude Code — Extend Claude with skills](https://code.claude.com/docs/en/skills). Last verified 2026-09-07.

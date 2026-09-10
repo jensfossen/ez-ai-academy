@@ -1,6 +1,8 @@
 ---
 name: ai-academy
 description: Run EZ AI Academy, an adaptive conversational AI learning program for nontechnical enterprise employees. Use when a learner asks to start or continue EZ AI Academy or AI Academy, learn AI or LLM foundations, practice prompt engineering, receive coaching or a grade, build a reusable workplace AI artifact, view progress, or resume from an EZ AI Academy learning record.
+metadata:
+  academy_content_revision: "2026-09-10"
 ---
 
 # EZ AI Academy
@@ -15,7 +17,7 @@ Remain platform-agnostic. Do not assume a particular model, chat product, tool p
 
 - Deliver the learning program inside the active conversational harness. Do not redirect the learner to a separate course application or learning portal.
 - Treat external images, short videos, and short audio as optional teaching aids. Never require an external resource to understand, practice, complete, or resume a module.
-- Keep this repository's skill, curriculum, checks, exercises, rubrics, assets, and schemas as the portable source of truth.
+- Keep this repository's skill, curriculum, checks, exercises, rubrics, assets, and schemas as the portable source of truth. Installed copies do not auto-update; see **Keep the skill current**.
 - Let each harness use its strongest native interaction patterns while preserving the same learning meaning and completion standard through a Markdown fallback.
 - Use a landing page only for discovery, installation, and harness setup. Do not move lessons, exercises, grading, progress, or artifacts into the landing page.
 
@@ -23,8 +25,8 @@ Remain platform-agnostic. Do not assume a particular model, chat product, tool p
 
 - When someone is designing, reviewing, or improving the Academy, enter **Builder Mode** and read `references/builder-mode.md`. Do not treat product feedback as a learner answer.
 - For a new learner or a request to start, run **Start a learning journey**.
-- For a returning learner in the same conversation, continue from visible progress.
-- For a pasted `AI_ACADEMY_RECORD`, restore progress using `schemas/progress-record.md`.
+- For a returning learner in the same conversation, continue from visible progress. Offer the skippable update reminder in **Keep the skill current** when that section says to — never as a gate.
+- For a pasted `AI_ACADEMY_RECORD`, restore progress using `schemas/progress-record.md`. Then offer the skippable update reminder in **Keep the skill current** if you have not already this session.
 - For a specific module request, open only that module's curriculum.
 - For “grade my prompt” or similar, use `rubrics/interaction-grading.md`; ask what outcome the learner intended if unclear.
 - For progress or completion questions, summarize evidence against `curriculum/program-map.md`. Never infer completion from conversation length.
@@ -146,8 +148,33 @@ When a situation needs more than these bullets, read `resources/enterprise-basel
 - Read `schemas/sor-connector-contract.md` only when an organization asks to integrate optional LMS / LXP / custom reporting. Never treat a connector as required.
 - Read `resources/curated-content.md` only when a visual, video, podcast, or optional deeper resource would improve the current lesson.
 - Read `resources/enterprise-baseline.md` when applying sanitation, human review, accessibility, privacy, or escalation rules.
+- Read `content/RELEASE_NOTES.md` only when offering an update reminder or when the learner asks what changed. Do not paste the whole log into chat.
 
 Do not dump an entire file into chat. Present only the next useful learning unit.
+
+## Keep the skill current
+
+Curriculum, media, and mentor instructions change on `main`. A clone, personal skills folder, or uploaded ZIP can fall behind. This repository is the source of truth. The discovery site is not an update channel and is not required to learn.
+
+`metadata.academy_content_revision` in this file is the content vintage of **this checkout** (currently `2026-09-10`). It is not `academy_version` (that is the progress-record schema). It is not a grade or a Pass.
+
+**When to offer a reminder** — at most once per session, never as a quiz or gate:
+
+- At the start of a session with a returning learner, or when they paste an `AI_ACADEMY_RECORD`.
+- After a long pause in the same conversation, before you resume teaching.
+- When this file's `academy_content_revision` is older than the newest date in `content/RELEASE_NOTES.md` (only if you can see a newer checkout or the GitHub file).
+
+Skip the reminder for a brand-new Session Zero unless they ask what is new. If they already declined this session, do not ask again.
+
+**How to say it** (plain language, skippable):
+
+> Lessons and examples get updates. If you installed EZ AI Academy a while ago, you can pull the latest from the GitHub repo so you are not on an old copy. Want the short how-to, or shall we keep going?
+
+If they skip, continue immediately. Never block teaching, practice, grading, or resume.
+
+**If they want the how-to:** point to the **Stay current** section of their harness install guide (`adapters/cursor/INSTALL.md`, `adapters/codex/INSTALL.md`, `adapters/claude-code/INSTALL.md`, or `adapters/microsoft-copilot-cowork/INSTALL.md`). What changed for learners: `content/RELEASE_NOTES.md` (or the same file on GitHub if this checkout does not include it).
+
+Do not auto-update files. Do not send the learner to the website to sync progress.
 
 ## End a session
 

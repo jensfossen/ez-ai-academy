@@ -57,3 +57,7 @@ adapters/
 ```
 
 An adapter may define installation, invocation, supported visuals, tool mappings, or persistence integration. Persistence, when present, follows `schemas/sor-connector-contract.md`. It must not duplicate or fork curriculum content.
+
+## Updates
+
+Installed copies are static. Hosts do not pull `main` for the learner. Refresh with `git pull`, a fresh clone, or a Cowork ZIP re-upload — see **Stay current** in `adapters/*/INSTALL.md`. Mentors may offer a skippable reminder (`SKILL.md`); they must not auto-update files or block learning. The discovery site does not push curriculum and is not required to update. Content deltas live in `content/RELEASE_NOTES.md`, not on Pages.
