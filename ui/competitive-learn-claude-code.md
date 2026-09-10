@@ -91,6 +91,7 @@ Host-chrome entry is **not** a new Academy API. If the host shows a Learn afford
 | Item | State |
 |---|---|
 | This note | Observation + pattern inventory (2026-09-10) |
+| Session Zero / Module 1 card | Pattern sketch only: [`in-harness-checklist.md`](in-harness-checklist.md) — not routed, not a Pass |
 | `SKILL.md` routing | Unchanged — checklist / Show me **not** implemented |
 | Claude Code Foundations [#14](https://github.com/jensfossen/ez-ai-academy/issues/14) | **Blocked / not a Pass** (no usable subscription) |
 | Harness-native UI [#24](https://github.com/jensfossen/ez-ai-academy/issues/24) | Related research only; Jens-gated Passes stay held |
@@ -98,6 +99,7 @@ Host-chrome entry is **not** a new Academy API. If the host shows a Learn afford
 
 ## Related
 
+- Session Zero / Module 1 card sketch: [`in-harness-checklist.md`](in-harness-checklist.md)
 - Interaction intents: [`interaction-patterns.md`](interaction-patterns.md)
 - Mobile / short stops: [`mobile-on-the-go.md`](mobile-on-the-go.md)
 - Cursor rich-UI research: [`../adapters/cursor/RICH_UI.md`](../adapters/cursor/RICH_UI.md)
