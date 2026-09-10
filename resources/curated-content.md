@@ -237,6 +237,76 @@ Offer at most one of these, and only if a future unit 6 exists and the learner a
 - Placement: **link**.
 - Required for completion: no.
 
+## Planned companion — Graph Engineering
+
+**Not live teaching.** Mentors must **not** offer these in Session Zero, Module 1, Prompt Engineering, or any numbered module. Outline only: [`../curriculum/graph-engineering-outline.md`](../curriculum/graph-engineering-outline.md). Status **Planned / Companion** on [`../curriculum/program-map.md`](../curriculum/program-map.md). Issue [#46](https://github.com/jensfossen/ez-ai-academy/issues/46) stays open.
+
+These are official conceptual / engineering pages (plus one GraphRAG boundary page). **Link, do not store.** Rights = `third-party-link`. Required for completion = **no** — including when this companion eventually ships. Do not copy SDK tours, workflow screenshots, or GraphRAG encyclopedias into git.
+
+Review cadence: 90 days, same as live entries. Weekday glance: [`../content/CURATION.md`](../content/CURATION.md). Automated HTTP 2026-09-10 is not a hide. Next review: 2026-12-10.
+
+### Conceptual / multi-agent organization
+
+#### LangChain — Thinking in LangGraph
+
+- URL: https://docs.langchain.com/oss/python/langgraph/thinking-in-langgraph
+- Format: Official conceptual walkthrough (nodes, edges, shared state, human pause).
+- Best for: Distilling stations / paths / shared notebook and a planned checkpoint. Do not assign the Python.
+- Caution: The page is a framework tutorial. Stay on the *thinking*. Deferred: APIs, checkpointers, interrupts.
+- Source: LangChain, *Thinking in LangGraph*.
+- Review date: 2026-09-10 (concept and link check, HTTP 200). Next review: 2026-12-10.
+- Usage intent: Planned orientation — how to map a workplace flow. Not a live lesson offer.
+- Transcript / text alternative: Written documentation. When units ship, the Academy text alternative is the in-chat companion explanation. Until then, do not assign this page.
+- Rights status: `third-party-link`. View on the publisher's site; do not download or store a tutorial in this repo.
+- Placement: **link**.
+- Required for completion: no.
+
+#### OpenAI — Agents guide
+
+- URL: https://developers.openai.com/api/docs/guides/agents
+- Format: Official Agents SDK overview (specialists, handoffs, review, state).
+- Best for: A future stop that models the job as a graph **if that picture helps**. Do not assign the SDK.
+- Caution: Product and SDK surface. Teach handoffs and checkpoints in workplace words. Do not open a builder canvas tour.
+- Source: OpenAI Developers, Agents SDK guide.
+- Review date: 2026-09-10 (concept and link check, HTTP 200). Next review: 2026-12-10.
+- Usage intent: Planned orientation. Not a live lesson offer.
+- Transcript / text alternative: Written documentation. In-chat explanation is the complete alternative when units exist.
+- Rights status: `third-party-link`.
+- Placement: **link**.
+- Required for completion: no.
+
+#### Anthropic — Building effective agents
+
+- URL: https://www.anthropic.com/engineering/building-effective-agents
+- Format: Official engineering essay (workflows vs agents; when not to add complexity).
+- Best for: The “when not to draw a graph” stop. Start simple; add wiring only when one loop is not enough.
+- Caution: Published 2024-12-19; the page notes the tooling landscape has moved. Distill the *simplicity* claim, not a frozen framework list.
+- Source: Anthropic Engineering, *Building effective agents*.
+- Review date: 2026-09-10 (concept and link check, HTTP 200). Next review: 2026-12-10.
+- Usage intent: Planned orientation / “when not to.” Not a live lesson offer.
+- Transcript / text alternative: Written essay. Academy text alternative (when written) is the in-chat rule: stay with one loop unless work keeps dropping between people.
+- Rights status: `third-party-link`. Do not rehost the essay.
+- Placement: **link**.
+- Required for completion: no.
+
+### Related-but-different (boundary only)
+
+Offer this only if a future unit 7 exists and the learner (or a coworker) mixes “graph” with knowledge-graph retrieval. Never teach GraphRAG internals.
+
+#### IBM — What is GraphRAG?
+
+- URL: https://www.ibm.com/think/topics/graphrag
+- Format: Official explainer: GraphRAG retrieves from graph-structured facts.
+- Best for: One-line contrast only — GraphRAG is retrieval; this companion is organization of work across loops.
+- Caution: The page goes deep (GNN, Cypher, applications). Do not assign it. Do not teach those terms.
+- Source: IBM Think, *What is GraphRAG?*
+- Review date: 2026-09-10 (concept and link check, HTTP 200). Next review: 2026-12-10.
+- Usage intent: Planned boundary note. Not a live lesson offer.
+- Transcript / text alternative: Written explainer. Academy text alternative: if “graph” means a web of facts to look up, that is a different job.
+- Rights status: `third-party-link`. Do not rehost the article.
+- Placement: **link**.
+- Required for completion: no.
+
 ## Embedded visual fallback
 
 When external content is blocked or distracting, use the current module image, its alt text, and the matching curriculum file (`curriculum/module-01-llm.md` or `curriculum/prompt-engineering.md`). Keep every lesson fully functional without external media.
