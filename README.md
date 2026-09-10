@@ -26,7 +26,7 @@ Three principles govern the product:
 - A portable progress record (chat export/restore; optional system-of-record contract)
 - A static [discovery and setup landing](https://jensfossen.github.io/ez-ai-academy/) on GitHub Pages (not the course)
 
-Context Engineering, Agents and Harness Engineering, and Loop Engineering are on the curriculum roadmap. A **Models landscape** outline sits as a Planned / Companion unit after Module 1 (optional beside Prompt Engineering) — not Included, not shipped teaching: [`curriculum/models-landscape-outline.md`](curriculum/models-landscape-outline.md).
+Context Engineering, Agents and Harness Engineering, and Loop Engineering are on the curriculum roadmap. A **Models landscape** outline sits as a Planned / Companion unit after Module 1 (optional beside Prompt Engineering). A **Graph Engineering** outline sits as a Planned / Companion after Modules 4–5 (optional orientation before a future Graph module). Neither is Included or shipped teaching: [`curriculum/models-landscape-outline.md`](curriculum/models-landscape-outline.md), [`curriculum/graph-engineering-outline.md`](curriculum/graph-engineering-outline.md).
 
 ## Install in your harness
 
@@ -57,7 +57,7 @@ Brand is locked: name, message, palette, type, and logo live in [`brand/BRAND.md
 |---|---|
 | `SKILL.md` | Platform-neutral entry point and learning loop |
 | `content/` | Learner-facing [content release notes](content/RELEASE_NOTES.md) and the operator [curation loop](content/CURATION.md) (weekday scan, sources, dry-runs) |
-| `curriculum/` | Module plans, [program sequence](curriculum/program-map.md), and a [planned models-landscape outline](curriculum/models-landscape-outline.md) (companion, not shipped teaching) |
+| `curriculum/` | Module plans, [program sequence](curriculum/program-map.md), and planned companion outlines ([models landscape](curriculum/models-landscape-outline.md), [Graph Engineering](curriculum/graph-engineering-outline.md) — not shipped teaching) |
 | `checks/` | Formative, non-letter-graded knowledge checks |
 | `exercises/` | Contained work, workplace application, and artifacts |
 | `rubrics/` | A–F grading criteria for completed work |

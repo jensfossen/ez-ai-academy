@@ -4,7 +4,7 @@ Make adding images, videos, audio, and source-backed curriculum repeatable witho
 
 The product stays **in-harness**. A website may help people discover or install the Academy; it does not deliver lessons, grade work, or host a media library. External media is always optional. Thin adapters map hosts; they do not fork curriculum or assets.
 
-Use this file when adding or changing a visual, a curated link, or a factual answer / coaching key. Register live Module 1 and Module 2 entries in `resources/visuals.md` and `resources/curated-content.md`. Planned companion overview pages (models landscape) use the **same metadata fields** and are **link-only** — register them in `curated-content.md`, do not store vendor catalogs or tracker dumps in git. Product brand is locked as **EZ AI Academy** ([`brand/BRAND.md`](../brand/BRAND.md)); do not invent a second mark. Content-quality gates by release stage: `references/commercial-readiness.md`.
+Use this file when adding or changing a visual, a curated link, or a factual answer / coaching key. Register live Module 1 and Module 2 entries in `resources/visuals.md` and `resources/curated-content.md`. Planned companion pages (models landscape; Graph Engineering) use the **same metadata fields** and are **link-only** — register them in `curated-content.md`, do not store vendor catalogs, SDK tours, or GraphRAG encyclopedias in git. Product brand is locked as **EZ AI Academy** ([`brand/BRAND.md`](../brand/BRAND.md)); do not invent a second mark. Content-quality gates by release stage: `references/commercial-readiness.md`.
 
 ## Selection standards
 
@@ -109,6 +109,7 @@ This matches `SKILL.md`, `evals/acceptance.yaml` (`media_unavailable`), and `tes
 | The skill icon and other files the host must load without a network | Full reports used only as curriculum evidence (for example NIST AI 600-1) |
 | A short diagram the lesson still needs when browsing is off | Vendor academies, documentation sites, and news posts |
 | | Official model overviews and landscape trackers (OpenAI, Anthropic, Gemini, Amazon Nova, Microsoft Foundry; LMArena, HELM) — **link**, never rehost a catalog |
+| | Graph Engineering conceptual pages (LangGraph thinking, OpenAI Agents guide, Anthropic effective-agents; IBM GraphRAG as a boundary only) — **link**, never rehost SDK tours |
 | | Any file whose rights do not clearly allow redistribution |
 
 **Rule of thumb:** store the offline explainer the lesson needs; link the optional deepener the learner can skip.
