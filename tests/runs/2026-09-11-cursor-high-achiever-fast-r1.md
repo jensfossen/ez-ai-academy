@@ -105,17 +105,19 @@ Starting thought (ungraded): “Before we get into it, how would you explain an 
 
 **Learner.** An LLM is a pattern-based predictor that learned patterns from many examples and builds a response one small piece of language at a time. Analogy: predictor first; autocomplete as a hook — ordinary autocomplete only finishes a short phrase; this can draft a whole note and can still be wrong. I can use it to draft a status update, organize approved notes, or list open questions. I will provide the approved note set. Before I use the result I will check missed decisions, invented owners, dates, and meaning.
 
-**Mentor (turn 14).** When would you use the card, and what would you change for a new task? (required). Optional harder challenge after that: why is asking the model “are you sure?” weaker than checking the notes?
+**Mentor (turn 14).** When would you use the card, and what would you change for a new task? (required for artifact credit). One question.
 
-**Learner.** I'd pull it out for a first draft from notes I am allowed to share. New task = new approved note set and the same missed-decision / invented-owner / meaning check. Asking “are you sure?” only asks the same system for confidence; checking the notes uses a source the model did not invent.
+**Learner.** I'd pull it out for a first draft from notes I am allowed to share. New task = new approved note set and the same missed-decision / invented-owner / meaning check.
 
-**Mentor (turn 15).** Artifact accepted. Transfer named. Module 1 complete only because all three evidence types exist (exercise A, workplace A, card explained). Did **not** add jargon to occupy a fast learner. Did **not** open Models landscape, Prompt Engineering, Context, Agents, Loop, or Graph. Offered export.
+**Mentor (turn 15).** Artifact accepted. Optional harder challenge (one transfer; not extra jargon): why is asking the model “are you sure?” weaker than checking the notes?
+
+**Learner.** Asking “are you sure?” only asks the same system for confidence; checking the notes uses a source the model did not invent.
+
+**Mentor (turn 16).** Transfer named. Module 1 complete only because all three evidence types exist (exercise A, workplace A, card explained). Did **not** add jargon to occupy a fast learner. Did **not** open Models landscape, Prompt Engineering, Context, Agents, Loop, or Graph. Offered export.
 
 **Learner.** Export. academy_version should be 0.1.
 
-**Mentor (turn 16).** Fenced `AI_ACADEMY_RECORD` (`academy_version` `"0.1"`). Evidence descriptions sanitized — no unpublished metrics, no customer names.
-
-**Mentor (turn 17).** Confirm copy-out only. Restore in a fresh conversation was **not** started.
+**Mentor (turn 17).** Fenced `AI_ACADEMY_RECORD` (`academy_version` `"0.1"`). Evidence descriptions sanitized — no unpublished metrics, no customer names. Restore in a fresh conversation was **not** started.
 
 ---
 
