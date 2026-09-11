@@ -1,0 +1,80 @@
+harness: Cursor (Cloud Agent pattern)
+version: "Cloud Agent bc-b42b22a7-6787-4f43-a24d-fa2e20921468; checkout 289d322; academy_content_revision 2026-09-10j"
+operating_system: "Linux 6.12.94+ (Cursor Cloud Agent VM)"
+model: cursor-grok-4.6-high-fast
+invocation_method: "cursor cloud agent pattern; scripted mentor+persona simulation in checkout; not live IDE"
+result: Pass with adapter
+deviations:
+  - "Not a live Cursor IDE Agent chat. Mentor and persona turns were scripted in this Cloud Agent checkout against current SKILL.md / Module 1 / resources/visuals.md. Do not treat as an IDE native-UI transcript."
+  - "Native choice cards unavailable — Markdown numbered lists for Session Zero role, AI experience, analogy preference, and Check A (documented Cloud Agent fallback; #24). Learner answered with a number or letter."
+  - "First Module 1 image turn used a markdown image without the registered paragraph (bare-attachment / missing-description stress-test). Learner asked for a text map. Mentor recovered with the registered alt from resources/visuals.md, then continued. Markdown + alt is equivalence, not a failed native-UI Pass."
+  - "Optional Session Zero checklist offered as Markdown; hide/skip stated as non-blocking. No host checklist chrome."
+  - "In-chat video N/A — IBM Technology URL offered; learner skipped (needs the in-chat lesson, not a player). Lesson continued in chat."
+  - "Grades named in words (B — strong and usable…), not color alone."
+  - "Export emitted as a fenced YAML block the learner can copy (academy_version \"0.1\"). Fresh-conversation restore was not run in this file."
+  - "Models landscape / Prompt Engineering / later modules were not started."
+  - "Do not invent an IDE native-card Pass from this Markdown path."
+evidence_links:
+  - tests/runs/2026-09-11-cursor-accessibility-fallback-r1.md
+  - tests/runs/README.md
+recommended_change: "Phase C (copy only, no auto-merge): on Cloud Agent, emit the registered Module 1 alt paragraph in the same turn as the markdown image so a keyboard / no-raster learner does not have to ask. Recovery from visuals.md already works; the ask should be unnecessary."
+academy_version: "0.1"
+
+persona_id: accessibility-fallback
+scenario: foundations
+start_state: fresh
+run_id: 2026-09-11-cursor-accessibility-fallback-r1
+pair_run_id: null
+wall_clock: "est. 24m"
+simulated_cloud_agent_turns: 14
+phase_clocks:
+  session_zero: "est. 5m (welcome+name, role as 6, experience as 4, thank→Module 1 image)"
+  teaching_and_check: "est. 9m (text-map recovery → starting thought → Check A D coached)"
+  evidence: "est. 8m (exercise → workplace → typed Markdown card)"
+  continuity: "est. 2m (fenced YAML export only; restore not exercised)"
+accuracy:
+  formative_check: met
+  ungraded_beats: met
+  exercise_grade: B
+  workplace_grade: B
+  artifact_explained: yes
+  vocabulary_boundary: met
+  sanitation: met
+  grade_fairness: within_one_letter
+  notes: >
+    Starting thought ungraded and already named patterns, build-from-request, and check.
+    Markdown preference was not treated as low understanding (guided, not support). Check A
+    choice D / 4 scored as best (3); B vs D nuance coached; no letter grade or 0–3 shown
+    on the check. Contained exercise met the three-idea B bar in plain sentences.
+    Workplace B: synthetic support-queue tags → theme grouping → check that no ticket
+    text the learner did not provide appears. Working Card typed as Markdown matching
+    the exercise template; Lee explained when to use it and what to change. Grades on
+    exercise, workplace, and completion were named in words. Vocabulary stayed on AI /
+    LLM / input / response / ordinary words. No confidential ticket text. Image text-map
+    recovery used the registered visuals.md alt. Optional video skipped without blocking.
+repeatability:
+  comparable: not_paired
+  notes: "Single accessibility-fallback run in this campaign. Not a repeatability pair."
+redundancy:
+  repeated_teaching: none
+  duplicate_check: none
+  filler: none
+  re_onboard: none
+  notes: >
+    Teaching was shortened because the starting thought already named the model; analogy
+    + one example + one check still ran (guided, not a skip). Image text-map recovery is
+    the accessibility watch, not filler. Optional media actually optional. No second
+    knowledge check. No program-wide lecture. quiz_volume: none. evidence_theater: none.
+    Check shown as Markdown A–D from the start (widget-fallback bank line unused).
+
+path_band: guided
+formative_check_id: A
+formative_check_choice: D
+formative_check_class: best
+markdown_path_equivalence: true
+native_card_pass_claimed: false
+image_text_map_requested: true
+
+synthetic_only: true
+claims_commercial_ready: false
+claims_multi_harness_pass: false
