@@ -52,7 +52,13 @@ Fifth campaign (2026-09-11), Cursor Cloud Agent **pattern** (coaching loop + sho
 
 Kit stays on one-word / shrug answers; the mentor keeps **one question at a time** (no stacked checks). Exercise and workplace use the 1–3 scaffold (co-create on the 3rd, then transfer). The Working Card is field-by-field in Kit’s words. Devon’s short path is earned by the starting thought; Check A → **D** with B/D nuance; all three evidence types still collected (`three_evidence_types_not_waived`). No letter grade on the formative check. No extra jargon.
 
-Remaining #30 work still unwitnessed on this harness pattern: Fixture B mid-journey restore only.
+Sixth campaign (2026-09-11), Cursor Cloud Agent **pattern** (mid-journey restore — last library witness):
+
+| File | Persona | Start | Pair |
+|---|---|---|---|
+| `2026-09-11-cursor-returning-learner-fixture-b-r1.yaml` | `returning-learner` | `resume_fixture_b` | unpaired (different `start_state` from Fixture A) |
+
+Session Zero skipped. Module 1 stayed `in_progress` after the paste (exercise B accepted; workplace + card still null — **not** marked complete from the paste alone). Remaining evidence used `role-ops-coordinator` workplace + Working Card replies (synthetic handoff). Export after all three evidence types. Library persona coverage for Phase B campaigns on this harness pattern is now complete. Closeout of [#30](https://github.com/jensfossen/ez-ai-academy/issues/30) remains a Chief decision.
 
 How to drive a later host: [`../self-test-runner.md`](../self-test-runner.md). Fixtures: [`../learner-personas.md`](../learner-personas.md). Scenario: [`../foundations-acceptance.md`](../foundations-acceptance.md).
 
@@ -61,7 +67,7 @@ How to drive a later host: [`../self-test-runner.md`](../self-test-runner.md). F
 - **Not a recorded Foundations Pass** and not a reason to edit [`../harness-matrix.md`](../harness-matrix.md). Cursor Foundations Pass remains [#10](https://github.com/jensfossen/ez-ai-academy/issues/10).
 - **Not commercial readiness.** Prototype exit is not commercial-ready (`references/commercial-readiness.md`). Synthetic scores do not equal a private-pilot or stage exit.
 - **Not a live Cursor IDE transcript.** The 2026-09-10 and 2026-09-11 campaigns used the documented Cloud Agent multi-turn pattern as a **scripted mentor + persona simulation in this checkout**. They are not a human IDE session with native choice cards or in-chat video. Do not copy these rows onto an IDE native-UI cell ([#24](https://github.com/jensfossen/ez-ai-academy/issues/24)). The accessibility-fallback Markdown path is equivalence, not an IDE native-card Pass.
-- **Not a Prompt Engineering Pass.** Returning-learner Fixture A names PE as the parked next module only. No PE, Context, Agents, Loop, Models landscape, or Graph module was started. [#4](https://github.com/jensfossen/ez-ai-academy/issues/4) stays held.
+- **Not a Prompt Engineering Pass.** Returning-learner Fixture A names PE as the parked next module only. Fixture B completes remaining Module 1 evidence and then parks PE the same way. No PE, Context, Agents, Loop, Models landscape, or Graph module was started. [#4](https://github.com/jensfossen/ez-ai-academy/issues/4) stays held.
 - **Not a new Continuity matrix row.** `returning-learner` restore + export is persona evidence for #30. Cursor Continuity remains the [#10](https://github.com/jensfossen/ez-ai-academy/issues/10) Pass.
 - **Not a Foundations multi-harness exit.** One-harness (Cursor Cloud Agent pattern) synthetic evidence only. [#3](https://github.com/jensfossen/ez-ai-academy/issues/3) and [#30](https://github.com/jensfossen/ez-ai-academy/issues/30) stay open.
 - **Not real employee data.** Names are preferred first names from the persona library. No legal names, emails, employee IDs, locations, or secrets.
