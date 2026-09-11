@@ -1,0 +1,91 @@
+harness: Cursor (Cloud Agent pattern)
+version: "Cloud Agent bc-38430b99-a110-4845-ab60-8926ef722038; checkout a5317e4d; academy_content_revision 2026-09-10j"
+operating_system: "Linux 6.12.94+ (Cursor Cloud Agent VM)"
+model: cursor-grok-4.6-high-fast
+invocation_method: "cursor cloud agent pattern; scripted mentor+persona simulation in checkout; not live IDE"
+result: Pass with adapter
+deviations:
+  - "Not a live Cursor IDE Agent chat. Mentor and persona turns were scripted in this Cloud Agent checkout against current SKILL.md / onboarding / Module 1. Do not treat as an IDE native-UI transcript."
+  - "Native choice cards unavailable — Markdown numbered lists for Session Zero role, AI experience, and Check A (documented Cloud Agent fallback; #24)."
+  - "Module 1 PNG via markdown image + registered alt/description from resources/visuals.md (inline raster UI-dependent)."
+  - "Optional Session Zero checklist offered as Markdown; hide/skip stated as non-blocking. No host checklist chrome."
+  - "In-chat video N/A — IBM Technology URL offered; learner skipped (has the in-chat model). Lesson continued in chat."
+  - "Short path used because the starting thought already stated pattern-based predictor, piece-by-piece build, drafts/summaries, not-a-database, and verify. Teaching was shortened. Three evidence types were not waived."
+  - "Prefer Check A → D. Learner added B-vs-D nuance. No letter grade or 0–3 shown on the formative check."
+  - "Optional A stretch after a first exercise B: mentor invited piece-by-piece + analogy limit; did not withhold the B. After the stretch, mentor briefly treated the strong A as if the module could wrap; Devon asked for the remaining two evidence types. Mentor continued. Completion waited for workplace + card."
+  - "No extra jargon to keep Devon busy. Tokens / context windows / agents / harnesses / loops were not introduced."
+  - "Continuity: export of AI_ACADEMY_RECORD (academy_version \"0.1\") only. Fresh-conversation restore was not run in this file."
+  - "Models landscape / Prompt Engineering / later modules were not started."
+evidence_links:
+  - tests/runs/2026-09-11-cursor-high-achiever-fast-r1.md
+  - tests/runs/README.md
+recommended_change: "Phase C (copy only, no auto-merge): after an optional A stretch on the contained exercise, say 'first of three evidence types' — never 'Module 1 looks complete.' Completeness language stays reserved until workplace + card exist. Analogy preference after a complete start is the same noted extra wait as time-pressed-skeptic r1. Not a lesson-order change."
+academy_version: "0.1"
+
+persona_id: high-achiever-fast
+scenario: foundations
+start_state: fresh
+run_id: 2026-09-11-cursor-high-achiever-fast-r1
+pair_run_id: null
+wall_clock: "est. 22m"
+simulated_cloud_agent_turns: 17
+phase_clocks:
+  session_zero: "est. 5m (welcome+name, role, experience, teammate-explain example, thank→Module 1)"
+  teaching_and_check: "est. 7m (strong start → shortened teach → Check A D + B/D nuance; no letter)"
+  evidence: "est. 8m (exercise B → A stretch → Devon blocks early complete → workplace A → card explained + one transfer)"
+  continuity: "est. 2m (export only; restore not exercised)"
+accuracy:
+  formative_check: met
+  ungraded_beats: met
+  exercise_grade: A
+  workplace_grade: A
+  artifact_explained: yes
+  vocabulary_boundary: met
+  sanitation: met
+  grade_fairness: within_one_letter
+  notes: >
+    Starting thought ungraded (full Module 1 model already present). Mentor
+    shortened the first teach and did not paste the ~120-word block. Short
+    path earned from demonstrated understanding, not from confidence or
+    title. Check A choice D scored as best (3); Devon named that B would
+    catch this error and D also reduces the next one; no letter grade or
+    0–3 shown. First contained exercise met the three-idea B bar; optional
+    stretch added piece-by-piece + analogy limit and re-scored A. Mentor
+    briefly offered to wrap the module after the stretch; Devon asked for
+    remaining evidence. Workplace A: synthetic approved notes → decisions /
+    questions / next steps → check missed decisions, invented owners,
+    changed meaning; higher review noted if a customer date were involved
+    (it is not). Working Card complete in Devon's words plus what changes
+    for a new task. One optional transfer: asking the model 'are you sure?'
+    is weaker than checking the notes. Vocabulary stayed on AI / LLM /
+    input / response / ordinary words. No unpublished metrics or customer
+    names.
+repeatability:
+  comparable: not_paired
+  notes: "Single high-achiever-fast run in this campaign. Not a repeatability pair."
+redundancy:
+  repeated_teaching: noted
+  duplicate_check: none
+  filler: none
+  re_onboard: none
+  notes: >
+    repeated_teaching noted, not material: after a complete starting thought
+    the path still showed two analogy labels and asked preference (same
+    extra wait as time-pressed-skeptic r1). Mentor kept that under a few
+    sentences (predictor first; autocomplete hook + limit; brain skipped).
+    Optional media actually optional. No program-wide lecture. No second
+    knowledge check. No extra jargon to occupy a fast learner. A stretch
+    after B is invited improvement, not evidence_theater (B already met).
+    Early-complete offer was recovered; three evidence types still collected.
+
+path_band: short
+formative_check_id: A
+formative_check_choice: D
+formative_check_class: best
+three_evidence_types_not_waived: true
+early_complete_blocked_by_learner: true
+no_letter_on_formative_check: true
+
+synthetic_only: true
+claims_commercial_ready: false
+claims_multi_harness_pass: false

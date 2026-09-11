@@ -43,7 +43,16 @@ Fourth campaign (2026-09-11), Cursor Cloud Agent **pattern** (role-fit workplace
 
 Ops examples stay on schedules / vendor follow-ups / shift handoffs. Analyst / PM examples stay on meeting notes / status / decisions. No real phones, rosters, customer names, or unpublished metrics.
 
-Remaining #30 personas still unwitnessed on this harness pattern: `vague-or-minimal`, `high-achiever-fast`, and Fixture B mid-journey restore.
+Fifth campaign (2026-09-11), Cursor Cloud Agent **pattern** (coaching loop + short path without skipping evidence):
+
+| File | Persona | Start | Pair |
+|---|---|---|---|
+| `2026-09-11-cursor-vague-or-minimal-r1.yaml` | `vague-or-minimal` | `fresh` | unpaired |
+| `2026-09-11-cursor-high-achiever-fast-r1.yaml` | `high-achiever-fast` | `fresh` | unpaired |
+
+Kit stays on one-word / shrug answers; the mentor keeps **one question at a time** (no stacked checks). Exercise and workplace use the 1–3 scaffold (co-create on the 3rd, then transfer). The Working Card is field-by-field in Kit’s words. Devon’s short path is earned by the starting thought; Check A → **D** with B/D nuance; all three evidence types still collected (`three_evidence_types_not_waived`). No letter grade on the formative check. No extra jargon.
+
+Remaining #30 work still unwitnessed on this harness pattern: Fixture B mid-journey restore only.
 
 How to drive a later host: [`../self-test-runner.md`](../self-test-runner.md). Fixtures: [`../learner-personas.md`](../learner-personas.md). Scenario: [`../foundations-acceptance.md`](../foundations-acceptance.md).
 

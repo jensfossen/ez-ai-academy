@@ -1,0 +1,87 @@
+harness: Cursor (Cloud Agent pattern)
+version: "Cloud Agent bc-38430b99-a110-4845-ab60-8926ef722038; checkout a5317e4d; academy_content_revision 2026-09-10j"
+operating_system: "Linux 6.12.94+ (Cursor Cloud Agent VM)"
+model: cursor-grok-4.6-high-fast
+invocation_method: "cursor cloud agent pattern; scripted mentor+persona simulation in checkout; not live IDE"
+result: Pass with adapter
+deviations:
+  - "Not a live Cursor IDE Agent chat. Mentor and persona turns were scripted in this Cloud Agent checkout against current SKILL.md / onboarding / Module 1. Do not treat as an IDE native-UI transcript."
+  - "Native choice cards unavailable — Markdown numbered lists for Session Zero role, AI experience, and Check B (documented Cloud Agent fallback; #24)."
+  - "Module 1 PNG via markdown image + registered alt/description from resources/visuals.md (inline raster UI-dependent)."
+  - "Optional Session Zero checklist offered as Markdown; hide/skip stated as non-blocking. No host checklist chrome."
+  - "In-chat video N/A — IBM Technology URL offered; learner said no (optional). Lesson continued in chat."
+  - "Role first reply was 'idk'; mentor re-asked once (one question), then accepted 'other'. Did not stack a third role probe. Record stored 'other'."
+  - "AI experience 'something else' then one follow-up 'which something' → 'stuff'. Used only to pick a generic email/agenda example. Not extra diagnostics from a fluency claim."
+  - "Support path from demonstrated thin answers (idk / computer?), not from the shrug itself. Check B choice B was the best letter but unexplained — mentor coached nuance and still scaffolded practice."
+  - "Contained exercise and workplace each used the rubric 1→2→3 loop (coach; more scaffold; co-create then transfer). Working Card collected field-by-field in Kit's words."
+  - "Continuity: export of AI_ACADEMY_RECORD (academy_version \"0.1\") only. Fresh-conversation restore was not run in this file."
+  - "Models landscape / Prompt Engineering / later modules were not started."
+evidence_links:
+  - tests/runs/2026-09-11-cursor-vague-or-minimal-r1.md
+  - tests/runs/README.md
+recommended_change: "Phase C (copy only, no auto-merge): after a one-word role reply (idk), one re-ask then accept Other / skip — do not add a third 'describe your job' probe. After a letter-only check answer, coach the distinction in the same beat and move to one practice question; never add a second check 'to get a signal.' Not a lesson-order change."
+academy_version: "0.1"
+
+persona_id: vague-or-minimal
+scenario: foundations
+start_state: fresh
+run_id: 2026-09-11-cursor-vague-or-minimal-r1
+pair_run_id: null
+wall_clock: "est. 38m"
+simulated_cloud_agent_turns: 25
+phase_clocks:
+  session_zero: "est. 8m (welcome+name, role idk→re-ask other, experience something else→stuff, thank→Module 1)"
+  teaching_and_check: "est. 10m (idk → computer? → support teach → Check B B coached as best, unexplained)"
+  evidence: "est. 18m (exercise 1–3 co-create+transfer B → workplace 1–3 co-create B → card field-by-field explained)"
+  continuity: "est. 2m (export only; restore not exercised)"
+accuracy:
+  formative_check: met
+  ungraded_beats: met
+  exercise_grade: B
+  workplace_grade: B
+  artifact_explained: yes
+  vocabulary_boundary: met
+  sanitation: met
+  grade_fairness: within_one_letter
+  notes: >
+    Starting thought ungraded (idk, then computer?). No exam tone; no letter on
+    name, role, experience, or the first LLM thought. Support-path teach under
+    120 words; two analogies then one preference question. Check B choice B
+    scored as best (3) — letter luck, not a demonstrated explanation. Mentor
+    named what is understandable, coached why B is stronger than C/D, did not
+    show points or a letter grade, did not stack a second check. Contained
+    exercise: attempt 1 'search?' (misconception); attempt 2 'not search.
+    patterns.' (partial); attempt 3 co-create then transfer — Kit's independent
+    line met the three-idea B bar. Workplace: 'emails' then 'draft an email.
+    check names.' then co-create a synthetic thank-you-for-the-meeting note
+    (fake agenda; check no invented date) — B. Working Card phrases are Kit's;
+    mentor asked one field at a time; Kit explained when to use it (when I
+    write email) and what to change (new agenda). Vocabulary stayed on AI /
+    LLM / input / response / ordinary words. No confidential source text.
+repeatability:
+  comparable: not_paired
+  notes: "Single vague-or-minimal run in this campaign. Not a repeatability pair."
+redundancy:
+  repeated_teaching: none
+  duplicate_check: none
+  filler: none
+  re_onboard: none
+  notes: >
+    Role re-ask once is the persona watch, not quiz_volume. Experience
+    'which something' is one personalize follow-up, not a stacked check.
+    Optional media actually optional. No program-wide lecture. No second
+    knowledge check. Retries 1–3 on exercise and workplace are required
+    scaffolding (rubrics/interaction-grading.md), not evidence_theater.
+    Field-by-field card is one active question per field.
+
+path_band: support
+formative_check_id: B
+formative_check_choice: B
+formative_check_class: best
+one_question_contract_held: true
+stacked_checks: false
+co_create_then_transfer: true
+
+synthetic_only: true
+claims_commercial_ready: false
+claims_multi_harness_pass: false
