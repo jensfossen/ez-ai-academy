@@ -4,7 +4,9 @@ How to drive EZ AI Academy Foundations as a scripted persona **without claiming 
 
 This is Phase B of [#30](https://github.com/jensfossen/ez-ai-academy/issues/30): the runner guide. It does not rewrite Module 1 or Module 2. It does not update [`harness-matrix.md`](harness-matrix.md). It is not commercial readiness (`references/commercial-readiness.md`). Prototype exit is not commercial-ready.
 
-First campaign evidence (Cursor Cloud Agent pattern; scripted mentor + persona simulation; not a matrix Pass) lives under [`tests/runs/`](runs/README.md). Those files are synthetic only. They do not close [#30](https://github.com/jensfossen/ez-ai-academy/issues/30) and they do not invent a Foundations or PE Pass.
+**Phase B status.** Library coverage on the Cursor Cloud Agent pattern is complete. Filed witness: [`tests/runs/`](runs/README.md) (campaigns [#65](https://github.com/jensfossen/ez-ai-academy/pull/65)–[#71](https://github.com/jensfossen/ez-ai-academy/pull/71); all 10 personas). That folder is the complete library witness. It is **still not a Pass**. See the closeout checklist in `tests/runs/README.md`. Phase C stays format only.
+
+Campaign evidence (Cursor Cloud Agent pattern; scripted mentor + persona simulation; not a matrix Pass) lives under [`tests/runs/`](runs/README.md). Those files are synthetic only. They do not invent a Foundations or PE Pass. [#30](https://github.com/jensfossen/ez-ai-academy/issues/30) closes on the docs/checklist closeout once Phase A+B AC is documented as met — not from a single campaign score.
 
 Personas: [`learner-personas.md`](learner-personas.md). Scoring: [`self-test-metrics.md`](self-test-metrics.md). Scenario: [`foundations-acceptance.md`](foundations-acceptance.md).
 
@@ -197,7 +199,7 @@ How to fill, in order:
 2. Paste the filled YAML. Attach a sanitized transcript excerpt or `-o` last-message path contents. No real employee data. No `compliance-anxious` trigger strings.
 3. Link `run_id` / `pair_run_id` if this is a repeat.
 4. Do **not** edit [`harness-matrix.md`](harness-matrix.md) from a single persona score. Do not add a Pass, Pass with adapter, or failed cell because a persona “scored well.”
-5. Do **not** close [#30](https://github.com/jensfossen/ez-ai-academy/issues/30), [#3](https://github.com/jensfossen/ez-ai-academy/issues/3), or [#4](https://github.com/jensfossen/ez-ai-academy/issues/4) from a runner-guide PR or one persona comment.
+5. Do **not** close [#3](https://github.com/jensfossen/ez-ai-academy/issues/3) or [#4](https://github.com/jensfossen/ez-ai-academy/issues/4) from a runner-guide PR or one persona comment. [#30](https://github.com/jensfossen/ez-ai-academy/issues/30) closes only on the Phase B docs/checklist closeout (`tests/runs/README.md`), not from one campaign.
 6. File structured campaign evidence under [`tests/runs/`](runs/README.md) (see that README for what the folder is / is not). Issue comments remain valid. A filled `tests/runs/` report is **not** a matrix Pass.
 
 ## Repeatability

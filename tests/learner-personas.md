@@ -16,7 +16,7 @@ Product brand is **EZ AI Academy**. Never write “Easy AI Academy.”
 
 Learning stays in-harness. Do not send the learner to a website gradebook. Use synthetic, redacted, or approved examples only (`resources/enterprise-baseline.md`).
 
-Phase A is this Markdown library. Phase B is the runner guide ([`self-test-runner.md`](self-test-runner.md)), not an executed campaign. JSON companions, multi-persona runs, and tuning loops are later work. Do not treat these scripts as a recorded Foundations or PE Pass.
+Phase A is this Markdown library. Phase B is the runner guide ([`self-test-runner.md`](self-test-runner.md)) plus the filed Cursor Cloud Agent pattern campaigns under [`tests/runs/`](runs/README.md) (library coverage complete on that pattern). JSON companions and Phase C tuning loops stay later. Do not treat these scripts or those run reports as a recorded Foundations or PE Pass.
 
 ## Index
 
@@ -579,16 +579,18 @@ Map personas to [`foundations-acceptance.md`](foundations-acceptance.md) beats. 
 
 ## Handoff (Phase B / C)
 
-Phase B runner guide: [`self-test-runner.md`](self-test-runner.md) (how to install, prompt, score, and file — not a campaign, not a Pass).
+Phase B runner guide: [`self-test-runner.md`](self-test-runner.md) (how to install, prompt, score, and file — still not a Pass).
 
-Phase C (later): tuning loops may *propose* curriculum diffs (cut redundancy, clarify a check, tighten a workplace prompt) for human / Chief review. **Never auto-merge.** Confirm before paid external API spend.
+Phase B library witness (Cursor Cloud Agent pattern): [`tests/runs/`](runs/README.md). All ten fixtures in this file have at least one filed Foundations campaign on that pattern, including `returning-learner` Fixture A and Fixture B. Closeout checklist: `tests/runs/README.md` **Phase B closeout**. That is not a Foundations Pass.
+
+Phase C (later): tuning loops may *propose* curriculum diffs (cut redundancy, clarify a check, tighten a workplace prompt) for human / Chief review. **Never auto-merge.** Format only until someone executes a loop. Confirm before paid external API spend.
 
 Open questions from #30 (defaults until someone decides):
 
-| Question | Phase A default |
+| Question | Default |
 |---|---|
 | Markdown vs JSON fixtures? | This Markdown file is the library. Do not add a parallel JSON source of truth yet. |
-| Where do run artifacts live? | Harness-test issue comments, same as today. A `tests/runs/` folder is a later choice. |
+| Where do run artifacts live? | [`tests/runs/`](runs/README.md) (YAML + sanitized Markdown). Issue comments remain valid. |
 | Minimum personas before content maturity vs Pass? | Content-maturity review: at least two personas (one support-leaning, one short-path). Host **Pass** still means [`foundations-acceptance.md`](foundations-acceptance.md) with evidence — not a persona score. |
 | How aggressive may a tuning loop be? | Copy / check wording first. Structural lesson-order changes need an explicit human go. |
 
@@ -596,6 +598,7 @@ Open questions from #30 (defaults until someone decides):
 
 - Scoring: [`self-test-metrics.md`](self-test-metrics.md)
 - Runner guide: [`self-test-runner.md`](self-test-runner.md)
+- Campaign evidence / Phase B closeout (synthetic; not a Pass): [`tests/runs/`](runs/README.md)
 - Foundations scenario: [`foundations-acceptance.md`](foundations-acceptance.md)
 - PE scenario (ready to run, not a Pass): [`prompt-engineering-acceptance.md`](prompt-engineering-acceptance.md)
 - Matrix (do not invent Passes): [`harness-matrix.md`](harness-matrix.md)
