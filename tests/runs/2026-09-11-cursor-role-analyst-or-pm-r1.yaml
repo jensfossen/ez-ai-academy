@@ -1,0 +1,83 @@
+harness: Cursor (Cloud Agent pattern)
+version: "Cloud Agent bc-276a8249-d751-4008-a81d-4cbf7160ab95; checkout 2fad67a9; academy_content_revision 2026-09-10j"
+operating_system: "Linux 6.12.94+ (Cursor Cloud Agent VM)"
+model: cursor-grok-4.6-high-fast
+invocation_method: "cursor cloud agent pattern; scripted mentor+persona simulation in checkout; not live IDE"
+result: Pass with adapter
+deviations:
+  - "Not a live Cursor IDE Agent chat. Mentor and persona turns were scripted in this Cloud Agent checkout against current SKILL.md / onboarding / Module 1. Do not treat as an IDE native-UI transcript."
+  - "Native choice cards unavailable — Markdown numbered lists for Session Zero role, AI experience, and Check C (documented Cloud Agent fallback; #24). Check C has no render_intent line in checks/module-01-llm.md; Markdown A–D was used anyway."
+  - "Module 1 PNG via markdown image + registered alt/description from resources/visuals.md (inline raster UI-dependent)."
+  - "Optional Session Zero checklist offered as Markdown; hide/skip stated as non-blocking. No host checklist chrome."
+  - "In-chat video N/A — IBM Technology URL offered; learner skipped. Lesson continued in chat."
+  - "Prefer Check C for this PM-style learner (curriculum: choose one check). Choice A scored as best; B and D named as equally strong; C (cancel a project) named high-impact."
+  - "Mentor offered approved notes they already have or a made-up set. Learner refused a real tracker paste; workplace used synthetic approved notes only."
+  - "Continuity: sanitized export of AI_ACADEMY_RECORD (academy_version \"0.1\") only. Fresh-conversation restore was not run in this file."
+  - "Models landscape / Prompt Engineering / later modules were not started."
+evidence_links:
+  - tests/runs/2026-09-11-cursor-role-analyst-or-pm-r1.md
+  - tests/runs/README.md
+recommended_change: "Phase C (copy only, no auto-merge): add the same render_intent: native_choice_card line to Check C that Check A and Check B already have, so PM-role hosts that attach an ask-questions tool get the same picker. Cloud Agent Markdown fallback already works. Not a lesson-order change."
+academy_version: "0.1"
+
+persona_id: role-analyst-or-pm
+scenario: foundations
+start_state: fresh
+run_id: 2026-09-11-cursor-role-analyst-or-pm-r1
+pair_run_id: null
+wall_clock: "est. 26m"
+simulated_cloud_agent_turns: 15
+phase_clocks:
+  session_zero: "est. 5m (welcome+name, role, experience, allowed-notes example, thank→Module 1)"
+  teaching_and_check: "est. 9m (starting thought → shortened teach → Check C A coached as best)"
+  evidence: "est. 10m (exercise B → refuse tracker → synthetic notes workplace A → status-draft card explained)"
+  continuity: "est. 2m (sanitized export only; restore not exercised)"
+accuracy:
+  formative_check: met
+  ungraded_beats: met
+  exercise_grade: B
+  workplace_grade: A
+  artifact_explained: yes
+  vocabulary_boundary: met
+  sanitation: met
+  grade_fairness: within_one_letter
+  notes: >
+    Starting thought ungraded (pattern-based predictor; organize notes; not a system
+    of record for decisions). Mentor shortened the first teach and did not restate
+    the full ~120-word block. Guided, not a skip: analogy + meeting-notes example +
+    one check still ran. Check C choice A scored as best (3); B and D also strong;
+    C (cancel a project without reviewing evidence) named high-impact; no letter
+    grade or 0–3 shown. Contained exercise met the three-idea B bar (patterns,
+    build-from-request not a guaranteed web lookup, match decisions/owners to notes).
+    Workplace A: synthetic approved notes → draft decisions, open questions, next
+    steps → check missed decisions, invented owners, changed meaning. Real tracker
+    paste refused. Working Card explainable for a status-draft: when to use (first
+    draft from approved notes), what to change (new note set), how to check (owners,
+    dates, meaning). Vocabulary stayed on AI / LLM / input / response / ordinary
+    words. No unpublished metrics, customer names, or tracker paste in this YAML,
+    the card, or the exported record.
+repeatability:
+  comparable: not_paired
+  notes: "Single role-analyst-or-pm run in this campaign. Not a repeatability pair."
+redundancy:
+  repeated_teaching: none
+  duplicate_check: none
+  filler: none
+  re_onboard: none
+  notes: >
+    Starting thought already named predictor + not-a-SoR; mentor shortened teach
+    (no repeated_teaching). One Session Zero example personalized the status-note
+    lesson; not extra diagnostics. Optional media actually optional. No program-wide
+    lecture. No second knowledge check. Tracker-refuse + synthetic notes are the
+    sanitation watch, not filler. evidence_theater: none.
+
+path_band: guided
+formative_check_id: C
+formative_check_choice: A
+formative_check_class: best
+real_tracker_paste_refused: true
+unpublished_metrics_or_customer_names_in_record: false
+
+synthetic_only: true
+claims_commercial_ready: false
+claims_multi_harness_pass: false

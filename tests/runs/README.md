@@ -34,7 +34,16 @@ Third campaign (2026-09-11), Cursor Cloud Agent **pattern** (fluency ≠ underst
 
 Markdown numbered choices and a registered text map are **equivalence**, not a failed native-UI Pass. Do not invent IDE native-card Passes from the accessibility run.
 
-Remaining #30 personas still unwitnessed on this harness pattern: `role-ops-coordinator`, `role-analyst-or-pm`, `vague-or-minimal`, `high-achiever-fast`, and Fixture B mid-journey restore.
+Fourth campaign (2026-09-11), Cursor Cloud Agent **pattern** (role-fit workplace realism):
+
+| File | Persona | Start | Pair |
+|---|---|---|---|
+| `2026-09-11-cursor-role-ops-coordinator-r1.yaml` | `role-ops-coordinator` | `fresh` | unpaired |
+| `2026-09-11-cursor-role-analyst-or-pm-r1.yaml` | `role-analyst-or-pm` | `fresh` | unpaired |
+
+Ops examples stay on schedules / vendor follow-ups / shift handoffs. Analyst / PM examples stay on meeting notes / status / decisions. No real phones, rosters, customer names, or unpublished metrics.
+
+Remaining #30 personas still unwitnessed on this harness pattern: `vague-or-minimal`, `high-achiever-fast`, and Fixture B mid-journey restore.
 
 How to drive a later host: [`../self-test-runner.md`](../self-test-runner.md). Fixtures: [`../learner-personas.md`](../learner-personas.md). Scenario: [`../foundations-acceptance.md`](../foundations-acceptance.md).
 
