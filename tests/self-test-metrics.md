@@ -90,7 +90,7 @@ Check these, in order:
 
 **Unexplained drift** that changes completion, skips evidence, or re-opens Session Zero after a complete record: treat as a defect or harness limitation, then assign the result scale.
 
-Phase A documents the check. Phase B files the paired runs. This file does not claim any pair has been run.
+Phase A documents the check. Phase B files the paired runs. The first filed pair is `novice-first-contact` r1/r2 under [`tests/runs/`](runs/README.md) (`explained_drift`). That pair is evidence for #30, not a matrix Pass.
 
 ### 4. Redundancy
 
@@ -122,10 +122,10 @@ Do not flag: one sanitation redirect; one analogy-limit sentence; one retry afte
 2. Fill the [run report](#run-report) — including the four diagnostics.
 3. Assign **one** result from the [result scale](#result-scale) for that scenario on that harness.
 4. If this is the second run of a repeatability pair, fill `repeatability` and link the first `run_id`.
-5. File the report on the harness-test issue (see [`self-test-runner.md`](self-test-runner.md); or the #30 thread until someone picks `tests/runs/`).
+5. File the report under [`tests/runs/`](runs/README.md) and on the harness-test issue (see [`self-test-runner.md`](self-test-runner.md)).
 6. Update [`harness-matrix.md`](harness-matrix.md) only when the run is a real Foundations or PE scenario with evidence — not because a persona “scored well.”
 
-Persona diagnostics can recommend a curriculum tweak (Phase C proposal). They cannot close #3, #4, or #30 by themselves.
+Persona diagnostics can recommend a curriculum tweak (Phase C proposal). They cannot close #3 or #4 by themselves. #30 closes only on the Phase B docs/checklist closeout (`tests/runs/README.md`), not from one score.
 
 ## Run report
 
@@ -198,7 +198,7 @@ Cursor Foundations Pass ([#10](https://github.com/jensfossen/ez-ai-academy/issue
 
 ## Phase B / C handoff
 
-**Phase B — runner guide.** How to install, prompt, and file: [`self-test-runner.md`](self-test-runner.md). That file is the guide only — not an executed multi-persona campaign. Prefer unattended Cloud Agent / Codex `exec` / similar where auth exists. If a host cannot run unattended, record **Blocked** and stop; do not invent a transcript.
+**Phase B — runner guide + filed witness.** How to install, prompt, and file: [`self-test-runner.md`](self-test-runner.md). Complete library witness on the Cursor Cloud Agent pattern: [`tests/runs/`](runs/README.md). Still not a Pass. Prefer unattended Cloud Agent / Codex `exec` / similar where auth exists. If a host cannot run unattended, record **Blocked** and stop; do not invent a transcript.
 
 **Phase C — tuning proposals** (human go/no-go only):
 
@@ -219,6 +219,7 @@ Never auto-merge. Confirm before paid external API spend.
 
 - Persona fixtures: [`learner-personas.md`](learner-personas.md)
 - Runner guide: [`self-test-runner.md`](self-test-runner.md)
+- Campaign evidence / Phase B closeout (synthetic; not a Pass): [`tests/runs/`](runs/README.md)
 - Foundations scenario: [`foundations-acceptance.md`](foundations-acceptance.md)
 - PE scenario: [`prompt-engineering-acceptance.md`](prompt-engineering-acceptance.md)
 - Matrix: [`harness-matrix.md`](harness-matrix.md)

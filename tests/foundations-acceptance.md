@@ -70,6 +70,6 @@ recommended_change:
 academy_version:   # when Continuity was exercised; current contract is "0.1"
 ```
 
-## Persona library (later self-test loops)
+## Persona library (self-test loops)
 
-Phase A of [#30](https://github.com/jensfossen/ez-ai-academy/issues/30) documents synthetic learner fixtures in [`learner-personas.md`](learner-personas.md) and how to score a run in [`self-test-metrics.md`](self-test-metrics.md). Phase B is the runner guide: [`self-test-runner.md`](self-test-runner.md). Use those when driving this scenario as a scripted learner. They do not record a Pass. Do not treat a persona score as multi-harness validation or commercial readiness. Keep the result scale above.
+Phase A of [#30](https://github.com/jensfossen/ez-ai-academy/issues/30) documents synthetic learner fixtures in [`learner-personas.md`](learner-personas.md) and how to score a run in [`self-test-metrics.md`](self-test-metrics.md). Phase B is the runner guide: [`self-test-runner.md`](self-test-runner.md). Filed library witness (Cursor Cloud Agent pattern; complete): [`tests/runs/`](runs/README.md). Use those when driving this scenario as a scripted learner. They do not record a Pass. Do not treat a persona score as multi-harness validation or commercial readiness. Keep the result scale above. Phase C tuning stays later (proposal format only).
