@@ -1,0 +1,89 @@
+harness: Cursor (Cloud Agent pattern)
+version: "Cloud Agent bc-d62de799-4792-414a-9fd0-8063277105d5; checkout b9169e06; academy_content_revision 2026-09-10j"
+operating_system: "Linux 6.12.94+ (Cursor Cloud Agent VM)"
+model: cursor-grok-4.6-high-fast
+invocation_method: "cursor cloud agent pattern; scripted mentor+persona simulation in checkout; not live IDE"
+result: Pass with adapter
+deviations:
+  - "Not a live Cursor IDE Agent chat. Mentor and persona turns were scripted in this Cloud Agent checkout against current SKILL.md / onboarding / Module 1 / schemas/progress-record.md. Do not treat as an IDE native-UI transcript."
+  - "Native choice cards unused — Fixture B restore skipped Session Zero and did not re-open a Module 1 check, so no picker was required."
+  - "Progress shown as a compact Markdown table (no host progress chrome)."
+  - "Skippable update reminder offered once in plain language (SKILL.md Keep the skill current). Not a gate."
+  - "Continuity: Fixture B paste → restore confirm → remaining Module 1 evidence → export (academy_version \"0.1\"). Session Zero did not start. Name / role / experience were not re-asked."
+  - "Module 1 was not marked complete from the paste alone. Paste state stayed in_progress (exercise B dated 2026-09-07; workplace and artifact null). Completion waited until workplace + Working Card were collected in this session."
+  - "After restore, remaining evidence used role-ops-coordinator workplace + Working Card replies (synthetic shift handoff) per the returning-learner bank. Stored role stayed 'program coordinator' from the fixture — mentor did not re-ask role."
+  - "Fixture B omitted later additive module keys; restore treated missing keys as not_started and the export emitted the full 0.1 shape. Fixture exercise text and 2026-09-07 date were preserved. Workplace and artifact were added only after this session's evidence. No PE evidence invented."
+  - "Prompt Engineering was named as next_recommended_action only after Module 1 completed. Module 2 teaching was not started. No PE Pass claim. Models landscape / Context / Agents / Loop / Graph were not started."
+evidence_links:
+  - tests/runs/2026-09-11-cursor-returning-learner-fixture-b-r1.md
+  - tests/runs/README.md
+recommended_change: "Phase C (copy only, no auto-merge): on a Fixture B mid-journey restore, name the two remaining evidence types in one sentence and ask the workplace question immediately. Do not re-teach the mental model or re-run the contained exercise. Not a lesson-order change."
+academy_version: "0.1"
+
+persona_id: returning-learner
+scenario: foundations
+start_state: resume_fixture_b
+run_id: 2026-09-11-cursor-returning-learner-fixture-b-r1
+pair_run_id: null
+wall_clock: "est. 16m"
+simulated_cloud_agent_turns: 6
+phase_clocks:
+  session_zero: "not run (correct skip after valid in_progress restore)"
+  teaching_and_check: "not re-run (Module 1 teaching and check already past; exercise B accepted as-is)"
+  evidence: "est. 10m (workplace A from ops handoff replies → Working Card explained)"
+  continuity: "est. 6m (paste → restore confirm → progress showing in_progress → later export round-trip)"
+accuracy:
+  formative_check: not_exercised
+  ungraded_beats: met
+  exercise_grade: B
+  workplace_grade: A
+  artifact_explained: yes
+  vocabulary_boundary: met
+  sanitation: met
+  grade_fairness: within_one_letter
+  notes: >
+    Restore used schemas/progress-record.md: current module foundations / lesson F1,
+    status in_progress, one evidence object (exercise B, 2026-09-07), workplace and
+    artifact null. Structure consistent — in_progress with two missing evidence
+    types was not treated as complete. No Session Zero. No name / role / experience
+    re-ask (continuity fail line unused). Restore itself was not letter-graded.
+    Fixture exercise was accepted as-is (not re-scored). Workplace A: synthetic
+    shift-handoff paragraph (no phones, no roster) → three bullets (unfinished
+    tasks, who was mentioned, open questions) → every name and task must appear
+    in the paragraph; no new people. Working Card in ops language (tidy a handoff,
+    vendor follow-up from approved bullets, questions for the next shift); Alex
+    explained when to use it and what to change. Role in the export stayed
+    'program coordinator' from Fixture B. Vocabulary stayed on ordinary resume
+    and Module 1 words. PE was named only as the parked next module after
+    completion. No real phones, rosters, or secrets.
+repeatability:
+  comparable: not_paired
+  notes: >
+    Single Fixture B resume in this campaign. Different start_state from
+    2026-09-10-cursor-returning-learner-fixture-a-r1 (complete vs in_progress),
+    so not a repeatability pair. Contrast: Fixture A skipped all Module 1
+    teaching and collected no new evidence; Fixture B skipped Session Zero,
+    continued remaining evidence, then completed.
+redundancy:
+  repeated_teaching: none
+  duplicate_check: none
+  filler: none
+  re_onboard: none
+  notes: >
+    re_onboard none is the continuity watch. Mentor did not restart Session Zero
+    or Module 1 teaching. Did not re-run the contained exercise. Skippable
+    freshness reminder was one sentence and was not a gate. quiz_volume: none.
+    evidence_theater: none (fixture exercise not re-asked). Workplace and card
+    are the two remaining contract pieces, not a redo of completed work.
+
+path_band: resume
+formative_check_id: null
+formative_check_choice: null
+formative_check_class: null
+continuity_fail_name_role_reask: false
+session_zero_skipped: true
+module_1_not_marked_complete_from_paste_alone: true
+
+synthetic_only: true
+claims_commercial_ready: false
+claims_multi_harness_pass: false
