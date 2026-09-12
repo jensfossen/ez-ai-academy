@@ -117,4 +117,14 @@
   document.addEventListener("keydown", function (event) {
     if (event.key === "Escape") closeTips();
   });
+
+  var overview = document.querySelector(".overview");
+  var pauseBtn = document.querySelector(".hero-pause");
+  if (overview && pauseBtn && !window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+    pauseBtn.addEventListener("click", function () {
+      var paused = overview.classList.toggle("hero-paused");
+      pauseBtn.setAttribute("aria-pressed", paused ? "true" : "false");
+      pauseBtn.textContent = paused ? "Play background" : "Pause background";
+    });
+  }
 })();
