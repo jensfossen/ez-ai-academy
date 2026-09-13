@@ -4,7 +4,7 @@ Standing ops for keeping **EZ AI Academy** current. Tagline: **Learn AI where yo
 
 Learning happens **in-harness**. This repository is the source of truth. The [discovery site](https://jensfossen.github.io/ez-ai-academy/) is not the course, not a gradebook, and not this loop’s publish target. Do not add a marketing page for curation.
 
-This file records **who runs the loop**, **when**, **what a scan may do**, and **how proposals land**. It does not teach learners. Learner-facing deltas live in [`RELEASE_NOTES.md`](RELEASE_NOTES.md). Frontline watch list: [`CURATOR_SOURCES.md`](CURATOR_SOURCES.md).
+This file records **who runs the loop**, **when**, **what a scan may do**, and **how proposals land**. It does not teach learners. Learner-facing deltas live in [`RELEASE_NOTES.md`](RELEASE_NOTES.md). Frontline watch list: [`CURATOR_SOURCES.md`](CURATOR_SOURCES.md). When to add / rewrite / prune / defer a live beat: [`MODULE_EVOLVE_PRUNE.md`](MODULE_EVOLVE_PRUNE.md).
 
 Two cadences: **weekday ~10:30 America/New_York light scan** (kept) and **weekly Monday 9:00 America/New_York deep scan** (Curator v2). See [Cadence](#cadence).
 
@@ -22,7 +22,7 @@ Related backlog (do not treat as closed by this file):
 - [#63](https://github.com/jensfossen/ez-ai-academy/issues/63) Module 5 Loop Engineering — live numbered module in [`loop-engineering.md`](../curriculum/loop-engineering.md); **closed** after the live module shipped. Remaining acceptance is harness scenario readiness / recorded Passes later — do not reopen; do not claim a Pass from a scan.
 - [#77](https://github.com/jensfossen/ez-ai-academy/issues/77) Curator v2 epic (parent). Living sources: [`CURATOR_SOURCES.md`](CURATOR_SOURCES.md). This file is the [#79](https://github.com/jensfossen/ez-ai-academy/issues/79) weekly deep-scan home. Do not `Closes` #77 from a scan or from landing this cadence.
 - [#79](https://github.com/jensfossen/ez-ai-academy/issues/79) weekly frontline deep scan — this file (plus a weekly-style dry-run under [`curation-dry-runs/`](curation-dry-runs/)). After the cadence lands, scans use **Refs #79**.
-- [#80](https://github.com/jensfossen/ez-ai-academy/issues/80) evolve/prune playbook — leave **open**. Deep scans **flag** prune candidates; they do not write the playbook or delete beats.
+- [#80](https://github.com/jensfossen/ez-ai-academy/issues/80) evolve/prune playbook — living home [`MODULE_EVOLVE_PRUNE.md`](MODULE_EVOLVE_PRUNE.md). After it lands, scans use **Refs #80**. Deep scans **flag** prune candidates; they do not delete beats.
 - [#81](https://github.com/jensfossen/ez-ai-academy/issues/81) post-curation synthetic validation — leave **open**. Do not treat synth scores as a Pass.
 - [#82](https://github.com/jensfossen/ez-ai-academy/issues/82) Pages freshness / update cadence — leave **open**. Do not implement from a scan.
 
@@ -87,7 +87,7 @@ Work every row. Write the result in that week’s `YYYY-MM-DD-weekly.md`. Quiet 
 |---|---|---|
 | **New terms** | A workplace word for an idea we teach (or should decide whether to teach) that live modules do not use — or use with a different meaning. Two source classes, or one changelog **and** learner talk. | Note only, or file an issue. Do not rewrite a lesson from one post. |
 | **Metaphor shifts** | The picture people use for LLMs / agents / tools / loops has moved vs Session Zero / Module 1+ (or vs last week). Teaching outlet or several learner threads — not one clever essay. | Note only, or file an issue. |
-| **Stale Module beats** | A live beat now wastes time because the concept is assumed, or our wording fights words learners already use. | **Prune flag** — issue only. Do **not** delete the beat here. Playbook: [#80](https://github.com/jensfossen/ez-ai-academy/issues/80). Chief / Jens GO before material curriculum changes. |
+| **Stale Module beats** | A live beat now wastes time because the concept is assumed, or our wording fights words learners already use. | **Prune flag** — issue only. Do **not** delete the beat here. Playbook: [`MODULE_EVOLVE_PRUNE.md`](MODULE_EVOLVE_PRUNE.md) ([#80](https://github.com/jensfossen/ez-ai-academy/issues/80)). Chief / Jens GO before material curriculum changes. |
 | **Source hits** | Named X / Reddit / reporting + teaching / mental-model changelog rows in [`CURATOR_SOURCES.md`](CURATOR_SOURCES.md). Official model pages stay in [signal sources](#signal-sources). | Classify with the taxonomy. One viral post is a note. |
 | **Broken / low-authority media** | Registered links that are broken, unverified, or no longer authoritative. Apply [`../resources/asset-governance.md`](../resources/asset-governance.md). A `403` is unverified, not automatically broken. | Hide / unverified / next-review in a thin PR after human confirm. Do not block module completion. |
 | **Release-notes gap** | Teaching merges on `main` since the last deep scan (and since the newest weekday note) vs [`RELEASE_NOTES.md`](RELEASE_NOTES.md). Every teaching change needs the five headings. Ops-only slices do not. | File an issue or fold the missing entry into a thin draft PR. Do not invent teaching notes. |
@@ -98,7 +98,7 @@ Then run the same glance steps as the [weekday light scan](#weekday-light-scan) 
 
 1. Read this file, [`CURATOR_SOURCES.md`](CURATOR_SOURCES.md), [`RELEASE_NOTES.md`](RELEASE_NOTES.md), the newest **weekly** dry-run, and the newest weekday dry-run.
 2. Walk the [deep-scan checklist](#deep-scan-checklist). Sample each named source class (official site or app only — no scrape, no paid API without confirm).
-3. Walk live Module beats (Session Zero / Module 1+ and live companions) for **stale-teach** and **metaphor** drift. Flag; do not prune in-loop.
+3. Walk live Module beats (Session Zero / Module 1+ and live companions) for **stale-teach** and **metaphor** drift. Flag; do not prune in-loop. Decision lanes: [`MODULE_EVOLVE_PRUNE.md`](MODULE_EVOLVE_PRUNE.md).
 4. Check the release-notes gap and open content issues (same floor as the light scan, plus [#77](https://github.com/jensfossen/ez-ai-academy/issues/77)–[#82](https://github.com/jensfossen/ez-ai-academy/issues/82) children still open).
 5. Outcomes, only if warranted — see [Output shape](#output-shape).
 
@@ -122,7 +122,7 @@ Same change may be both: issue for the decision, draft PR for the text. Details:
 - Host a full model catalog, leaderboard dump, or vendor encyclopedia in this repo.
 - Expand [#39](https://github.com/jensfossen/ez-ai-academy/issues/39) or [#46](https://github.com/jensfossen/ez-ai-academy/issues/46) live companion units from a scan, or implement remaining [#40](https://github.com/jensfossen/ez-ai-academy/issues/40) mobile UX from a scan alone.
 - Promote Graph Engineering (or any named candidate) to a numbered capability module until Chief / Jens go.
-- Write the [#80](https://github.com/jensfossen/ez-ai-academy/issues/80) prune playbook, run the [#81](https://github.com/jensfossen/ez-ai-academy/issues/81) synth gate, or ship the [#82](https://github.com/jensfossen/ez-ai-academy/issues/82) Pages cue from a scan.
+- Delete a live beat without following [`MODULE_EVOLVE_PRUNE.md`](MODULE_EVOLVE_PRUNE.md) (issue → Chief / Jens GO → thin draft PR). Do not run the [#81](https://github.com/jensfossen/ez-ai-academy/issues/81) synth gate as a Pass, or ship the [#82](https://github.com/jensfossen/ez-ai-academy/issues/82) Pages cue from a scan.
 - Check in Grok Bot routine JSON or treat a dry-run as “the routine is the source of truth.”
 - Redirect learners to the website, an LMS, or a required account.
 - Nag. If nothing material changed, stay quiet.
@@ -188,7 +188,7 @@ Title names the learning meaning, not the engineering chore. Body includes:
 **Proposals are drafts.**
 
 - Typos, broken-link hides, registry review dates, and ops docs may ship as ordinary small PRs after human confirm (still no auto-merge).
-- **Material curriculum** — new or retired lessons, changed completion evidence, a new module, further Models landscape or Graph Engineering expansion — needs **Chief / Jens go** before merge.
+- **Material curriculum** — new or retired lessons, changed completion evidence, a new module, further Models landscape or Graph Engineering expansion — needs **Chief / Jens go** before merge. Add / rewrite / prune / defer lanes: [`MODULE_EVOLVE_PRUNE.md`](MODULE_EVOLVE_PRUNE.md).
 - When unsure, file the issue and wait. Do not “helpfully” expand scope.
 
 ## Module candidate backlog
@@ -226,6 +226,6 @@ File one note per cycle under [`curation-dry-runs/`](curation-dry-runs/). Honest
 | Weekday light | `YYYY-MM-DD-1030.md` | [`2026-09-11-1030.md`](curation-dry-runs/2026-09-11-1030.md) |
 | Weekly deep | `YYYY-MM-DD-weekly.md` | [`2026-09-13-weekly.md`](curation-dry-runs/2026-09-13-weekly.md) (format stub) |
 
-A weekly note uses the same honesty as a weekday note, plus a row for each [deep-scan checklist](#deep-scan-checklist) item. Do not invent frontline hits to fill the template. Format-only is valid when the slot is being stood up and no live pass ran.
+A weekly note uses the same honesty as a weekday note, plus a row for each [deep-scan checklist](#deep-scan-checklist) item. When **Stale Module beats** scores, cite [`MODULE_EVOLVE_PRUNE.md`](MODULE_EVOLVE_PRUNE.md) and file the issue — do not delete the beat in the dry-run. Do not invent frontline hits to fill the template. Format-only is valid when the slot is being stood up and no live pass ran.
 
 First report: [`curation-dry-runs/2026-09-10.md`](curation-dry-runs/2026-09-10.md). First weekly-style shape: [`curation-dry-runs/2026-09-13-weekly.md`](curation-dry-runs/2026-09-13-weekly.md).
