@@ -652,9 +652,10 @@ footer a:first-of-type { margin-left: auto; }
     padding-bottom: 32px;
   }
   .hero-stage {
-    max-width: min(100%, 28.5rem);
+    max-width: min(100%, 36rem);
     justify-self: center;
   }
+  .hero-carousel { place-items: start center; }
   .hero-slide[data-device="tablet"] .device { width: 92%; }
 }
 
