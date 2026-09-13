@@ -6,7 +6,7 @@ The repository is the source of truth. The [discovery site](https://jensfossen.g
 
 **Current content revision:** `2026-09-13` — same value as `metadata.academy_content_revision` in `SKILL.md`. Mentors may mention it when offering a skippable update reminder. It is not a grade, a Pass, or a website account.
 
-Operator weekday light + weekly deep cadence, staffing, and proposal format: [`CURATION.md`](CURATION.md). Frontline sources and signal taxonomy: [`CURATOR_SOURCES.md`](CURATOR_SOURCES.md). That loop does not replace this log.
+Operator weekday light + weekly deep cadence, staffing, and proposal format: [`CURATION.md`](CURATION.md). Frontline sources and signal taxonomy: [`CURATOR_SOURCES.md`](CURATOR_SOURCES.md). Add / rewrite / prune / defer lanes: [`MODULE_EVOLVE_PRUNE.md`](MODULE_EVOLVE_PRUNE.md). That loop does not replace this log.
 
 ## How to read this file
 
@@ -49,6 +49,30 @@ PRs that change curriculum, checks, exercises, learner-visible rubrics, visuals,
 Do not claim a Foundations or Prompt Engineering Pass from a changelog entry. Do not mark commercial-readiness gates here. Prototype exit is not commercial-ready.
 
 ---
+
+## 2026-09-13 — Curator v2 module evolve/prune playbook (operators)
+
+Operators now have a documented **add / rewrite / prune / defer-to-companion** playbook so weekly stale-teach flags become an issue → thin draft PR → human GO, not a silent delete. Teaching meaning for learners is unchanged. Installed skills do not need a pull for this entry alone.
+
+### Added
+
+- Operator ops: [`MODULE_EVOLVE_PRUNE.md`](MODULE_EVOLVE_PRUNE.md) — criteria for the four lanes; Pass / three-evidence / Session Zero / vocabulary guardrails; Module 1 metaphor, optional-media, and later-module examples; `RELEASE_NOTES` Removed / Changed hook; stale-teach → proposal path. No new lesson, check, or media.
+
+### Changed
+
+- [`CURATION.md`](CURATION.md) weekly deep **Stale Module beats** row and scan “must not” list now point at that file. [`CURATOR_SOURCES.md`](CURATOR_SOURCES.md) stale-teach and thin-PR lanes do too. README `content/` row names the playbook. `academy_content_revision` in `SKILL.md` stays `2026-09-13`. Cowork ZIP not rebuilt. Discovery Pages untouched. Refs [#77](https://github.com/jensfossen/ez-ai-academy/issues/77). Does not close the epic.
+
+### Removed
+
+- None.
+
+### Media
+
+- None. No hide. No new required learner link.
+
+### Breaking for learners
+
+- None. This does not close [#3](https://github.com/jensfossen/ez-ai-academy/issues/3), [#4](https://github.com/jensfossen/ez-ai-academy/issues/4), or invent a Pass. Module 1 still needs three evidence types.
 
 ## 2026-09-13 — Curator v2 weekly deep-scan cadence (operators)
 

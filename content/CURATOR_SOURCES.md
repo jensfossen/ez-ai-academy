@@ -4,9 +4,9 @@ Living watch list for **EZ AI Academy** Curator v2. Tagline: **Learn AI where yo
 
 This file answers **what EZ-Devy watches** and **how a hit becomes a note, an issue, or a thin PR**. It does not teach learners. It is not a second loop.
 
-Standing loop (who, when, what a scan may do): [`CURATION.md`](CURATION.md). Learner-facing deltas: [`RELEASE_NOTES.md`](RELEASE_NOTES.md). Live optional media: [`../resources/curated-content.md`](../resources/curated-content.md). Selection and hide rules: [`../resources/asset-governance.md`](../resources/asset-governance.md).
+Standing loop (who, when, what a scan may do): [`CURATION.md`](CURATION.md). Learner-facing deltas: [`RELEASE_NOTES.md`](RELEASE_NOTES.md). When to add / rewrite / prune / defer a live beat: [`MODULE_EVOLVE_PRUNE.md`](MODULE_EVOLVE_PRUNE.md). Live optional media: [`../resources/curated-content.md`](../resources/curated-content.md). Selection and hide rules: [`../resources/asset-governance.md`](../resources/asset-governance.md).
 
-Parent epic: [#77](https://github.com/jensfossen/ez-ai-academy/issues/77). This list is the [#78](https://github.com/jensfossen/ez-ai-academy/issues/78) home. Weekly deep-scan schedule and checklist live in [`CURATION.md`](CURATION.md#weekly-deep-scan) ([#79](https://github.com/jensfossen/ez-ai-academy/issues/79)). Evolve/prune playbook is [#80](https://github.com/jensfossen/ez-ai-academy/issues/80). Synthetic validation is [#81](https://github.com/jensfossen/ez-ai-academy/issues/81). Pages freshness cue is [#82](https://github.com/jensfossen/ez-ai-academy/issues/82).
+Parent epic: [#77](https://github.com/jensfossen/ez-ai-academy/issues/77). This list is the [#78](https://github.com/jensfossen/ez-ai-academy/issues/78) home. Weekly deep-scan schedule and checklist live in [`CURATION.md`](CURATION.md#weekly-deep-scan) ([#79](https://github.com/jensfossen/ez-ai-academy/issues/79)). Evolve/prune playbook is [`MODULE_EVOLVE_PRUNE.md`](MODULE_EVOLVE_PRUNE.md) ([#80](https://github.com/jensfossen/ez-ai-academy/issues/80)). Synthetic validation is [#81](https://github.com/jensfossen/ez-ai-academy/issues/81). Pages freshness cue is [#82](https://github.com/jensfossen/ez-ai-academy/issues/82).
 
 The repository is the source of truth. Learning stays **in-harness**. The [discovery site](https://jensfossen.github.io/ez-ai-academy/) is not this list and is not a publish target.
 
@@ -113,7 +113,7 @@ The **picture** people use to explain LLMs, agents, tools, or loops has moved si
 A live beat **now wastes time** because the concept is already common knowledge for the people we teach, or our wording fights the words they already use.
 
 - **Count it** when returning learners (or frontline talk) treat the beat as obvious, and spending time on it crowds out a harder habit we still need.
-- **Action:** flag as a prune/rewrite *candidate*. Do **not** delete the beat in this file’s loop. Playbook: [#80](https://github.com/jensfossen/ez-ai-academy/issues/80). Chief / Jens GO before material curriculum changes.
+- **Action:** flag as a prune/rewrite *candidate*. Do **not** delete the beat in this file’s loop. Playbook: [`MODULE_EVOLVE_PRUNE.md`](MODULE_EVOLVE_PRUNE.md) ([#80](https://github.com/jensfossen/ez-ai-academy/issues/80)). Chief / Jens GO before material curriculum changes.
 - **Not this:** a beat that is still the point of the module (verify fluent output; outcome → inputs → boundaries → shape → check). Familiar is not the same as skippable.
 
 ### Broken / low-authority media
@@ -140,7 +140,7 @@ Pick **one** lane. When unsure, take the quieter lane.
 |---|---|---|
 | **Note only** | One post, one thread, one SKU, one clever metaphor, or “people are talking about X” with no second source class. Unclear it will still matter next week. | One dry-run line (source + date + type). Stop. Do not file. Do not draft. |
 | **File issue** | Same signal in **two source classes**, or one official changelog **plus** learner talk, **and** a returning learner would hear or do something different. Includes stale-teach candidates and new module candidates. | GitHub issue in the [proposal format](CURATION.md#issue). Learning meaning in the title. Explicit **not** a Pass. Leave material curriculum unmerged. |
-| **Propose prune / rewrite** (thin PR) | (1) Ops: broken-link hide, unverified flag, next-review date, or a URL move in this file / `CURATION.md`. (2) Teaching: an issue already exists **and** Chief / Jens said go. | Draft PR, still **no auto-merge**. Ops-only slices do not bump `academy_content_revision` and do not rebuild the Cowork ZIP. Teaching slices need [`RELEASE_NOTES.md`](RELEASE_NOTES.md) five headings and Chief / Jens GO. How to rewrite vs remove a beat: [#80](https://github.com/jensfossen/ez-ai-academy/issues/80). |
+| **Propose prune / rewrite** (thin PR) | (1) Ops: broken-link hide, unverified flag, next-review date, or a URL move in this file / `CURATION.md`. (2) Teaching: an issue already exists **and** Chief / Jens said go. | Draft PR, still **no auto-merge**. Ops-only slices do not bump `academy_content_revision` and do not rebuild the Cowork ZIP. Teaching slices need [`RELEASE_NOTES.md`](RELEASE_NOTES.md) five headings and Chief / Jens GO. How to rewrite vs remove a beat: [`MODULE_EVOLVE_PRUNE.md`](MODULE_EVOLVE_PRUNE.md) ([#80](https://github.com/jensfossen/ez-ai-academy/issues/80)). |
 
 Quiet when nothing is above **note only**. A quiet day is a valid outcome.
 
@@ -160,6 +160,6 @@ Quiet when nothing is above **note only**. A quiet day is a valid outcome.
 Both slots are documented in [`CURATION.md`](CURATION.md#cadence). EZ-Devy owns the standing Grok Bot routines; this file is only the watch list those routines must classify against.
 
 - **Weekday light** (~10:30 America/New_York): classify any frontline hit with this file (taxonomy + priority) before filing or drafting. If nothing scores above note-only, stay quiet.
-- **Weekly deep** (Monday 9:00 America/New_York, default): same list and types. Walk every named source class and the deep-scan checklist in [`CURATION.md`](CURATION.md#deep-scan-checklist). It does **not** get a second taxonomy.
+- **Weekly deep** (Monday 9:00 America/New_York, default): same list and types. Walk every named source class and the deep-scan checklist in [`CURATION.md`](CURATION.md#deep-scan-checklist). Stale-teach flags use [`MODULE_EVOLVE_PRUNE.md`](MODULE_EVOLVE_PRUNE.md) — issue first, no in-loop delete. It does **not** get a second taxonomy.
 
 If nothing scores above note-only, stay quiet. A quiet week is a valid outcome.
