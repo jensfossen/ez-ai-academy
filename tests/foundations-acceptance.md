@@ -18,14 +18,14 @@ Run this scenario in a fresh conversation with no prior Academy state. Use synth
 
 ### 2. Module 1 entry
 
-- Shows `assets/module-01-llm.png`, or provides its meaningful description when image display is unavailable.
+- Shows `assets/module-01-llm.png`. When that offer is a markdown image, the registered alt/description from `resources/visuals.md` is in the same mentor turn. A meaningful description alone is still enough when the file cannot be shown.
 - Limits the lesson to LLM foundations and does not introduce agents, context windows, harness engineering, or loops.
 - Invites the learner to explain an LLM without grading the starting answer.
 
 ### 3. Teaching and check
 
 - Teaches the pattern-based predictor mental model in plain language.
-- Uses an analogy and explains where the analogy stops being accurate.
+- Uses an analogy and explains where the analogy stops being accurate. After a complete starting thought (predictor + not-a-database/verify or equivalent), two analogy labels without a preference-wait question is enough. After a thin start, the first teach stays under ~80 words and names those two labels before preference.
 - Uses one familiar workplace example.
 - Offers, but does not require, a short external resource.
 - Asks no more than one knowledge question before another teaching, feedback, example, or practice moment.
@@ -36,7 +36,7 @@ Run this scenario in a fresh conversation with no prior Academy state. Use synth
 - Grades the contained explanation at B or above before accepting it.
 - Applies the concept to a realistic or sanitized workplace task at B or above.
 - Co-creates an LLM Working Card the learner can explain and reuse.
-- Marks the module complete only when all three evidence types exist.
+- Marks the module complete only when all three evidence types exist. After a strong contained-exercise answer or an optional A-stretch, names that beat as the **first of three evidence types** — never “Module 1 looks complete” before workplace + Working Card.
 - The optional Models landscape companion (`curriculum/models-landscape.md`) is **not** part of this scenario. Do not require it. Offering or skipping it is not Foundations evidence and is not a Pass claim.
 - The optional Graph Engineering companion (`curriculum/graph-engineering.md`) is **not** part of this scenario and is **not** a Foundations companion. Do not require it. Offering or skipping it is not Foundations evidence and is not a Pass claim.
 
@@ -72,4 +72,4 @@ academy_version:   # when Continuity was exercised; current contract is "0.1"
 
 ## Persona library (self-test loops)
 
-Phase A of [#30](https://github.com/jensfossen/ez-ai-academy/issues/30) documents synthetic learner fixtures in [`learner-personas.md`](learner-personas.md) and how to score a run in [`self-test-metrics.md`](self-test-metrics.md). Phase B is the runner guide: [`self-test-runner.md`](self-test-runner.md). Filed library witness (Cursor Cloud Agent pattern; complete): [`tests/runs/`](runs/README.md). Use those when driving this scenario as a scripted learner. They do not record a Pass. Do not treat a persona score as multi-harness validation or commercial readiness. Keep the result scale above. Phase C tuning stays later (proposal format only).
+Phase A of [#30](https://github.com/jensfossen/ez-ai-academy/issues/30) documents synthetic learner fixtures in [`learner-personas.md`](learner-personas.md) and how to score a run in [`self-test-metrics.md`](self-test-metrics.md). Phase B is the runner guide: [`self-test-runner.md`](self-test-runner.md). Filed library witness (Cursor Cloud Agent pattern; complete): [`tests/runs/`](runs/README.md). Use those when driving this scenario as a scripted learner. They do not record a Pass. Do not treat a persona score as multi-harness validation or commercial readiness. Keep the result scale above. Phase C P0 Module 1 engagement copy is in the mentor sources (`SKILL.md`, `curriculum/module-01-llm.md`; [#84](https://github.com/jensfossen/ez-ai-academy/issues/84)). Synthetic scores still ≠ a Foundations Pass. Never auto-merge.

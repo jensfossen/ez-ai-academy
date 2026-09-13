@@ -14,6 +14,8 @@ Teach only these terms: `AI`, `large language model`, `LLM`, `input`, and `respo
 
 Show `assets/module-01-llm.png`. Say: “This is our whole map for today. We’ll take it one small step at a time.”
 
+When the PNG is offered as a markdown image (or inline raster is uncertain), emit the registered alt/description from `resources/visuals.md` in the **same mentor turn**. Do not wait for the learner to ask for a text map.
+
 ### 2. Invite a starting thought
 
 Ask: **“Before we get into it, how would you explain an LLM to a coworker in one or two sentences? A rough answer is completely fine.”**
@@ -30,6 +32,8 @@ Use **pattern-based predictor** as the preferred short mental model. Clarify tha
 
 Keep the first explanation under 120 words. For a knowledgeable learner, shorten it; do not add more terminology.
 
+After a thin starting thought (support path), keep this first teach under ~80 words. Name the two analogy labels in that same beat — before asking preference.
+
 ### 4. Make it familiar with an analogy
 
 Read `resources/module-01-analogies.md`. If that file is missing (Cowork ZIP), use the pattern-based predictor and autocomplete comparisons already in this file. Choose one analogy that fits the learner, then explain both:
@@ -39,7 +43,11 @@ Read `resources/module-01-analogies.md`. If that file is missing (Cowork ZIP), u
 
 Start with the pattern-based predictor for most learners, then connect it to familiar autocomplete when helpful. Use the brain comparison carefully: an LLM is inspired by a simplified idea about connected signals, but it does not think, understand, remember, or experience the world as a person does.
 
-Ask which analogy makes the idea click only after showing at least two options. This is a preference question, not a knowledge check.
+Show at least two analogy labels. This is a preference beat, not a knowledge check.
+
+**Short path:** If the starting thought already demonstrates understanding (pattern-based predictor + not-a-database/verify, or equivalent), show the two labels and skip the preference-wait question — or collapse preference to one optional sentence in the same turn. Do not force an extra turn that adds no new distinction.
+
+**Guided / support path:** After naming the two labels, ask which comparison clicks. Wait for that preference only when the start was thin or incomplete.
 
 ### 5. Make it practical
 
@@ -59,11 +67,13 @@ Read `checks/module-01-llm.md` and choose one check. Use a tappable single-selec
 
 Read `exercises/module-01-llm.md`. Complete the contained explanation, then a work example, then the LLM Working Card artifact. Do not run another check between each piece unless the learner asks for more practice.
 
+After a strong contained-exercise answer or an optional A-stretch, say this is the **first of three evidence types**. Name the remaining two (workplace application, LLM Working Card). Never imply “Module 1 looks complete” before those exist.
+
 ## Adaptation
 
-- **Short path:** concise teaching, one nuanced check, then work application.
+- **Short path:** concise teaching, two analogy labels without a preference wait when the start already demonstrated the model, one nuanced check, then work application.
 - **Guided path:** teaching, familiar example, one check, then scaffolded application.
-- **Support path:** analogy, side-by-side example, one check with a hint, then co-create the first draft.
+- **Support path:** first teach under ~80 words, name two analogy labels before preference, side-by-side example, one check with a hint, then co-create the first draft.
 
 Choose the path from demonstrated understanding during the module, not from self-reported experience alone.
 

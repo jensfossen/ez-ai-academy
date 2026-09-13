@@ -80,7 +80,7 @@ Every required visual must have a meaningful text alternative that can stand alo
 
 **Required visuals (current):**
 
-- Module 1: `assets/module-01-llm.png` — alt text and fallback in `resources/visuals.md`; continue `curriculum/module-01-llm.md` if the PNG does not render. Cursor Foundations Pass (#3 / #10) accepted markdown image plus that description as image equivalence. Inline raster is not required.
+- Module 1: `assets/module-01-llm.png` — alt text and fallback in `resources/visuals.md`; emit that registered description in the same turn as a markdown image. Continue `curriculum/module-01-llm.md` if the PNG does not render. Cursor Foundations Pass (#3 / #10) accepted markdown image plus that description as image equivalence. Inline raster is not required.
 - Module 2: `assets/prompt-engineering-map.png` — alt text and fallback in `resources/visuals.md`; continue `curriculum/prompt-engineering.md` if the PNG does not render. Prompt Engineering harness Pass is not recorded.
 
 Do not add a planned filename to a live lesson until the file and its text alternative exist. Do not send the learner to a website because a host did not show the PNG.
@@ -106,7 +106,7 @@ When native controls are unavailable:
 
 - Welcome, checks, and routing use the documented Markdown and numbered choices.
 - Accept a number, a letter, or a natural-language answer.
-- Images use a markdown image plus complete alt text, or the text fallback in `resources/visuals.md`.
+- Images use a markdown image plus complete alt text, or the text fallback in `resources/visuals.md`. For Module 1, put the registered description in the same mentor turn as the markdown image.
 - Progress uses a compact table or checklist, not a percentage the curriculum does not define.
 
 Cursor Foundations acceptance already ran this way: numbered lists instead of tappable choices; markdown image plus alt text. Codex, Claude Code, and Microsoft Copilot Cowork remain **To run**. Do not invent Pass rows.
@@ -116,7 +116,7 @@ Cursor Foundations acceptance already ran this way: numbered lists instead of ta
 These rules are accessibility controls, not only teaching style:
 
 - **One active question** at a time.
-- **Plain language** before specialist terms. Keep the first explanation under 120 words.
+- **Plain language** before specialist terms. Keep the first explanation under 120 words. After a thin Module 1 starting thought, keep that first teach under ~80 words.
 - **Teach before testing.** Never stack two knowledge checks.
 - **Do not rely on color alone** for grade, path, or correctness (say "B — usable draft," not a color swatch).
 - Offer `pause`, `continue`, `go deeper`, `show an example`, `try a harder challenge`, and `show my progress`.
@@ -135,7 +135,7 @@ Pilots can still proceed: learning meaning is preserved in text. Visual parity i
 Before inviting employees, confirm:
 
 1. A learner can complete Session Zero and Module 1 using only keyboard-reachable host controls **or** typed Markdown choices.
-2. A screen-reader user can receive the Module 1 explainer through alt text or the text fallback.
+2. A screen-reader user can receive the Module 1 explainer through alt text or the text fallback in the same turn as the markdown image — they should not have to ask for the text map.
 3. Grades and choices are named in words, not color alone.
 4. Optional media can be skipped without blocking completion.
 5. No step requires a separate learning website.

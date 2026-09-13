@@ -16,7 +16,7 @@ Product brand is **EZ AI Academy**. Never write “Easy AI Academy.”
 
 Learning stays in-harness. Do not send the learner to a website gradebook. Use synthetic, redacted, or approved examples only (`resources/enterprise-baseline.md`).
 
-Phase A is this Markdown library. Phase B is the runner guide ([`self-test-runner.md`](self-test-runner.md)) plus the filed Cursor Cloud Agent pattern campaigns under [`tests/runs/`](runs/README.md) (library coverage complete on that pattern). JSON companions and Phase C tuning loops stay later. Do not treat these scripts or those run reports as a recorded Foundations or PE Pass.
+Phase A is this Markdown library. Phase B is the runner guide ([`self-test-runner.md`](self-test-runner.md)) plus the filed Cursor Cloud Agent pattern campaigns under [`tests/runs/`](runs/README.md) (library coverage complete on that pattern). JSON companions stay later. Phase C P0 Module 1 copy is in the mentor sources ([#84](https://github.com/jensfossen/ez-ai-academy/issues/84)). Do not treat these scripts or those run reports as a recorded Foundations or PE Pass.
 
 ## Index
 
@@ -583,7 +583,7 @@ Phase B runner guide: [`self-test-runner.md`](self-test-runner.md) (how to insta
 
 Phase B library witness (Cursor Cloud Agent pattern): [`tests/runs/`](runs/README.md). All ten fixtures in this file have at least one filed Foundations campaign on that pattern, including `returning-learner` Fixture A and Fixture B. Closeout checklist: `tests/runs/README.md` **Phase B closeout**. That is not a Foundations Pass.
 
-Phase C (later): tuning loops may *propose* curriculum diffs (cut redundancy, clarify a check, tighten a workplace prompt) for human / Chief review. **Never auto-merge.** Format only until someone executes a loop. Confirm before paid external API spend.
+Phase C P0 Module 1 engagement copy shipped in mentor sources (2026-09-13; [#84](https://github.com/jensfossen/ez-ai-academy/issues/84)): first-of-three evidence language, short-path analogy labels without a preference wait, support-path first teach under ~80 words, same-turn Module 1 alt. Later tuning loops may still *propose* further diffs for human / Chief review. **Never auto-merge.** Synthetic scores still ≠ a Foundations Pass. Confirm before paid external API spend.
 
 Open questions from #30 (defaults until someone decides):
 
