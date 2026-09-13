@@ -233,7 +233,7 @@ h3 { font-size: 1.1rem; margin: 0; }
   transform: scale(0.97);
   filter: blur(8px);
   clip-path: inset(5% 7% round 8px);
-  animation: hero-morph 30s ease-in-out infinite;
+  animation: hero-morph 35s ease-in-out infinite;
   animation-fill-mode: backwards;
 }
 .hero-slide:first-child {
@@ -248,9 +248,10 @@ h3 { font-size: 1.1rem; margin: 0; }
 .hero-slide:nth-child(3) { animation-delay: 10s; }
 .hero-slide:nth-child(4) { animation-delay: 15s; }
 .hero-slide:nth-child(5) { animation-delay: 20s; }
-.hero-slide:nth-child(6) {
+.hero-slide:nth-child(6) { animation-delay: 25s; }
+.hero-slide:nth-child(7) {
   animation-name: hero-morph-last;
-  animation-delay: 25s;
+  animation-delay: 30s;
 }
 .device-laptop .device-base {
   position: relative;
@@ -299,19 +300,19 @@ h3 { font-size: 1.1rem; margin: 0; }
     filter: blur(8px);
     clip-path: inset(6% 8% round 22px);
   }
-  3.33% {
+  2.86% {
     opacity: 1;
     transform: scale(1);
     filter: blur(0);
     clip-path: inset(0);
   }
-  13.33% {
+  11.43% {
     opacity: 1;
     transform: scale(1);
     filter: blur(0);
     clip-path: inset(0);
   }
-  20%, 100% {
+  17.14%, 100% {
     opacity: 0;
     transform: scale(0.97);
     filter: blur(8px);
@@ -319,13 +320,13 @@ h3 { font-size: 1.1rem; margin: 0; }
   }
 }
 @keyframes hero-morph-first {
-  0%, 13.33% {
+  0%, 11.43% {
     opacity: 1;
     transform: scale(1);
     filter: blur(0);
     clip-path: inset(0);
   }
-  20%, 96.67% {
+  17.14%, 97.14% {
     opacity: 0;
     transform: scale(0.97);
     filter: blur(8px);
@@ -345,13 +346,13 @@ h3 { font-size: 1.1rem; margin: 0; }
     filter: blur(8px);
     clip-path: inset(6% 8% round 22px);
   }
-  3.33%, 13.33% {
+  2.86%, 11.43% {
     opacity: 1;
     transform: scale(1);
     filter: blur(0);
     clip-path: inset(0);
   }
-  16.67%, 100% {
+  14.29%, 100% {
     opacity: 0;
     transform: scale(0.97);
     filter: blur(8px);
