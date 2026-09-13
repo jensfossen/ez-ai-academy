@@ -124,7 +124,8 @@
     pauseBtn.addEventListener("click", function () {
       var paused = overview.classList.toggle("hero-paused");
       pauseBtn.setAttribute("aria-pressed", paused ? "true" : "false");
-      pauseBtn.textContent = paused ? "Play background" : "Pause background";
+      pauseBtn.setAttribute("aria-label", paused ? "Play carousel" : "Pause carousel");
+      pauseBtn.textContent = paused ? "Play" : "Pause";
     });
   }
 })();
