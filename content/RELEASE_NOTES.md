@@ -4,7 +4,7 @@ Learner- and operator-facing log of **curriculum, checks, exercises, visuals, cu
 
 The repository is the source of truth. The [discovery site](https://jensfossen.github.io/ez-ai-academy/) is not this log and does not host lessons.
 
-**Current content revision:** `2026-09-10j` — same value as `metadata.academy_content_revision` in `SKILL.md`. Mentors may mention it when offering a skippable update reminder. It is not a grade, a Pass, or a website account.
+**Current content revision:** `2026-09-13` — same value as `metadata.academy_content_revision` in `SKILL.md`. Mentors may mention it when offering a skippable update reminder. It is not a grade, a Pass, or a website account.
 
 Operator weekday scan, staffing, and proposal format: [`CURATION.md`](CURATION.md). That loop does not replace this log.
 
@@ -49,6 +49,33 @@ PRs that change curriculum, checks, exercises, learner-visible rubrics, visuals,
 Do not claim a Foundations or Prompt Engineering Pass from a changelog entry. Do not mark commercial-readiness gates here. Prototype exit is not commercial-ready.
 
 ---
+
+## 2026-09-13 — Module 1 engagement P0 copy
+
+Mentors now keep four Module 1 conversation beats tighter: completeness language, short-path analogies, a shorter first teach after a thin start, and the explainer text map in the same turn as a markdown image. Same three evidence types. Same in-harness lesson. Not a Foundations Pass.
+
+### Added
+
+- None. No new module, check, exercise, or Pass.
+
+### Changed
+
+- After a strong contained-exercise answer or an optional A-stretch, mentors say this is the **first of three evidence types** and do not imply Module 1 is complete before the workplace application and LLM Working Card exist (`curriculum/module-01-llm.md`, `exercises/module-01-llm.md`, `SKILL.md`).
+- When a starting thought already shows predictor + not-a-database/verify (or equivalent), mentors show two analogy labels without a preference-wait question (`resources/module-01-analogies.md`).
+- After a thin starting thought, the first teach stays under ~80 words and names those two labels before preference.
+- When the Module 1 PNG is a markdown image, mentors emit the registered alt from `resources/visuals.md` in the same turn. `academy_content_revision` is now `2026-09-13`. Discovery Pages untouched. Synthetic persona scores still do not equal a Foundations Pass. Never auto-merge.
+
+### Removed
+
+- None.
+
+### Media
+
+- None. Same Module 1 PNG. Mentors now read the registered description in the same turn as the markdown image.
+
+### Breaking for learners
+
+- None. Module 1 still needs three evidence types (contained exercise, workplace application, reusable artifact). This does not close [#3](https://github.com/jensfossen/ez-ai-academy/issues/3), [#4](https://github.com/jensfossen/ez-ai-academy/issues/4), or invent a matrix Pass. Phase C P0 from the 2026-09-13 engagement rollup ([#84](https://github.com/jensfossen/ez-ai-academy/issues/84)).
 
 ## 2026-09-10j — Module 5: Loop Engineering (Included)
 

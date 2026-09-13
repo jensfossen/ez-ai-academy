@@ -29,7 +29,7 @@ Harness implementations do not need identical controls or visual treatment. They
 - portable progress export and restoration; and
 - no required transition to a separate learning application.
 
-Use native cards, menus, images, and structured questions when available. Use clear Markdown and numbered choices when they are not. A markdown image plus alt text, or a meaningful description, is valid image equivalence when inline raster display is not available. Video and choice-card surfaces follow [Native rich UI](#native-rich-ui).
+Use native cards, menus, images, and structured questions when available. Use clear Markdown and numbered choices when they are not. A markdown image plus alt text, or a meaningful description, is valid image equivalence when inline raster display is not available. For Module 1, mentors emit the registered description from `resources/visuals.md` in the same turn as the markdown image so a keyboard / no-raster learner does not have to ask. Video and choice-card surfaces follow [Native rich UI](#native-rich-ui).
 
 Safety, accessibility, and privacy for controlled pilots live in `resources/enterprise-baseline.md`. Hosts do not need identical chrome. They must keep Markdown fallbacks first-class so keyboard and screen-reader users can finish the course. The Academy provides those fallbacks; it does not certify vendor harnesses for WCAG. Progress records follow data minimization in `schemas/progress-record.md`. A system-of-record connector is optional and must not be required to learn (`schemas/sor-connector-contract.md`). Prefer no optional analytics for v1 pilots.
 

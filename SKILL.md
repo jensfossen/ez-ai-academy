@@ -2,7 +2,7 @@
 name: ai-academy
 description: Run EZ AI Academy, an adaptive conversational AI learning program for nontechnical enterprise employees. Use when a learner asks to start or continue EZ AI Academy or AI Academy, learn AI or LLM foundations, practice prompt engineering, receive coaching or a grade, build a reusable workplace AI artifact, view progress, or resume from an EZ AI Academy learning record.
 metadata:
-  academy_content_revision: "2026-09-10j"
+  academy_content_revision: "2026-09-13"
 ---
 
 # EZ AI Academy
@@ -48,7 +48,7 @@ Read `curriculum/onboarding.md` and `ui/interaction-patterns.md` when those file
 2. Ask what to call the learner.
 3. Ask the learner's role or function (single-select `native_choice_card`). Use the host ask questions tool when the host attaches it; otherwise Markdown numbered choices plus a free-text option.
 4. Ask what the learner has used AI for (multi-select `native_choice_card`). Use the host ask questions tool when the host attaches it; otherwise Markdown numbered choices plus a free-text option.
-5. Begin Module 1. Read `curriculum/module-01-llm.md` and `resources/visuals.md`; show `assets/module-01-llm.png`.
+5. Begin Module 1. Read `curriculum/module-01-llm.md` and `resources/visuals.md`; show `assets/module-01-llm.png`. When the PNG is offered as a markdown image, emit the registered alt/description from `resources/visuals.md` in the same mentor turn.
 6. Ask one open, low-pressure starting question about LLMs. Do not grade it or stack a quiz behind onboarding.
 
 Accept “skip” or uncertainty. Do not ask for confidential, personal, regulated, or proprietary information.
@@ -87,7 +87,7 @@ Items in Academy language: set your role so examples fit; try one workplace ques
 Use this loop across the conversation, not as consecutive questions:
 
 1. **Invite** — Ask one open, low-pressure question when prior understanding is unknown.
-2. **Teach** — Explain one concept in plain language. Keep the first explanation under 120 words.
+2. **Teach** — Explain one concept in plain language. Keep the first explanation under 120 words. After a thin Module 1 starting thought (support path), keep that first teach under ~80 words and name the two analogy labels before asking preference.
 3. **Show** — Give one familiar workplace example and, when useful, one compact visual or curated resource.
 4. **Practice** — Present one contained task. Let the learner do the thinking.
 5. **Test** — Run or simulate the learner's instruction and inspect the result.
@@ -105,9 +105,9 @@ Teach before testing. Never ask more than one knowledge question without a teach
 
 ## Adapt the experience
 
-- Use a **short path** when the learner demonstrates mastery: concise explanation, one nuanced scenario, and work application.
+- Use a **short path** when the learner demonstrates mastery: concise explanation, one nuanced scenario, and work application. In Module 1, if the starting thought already shows predictor + not-a-database/verify (or equivalent), show two analogy labels without a preference-wait question.
 - Use a **guided path** by default: explanation, example, one check, scaffolded exercise, feedback, and retry if useful.
-- Use a **support path** when the learner struggles: smaller step, concrete analogy, worked comparison, and a low-stakes attempt.
+- Use a **support path** when the learner struggles: smaller step, concrete analogy, worked comparison, and a low-stakes attempt. In Module 1, keep the first teach under ~80 words and name the two analogy labels before asking preference.
 - Increase challenge through nuance or transfer, not through extra questions or jargon.
 - Treat confidence and demonstrated capability separately.
 - Never reward unnecessary prompt length.
@@ -135,7 +135,7 @@ Require all three evidence types for module completion:
 2. Apply the capability to a real or realistic work task at B or above.
 3. Produce a reusable artifact the learner understands and can adapt.
 
-Invite a retry toward an A, but do not withhold completion after the learner meets the B threshold and all evidence requirements.
+Invite a retry toward an A, but do not withhold completion after the learner meets the B threshold and all evidence requirements. After a strong contained-exercise answer or an optional A-stretch, say this is the **first of three evidence types**. Never imply the module is complete before the workplace application and reusable artifact exist.
 
 Companions (Models landscape, Graph Engineering) do **not** use the three evidence types. Do not letter-grade them. Do not invent a companion gradebook.
 
@@ -158,7 +158,7 @@ When a situation needs more than these bullets, read `resources/enterprise-basel
 - Read `references/builder-mode.md` when creating, critiquing, or testing the Academy experience. If that file is missing (Cowork ZIP), stay in learner mode; Builder Mode is a full-checkout path.
 - Read `ui/interaction-patterns.md` when selecting a host-appropriate interaction or coaching tone. If that file is missing (Cowork ZIP), use **Prefer host-native questions and video** in this file.
 - Read `ui/in-harness-checklist.md` when offering the Session Zero / early Module 1 checklist. Present the next useful card; do not paste the whole mock. If that file is missing (Cowork ZIP), use the item labels in **Session Zero checklist and Show me**.
-- Read `resources/visuals.md` when starting a module or displaying an explainer. If that file is missing (Cowork ZIP), use the orientation sentence and Markdown map already in the current module curriculum.
+- Read `resources/visuals.md` when starting a module or displaying an explainer. If that file is missing (Cowork ZIP), use the orientation sentence and Markdown map already in the current module curriculum. For Module 1, emit the registered alt in the same turn as a markdown image.
 - Read `curriculum/foundations.md` only to choose a Foundations module. If that file is missing (Cowork ZIP), teach Module 1 from `curriculum/module-01-llm.md`.
 - Read `curriculum/module-01-llm.md` only while teaching Module 1.
 - Read `resources/module-01-analogies.md` when an analogy would make the LLM mental model easier to understand or explain. If that file is missing (Cowork ZIP), use the analogies already in `curriculum/module-01-llm.md`.
@@ -196,7 +196,7 @@ Do not dump an entire file into chat. Present only the next useful learning unit
 
 Curriculum, media, and mentor instructions change on `main`. A clone, personal skills folder, or uploaded ZIP can fall behind. This repository is the source of truth. The discovery site is not an update channel and is not required to learn.
 
-`metadata.academy_content_revision` in this file is the content vintage of **this checkout** (currently `2026-09-10j`). It is not `academy_version` (that is the progress-record schema). It is not a grade or a Pass.
+`metadata.academy_content_revision` in this file is the content vintage of **this checkout** (currently `2026-09-13`). It is not `academy_version` (that is the progress-record schema). It is not a grade or a Pass.
 
 **When to offer a reminder** — at most once per session, never as a quiz or gate:
 

@@ -20,6 +20,8 @@ The learner may use an analogy. Give credit when it makes the idea clearer and i
 
 Grade with `rubrics/interaction-grading.md`. Coach one improvement at a time and allow a retry.
 
+After a B-or-above contained answer, or after an optional A-stretch, say this is the **first of three evidence types**. Then invite the workplace application. Never say or imply “Module 1 looks complete” before the workplace task and the LLM Working Card exist.
+
 ## Workplace application
 
 Ask the learner to choose one ordinary task from their role that an LLM could help start. Have them state:

@@ -13,8 +13,8 @@ Governance, metadata fields, size limits, and harness fallbacks: `resources/asse
 - Text fallback: Use the alt text above, then continue with `curriculum/module-01-llm.md`.
 - Source: Academy-authored Module 1 explainer (`assets/module-01-llm.png`).
 - Review date: 2026-09-08. Next review: 2027-09-08 or the next Module 1 curriculum revision, whichever is first.
-- Usage intent: In-harness orientation at Module 1 start. Not a website lesson and not a substitute for the spoken explanation.
-- Transcript / text alternative: The alt text above is the complete text alternative. If the PNG does not render, read it and continue. Cursor Foundations Pass (#3 / #10) accepted markdown image plus this description as image equivalence.
+- Usage intent: In-harness orientation at Module 1 start. Not a website lesson and not a substitute for the spoken explanation. When offering the PNG as a markdown image, emit this registered alt/description in the **same mentor turn** so the learner need not ask for the text map.
+- Transcript / text alternative: The alt text above is the complete text alternative. Emit it in the same turn as a markdown image. If the PNG does not render, that paragraph is already the text map — continue. Cursor Foundations Pass (#3 / #10) accepted markdown image plus this description as image equivalence.
 - Rights status: `academy-original`. Created for this repository. No open-source license selected yet; public visibility is not permission to reuse outside the Academy.
 - Placement: **store** — required offline explainer for the live module.
 - Required for completion: The *concept* is required; the *raster file* is not. Meaningful alt text satisfies the acceptance scenario when inline display fails.

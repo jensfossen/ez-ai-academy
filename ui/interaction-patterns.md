@@ -64,7 +64,11 @@ Do not show internal point values. Never place two checks back to back. A missin
 
 ## Explainer card
 
-Display the module image at readable width with alt text and a one-sentence orientation. Do not repeat every word from the image beneath it unless the image cannot be rendered.
+Display the module image at readable width with alt text and a one-sentence orientation.
+
+**Module 1 (markdown image):** When offering `assets/module-01-llm.png` as a markdown image, emit the registered alt/description from `resources/visuals.md` in the same turn. Hosts often do not surface markdown alt to the learner. Do not wait for them to ask for a text map.
+
+Other modules: do not repeat every word from the image beneath it unless the image cannot be rendered or the file is missing.
 
 ## Video embed
 

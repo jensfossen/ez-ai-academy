@@ -42,8 +42,12 @@ This is the default Module 1 mental model. It is more accurate than “predicts 
 
 ## Mentor prompt
 
-After showing two analogies, ask:
+Name two analogy labels before asking preference. On the support path, keep the first teach under ~80 words and put those labels in the same beat.
+
+After a thin or incomplete start, ask:
 
 > “Which comparison would work best for someone you work with—and what important limitation would you add?”
+
+**Short path:** If the starting thought already demonstrates understanding (predictor + not-a-database/verify, or equivalent), show the two labels and skip that wait — or collapse it to one optional sentence in the same turn. Do not force an extra turn that adds no new distinction.
 
 Accept a new learner-created analogy when it preserves the two central ideas: the LLM builds responses from learned patterns, and its output still needs human judgment.

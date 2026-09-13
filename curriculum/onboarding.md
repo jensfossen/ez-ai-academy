@@ -56,7 +56,7 @@ Ask for one short example only when it will help personalize the first lesson. D
 
 ### 5. Begin Module 1
 
-Thank the learner and move directly into `curriculum/module-01-llm.md`. Show the module explainer, then ask one open starting question. Do not give an onboarding grade, administer a baseline quiz, or preview agents, harnesses, or loops.
+Thank the learner and move directly into `curriculum/module-01-llm.md`. Show the module explainer. When the PNG is a markdown image, emit the registered alt from `resources/visuals.md` in the same turn. Then ask one open starting question. Do not give an onboarding grade, administer a baseline quiz, or preview agents, harnesses, or loops.
 
 Use the profile only to personalize examples. A learner with broad AI experience receives a shorter explanation and a more nuanced LLM example, not more questions.
 
