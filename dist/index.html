@@ -29,22 +29,9 @@
 
   <main id="main">
     <section class="overview" id="overview" aria-labelledby="page-title">
-      <!-- Hero frames: public product marketing / official demo stills (Cursor, Codex, Claude Code) for discovery only. -->
-      <div class="hero-stage" aria-hidden="true">
-        <div class="hero-frames">
-          <img class="hero-frame" src="hero/01-cursor-mission-control.png" alt="" width="1600" height="840" fetchpriority="high">
-          <img class="hero-frame" src="hero/02-cursor-agents-window.png" alt="" width="820" height="620" decoding="async">
-          <img class="hero-frame" src="hero/03-codex-app.png" alt="" width="1494" height="1219" decoding="async">
-          <img class="hero-frame" src="hero/04-codex-terminal.png" alt="" width="1494" height="1219" decoding="async">
-          <img class="hero-frame" src="hero/05-claude-code-desktop.jpg" alt="" width="1600" height="676" decoding="async">
-          <img class="hero-frame" src="hero/06-claude-code-terminal.jpg" alt="" width="1600" height="676" decoding="async">
-        </div>
-        <div class="hero-scrim"></div>
-      </div>
       <div class="overview-copy">
         <p class="eyebrow">EZ AI Academy</p>
         <h1 id="page-title">Learn AI where you work.</h1>
-        <p class="lede">Install the skill in your AI tool. Then learn in chat.</p>
         <p class="pillars" aria-label="Brand pillars"><span>Work</span><span>Learn</span><span>Progress</span></p>
         <div class="hero-actions">
           <a class="repo-link" href="https://github.com/jensfossen/ez-ai-academy">Open the repository <span aria-hidden="true">↗</span></a>
@@ -55,7 +42,75 @@
             </button>
             <span id="tip-site" class="info-tip" role="tooltip" hidden>Discovery and setup only. Teaching stays in your harness.</span>
           </span>
-          <button type="button" class="hero-pause" aria-pressed="false">Pause background</button>
+          <button type="button" class="hero-pause" aria-pressed="false" aria-label="Pause carousel">Pause</button>
+        </div>
+      </div>
+      <!-- Hero frames: public product marketing / official demo stills (Cursor, Codex, Claude Code) for discovery only. -->
+      <div class="hero-stage" aria-hidden="true">
+        <div class="hero-carousel">
+          <div class="hero-slide" data-device="laptop">
+            <div class="device device-laptop">
+              <div class="device-lid">
+                <span class="device-camera"></span>
+                <div class="device-screen">
+                  <img src="hero/01-cursor-mission-control.png" alt="" width="1600" height="840" fetchpriority="high">
+                </div>
+              </div>
+              <div class="device-base"></div>
+            </div>
+          </div>
+          <div class="hero-slide" data-device="tablet">
+            <div class="device device-tablet">
+              <div class="device-bezel">
+                <div class="device-screen">
+                  <img src="hero/02-cursor-agents-window.png" alt="" width="820" height="620" decoding="async">
+                </div>
+                <span class="device-home"></span>
+              </div>
+            </div>
+          </div>
+          <div class="hero-slide" data-device="tablet">
+            <div class="device device-tablet">
+              <div class="device-bezel">
+                <div class="device-screen">
+                  <img src="hero/03-codex-app.png" alt="" width="1494" height="1219" decoding="async">
+                </div>
+                <span class="device-home"></span>
+              </div>
+            </div>
+          </div>
+          <div class="hero-slide" data-device="tablet">
+            <div class="device device-tablet">
+              <div class="device-bezel">
+                <div class="device-screen">
+                  <img src="hero/04-codex-terminal.png" alt="" width="1494" height="1219" decoding="async">
+                </div>
+                <span class="device-home"></span>
+              </div>
+            </div>
+          </div>
+          <div class="hero-slide" data-device="laptop">
+            <div class="device device-laptop">
+              <div class="device-lid">
+                <span class="device-camera"></span>
+                <div class="device-screen">
+                  <img src="hero/05-claude-code-desktop.jpg" alt="" width="1600" height="676" decoding="async">
+                </div>
+              </div>
+              <div class="device-base"></div>
+            </div>
+          </div>
+          <div class="hero-slide" data-device="laptop">
+            <div class="device device-laptop">
+              <div class="device-lid">
+                <span class="device-camera"></span>
+                <div class="device-screen">
+                  <img src="hero/06-claude-code-terminal.jpg" alt="" width="1600" height="676" decoding="async">
+                </div>
+              </div>
+              <div class="device-base"></div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
