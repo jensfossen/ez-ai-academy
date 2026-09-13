@@ -6,7 +6,7 @@ The repository is the source of truth. The [discovery site](https://jensfossen.g
 
 **Current content revision:** `2026-09-13` — same value as `metadata.academy_content_revision` in `SKILL.md`. Mentors may mention it when offering a skippable update reminder. It is not a grade, a Pass, or a website account.
 
-Operator weekday scan, staffing, and proposal format: [`CURATION.md`](CURATION.md). That loop does not replace this log.
+Operator weekday scan, staffing, and proposal format: [`CURATION.md`](CURATION.md). Frontline sources and signal taxonomy: [`CURATOR_SOURCES.md`](CURATOR_SOURCES.md). That loop does not replace this log.
 
 ## How to read this file
 
@@ -49,6 +49,30 @@ PRs that change curriculum, checks, exercises, learner-visible rubrics, visuals,
 Do not claim a Foundations or Prompt Engineering Pass from a changelog entry. Do not mark commercial-readiness gates here. Prototype exit is not commercial-ready.
 
 ---
+
+## 2026-09-13 — Curator v2 source list + signal taxonomy (operators)
+
+Operators now have a named frontline watch list and five signal types so weekday scans are not vibes-only. Teaching meaning for learners is unchanged. Installed skills do not need a pull for this entry alone.
+
+### Added
+
+- Operator ops: [`CURATOR_SOURCES.md`](CURATOR_SOURCES.md) — X / Reddit / reporting + teaching outlets / mental-model changelogs; taxonomy (new term, metaphor shift, stale teach, broken / low-authority media, new module candidate); note-only vs file-issue vs thin-PR rubric. No new lesson, check, or media.
+
+### Changed
+
+- [`CURATION.md`](CURATION.md) weekday scan now classifies frontline hits with that file before filing or drafting. README `content/` row points at it. `academy_content_revision` in `SKILL.md` stays `2026-09-13`. Cowork ZIP not rebuilt. Discovery Pages untouched. [#77](https://github.com/jensfossen/ez-ai-academy/issues/77) stays open.
+
+### Removed
+
+- None.
+
+### Media
+
+- None. No hide. No new required learner link.
+
+### Breaking for learners
+
+- None. This does not close [#3](https://github.com/jensfossen/ez-ai-academy/issues/3), [#4](https://github.com/jensfossen/ez-ai-academy/issues/4), or invent a Pass.
 
 ## 2026-09-13 — Module 1 engagement P0 copy
 

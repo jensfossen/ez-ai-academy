@@ -18,6 +18,7 @@ Related backlog (do not treat as closed by this file):
 - [#59](https://github.com/jensfossen/ez-ai-academy/issues/59) Module 3 Context Engineering — live numbered module in [`context-engineering.md`](../curriculum/context-engineering.md); **closed** after the live module shipped. Remaining acceptance is harness scenario readiness / recorded Passes later — do not reopen; do not claim a Pass from a scan.
 - [#61](https://github.com/jensfossen/ez-ai-academy/issues/61) Module 4 Agents and Harness Engineering — live numbered module in [`agents-harness-engineering.md`](../curriculum/agents-harness-engineering.md); **closed** after the live module shipped. Remaining acceptance is harness scenario readiness / recorded Passes later — do not reopen; do not claim a Pass from a scan.
 - [#63](https://github.com/jensfossen/ez-ai-academy/issues/63) Module 5 Loop Engineering — live numbered module in [`loop-engineering.md`](../curriculum/loop-engineering.md); **closed** after the live module shipped. Remaining acceptance is harness scenario readiness / recorded Passes later — do not reopen; do not claim a Pass from a scan.
+- [#77](https://github.com/jensfossen/ez-ai-academy/issues/77) Curator v2 epic — leave **open**. Living source list + taxonomy: [`CURATOR_SOURCES.md`](CURATOR_SOURCES.md). Do not `Closes` #77 from a scan or from landing the source list.
 
 ## Purpose
 
@@ -42,13 +43,15 @@ Staffing is an operating fact, not an open question, until Chief / Jens reopen i
 
 **Weekday scan ~10:30 America/New_York** (same window as fleet ops).
 
+Classify any frontline hit with [`CURATOR_SOURCES.md`](CURATOR_SOURCES.md) (named sources, signal types, note-only vs issue vs thin PR) before filing or drafting.
+
 Quiet when nothing material moved. A quiet day is a valid outcome: file the dry-run (or a short note) and stop. Do not invent work to fill the slot.
 
 ### What a scan does
 
-1. Read this file, [`RELEASE_NOTES.md`](RELEASE_NOTES.md), and the newest dry-run under [`curation-dry-runs/`](curation-dry-runs/).
+1. Read this file, [`CURATOR_SOURCES.md`](CURATOR_SOURCES.md), [`RELEASE_NOTES.md`](RELEASE_NOTES.md), and the newest dry-run under [`curation-dry-runs/`](curation-dry-runs/).
 2. Check open content issues — at least [#36](https://github.com/jensfossen/ez-ai-academy/issues/36)–[#40](https://github.com/jensfossen/ez-ai-academy/issues/40) and [#46](https://github.com/jensfossen/ez-ai-academy/issues/46) — and whether `main` already answered them.
-3. Glance at [signal sources](#signal-sources) for model or curriculum drift that would change **what we teach**, not every vendor headline.
+3. Glance at [signal sources](#signal-sources) and [`CURATOR_SOURCES.md`](CURATOR_SOURCES.md) for model or language drift that would change **what we teach**, not every vendor headline or viral post.
 4. Spot-check live curated links against [`../resources/asset-governance.md`](../resources/asset-governance.md) and [`../resources/curated-content.md`](../resources/curated-content.md). Automated HTTP is useful and not enough.
 5. Outcomes, only if warranted:
    - File or refine a GitHub issue.
@@ -58,7 +61,7 @@ Quiet when nothing material moved. A quiet day is a valid outcome: file the dry-
 
 ### What a scan must not do
 
-- Auto-merge, auto-publish, or silently rewrite live lessons.
+- Auto-merge, auto-publish, or silently rewrite live lessons. Do not auto-rewrite a module from one viral post.
 - Claim a Foundations or Prompt Engineering Pass, or edit acceptance evidence to look greener.
 - Spend paid APIs without confirmation.
 - Host a full model catalog, leaderboard dump, or vendor encyclopedia in this repo.
@@ -70,6 +73,8 @@ Quiet when nothing material moved. A quiet day is a valid outcome: file the dry-
 ## Signal sources
 
 Use a **short** list. Distill into non-technical Academy language (who makes it, when a workplace learner should care, how to read a model name). Do **not** copy spec sheets, token tables, or benchmark dumps into curriculum.
+
+**Frontline language, changelogs that change mental models, signal types, and priority:** [`CURATOR_SOURCES.md`](CURATOR_SOURCES.md). That is the living home for Curator v2 watch-list work. The tables below stay the Models landscape official pages + two trackers — do not fork them into a second encyclopedia.
 
 The Models landscape live companion is [`../curriculum/models-landscape.md`](../curriculum/models-landscape.md) (Refs [#39](https://github.com/jensfossen/ez-ai-academy/issues/39)). Placement: **Module 1 companion / Included**. Design history: [`../curriculum/models-landscape-outline.md`](../curriculum/models-landscape-outline.md). The Graph Engineering live companion is [`../curriculum/graph-engineering.md`](../curriculum/graph-engineering.md) (Refs [#46](https://github.com/jensfossen/ez-ai-academy/issues/46)). Placement: **Included / Companion after Modules 4–5**. Modules 4–5 are Included; early offer only if handoff confusion is already here — say this stop is about wiring several helpers, not making one loop reliable. This loop notices drift; it does not write new lessons from a scan.
 
