@@ -61,7 +61,7 @@ Brand is locked: name, message, palette, type, and logo live in [`brand/BRAND.md
 |---|---|
 | `SKILL.md` | Platform-neutral entry point and learning loop (canonical skill id `ai-academy`) |
 | `.cursor/skills/` | Thin Cursor slash aliases (`/ez-ai-academy`, `/start`) that load root `SKILL.md` |
-| `content/` | Learner-facing [content release notes](content/RELEASE_NOTES.md) and the operator [curation loop](content/CURATION.md) (weekday scan, [sources + signal taxonomy](content/CURATOR_SOURCES.md), dry-runs) |
+| `content/` | Learner-facing [content release notes](content/RELEASE_NOTES.md) and the operator [curation loop](content/CURATION.md) (weekday light + weekly deep scan, [sources + signal taxonomy](content/CURATOR_SOURCES.md), dry-runs) |
 | `curriculum/` | Module plans, [program sequence](curriculum/program-map.md), [Context Engineering](curriculum/context-engineering.md) (Included Module 3), [Agents and Harness Engineering](curriculum/agents-harness-engineering.md) (Included Module 4), [Loop Engineering](curriculum/loop-engineering.md) (Included Module 5), the [Models landscape companion](curriculum/models-landscape.md) (Included / Companion), and the [Graph Engineering companion](curriculum/graph-engineering.md) (Included / Companion after Modules 4–5; outline is design history) |
 | `checks/` | Formative, non-letter-graded knowledge checks |
 | `exercises/` | Contained work, workplace application, and artifacts |

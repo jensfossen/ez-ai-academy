@@ -6,13 +6,13 @@ This file answers **what EZ-Devy watches** and **how a hit becomes a note, an is
 
 Standing loop (who, when, what a scan may do): [`CURATION.md`](CURATION.md). Learner-facing deltas: [`RELEASE_NOTES.md`](RELEASE_NOTES.md). Live optional media: [`../resources/curated-content.md`](../resources/curated-content.md). Selection and hide rules: [`../resources/asset-governance.md`](../resources/asset-governance.md).
 
-Parent epic: [#77](https://github.com/jensfossen/ez-ai-academy/issues/77). This list is the [#78](https://github.com/jensfossen/ez-ai-academy/issues/78) home. Weekly deep-scan cadence is [#79](https://github.com/jensfossen/ez-ai-academy/issues/79) — do not invent that schedule here. Evolve/prune playbook is [#80](https://github.com/jensfossen/ez-ai-academy/issues/80). Synthetic validation is [#81](https://github.com/jensfossen/ez-ai-academy/issues/81). Pages freshness cue is [#82](https://github.com/jensfossen/ez-ai-academy/issues/82).
+Parent epic: [#77](https://github.com/jensfossen/ez-ai-academy/issues/77). This list is the [#78](https://github.com/jensfossen/ez-ai-academy/issues/78) home. Weekly deep-scan schedule and checklist live in [`CURATION.md`](CURATION.md#weekly-deep-scan) ([#79](https://github.com/jensfossen/ez-ai-academy/issues/79)). Evolve/prune playbook is [#80](https://github.com/jensfossen/ez-ai-academy/issues/80). Synthetic validation is [#81](https://github.com/jensfossen/ez-ai-academy/issues/81). Pages freshness cue is [#82](https://github.com/jensfossen/ez-ai-academy/issues/82).
 
 The repository is the source of truth. Learning stays **in-harness**. The [discovery site](https://jensfossen.github.io/ez-ai-academy/) is not this list and is not a publish target.
 
 ## Purpose
 
-Keep the weekday glance **repeatable**: a short named source list, five signal types, and a thin priority rule. Distill into Academy language (what a workplace learner would hear or do differently). Do **not** copy feeds, comment threads, spec sheets, or benchmark dumps into curriculum.
+Keep both cadences **repeatable**: a short named source list, five signal types, and a thin priority rule. Distill into Academy language (what a workplace learner would hear or do differently). Do **not** copy feeds, comment threads, spec sheets, or benchmark dumps into curriculum.
 
 Official vendor **model overview** pages and the two landscape trackers stay in [`CURATION.md`](CURATION.md#signal-sources) (Models landscape accuracy). This file adds **frontline language** and **changelogs that change mental models**.
 
@@ -22,7 +22,7 @@ Shared rules for every source below.
 
 - Use the **publisher’s official site or app**. Bookmark, follow, or search. Copy a public URL + date into a dry-run when citing.
 - **Do not scrape**, mass-download, or use unofficial archives, mirrors, or “API wrappers” that break a site’s terms.
-- **Paid APIs** (official X API, Reddit data products, news APIs, any billed search): confirm with **Jens / Chief** before spend. A weekday glance does not need them. Quiet is valid.
+- **Paid APIs** (official X API, Reddit data products, news APIs, any billed search): confirm with **Jens / Chief** before spend. Neither the weekday light glance nor the weekly deep pass needs them. Quiet is valid.
 - Public account names, lists, and subreddit names here are **examples**, not secrets and not an exhaustive watch-all.
 - One viral post is a **note**, never a rewrite. See [Priority rubric](#priority-rubric).
 - If a URL moves, update this table in the same PR that notices it. Do not add an unofficial mirror.
@@ -155,8 +155,11 @@ Quiet when nothing is above **note only**. A quiet day is a valid outcome.
 - Do not redirect learners to the website, an LMS, or a required account.
 - Brand: **EZ AI Academy** only. Never “Easy AI Academy.”
 
-## Weekday hook
+## Cadence hooks
 
-On the weekday ~10:30 America/New_York scan in [`CURATION.md`](CURATION.md), classify any frontline hit with this file (taxonomy + priority) before filing or drafting. If nothing scores above note-only, stay quiet.
+Both slots are documented in [`CURATION.md`](CURATION.md#cadence). EZ-Devy owns the standing Grok Bot routines; this file is only the watch list those routines must classify against.
 
-The weekly deep frontline pass ([#79](https://github.com/jensfossen/ez-ai-academy/issues/79)) uses the **same** list and types. It does not get a second taxonomy.
+- **Weekday light** (~10:30 America/New_York): classify any frontline hit with this file (taxonomy + priority) before filing or drafting. If nothing scores above note-only, stay quiet.
+- **Weekly deep** (Monday 9:00 America/New_York, default): same list and types. Walk every named source class and the deep-scan checklist in [`CURATION.md`](CURATION.md#deep-scan-checklist). It does **not** get a second taxonomy.
+
+If nothing scores above note-only, stay quiet. A quiet week is a valid outcome.

@@ -6,7 +6,7 @@ The repository is the source of truth. The [discovery site](https://jensfossen.g
 
 **Current content revision:** `2026-09-13` — same value as `metadata.academy_content_revision` in `SKILL.md`. Mentors may mention it when offering a skippable update reminder. It is not a grade, a Pass, or a website account.
 
-Operator weekday scan, staffing, and proposal format: [`CURATION.md`](CURATION.md). Frontline sources and signal taxonomy: [`CURATOR_SOURCES.md`](CURATOR_SOURCES.md). That loop does not replace this log.
+Operator weekday light + weekly deep cadence, staffing, and proposal format: [`CURATION.md`](CURATION.md). Frontline sources and signal taxonomy: [`CURATOR_SOURCES.md`](CURATOR_SOURCES.md). That loop does not replace this log.
 
 ## How to read this file
 
@@ -49,6 +49,30 @@ PRs that change curriculum, checks, exercises, learner-visible rubrics, visuals,
 Do not claim a Foundations or Prompt Engineering Pass from a changelog entry. Do not mark commercial-readiness gates here. Prototype exit is not commercial-ready.
 
 ---
+
+## 2026-09-13 — Curator v2 weekly deep-scan cadence (operators)
+
+Operators now have a documented **weekly deep** frontline pass (default Monday 9:00 America/New_York) beside the existing weekday ~10:30 light scan. Teaching meaning for learners is unchanged. Installed skills do not need a pull for this entry alone.
+
+### Added
+
+- Operator ops: weekly deep checklist and output shape in [`CURATION.md`](CURATION.md) (new terms, metaphor shifts, stale-teach prune flags, source hits, broken media, release-notes gap). Format stub: [`curation-dry-runs/2026-09-13-weekly.md`](curation-dry-runs/2026-09-13-weekly.md). No new lesson, check, or media.
+
+### Changed
+
+- [`CURATION.md`](CURATION.md) now distinguishes weekday light vs weekly deep. EZ-Devy owns standing Grok Bot routines for both; this repo holds the ops contract, not automation JSON. [`CURATOR_SOURCES.md`](CURATOR_SOURCES.md) points at the Monday 9:00 slot. README `content/` row names both cadences. `academy_content_revision` in `SKILL.md` stays `2026-09-13`. Cowork ZIP not rebuilt. Discovery Pages untouched. Refs [#77](https://github.com/jensfossen/ez-ai-academy/issues/77). Does not close the epic.
+
+### Removed
+
+- None.
+
+### Media
+
+- None. No hide. No new required learner link.
+
+### Breaking for learners
+
+- None. This does not close [#3](https://github.com/jensfossen/ez-ai-academy/issues/3), [#4](https://github.com/jensfossen/ez-ai-academy/issues/4), or invent a Pass.
 
 ## 2026-09-13 — Curator v2 source list + signal taxonomy (operators)
 
