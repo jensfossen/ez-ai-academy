@@ -1,0 +1,113 @@
+harness: Cursor (Cloud Agent pattern)
+version: "Cloud Agent bc-040ae56e-526c-4f86-bc6c-3dc1ba0a082f; checkout abedf4b; academy_content_revision 2026-09-14"
+operating_system: "Linux 6.12.94+ (Cursor Cloud Agent VM)"
+model: cursor-grok-4.6-high-fast
+invocation_method: "cursor cloud agent pattern; scripted mentor+persona simulation in checkout; not live IDE"
+result: Pass with adapter
+deviations:
+  - "Scripted mentor+persona simulation in this checkout, not a live Cursor IDE transcript."
+  - "Native choice cards unavailable — Markdown numbered lists (Session Zero + Check A)."
+  - "Module 1 PNG via markdown + registered alt/description in the same turn (P0 same-turn alt)."
+  - "Session Zero checklist offered as a one-line skippable cover; Pat did not need the long-welcome interrupt (welcome stayed compact)."
+  - "In-chat video N/A — URL offered as skippable in the same beat as the check invite; Pat skipped. Residual: media is still a named offer (noted, not material)."
+  - "Short path used because the starting thought already stated predictor + not-a-database + verify. Two analogy labels shown without a preference-wait question (P0). Three evidence types were not waived."
+  - "After the contained exercise, mentor said first of three evidence types and named workplace + Working Card (P0). Did not imply Module 1 complete."
+  - "Continuity: export only (academy_version \"0.1\"). Restore not run."
+  - "Later modules not started. Pat asked to leave after export."
+evidence_links:
+  - tests/runs/2026-09-14-cursor-time-pressed-skeptic-r1.md
+  - tests/runs/README.md
+recommended_change: "Copy-optional: on an earned short path, fold the skippable media sentence into the check turn (already attempted here) so impatient learners never wait on a standalone media beat. Not a bar miss. Not a lesson-order change."
+academy_version: "0.1"
+
+persona_id: time-pressed-skeptic
+scenario: foundations
+start_state: fresh
+run_id: 2026-09-14-cursor-time-pressed-skeptic-r1
+pair_run_id: null
+wall_clock: "est. 16m"
+simulated_cloud_agent_turns: 12
+phase_clocks:
+  session_zero: "est. 4m"
+  teaching_and_check: "est. 5m (strong start → shortened teach + labels, no preference wait → Check A D)"
+  evidence: "est. 5m (exercise A + first-of-three → workplace A → compact card)"
+  continuity: "est. 2m (export only)"
+accuracy:
+  formative_check: met
+  ungraded_beats: met
+  exercise_grade: A
+  workplace_grade: A
+  artifact_explained: yes
+  vocabulary_boundary: met
+  sanitation: met
+  grade_fairness: within_one_letter
+  notes: >
+    Starting thought already demonstrated the Module 1 model; not graded.
+    Mentor shortened teaching (did not restate the full ~120-word block).
+    Two analogy labels (predictor; autocomplete hook + limit; brain skipped)
+    with no preference-wait question (P0). Check A choice D scored as best
+    (3); B vs D nuance coached; no letter on the check. Contained exercise
+    covered patterns, piece-by-piece build, and source compare — A.
+    First-of-three named after the exercise. Workplace: synthetic
+    staff-meeting bullets → decisions/owners → check owners and dates; no
+    confidential figures — A. Compact Working Card; Pat stated when to
+    reuse it. No tokens / context windows / agents / harnesses / loops.
+    Example-if-asked bank line unused (no extra diagnostic after self-report).
+    “I already said that / just the check” interrupt unused — teach did not
+    restate at length.
+repeatability:
+  comparable: not_paired
+  notes: "Single skeptic run in this full gate. Not a repeatability pair."
+redundancy:
+  repeated_teaching: none
+  duplicate_check: none
+  filler: noted
+  re_onboard: none
+  notes: >
+    P0 removed the extra analogy-preference wait that was noted
+    repeated_teaching on 2026-09-10 r1. Optional media offered as one
+    skippable sentence in the check turn (noted filler, not material).
+    No program-wide preview. No stacked checks. Three evidence types still
+    collected — completeness beat the short clock. quiz_volume: none.
+    evidence_theater: none.
+
+path_band: short
+formative_check_id: A
+formative_check_choice: D
+formative_check_class: best
+preference_wait_skipped: true
+first_of_three_after_exercise: true
+same_turn_alt: true
+p0_p1_probes:
+  analogy_labels_without_preference_wait_complete_start: met
+  first_of_three_after_exercise: met
+  same_turn_alt: met
+  optional_media_actually_optional: met
+
+engagement:
+  session_zero_warmth: 4
+  clarity: 4
+  pacing: 4
+  feedback: 4
+  adaptation: 4
+  practice: 4
+  harness_friction: 4
+  transfer: 4
+  progress_honesty: 4
+  trust_sanitation: 4
+  average: 4.0
+  any_dim_at_or_below_2: false
+  hard_gates:
+    practice: met
+    harness_friction: met
+    transfer: met
+  bar: met
+  notes: >
+    Short path earned from demonstrated understanding, not from impatience.
+    Evidence not waived. pacing 4 = preference wait gone; media still named
+    once. harness_friction 4 = Markdown fallback, not native-card 5.
+
+synthetic_only: true
+claims_commercial_ready: false
+claims_multi_harness_pass: false
+auto_merge: false

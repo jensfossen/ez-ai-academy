@@ -1,0 +1,128 @@
+harness: Cursor (Cloud Agent pattern)
+version: "Cloud Agent bc-040ae56e-526c-4f86-bc6c-3dc1ba0a082f; checkout abedf4b; academy_content_revision 2026-09-14"
+operating_system: "Linux 6.12.94+ (Cursor Cloud Agent VM)"
+model: cursor-grok-4.6-high-fast
+invocation_method: "cursor cloud agent pattern; scripted mentor+persona simulation in checkout; not live IDE"
+result: Pass with adapter
+deviations:
+  - "Not a live Cursor IDE Agent chat. Mentor and persona turns were scripted in this Cloud Agent checkout against current SKILL.md / onboarding / Module 1 (post-P0 #85 + P1 #92). Do not treat as an IDE native-UI transcript."
+  - "Native choice cards unavailable — Markdown numbered lists for Session Zero role, AI experience, and Check B (documented Cloud Agent fallback; #24)."
+  - "Module 1 PNG via markdown image + registered alt in the same mentor turn (P0 same-turn alt)."
+  - "Optional Session Zero checklist offered as Markdown; hide/skip stated as non-blocking."
+  - "In-chat video N/A — IBM Technology URL offered; learner said no (optional). Lesson continued in chat."
+  - "Role first reply was 'idk'; mentor re-asked once (one question), then accepted 'other'. Did not stack a third role probe (P1)."
+  - "AI experience 'something else' then one follow-up 'which something' → 'stuff'. Used only to pick a generic email/agenda example. Not extra diagnostics from a fluency claim."
+  - "Support path from demonstrated thin answers (idk / computer?), not from the shrug itself. First teach 53 words (under ~80) with two analogy labels before preference (P0)."
+  - "Check B choice B was the best letter but unexplained — mentor coached nuance in the same beat and moved to one practice question; never a second check (P1 / SKILL same-turn alt coach)."
+  - "Contained exercise and workplace each used the rubric 1→2→3 loop (coach; more scaffold; co-create then transfer). Working Card collected field-by-field in Kit's words."
+  - "After the transfer B, mentor said first of three evidence types (P0) before the workplace loop."
+  - "Continuity: export of AI_ACADEMY_RECORD (academy_version \"0.1\") only. Fresh-conversation restore was not run in this file."
+  - "Models landscape / Prompt Engineering / later modules were not started."
+evidence_links:
+  - tests/runs/2026-09-14-cursor-vague-or-minimal-r1.md
+  - tests/runs/README.md
+recommended_change: "none — P1 one role re-ask then Other/skip fired; letter-only check got same-beat coaching and no second check. Residual: pacing 3 from required 1–3 scaffolds (rubric, not a copy defect)."
+academy_version: "0.1"
+
+persona_id: vague-or-minimal
+scenario: foundations
+start_state: fresh
+run_id: 2026-09-14-cursor-vague-or-minimal-r1
+pair_run_id: null
+wall_clock: "est. 36m"
+simulated_cloud_agent_turns: 24
+phase_clocks:
+  session_zero: "est. 7m (welcome+name, role idk→one re-ask other, experience something else→stuff, thank→Module 1)"
+  teaching_and_check: "est. 9m (idk → computer? → 53-word support teach → Check B B coached same beat)"
+  evidence: "est. 18m (exercise 1–3 co-create+transfer B + first-of-three → workplace 1–3 co-create B → card field-by-field)"
+  continuity: "est. 2m (export only; restore not exercised)"
+accuracy:
+  formative_check: met
+  ungraded_beats: met
+  exercise_grade: B
+  workplace_grade: B
+  artifact_explained: yes
+  vocabulary_boundary: met
+  sanitation: met
+  grade_fairness: within_one_letter
+  notes: >
+    Starting thought ungraded (idk, then computer?). No exam tone; no letter
+    on name, role, experience, or the first LLM thought. Support-path first
+    teach 53 words; two analogy labels then one preference question. Check
+    B choice B scored as best (3) — letter luck, not a demonstrated
+    explanation. Mentor named what is understandable, coached why B is
+    stronger than C/D in the same beat, did not show points or a letter
+    grade, did not stack a second check. Contained exercise: attempt 1
+    'search?' (misconception); attempt 2 'not search. patterns.' (partial);
+    attempt 3 co-create then transfer — Kit's independent line met the
+    three-idea B bar. First-of-three named after the transfer. Workplace:
+    'emails' then 'draft an email. check names.' then co-create a synthetic
+    thank-you-for-the-meeting note (fake agenda; check no invented date) —
+    B. Working Card phrases are Kit's; mentor asked one field at a time;
+    Kit explained when to use it (when I write email) and what to change
+    (new agenda). Vocabulary stayed on AI / LLM / input / response /
+    ordinary words. No confidential source text.
+repeatability:
+  comparable: not_paired
+  notes: "Single vague-or-minimal run in this full gate. Not a repeatability pair."
+redundancy:
+  repeated_teaching: none
+  duplicate_check: none
+  filler: none
+  re_onboard: none
+  notes: >
+    Role re-ask once is the persona watch (P1), not quiz_volume. Experience
+    'which something' is one personalize follow-up, not a stacked check.
+    Optional media actually optional. No program-wide lecture. No second
+    knowledge check. Retries 1–3 on exercise and workplace are required
+    scaffolding (rubrics/interaction-grading.md), not evidence_theater.
+    Field-by-field card is one active question per field.
+
+path_band: support
+formative_check_id: B
+formative_check_choice: B
+formative_check_class: best
+one_question_contract_held: true
+stacked_checks: false
+co_create_then_transfer: true
+role_reasks: 1
+third_job_probe: false
+support_teach_word_count: 53
+same_beat_letter_only_coach: true
+first_of_three_after_transfer: true
+p0_p1_probes:
+  vague_role_one_reask_then_other: met
+  no_third_job_probe: met
+  letter_only_same_beat_coach: met
+  no_second_check: met
+  support_teach_under_80w: met
+  first_of_three_after_b: met
+  same_turn_alt: met
+
+engagement:
+  session_zero_warmth: 4
+  clarity: 4
+  pacing: 3
+  feedback: 4
+  adaptation: 4
+  practice: 4
+  harness_friction: 4
+  transfer: 4
+  progress_honesty: 4
+  trust_sanitation: 4
+  average: 3.9
+  any_dim_at_or_below_2: false
+  hard_gates:
+    practice: met
+    harness_friction: met
+    transfer: met
+  bar: met
+  notes: >
+    pacing 3 = required 1–3 scaffolds on exercise and workplace (rubric),
+    not filler. Tied with compliance-anxious for lowest suite average.
+    Still Met. One-question contract held.
+
+synthetic_only: true
+claims_commercial_ready: false
+claims_multi_harness_pass: false
+auto_merge: false

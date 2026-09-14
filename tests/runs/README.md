@@ -62,11 +62,29 @@ Session Zero skipped. Module 1 stayed `in_progress` after the paste (exercise B 
 
 How to drive a later host: [`../self-test-runner.md`](../self-test-runner.md). Fixtures: [`../learner-personas.md`](../learner-personas.md). Scenario: [`../foundations-acceptance.md`](../foundations-acceptance.md). After a curator teaching-copy proposal, the post-curation gate: [`../../content/SYNTHETIC_VALIDATION_GATE.md`](../../content/SYNTHETIC_VALIDATION_GATE.md) (smoke vs full; engagement bar: [`../engagement-scorecard.md`](../engagement-scorecard.md)). File gate rollups here as `YYYY-MM-DD-synth-gate-*.yaml`. Green scores still do **not** edit this matrix story and do **not** auto-merge.
 
+Seventh campaign (2026-09-14), Cursor Cloud Agent **pattern** — first **live full** post-curation synth gate after Module 1 P0 ([#85](https://github.com/jensfossen/ez-ai-academy/pull/85)) + P1 ([#92](https://github.com/jensfossen/ez-ai-academy/pull/92)). Jens GO 2026-09-14 for the FULL 10-persona pack. Rollup: [`2026-09-14-synth-gate-full.yaml`](2026-09-14-synth-gate-full.yaml) / [`2026-09-14-synth-gate-full.md`](2026-09-14-synth-gate-full.md).
+
+| File | Persona | Start | Pair |
+|---|---|---|---|
+| `2026-09-14-cursor-novice-first-contact-r1.yaml` | `novice-first-contact` | `fresh` | unpaired (existing 2026-09-10 r1/r2 remains the repeatability witness) |
+| `2026-09-14-cursor-time-pressed-skeptic-r1.yaml` | `time-pressed-skeptic` | `fresh` | unpaired |
+| `2026-09-14-cursor-casual-chatgpt-user-r1.yaml` | `casual-chatgpt-user` | `fresh` | unpaired |
+| `2026-09-14-cursor-role-ops-coordinator-r1.yaml` | `role-ops-coordinator` | `fresh` | unpaired |
+| `2026-09-14-cursor-role-analyst-or-pm-r1.yaml` | `role-analyst-or-pm` | `fresh` | unpaired |
+| `2026-09-14-cursor-compliance-anxious-r1.yaml` | `compliance-anxious` | `fresh` | unpaired |
+| `2026-09-14-cursor-accessibility-fallback-r1.yaml` | `accessibility-fallback` | `fresh` | unpaired |
+| `2026-09-14-cursor-returning-learner-fixture-a-r1.yaml` | `returning-learner` | `resume_fixture_a` | unpaired |
+| `2026-09-14-cursor-returning-learner-fixture-b-r1.yaml` | `returning-learner` | `resume_fixture_b` | unpaired |
+| `2026-09-14-cursor-vague-or-minimal-r1.yaml` | `vague-or-minimal` | `fresh` | unpaired |
+| `2026-09-14-cursor-high-achiever-fast-r1.yaml` | `high-achiever-fast` | `fresh` | unpaired |
+
+Suite **Met** the engagement bar (every run avg ≥ 3.5; no dim ≤ 2; hard gates ≥ 3). That is **not** a Foundations Pass, **not** a matrix edit, **not** merge permission. `chief_decision: pending`. `auto_merge: false`. PE #4 held.
+
 ## Curator v2 synth gate
 
-[#81](https://github.com/jensfossen/ez-ai-academy/issues/81) living home: [`../../content/SYNTHETIC_VALIDATION_GATE.md`](../../content/SYNTHETIC_VALIDATION_GATE.md). Docs-only stand-up (no teaching change): [`../../content/curation-dry-runs/2026-09-13-synth-gate.md`](../../content/curation-dry-runs/2026-09-13-synth-gate.md).
+[#81](https://github.com/jensfossen/ez-ai-academy/issues/81) living home: [`../../content/SYNTHETIC_VALIDATION_GATE.md`](../../content/SYNTHETIC_VALIDATION_GATE.md). Docs-only stand-up (no teaching change): [`../../content/curation-dry-runs/2026-09-13-synth-gate.md`](../../content/curation-dry-runs/2026-09-13-synth-gate.md). First live full suite: [`2026-09-14-synth-gate-full.yaml`](2026-09-14-synth-gate-full.yaml).
 
-This folder’s 2026-09-10 / 2026-09-11 campaigns plus the 2026-09-13 Module 1 engagement P0 pack ([#84](https://github.com/jensfossen/ez-ai-academy/issues/84)) and P1 copy ([#91](https://github.com/jensfossen/ez-ai-academy/issues/91)) are the **method reference**. They **predate** the gate. They do not become a retroactive #81 Pass.
+This folder’s 2026-09-10 / 2026-09-11 campaigns plus the 2026-09-13 Module 1 engagement P0 pack ([#84](https://github.com/jensfossen/ez-ai-academy/issues/84)) and P1 copy ([#91](https://github.com/jensfossen/ez-ai-academy/issues/91)) are the **method reference**. They **predate** the gate. They do not become a retroactive #81 Pass. The 2026-09-14 files are the first post-P0/P1 **live** full-gate witness. They still do not invent a Pass.
 
 ## Phase B closeout
 
