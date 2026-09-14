@@ -12,7 +12,7 @@ This file is the decision home after a scan has a flag. It does not teach learne
 | [`RELEASE_NOTES.md`](RELEASE_NOTES.md) | What a returning learner (or operator) can do or see now |
 | [`SYNTHETIC_VALIDATION_GATE.md`](SYNTHETIC_VALIDATION_GATE.md) | After a teaching draft exists: smoke vs full persona suite — scores are not a Pass |
 
-Parent epic: [#77](https://github.com/jensfossen/ez-ai-academy/issues/77). This playbook is the [#80](https://github.com/jensfossen/ez-ai-academy/issues/80) home. After it lands, scans use **Refs #80**. Weekly deep checklist: [`CURATION.md`](CURATION.md#deep-scan-checklist). Synthetic validation after material edits: [`SYNTHETIC_VALIDATION_GATE.md`](SYNTHETIC_VALIDATION_GATE.md) ([#81](https://github.com/jensfossen/ez-ai-academy/issues/81)) — scores are not a Pass. Pages freshness is [#82](https://github.com/jensfossen/ez-ai-academy/issues/82).
+Parent epic: [#77](https://github.com/jensfossen/ez-ai-academy/issues/77). This playbook is the [#80](https://github.com/jensfossen/ez-ai-academy/issues/80) home. After it lands, scans use **Refs #80**. Weekly deep checklist: [`CURATION.md`](CURATION.md#deep-scan-checklist). Synthetic validation after material edits: [`SYNTHETIC_VALIDATION_GATE.md`](SYNTHETIC_VALIDATION_GATE.md) ([#81](https://github.com/jensfossen/ez-ai-academy/issues/81)) — scores are not a Pass. Pages freshness is [#82](https://github.com/jensfossen/ez-ai-academy/issues/82) (**closed** after PR [#90](https://github.com/jensfossen/ez-ai-academy/pull/90)).
 
 Learning stays **in-harness**. The [discovery site](https://jensfossen.github.io/ez-ai-academy/) is not this playbook and is not a publish target.
 
@@ -286,4 +286,4 @@ EZ-Devy owns weekday light + weekly deep ([`CURATION.md`](CURATION.md#cadence)).
 - Treating synthetic scores as a Pass.
 - Building an LMS, website gradebook, or Pages publish path for this loop.
 - Expanding [#39](https://github.com/jensfossen/ez-ai-academy/issues/39), [#46](https://github.com/jensfossen/ez-ai-academy/issues/46), or remaining [#40](https://github.com/jensfossen/ez-ai-academy/issues/40) from a scan.
-- Replacing [`SYNTHETIC_VALIDATION_GATE.md`](SYNTHETIC_VALIDATION_GATE.md) or shipping the [#82](https://github.com/jensfossen/ez-ai-academy/issues/82) Pages cue here.
+- Replacing [`SYNTHETIC_VALIDATION_GATE.md`](SYNTHETIC_VALIDATION_GATE.md) or re-shipping the closed [#82](https://github.com/jensfossen/ez-ai-academy/issues/82) Pages cue here.
