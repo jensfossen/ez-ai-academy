@@ -1,6 +1,6 @@
 # In-harness checklist + Show me (Session Zero / Module 1)
 
-Pattern sketch for [#48](https://github.com/jensfossen/ez-ai-academy/issues/48) follow-up. Competitive observation (do not duplicate here): [`competitive-learn-claude-code.md`](competitive-learn-claude-code.md). Related harness-native UI: [#24](https://github.com/jensfossen/ez-ai-academy/issues/24). This file does **not** close either issue.
+Shipped Session Zero / Module 1 mentor pattern for [#48](https://github.com/jensfossen/ez-ai-academy/issues/48). Competitive observation (do not duplicate here): [`competitive-learn-claude-code.md`](competitive-learn-claude-code.md). Related harness-native UI: [#24](https://github.com/jensfossen/ez-ai-academy/issues/24). This is **not** a native-UI Pass and does **not** close [#24](https://github.com/jensfossen/ez-ai-academy/issues/24), [#14](https://github.com/jensfossen/ez-ai-academy/issues/14), Foundations [#3](https://github.com/jensfossen/ez-ai-academy/issues/3), or [#4](https://github.com/jensfossen/ez-ai-academy/issues/4).
 
 **EZ AI Academy** stays in-harness. Tagline: **Learn AI where you work.** This is a **mentor pattern**, not a recorded Pass, not Foundations acceptance, and not a second LMS.
 
@@ -94,19 +94,21 @@ Welcome copy still comes from the welcome card in `interaction-patterns.md`. Men
 
 - Pixel-clone Claude’s mascot, cap icon, or orange **Show me**.
 - Treat a checked list as Module 1 completion or a Foundations / Prompt Engineering Pass.
-- Treat this wiring as a native-UI Pass, a Foundations / Prompt Engineering Pass, or as closing #48 / #24.
+- Treat this wiring as a native-UI Pass or a Foundations / Prompt Engineering Pass.
 - Invent private host APIs or change harness-matrix Pass rows.
-- Close [#48](https://github.com/jensfossen/ez-ai-academy/issues/48), [#24](https://github.com/jensfossen/ez-ai-academy/issues/24), [#14](https://github.com/jensfossen/ez-ai-academy/issues/14), [#4](https://github.com/jensfossen/ez-ai-academy/issues/4), or Foundations [#3](https://github.com/jensfossen/ez-ai-academy/issues/3).
+- Close [#24](https://github.com/jensfossen/ez-ai-academy/issues/24), [#14](https://github.com/jensfossen/ez-ai-academy/issues/14), [#4](https://github.com/jensfossen/ez-ai-academy/issues/4), or Foundations [#3](https://github.com/jensfossen/ez-ai-academy/issues/3).
 
-## Status
+## Status (2026-09-14)
+
+#48 research + pattern is **shipped**. Mentors already offer this card. This is **not** a native-UI Pass. [#24](https://github.com/jensfossen/ez-ai-academy/issues/24) stays open for richer native chrome.
 
 | Item | State |
 |---|---|
-| This file | Pattern sketch + Markdown mock (2026-09-10) |
+| This file | Live mentor pattern + Markdown mock (2026-09-10); **shipped** as #48 pattern |
 | `SKILL.md` routing | Light mentor offer (`2026-09-10b`) — Markdown-first; not a Pass |
 | Harness-matrix Pass rows | Unchanged |
 | Claude Code Foundations [#14](https://github.com/jensfossen/ez-ai-academy/issues/14) | **Blocked / not a Pass** (no usable subscription) |
-| Prompt Engineering [#4](https://github.com/jensfossen/ez-ai-academy/issues/4) / Foundations | Held. No Pass inventing. |
+| Prompt Engineering [#4](https://github.com/jensfossen/ez-ai-academy/issues/4) / Foundations [#3](https://github.com/jensfossen/ez-ai-academy/issues/3) | Held. No Pass inventing. |
 
 ## Related
 

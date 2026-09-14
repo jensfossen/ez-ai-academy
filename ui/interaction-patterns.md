@@ -100,11 +100,11 @@ Use a grade card only for a completed exercise, work application, or artifact. D
 
 Display the module, current unit, evidence completed, strongest grade, and next activity. Use a compact table or checklist fallback. Do not claim a percentage when the curriculum does not define one.
 
-## In-harness checklist / Show me (pattern sketch)
+## In-harness checklist / Show me
 
-Session Zero / early Module 1 card (Academy-language items, Markdown mock, mentor behavior): [`in-harness-checklist.md`](in-harness-checklist.md). Competitive observation and steal / differentiate: [`competitive-learn-claude-code.md`](competitive-learn-claude-code.md). Related harness-native UI: [#24](https://github.com/jensfossen/ez-ai-academy/issues/24). This subsection does **not** close #24 or #48. `SKILL.md` offers a light mentor route; Markdown fallbacks stay first-class. Not a native-UI Pass.
+#48 research + pattern is **shipped**. Session Zero / early Module 1 card (Academy-language items, Markdown mock, mentor behavior): [`in-harness-checklist.md`](in-harness-checklist.md). Competitive observation and steal / differentiate: [`competitive-learn-claude-code.md`](competitive-learn-claude-code.md). Related harness-native UI: [#24](https://github.com/jensfossen/ez-ai-academy/issues/24). This subsection does **not** close #24. `SKILL.md` offers a light mentor route; Markdown fallbacks stay first-class. Not a native-UI Pass.
 
-Proposed mentor intents. Use a host control only when the host already attaches one. Do not invent private APIs. Markdown fallbacks are first-class. Native host chrome is optional.
+Mentor intents (live for mentors). Use a host control only when the host already attaches one. Do not invent private APIs. Markdown fallbacks are first-class. Native host chrome is optional.
 
 ### Checklist — `in_harness_checklist`
 

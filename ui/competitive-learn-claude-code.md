@@ -1,6 +1,6 @@
 # Competitive UX: Claude Code in-harness Learn onboarding
 
-Research note for [#48](https://github.com/jensfossen/ez-ai-academy/issues/48). Related harness-native UI research: [#24](https://github.com/jensfossen/ez-ai-academy/issues/24). This file does **not** close either issue.
+Research note for [#48](https://github.com/jensfossen/ez-ai-academy/issues/48). Related harness-native UI research: [#24](https://github.com/jensfossen/ez-ai-academy/issues/24). #48 research + pattern is **shipped**. This is **not** a native-UI Pass and does **not** close [#24](https://github.com/jensfossen/ez-ai-academy/issues/24), [#14](https://github.com/jensfossen/ez-ai-academy/issues/14), Foundations [#3](https://github.com/jensfossen/ez-ai-academy/issues/3), or [#4](https://github.com/jensfossen/ez-ai-academy/issues/4).
 
 **EZ AI Academy** stays in-harness. Tagline: **Learn AI where you work.** This note captures a vendor overlay so we can steal semantic intents — not pixels, not a second LMS, and not a Foundations Pass.
 
@@ -82,24 +82,26 @@ Host-chrome entry is **not** a new Academy API. If the host shows a Learn afford
 - Pixel-clone Claude’s mascot, graduation-cap chrome, or orange **Show me**.
 - Replace Foundations acceptance with a vendor tour, or treat a screenshot as a Claude Code Pass.
 - Invent private host APIs, widget schemas, or skill-author markup for an overlay we do not control.
-- Treat the light `SKILL.md` offer as a native-UI Pass or as closing #24 / #48.
+- Treat the shipped `SKILL.md` offer as a native-UI Pass or as closing #24.
 - Close [#24](https://github.com/jensfossen/ez-ai-academy/issues/24), [#14](https://github.com/jensfossen/ez-ai-academy/issues/14), [#4](https://github.com/jensfossen/ez-ai-academy/issues/4), or Foundations [#3](https://github.com/jensfossen/ez-ai-academy/issues/3).
 - Ship a website course that competes with the in-pane experience.
 
-## Status
+## Status (2026-09-14)
+
+#48 acceptance is met. Research + pattern are **shipped**. Mentors already offer the Session Zero / Module 1 checklist and **Show me**. This is **not** a native-UI Pass. [#24](https://github.com/jensfossen/ez-ai-academy/issues/24) stays open for richer native chrome.
 
 | Item | State |
 |---|---|
-| This note | Observation + pattern inventory (2026-09-10) |
-| Session Zero / Module 1 card | Pattern sketch: [`in-harness-checklist.md`](in-harness-checklist.md) — light `SKILL.md` offer; not a Pass |
+| This note | Observation + pattern inventory (2026-09-10); **shipped** as #48 research |
+| Session Zero / Module 1 card | Live mentor pattern: [`in-harness-checklist.md`](in-harness-checklist.md) — light `SKILL.md` offer; not a Pass |
 | `SKILL.md` routing | Light mentor offer (`2026-09-10b`) — Markdown-first; not a Pass |
 | Claude Code Foundations [#14](https://github.com/jensfossen/ez-ai-academy/issues/14) | **Blocked / not a Pass** (no usable subscription) |
-| Harness-native UI [#24](https://github.com/jensfossen/ez-ai-academy/issues/24) | Related research only; Jens-gated Passes stay held |
-| Prompt Engineering [#4](https://github.com/jensfossen/ez-ai-academy/issues/4) / Foundations | Held. No Pass inventing. |
+| Harness-native UI [#24](https://github.com/jensfossen/ez-ai-academy/issues/24) | **Open** — richer native chrome. Jens-gated Passes stay held |
+| Prompt Engineering [#4](https://github.com/jensfossen/ez-ai-academy/issues/4) / Foundations [#3](https://github.com/jensfossen/ez-ai-academy/issues/3) | Held. No Pass inventing. |
 
 ## Related
 
-- Session Zero / Module 1 card sketch: [`in-harness-checklist.md`](in-harness-checklist.md)
+- Session Zero / Module 1 card: [`in-harness-checklist.md`](in-harness-checklist.md)
 - Interaction intents: [`interaction-patterns.md`](interaction-patterns.md)
 - Mobile / short stops: [`mobile-on-the-go.md`](mobile-on-the-go.md)
 - Cursor rich-UI research: [`../adapters/cursor/RICH_UI.md`](../adapters/cursor/RICH_UI.md)

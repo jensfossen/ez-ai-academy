@@ -50,6 +50,30 @@ Do not claim a Foundations or Prompt Engineering Pass from a changelog entry. Do
 
 ---
 
+## 2026-09-14 — Competitive UX #48 research + pattern shipped (operators)
+
+Operators can treat the Claude Code Learn research note, Session Zero checklist + **Show me** pattern, and mentor wiring as **shipped**. Teaching meaning for learners is unchanged. Installed skills do not need a pull for this entry alone.
+
+### Added
+
+- None. No new lesson, check, or media.
+
+### Changed
+
+- Status lines in the #48 UI notes mark research + pattern as shipped. `academy_content_revision` in `SKILL.md` stays `2026-09-14`. Cowork ZIP not rebuilt. Discovery Pages untouched. Harness-matrix Pass rows unchanged.
+
+### Removed
+
+- None.
+
+### Media
+
+- None.
+
+### Breaking for learners
+
+- None. This is not a native-UI Pass. [#24](https://github.com/jensfossen/ez-ai-academy/issues/24) remains open for richer native chrome. Claude Code Foundations remains blocked / not a Pass ([#14](https://github.com/jensfossen/ez-ai-academy/issues/14)). [#3](https://github.com/jensfossen/ez-ai-academy/issues/3) and [#4](https://github.com/jensfossen/ez-ai-academy/issues/4) stay held.
+
 ## 2026-09-14 — Module 1 engagement P1 copy
 
 Mentors now keep six more Module 1 conversation beats tighter: Check C uses the same native choice card as A/B, Session Zero sanitation stays one sentence then thank-you, a vague role gets one re-ask then Other, a “search engine” start gets search-versus-generate in ordinary words, and restore stays compact (complete or mid-journey). Same three evidence types. Same in-harness lesson. Not a Foundations Pass.
