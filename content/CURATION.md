@@ -24,7 +24,7 @@ Related backlog (do not treat as closed by this file):
 - [#79](https://github.com/jensfossen/ez-ai-academy/issues/79) weekly frontline deep scan — this file (plus a weekly-style dry-run under [`curation-dry-runs/`](curation-dry-runs/)). After the cadence lands, scans use **Refs #79**.
 - [#80](https://github.com/jensfossen/ez-ai-academy/issues/80) evolve/prune playbook — living home [`MODULE_EVOLVE_PRUNE.md`](MODULE_EVOLVE_PRUNE.md). After it lands, scans use **Refs #80**. Deep scans **flag** prune candidates; they do not delete beats.
 - [#81](https://github.com/jensfossen/ez-ai-academy/issues/81) post-curation synthetic validation — living home [`SYNTHETIC_VALIDATION_GATE.md`](SYNTHETIC_VALIDATION_GATE.md). After it lands, scans use **Refs #81**. Scores are not a Pass and not merge permission.
-- [#82](https://github.com/jensfossen/ez-ai-academy/issues/82) Pages freshness / update cadence — leave **open**. Do not implement from a scan.
+- [#82](https://github.com/jensfossen/ez-ai-academy/issues/82) Pages freshness / update cadence — **closed** after the Pages cue shipped (PR [#90](https://github.com/jensfossen/ez-ai-academy/pull/90)). Do not reopen; do not treat Pages freshness as unfinished. Do not re-ship the cue from a scan.
 
 ## Purpose
 
@@ -100,7 +100,7 @@ Then run the same glance steps as the [weekday light scan](#weekday-light-scan) 
 1. Read this file, [`CURATOR_SOURCES.md`](CURATOR_SOURCES.md), [`RELEASE_NOTES.md`](RELEASE_NOTES.md), the newest **weekly** dry-run, and the newest weekday dry-run.
 2. Walk the [deep-scan checklist](#deep-scan-checklist). Sample each named source class (official site or app only — no scrape, no paid API without confirm).
 3. Walk live Module beats (Session Zero / Module 1+ and live companions) for **stale-teach** and **metaphor** drift. Flag; do not prune in-loop. Decision lanes: [`MODULE_EVOLVE_PRUNE.md`](MODULE_EVOLVE_PRUNE.md).
-4. Check the release-notes gap and open content issues (same floor as the light scan, plus remaining [#77](https://github.com/jensfossen/ez-ai-academy/issues/77)–[#82](https://github.com/jensfossen/ez-ai-academy/issues/82) children).
+4. Check the release-notes gap and open content issues (same floor as the light scan, plus Curator v2 homes [#77](https://github.com/jensfossen/ez-ai-academy/issues/77)–[#81](https://github.com/jensfossen/ez-ai-academy/issues/81) — Refs, do not reopen). [#82](https://github.com/jensfossen/ez-ai-academy/issues/82) Pages freshness is **closed** after PR [#90](https://github.com/jensfossen/ez-ai-academy/pull/90) — do not treat it as unfinished.
 5. Optional: if teaching copy landed this week, run the smoke subset in [`SYNTHETIC_VALIDATION_GATE.md`](SYNTHETIC_VALIDATION_GATE.md). If not, write **smoke not run — no teaching change**.
 6. Outcomes, only if warranted — see [Output shape](#output-shape).
 
@@ -124,7 +124,7 @@ Same change may be both: issue for the decision, draft PR for the text. Details:
 - Host a full model catalog, leaderboard dump, or vendor encyclopedia in this repo.
 - Expand [#39](https://github.com/jensfossen/ez-ai-academy/issues/39) or [#46](https://github.com/jensfossen/ez-ai-academy/issues/46) live companion units from a scan, or implement remaining [#40](https://github.com/jensfossen/ez-ai-academy/issues/40) mobile UX from a scan alone.
 - Promote Graph Engineering (or any named candidate) to a numbered capability module until Chief / Jens go.
-- Delete a live beat without following [`MODULE_EVOLVE_PRUNE.md`](MODULE_EVOLVE_PRUNE.md) (issue → Chief / Jens GO → thin draft PR). Do not treat [`SYNTHETIC_VALIDATION_GATE.md`](SYNTHETIC_VALIDATION_GATE.md) scores as a Pass or merge permission. Do not ship the [#82](https://github.com/jensfossen/ez-ai-academy/issues/82) Pages cue from a scan.
+- Delete a live beat without following [`MODULE_EVOLVE_PRUNE.md`](MODULE_EVOLVE_PRUNE.md) (issue → Chief / Jens GO → thin draft PR). Do not treat [`SYNTHETIC_VALIDATION_GATE.md`](SYNTHETIC_VALIDATION_GATE.md) scores as a Pass or merge permission. Do not treat the closed [#82](https://github.com/jensfossen/ez-ai-academy/issues/82) Pages cue as unfinished, and do not re-ship it from a scan.
 - Check in Grok Bot routine JSON or treat a dry-run as “the routine is the source of truth.”
 - Redirect learners to the website, an LMS, or a required account.
 - Nag. If nothing material changed, stay quiet.
@@ -141,12 +141,12 @@ The Models landscape live companion is [`../curriculum/models-landscape.md`](../
 
 Prefer the publisher’s current models overview, not a news recap:
 
-| Publisher | Official page (as of 2026-09-10) | Why it is on the list |
+| Publisher | Official page (as of 2026-09-14) | Why it is on the list |
 |---|---|---|
 | OpenAI | [Models](https://developers.openai.com/api/docs/models) | Primary consumer and API names learners will hear. |
 | Anthropic | [Claude models overview](https://platform.claude.com/docs/en/models/overview) | Claude family names in enterprise chat. |
 | Google | [Gemini models](https://ai.google.dev/gemini-api/docs/models) | Gemini family; keep workplace-plain. |
-| Amazon | [Amazon Nova](https://aws.amazon.com/ai/generative-ai/nova/) | Jens’s example: explain Nova in plain language if we teach it — do not paste Bedrock catalogs. |
+| Amazon | [Amazon Nova](https://aws.amazon.com/nova/) | Jens’s example: explain Nova in plain language if we teach it — do not paste Bedrock catalogs. |
 | Microsoft | [Foundry Models](https://azure.microsoft.com/en-us/products/ai-foundry/models) | Enterprise catalog many workplaces already sit in. |
 
 If a URL moves, update this table in the same PR that notices it. Do not add a second unofficial mirror.
@@ -157,7 +157,7 @@ Use these to see **relative** movement (a new widely offered family, a retired n
 
 | Tracker | Page | Use |
 |---|---|---|
-| LMArena (LMSYS Chatbot Arena) | [lmarena.ai](https://lmarena.ai/) | Community comparison signal. Do not teach Elo or “the best model.” |
+| LMArena (LMSYS Chatbot Arena) | [arena.ai](https://arena.ai/) | Community comparison signal. Do not teach Elo or “the best model.” |
 | Stanford HELM | [crfm.stanford.edu/helm](https://crfm.stanford.edu/helm/) | Research-backed landscape. Distill one workplace point, or skip. |
 
 Do not add affiliate blogs, SEO “top 50 models” lists, or a third tracker without Chief / Jens go.
