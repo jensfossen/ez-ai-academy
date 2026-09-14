@@ -1,0 +1,76 @@
+harness: Cursor (Cloud Agent pattern)
+version: "Cloud Agent bc-b1f3ceb0-05ff-4794-b170-c9c3c76f8986; checkout 4ffc120; academy_content_revision 2026-09-14"
+operating_system: "Linux 6.12.94+ (Cursor Cloud Agent VM)"
+model: cursor-grok-4.6-high-fast
+invocation_method: "cursor cloud agent pattern; scripted mentor+synthetic learner simulation in checkout against tests/prompt-engineering-acceptance.md; not live IDE"
+start_state: resume_foundations_complete
+result: Pass
+deviations:
+  - "Not a live Cursor IDE Agent chat. Mentor and learner turns were scripted in this Cloud Agent checkout against current SKILL.md / curriculum/prompt-engineering.md. Do not treat as an IDE native-UI transcript (#24 held)."
+  - "Native choice cards unavailable — Markdown numbered lists for Check A and Check C (documented Cloud Agent fallback). PE checks do not yet carry render_intent: native_choice_card; meaning was preserved."
+  - "PE map via markdown image + registered alt/description from resources/visuals.md in the same mentor turn. Inline raster UI-dependent. PNG present in this checkout."
+  - "In-chat video N/A — no Module 2 in-chat player. Optional OpenAI Academy Prompting URL offered after the first rewritten prompt; learner skipped. Lesson continued in chat."
+  - "Resume start used returning-learner Fixture A (Foundations complete). Session Zero and Module 1 were not repeated."
+  - "Guided path from a topic-first starting thought ('help with these notes' + polish-as-check). Fast-track was not used and did not waive evidence."
+  - "Check A choice 3 scored as reasonable (2), not wrong; mentor coached why 2 is stronger; no letter grade or 0–3 shown. Check C choice 4 scored as best."
+  - "After contained-exercise B, mentor said this is the first of three evidence types. Did not imply PE complete before workplace + Prompt Working Card."
+  - "Continuity: export of AI_ACADEMY_RECORD (academy_version \"0.1\") with modules.prompt_engineering complete; modules.foundations evidence objects and 2026-09-07 dates preserved. Fresh-conversation restore exercised in the same campaign (compact; no Session Zero / Module 1 / PE re-teach)."
+  - "Context Engineering / Agents / Loop / Models landscape / Graph were not started. Learner paused after PE complete."
+evidence_links:
+  - tests/runs/2026-09-14-cursor-prompt-engineering-r1.md
+  - tests/runs/README.md
+  - tests/prompt-engineering-acceptance.md
+  - tests/harness-matrix.md
+recommended_change: "none owed for this harness pattern — documented Markdown / markdown+alt / skippable-link fallbacks already match adapters/cursor/RICH_UI.md. Residual (not a PE bar miss): optional native_choice_card render_intent on PE checks can wait for #24. Do not copy this row onto Codex, Claude Code, Cowork, or Grok Bot."
+academy_version: "0.1"
+prompt_engineering_status: complete
+
+scenario: prompt_engineering
+run_id: 2026-09-14-cursor-prompt-engineering-r1
+pair_run_id: null
+learner_name: Alex
+learner_role: program coordinator
+path_band: guided
+formative_check_ids:
+  - A
+  - C
+formative_check_choices:
+  A: "3"
+  C: "4"
+formative_check_classes:
+  A: reasonable
+  C: best
+wall_clock: "est. 38m"
+simulated_cloud_agent_turns: 22
+phase_clocks:
+  resume: "est. 3m (Fixture A restore-confirm + compact progress + start PE)"
+  teaching_and_checks: "est. 16m (map+alt, P1–P5, Check A then Check C, skippable deepener)"
+  evidence: "est. 15m (contained B + first-of-three → workplace B → card + second input)"
+  continuity: "est. 4m (export + fresh-conversation restore; Context parked)"
+accuracy:
+  formative_check: met
+  ungraded_beats: met
+  exercise_grade: B
+  workplace_grade: B
+  artifact_explained: yes
+  second_input_or_edge_case: met
+  vocabulary_boundary: met
+  sanitation: met
+  foundations_not_wiped: met
+  grade_fairness: within_one_letter
+  notes: >
+    Starting thought ungraded (topic-first + polish-as-check). Guided P1–P5
+    with analogy limits. Check A C/3 coached as reasonable; Check C D/4 best.
+    Contained exercise invented date/owner on first simulate; learner diagnosed
+    and repaired the instruction (B). Workplace B on sanitized sponsor status.
+    Prompt Working Card in learner words; second input omitted a slogan and
+    kept a missing owner visible. Vocabulary stayed on prompt / instruction /
+    outcome / inputs / boundaries / shape / check and ordinary words. No
+    confidential source text. Foundations Fixture A objects unchanged on export.
+
+synthetic_only: true
+claims_commercial_ready: false
+claims_multi_harness_pass: false
+claims_foundations_pass: false
+closes_issue_4: false
+auto_merge: false

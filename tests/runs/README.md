@@ -78,7 +78,17 @@ Seventh campaign (2026-09-14), Cursor Cloud Agent **pattern** — first **live f
 | `2026-09-14-cursor-vague-or-minimal-r1.yaml` | `vague-or-minimal` | `fresh` | unpaired |
 | `2026-09-14-cursor-high-achiever-fast-r1.yaml` | `high-achiever-fast` | `fresh` | unpaired |
 
-Suite **Met** the engagement bar (every run avg ≥ 3.5; no dim ≤ 2; hard gates ≥ 3). That is **not** a Foundations Pass, **not** a matrix edit, **not** merge permission. `chief_decision: pending`. `auto_merge: false`. PE #4 held.
+Suite **Met** the engagement bar (every run avg ≥ 3.5; no dim ≤ 2; hard gates ≥ 3). That is **not** a Foundations Pass, **not** a matrix edit, **not** merge permission. `chief_decision: pending`. `auto_merge: false`. Those Module 1 persona files are still not a PE Pass.
+
+## Prompt Engineering acceptance (2026-09-14)
+
+Chief GO 2026-09-14 unhold #4 **validate** path. Cursor Cloud Agent **pattern** only.
+
+| File | Scenario | Start | Result |
+|---|---|---|---|
+| `2026-09-14-cursor-prompt-engineering-r1.yaml` | [`../prompt-engineering-acceptance.md`](../prompt-engineering-acceptance.md) | `resume_foundations_complete` (Fixture A) | **Pass** — single harness |
+
+Not a multi-harness PE Pass. Codex / Claude Code / Cowork / Grok Bot remain not recorded. [#4](https://github.com/jensfossen/ez-ai-academy/issues/4) stays **OPEN**. Context / Agents / Loop were not started.
 
 ## Curator v2 synth gate
 
@@ -125,7 +135,7 @@ YAML reports use `result: Pass with adapter` for **this simulated path on this h
 
 - **Not a recorded Foundations Pass.** Cursor Foundations Pass remains [#10](https://github.com/jensfossen/ez-ai-academy/issues/10).
 - **Not a `harness-matrix.md` edit.** Do not copy a persona score onto a Foundations or PE cell.
-- **Not a Prompt Engineering Pass.** [#4](https://github.com/jensfossen/ez-ai-academy/issues/4) stays held.
+- **Not a multi-harness Prompt Engineering Pass.** Persona campaigns still did not start Module 2. The 2026-09-14 PE acceptance file is Cursor Cloud Agent **pattern** only. [#4](https://github.com/jensfossen/ez-ai-academy/issues/4) stays **OPEN**.
 - **Not commercial ready.** Prototype exit is not commercial-ready (`references/commercial-readiness.md`).
 - **Not a Foundations Pass from Phase C.** P0 and P1 Module 1 engagement copy is in mentor sources ([#84](https://github.com/jensfossen/ez-ai-academy/issues/84), [#91](https://github.com/jensfossen/ez-ai-academy/issues/91)). Synthetic scores still do not edit the matrix. Never auto-merge.
 - **Not a multi-harness Foundations exit.** [#3](https://github.com/jensfossen/ez-ai-academy/issues/3) stays open.
@@ -136,7 +146,7 @@ YAML reports use `result: Pass with adapter` for **this simulated path on this h
 - **Not a recorded Foundations Pass** and not a reason to edit [`../harness-matrix.md`](../harness-matrix.md). Cursor Foundations Pass remains [#10](https://github.com/jensfossen/ez-ai-academy/issues/10).
 - **Not commercial readiness.** Prototype exit is not commercial-ready (`references/commercial-readiness.md`). Synthetic scores do not equal a private-pilot or stage exit.
 - **Not a live Cursor IDE transcript.** The 2026-09-10 and 2026-09-11 campaigns used the documented Cloud Agent multi-turn pattern as a **scripted mentor + persona simulation in this checkout**. They are not a human IDE session with native choice cards or in-chat video. Do not copy these rows onto an IDE native-UI cell ([#24](https://github.com/jensfossen/ez-ai-academy/issues/24)). The accessibility-fallback Markdown path is equivalence, not an IDE native-card Pass.
-- **Not a Prompt Engineering Pass.** Returning-learner Fixture A names PE as the parked next module only. Fixture B completes remaining Module 1 evidence and then parks PE the same way. No PE, Context, Agents, Loop, Models landscape, or Graph module was started. [#4](https://github.com/jensfossen/ez-ai-academy/issues/4) stays held.
+- **Persona campaigns are not a Prompt Engineering Pass.** Returning-learner Fixture A names PE as the parked next module only. Fixture B completes remaining Module 1 evidence and then parks PE the same way. Those Module 1 files did not start PE. The separate 2026-09-14 PE acceptance file is Cursor Cloud Agent **pattern** only and is **not** a multi-harness PE Pass. [#4](https://github.com/jensfossen/ez-ai-academy/issues/4) stays **OPEN**.
 - **Not a new Continuity matrix row.** `returning-learner` restore + export is persona evidence for #30. Cursor Continuity remains the [#10](https://github.com/jensfossen/ez-ai-academy/issues/10) Pass.
 - **Not a Foundations multi-harness exit.** One-harness (Cursor Cloud Agent pattern) synthetic evidence only. [#3](https://github.com/jensfossen/ez-ai-academy/issues/3) stays open. [#30](https://github.com/jensfossen/ez-ai-academy/issues/30) closes on this docs/checklist closeout because Phase A+B AC is documented as met — not because a Pass was invented.
 - **Not real employee data.** Names are preferred first names from the persona library. No legal names, emails, employee IDs, locations, or secrets.

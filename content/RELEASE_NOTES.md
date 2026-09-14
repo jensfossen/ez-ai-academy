@@ -50,6 +50,30 @@ Do not claim a Foundations or Prompt Engineering Pass from a changelog entry. Do
 
 ---
 
+## 2026-09-14 — Prompt Engineering Cursor Cloud Agent evidence (operators)
+
+Operators have a recorded Prompt Engineering acceptance run on the **Cursor Cloud Agent pattern**: **Pass**. Continuity export+restore also ran in the same campaign (`academy_version` `"0.1"`; `modules.prompt_engineering` complete; Module 1 evidence preserved). This is single-harness evidence, not a multi-harness PE exit, and not commercial-ready. Installed skills do not need a pull for this entry alone.
+
+### Added
+
+- Tester evidence: [`../tests/runs/2026-09-14-cursor-prompt-engineering-r1.md`](../tests/runs/2026-09-14-cursor-prompt-engineering-r1.md) and [`.yaml`](../tests/runs/2026-09-14-cursor-prompt-engineering-r1.yaml). Resume from a Foundations-complete `AI_ACADEMY_RECORD`, guided P1–P5, two formative checks, three evidence types, Prompt Working Card, export, brief restore.
+
+### Changed
+
+- [`../tests/harness-matrix.md`](../tests/harness-matrix.md) **Prompt Engineering scenario** section now records Cursor (Cloud Agent pattern) **Pass** (2026-09-14). Codex, Claude Code, Microsoft Copilot Cowork, and Grok Bot stay **not recorded / to run**. Foundations Pass rows were not edited. `academy_content_revision` in `SKILL.md` stays `2026-09-14`. Cowork ZIP not rebuilt. Discovery Pages untouched.
+
+### Removed
+
+- None.
+
+### Media
+
+- None added. The existing Prompt Engineering map was shown via markdown + registered alt/description. Optional OpenAI Academy *Prompting* URL was offered; the learner skipped.
+
+### Breaking for learners
+
+- None. Module 2 still needs three evidence types (contained exercise, workplace application, Prompt Working Card). This does not invent a multi-harness PE Pass. [#4](https://github.com/jensfossen/ez-ai-academy/issues/4) stays open.
+
 ## 2026-09-14 — Competitive UX #48 research + pattern shipped (operators)
 
 Operators can treat the Claude Code Learn research note, Session Zero checklist + **Show me** pattern, and mentor wiring as **shipped**. Teaching meaning for learners is unchanged. Installed skills do not need a pull for this entry alone.

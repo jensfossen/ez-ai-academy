@@ -2,7 +2,7 @@
 
 Run this scenario after Module 2 content is loaded. Use synthetic or non-confidential learner information. Pilot sanitation, accessibility fallbacks, and record-privacy rules: `resources/enterprise-baseline.md`.
 
-This scenario is **ready to run**. It is not a recorded Pass. Do not copy a Foundations Pass into a Prompt Engineering Pass row.
+This scenario is **ready to run**. Cursor (Cloud Agent pattern) has a 2026-09-14 recorded **Pass** in [`harness-matrix.md`](harness-matrix.md). That is **not** a multi-harness Pass. Do not copy a Foundations Pass into a Prompt Engineering Pass row. Do not copy the Cursor PE row onto other harnesses.
 
 ## Start states
 
