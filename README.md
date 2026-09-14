@@ -61,7 +61,7 @@ Brand is locked: name, message, palette, type, and logo live in [`brand/BRAND.md
 |---|---|
 | `SKILL.md` | Platform-neutral entry point and learning loop (canonical skill id `ai-academy`) |
 | `.cursor/skills/` | Thin Cursor slash aliases (`/ez-ai-academy`, `/start`) that load root `SKILL.md` |
-| `content/` | Learner-facing [content release notes](content/RELEASE_NOTES.md) and the operator [curation loop](content/CURATION.md) (weekday light + weekly deep scan, [sources + signal taxonomy](content/CURATOR_SOURCES.md), [evolve/prune playbook](content/MODULE_EVOLVE_PRUNE.md), dry-runs) |
+| `content/` | Learner-facing [content release notes](content/RELEASE_NOTES.md) and the operator [curation loop](content/CURATION.md) (weekday light + weekly deep scan, [sources + signal taxonomy](content/CURATOR_SOURCES.md), [evolve/prune playbook](content/MODULE_EVOLVE_PRUNE.md), [synthetic validation gate](content/SYNTHETIC_VALIDATION_GATE.md), dry-runs) |
 | `curriculum/` | Module plans, [program sequence](curriculum/program-map.md), [Context Engineering](curriculum/context-engineering.md) (Included Module 3), [Agents and Harness Engineering](curriculum/agents-harness-engineering.md) (Included Module 4), [Loop Engineering](curriculum/loop-engineering.md) (Included Module 5), the [Models landscape companion](curriculum/models-landscape.md) (Included / Companion), and the [Graph Engineering companion](curriculum/graph-engineering.md) (Included / Companion after Modules 4–5; outline is design history) |
 | `checks/` | Formative, non-letter-graded knowledge checks |
 | `exercises/` | Contained work, workplace application, and artifacts |
@@ -76,7 +76,7 @@ Brand is locked: name, message, palette, type, and logo live in [`brand/BRAND.md
 | `dist/` | Discovery and setup landing published to [GitHub Pages](https://jensfossen.github.io/ez-ai-academy/) (not lesson delivery) |
 | `brand/` | Locked brand kit: [guidelines](brand/BRAND.md) and logo assets |
 | `references/` | Builder/learner modes and [commercial-readiness stages](references/commercial-readiness.md) |
-| `tests/` | Cross-harness acceptance scenarios, [persona library](tests/learner-personas.md), [self-test metrics](tests/self-test-metrics.md), and [self-test runner guide](tests/self-test-runner.md) |
+| `tests/` | Cross-harness acceptance scenarios, [persona library](tests/learner-personas.md), [self-test metrics](tests/self-test-metrics.md), [engagement scorecard](tests/engagement-scorecard.md) (design proposal; not a Pass), and [self-test runner guide](tests/self-test-runner.md) |
 
 ## Content principles
 
@@ -95,7 +95,7 @@ Phone / short-session pacing (same meaning, shorter messages; not every harness)
 
 PRs that change curriculum, checks, exercises, visuals, curated links, learner-visible copy, or packages must add or extend an entry in [`content/RELEASE_NOTES.md`](content/RELEASE_NOTES.md) using **Added / Changed / Removed / Media / Breaking for learners**. When teaching meaning changed, bump `metadata.academy_content_revision` in `SKILL.md` to that entry's date. Checklist: the same file.
 
-Weekday content curation (owner, scan, signal sources, draft proposals): [`content/CURATION.md`](content/CURATION.md). Frontline watch list and signal taxonomy: [`content/CURATOR_SOURCES.md`](content/CURATOR_SOURCES.md). When to add / rewrite / prune / defer a live beat: [`content/MODULE_EVOLVE_PRUNE.md`](content/MODULE_EVOLVE_PRUNE.md). Ops-only slices do not bump the skill revision and do not rebuild the Cowork ZIP.
+Weekday content curation (owner, scan, signal sources, draft proposals): [`content/CURATION.md`](content/CURATION.md). Frontline watch list and signal taxonomy: [`content/CURATOR_SOURCES.md`](content/CURATOR_SOURCES.md). When to add / rewrite / prune / defer a live beat: [`content/MODULE_EVOLVE_PRUNE.md`](content/MODULE_EVOLVE_PRUNE.md). After a teaching draft exists, synthetic persona validation: [`content/SYNTHETIC_VALIDATION_GATE.md`](content/SYNTHETIC_VALIDATION_GATE.md). Ops-only slices do not bump the skill revision and do not rebuild the Cowork ZIP.
 
 ## License
 

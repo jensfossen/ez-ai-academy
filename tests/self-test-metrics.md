@@ -179,6 +179,10 @@ redundancy:
 synthetic_only: true       # must remain true
 claims_commercial_ready: false
 claims_multi_harness_pass: false
+
+# Engagement (design proposal; fill on curator-gate runs — tests/engagement-scorecard.md)
+# engagement:
+#   ... ten 1-5 dims, average, hard_gates, bar ...
 ```
 
 `result` stays the scenario outcome. Do not put “persona accuracy 80%” in `result`.
@@ -200,7 +204,7 @@ Cursor Foundations Pass ([#10](https://github.com/jensfossen/ez-ai-academy/issue
 
 **Phase B — runner guide + filed witness.** How to install, prompt, and file: [`self-test-runner.md`](self-test-runner.md). Complete library witness on the Cursor Cloud Agent pattern: [`tests/runs/`](runs/README.md). Still not a Pass. Prefer unattended Cloud Agent / Codex `exec` / similar where auth exists. If a host cannot run unattended, record **Blocked** and stop; do not invent a transcript.
 
-**Phase C — tuning proposals** (human go/no-go only). P0 Module 1 engagement copy from the 2026-09-13 rollup is in the mentor sources ([#84](https://github.com/jensfossen/ez-ai-academy/issues/84)). Further proposals still use this YAML. Synthetic scores still ≠ a Foundations Pass.
+**Phase C — tuning proposals** (human go/no-go only). P0 Module 1 engagement copy from the 2026-09-13 rollup is in the mentor sources ([#84](https://github.com/jensfossen/ez-ai-academy/issues/84)). Further proposals still use this YAML. After a teaching-copy curator proposal, add the engagement block from [`engagement-scorecard.md`](engagement-scorecard.md) and the gate rollup in [`../content/SYNTHETIC_VALIDATION_GATE.md`](../content/SYNTHETIC_VALIDATION_GATE.md). Synthetic scores still ≠ a Foundations Pass.
 
 ```yaml
 proposal_id:
@@ -220,6 +224,8 @@ Never auto-merge. Confirm before paid external API spend.
 - Persona fixtures: [`learner-personas.md`](learner-personas.md)
 - Runner guide: [`self-test-runner.md`](self-test-runner.md)
 - Campaign evidence / Phase B closeout (synthetic; not a Pass): [`tests/runs/`](runs/README.md)
+- Engagement scorecard (design proposal; not a Pass): [`engagement-scorecard.md`](engagement-scorecard.md)
+- Curator synth gate: [`../content/SYNTHETIC_VALIDATION_GATE.md`](../content/SYNTHETIC_VALIDATION_GATE.md)
 - Foundations scenario: [`foundations-acceptance.md`](foundations-acceptance.md)
 - PE scenario: [`prompt-engineering-acceptance.md`](prompt-engineering-acceptance.md)
 - Matrix: [`harness-matrix.md`](harness-matrix.md)

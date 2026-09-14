@@ -60,7 +60,13 @@ Sixth campaign (2026-09-11), Cursor Cloud Agent **pattern** (mid-journey restore
 
 Session Zero skipped. Module 1 stayed `in_progress` after the paste (exercise B accepted; workplace + card still null — **not** marked complete from the paste alone). Remaining evidence used `role-ops-coordinator` workplace + Working Card replies (synthetic handoff). Export after all three evidence types. Library persona coverage for Phase B campaigns on this harness pattern is now complete.
 
-How to drive a later host: [`../self-test-runner.md`](../self-test-runner.md). Fixtures: [`../learner-personas.md`](../learner-personas.md). Scenario: [`../foundations-acceptance.md`](../foundations-acceptance.md).
+How to drive a later host: [`../self-test-runner.md`](../self-test-runner.md). Fixtures: [`../learner-personas.md`](../learner-personas.md). Scenario: [`../foundations-acceptance.md`](../foundations-acceptance.md). After a curator teaching-copy proposal, the post-curation gate: [`../../content/SYNTHETIC_VALIDATION_GATE.md`](../../content/SYNTHETIC_VALIDATION_GATE.md) (smoke vs full; engagement bar: [`../engagement-scorecard.md`](../engagement-scorecard.md)). File gate rollups here as `YYYY-MM-DD-synth-gate-*.yaml`. Green scores still do **not** edit this matrix story and do **not** auto-merge.
+
+## Curator v2 synth gate
+
+[#81](https://github.com/jensfossen/ez-ai-academy/issues/81) living home: [`../../content/SYNTHETIC_VALIDATION_GATE.md`](../../content/SYNTHETIC_VALIDATION_GATE.md). Docs-only stand-up (no teaching change): [`../../content/curation-dry-runs/2026-09-13-synth-gate.md`](../../content/curation-dry-runs/2026-09-13-synth-gate.md).
+
+This folder’s 2026-09-10 / 2026-09-11 campaigns plus the 2026-09-13 Module 1 engagement P0 pack ([#84](https://github.com/jensfossen/ez-ai-academy/issues/84)) are the **method reference**. They **predate** the gate. They do not become a retroactive #81 Pass.
 
 ## Phase B closeout
 
