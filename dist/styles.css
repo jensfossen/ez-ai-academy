@@ -609,6 +609,27 @@ h2 .info {
   color: var(--muted);
   font-size: 0.88rem;
 }
+.freshness {
+  margin: 1.15rem 0 0;
+  padding: 0.85rem 1rem;
+  background: var(--white);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+}
+.freshness p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+.freshness p + p { margin-top: 0.45rem; }
+.freshness time {
+  color: var(--ink);
+  font-weight: 600;
+}
+.freshness a {
+  color: var(--cyan-dark);
+  font-weight: 700;
+}
 
 footer {
   max-width: 800px;
