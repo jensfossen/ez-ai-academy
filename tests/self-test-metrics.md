@@ -204,7 +204,7 @@ Cursor Foundations Pass ([#10](https://github.com/jensfossen/ez-ai-academy/issue
 
 **Phase B — runner guide + filed witness.** How to install, prompt, and file: [`self-test-runner.md`](self-test-runner.md). Complete library witness on the Cursor Cloud Agent pattern: [`tests/runs/`](runs/README.md). Still not a Pass. Prefer unattended Cloud Agent / Codex `exec` / similar where auth exists. If a host cannot run unattended, record **Blocked** and stop; do not invent a transcript.
 
-**Phase C — tuning proposals** (human go/no-go only). P0 Module 1 engagement copy from the 2026-09-13 rollup is in the mentor sources ([#84](https://github.com/jensfossen/ez-ai-academy/issues/84)). Further proposals still use this YAML. After a teaching-copy curator proposal, add the engagement block from [`engagement-scorecard.md`](engagement-scorecard.md) and the gate rollup in [`../content/SYNTHETIC_VALIDATION_GATE.md`](../content/SYNTHETIC_VALIDATION_GATE.md). Synthetic scores still ≠ a Foundations Pass.
+**Phase C — tuning proposals** (human go/no-go only). P0 and P1 Module 1 engagement copy from the 2026-09-13 rollup is in the mentor sources ([#84](https://github.com/jensfossen/ez-ai-academy/issues/84), [#91](https://github.com/jensfossen/ez-ai-academy/issues/91)). Further proposals still use this YAML. After a teaching-copy curator proposal, add the engagement block from [`engagement-scorecard.md`](engagement-scorecard.md) and the gate rollup in [`../content/SYNTHETIC_VALIDATION_GATE.md`](../content/SYNTHETIC_VALIDATION_GATE.md). Synthetic scores still ≠ a Foundations Pass.
 
 ```yaml
 proposal_id:

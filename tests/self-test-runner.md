@@ -4,7 +4,7 @@ How to drive EZ AI Academy Foundations as a scripted persona **without claiming 
 
 This is Phase B of [#30](https://github.com/jensfossen/ez-ai-academy/issues/30): the runner guide. It does not rewrite Module 1 or Module 2. It does not update [`harness-matrix.md`](harness-matrix.md). It is not commercial readiness (`references/commercial-readiness.md`). Prototype exit is not commercial-ready.
 
-**Phase B status.** Library coverage on the Cursor Cloud Agent pattern is complete. Filed witness: [`tests/runs/`](runs/README.md) (campaigns [#65](https://github.com/jensfossen/ez-ai-academy/pull/65)–[#71](https://github.com/jensfossen/ez-ai-academy/pull/71); all 10 personas). That folder is the complete library witness. It is **still not a Pass**. See the closeout checklist in `tests/runs/README.md`. Phase C P0 Module 1 copy is in the mentor sources ([#84](https://github.com/jensfossen/ez-ai-academy/issues/84)). Further loops stay proposal-only unless executed.
+**Phase B status.** Library coverage on the Cursor Cloud Agent pattern is complete. Filed witness: [`tests/runs/`](runs/README.md) (campaigns [#65](https://github.com/jensfossen/ez-ai-academy/pull/65)–[#71](https://github.com/jensfossen/ez-ai-academy/pull/71); all 10 personas). That folder is the complete library witness. It is **still not a Pass**. See the closeout checklist in `tests/runs/README.md`. Phase C P0 and P1 Module 1 copy is in the mentor sources ([#84](https://github.com/jensfossen/ez-ai-academy/issues/84), [#91](https://github.com/jensfossen/ez-ai-academy/issues/91)). Further loops stay proposal-only unless executed.
 
 Campaign evidence (Cursor Cloud Agent pattern; scripted mentor + persona simulation; not a matrix Pass) lives under [`tests/runs/`](runs/README.md). Those files are synthetic only. They do not invent a Foundations or PE Pass. [#30](https://github.com/jensfossen/ez-ai-academy/issues/30) closes on the docs/checklist closeout once Phase A+B AC is documented as met — not from a single campaign score.
 
@@ -214,7 +214,7 @@ Do not run PE as part of this guide. Module 2 “PE later” notes on each perso
 
 ## Phase C
 
-P0 Module 1 engagement copy from the 2026-09-13 rollup is in the mentor sources ([#84](https://github.com/jensfossen/ez-ai-academy/issues/84)). Later loops may *propose* further diffs for human / Chief review. **Never auto-merge.** Format: `self-test-metrics.md` proposal YAML. Synthetic scores still ≠ a Foundations Pass.
+P0 and P1 Module 1 engagement copy from the 2026-09-13 rollup is in the mentor sources ([#84](https://github.com/jensfossen/ez-ai-academy/issues/84), [#91](https://github.com/jensfossen/ez-ai-academy/issues/91)). Later loops may *propose* further diffs for human / Chief review. **Never auto-merge.** Format: `self-test-metrics.md` proposal YAML. Synthetic scores still ≠ a Foundations Pass.
 
 After a curator proposal that touches teaching copy, also follow [`../content/SYNTHETIC_VALIDATION_GATE.md`](../content/SYNTHETIC_VALIDATION_GATE.md): smoke (`novice-first-contact` + `time-pressed-skeptic` + `vague-or-minimal`) vs full 10, plus the engagement block in [`engagement-scorecard.md`](engagement-scorecard.md). File `recommended_change` here under [`tests/runs/`](runs/README.md) for Curator + Chief. Do not claim a live IDE Pass. Do not auto-merge from a green bar.
 

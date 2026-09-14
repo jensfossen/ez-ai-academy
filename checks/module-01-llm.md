@@ -11,7 +11,7 @@ Interpret each choice on a four-level scale:
 - **1 — Partial:** contains a small truth but could create a misleading mental model.
 - **0 — Misconception:** conflicts with the core idea.
 
-After the learner answers, first name what makes the choice understandable. Then explain why the highest-quality choice is stronger. Move into teaching or practice; do not immediately ask another check.
+After the learner answers, first name what makes the choice understandable. Then explain why the highest-quality choice is stronger. Move into teaching or practice; do not immediately ask another check. After a letter-only or unexplained answer, coach the distinction in the same beat and move to one practice question. Never add a second check “to get a signal.”
 
 ## Check A — A polished but doubtful summary
 
@@ -42,6 +42,8 @@ After the learner answers, first name what makes the choice understandable. Then
 **Coach:** B is the best overall explanation. C is useful but describes only some uses. D is a helpful analogy, but it needs one more sentence to explain the broader work an LLM can do. A confuses generating a response with guaranteed web search.
 
 ## Check C — Choosing a good first use
+
+**render_intent:** `native_choice_card` — Use the host ask questions tool when the host attaches it (single-select). Prefer that over typing the A–D list as plain text. If the tool is missing, show the numbered A–D list and accept a letter, number, or natural-language answer. Do not put host-specific markup in the question text. Mentors: `ui/interaction-patterns.md` (Knowledge check).
 
 **Question:** Which is the best first use of an LLM for a project manager?
 

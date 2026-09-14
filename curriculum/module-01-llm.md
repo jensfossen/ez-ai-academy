@@ -6,7 +6,7 @@ By the end, you can explain an LLM in plain language, describe what it is useful
 
 ## Language boundary
 
-Teach only these terms: `AI`, `large language model`, `LLM`, `input`, and `response`. Prefer ordinary words such as `request`, `information`, `patterns`, and `check`. Do not introduce tokens, context windows, agents, harnesses, or evaluation loops.
+Teach only these terms: `AI`, `large language model`, `LLM`, `input`, and `response`. Prefer ordinary words such as `request`, `information`, `patterns`, and `check`. Do not introduce tokens, context windows, agents, harnesses, or evaluation loops. If the learner says “token,” do not recap that line.
 
 ## Conversation path
 
@@ -21,6 +21,8 @@ When the PNG is offered as a markdown image (or inline raster is uncertain), emi
 Ask: **“Before we get into it, how would you explain an LLM to a coworker in one or two sentences? A rough answer is completely fine.”**
 
 Do not grade this answer. Notice what the learner already understands and respond with one specific encouragement.
+
+After an overconfident starting thought that names “search engine,” teach the **search-versus-generate** distinction in ordinary words: it builds a response from learned patterns; it is not a lookup of guaranteed facts. Add one sentence that the three evidence types are still required. Do not recap the learner’s “token” line even as a recap. Do not add diagnostics because they said they are fluent.
 
 ### 3. Teach briefly
 
@@ -61,13 +63,15 @@ Read `resources/curated-content.md`. Offer the short video first and the podcast
 
 ### 7. Check one idea
 
-Read `checks/module-01-llm.md` and choose one check. Use a tappable single-select control if available. Several options may contain a useful idea; ask for the **best** response and coach the nuance afterward.
+Read `checks/module-01-llm.md` and choose one check. Use a tappable single-select control if available (Check A, B, and C all use `render_intent: native_choice_card`). Several options may contain a useful idea; ask for the **best** response and coach the nuance afterward. After a letter-only or unexplained answer, coach in the same beat and move to one practice question — never a second check “to get a signal.”
 
 ### 8. Practice and apply
 
 Read `exercises/module-01-llm.md`. Complete the contained explanation, then a work example, then the LLM Working Card artifact. Do not run another check between each piece unless the learner asks for more practice.
 
 After a strong contained-exercise answer or an optional A-stretch, say this is the **first of three evidence types**. Name the remaining two (workplace application, LLM Working Card). Never imply “Module 1 looks complete” before those exist.
+
+**Mid-journey restore** (contained exercise already on the record; workplace and/or Working Card still open): name those two remaining evidence types in one sentence and ask the workplace question immediately. Do not re-teach the mental model or re-run the contained exercise.
 
 ## Adaptation
 

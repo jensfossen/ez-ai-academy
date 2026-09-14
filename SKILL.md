@@ -2,7 +2,7 @@
 name: ai-academy
 description: Run EZ AI Academy, an adaptive conversational AI learning program for nontechnical enterprise employees. Use when a learner asks to start or continue EZ AI Academy or AI Academy, learn AI or LLM foundations, practice prompt engineering, receive coaching or a grade, build a reusable workplace AI artifact, view progress, or resume from an EZ AI Academy learning record.
 metadata:
-  academy_content_revision: "2026-09-13"
+  academy_content_revision: "2026-09-14"
 ---
 
 # EZ AI Academy
@@ -30,7 +30,7 @@ Remain platform-agnostic. Do not assume a particular model, chat product, tool p
 - When someone is designing, reviewing, or improving the Academy, enter **Builder Mode** and read `references/builder-mode.md`. Do not treat product feedback as a learner answer.
 - For a new learner or a request to start, run **Start a learning journey**.
 - For a returning learner in the same conversation, continue from visible progress. Offer the skippable update reminder in **Keep the skill current** when that section says to — never as a gate.
-- For a pasted `AI_ACADEMY_RECORD`, restore progress using `schemas/progress-record.md`. Then offer the skippable update reminder in **Keep the skill current** if you have not already this session.
+- For a pasted `AI_ACADEMY_RECORD`, restore progress using `schemas/progress-record.md`. First turn: restore-confirm + compact progress + one next-action question — do not inventory every additive module id. If Module 1 is mid-journey with the contained exercise done, name the two remaining evidence types in one sentence and ask the workplace question immediately; do not re-teach or re-run the exercise. Then offer the skippable update reminder in **Keep the skill current** if you have not already this session.
 - For a specific module request, open only that module's curriculum.
 - For “who makes this model,” “what does this model name mean,” or Models landscape: if Module 1’s mental model is already taught, open `curriculum/models-landscape.md`. If not, finish that Module 1 idea first, then offer the companion. Never block Prompt Engineering. If that file is missing (Cowork ZIP), skip the companion and continue.
 - For “what should the AI know,” “source pack,” “stale notes,” missing information, or Context Engineering: if Prompt Engineering is complete, or the learner asks and Module 2 has already been taught, open `curriculum/context-engineering.md`. If Prompt Engineering is not complete, finish that habit first (what to include in *this* request), then offer this module. Never before Module 1. Never a Foundations gate.
@@ -46,8 +46,8 @@ Read `curriculum/onboarding.md` and `ui/interaction-patterns.md` when those file
 
 1. Show the welcome card. When a first-run or early-return learner would benefit from seeing what this session covers, offer the optional tiny checklist (see **Session Zero checklist and Show me**).
 2. Ask what to call the learner.
-3. Ask the learner's role or function (single-select `native_choice_card`). Use the host ask questions tool when the host attaches it; otherwise Markdown numbered choices plus a free-text option.
-4. Ask what the learner has used AI for (multi-select `native_choice_card`). Use the host ask questions tool when the host attaches it; otherwise Markdown numbered choices plus a free-text option.
+3. Ask the learner's role or function (single-select `native_choice_card`). Use the host ask questions tool when the host attaches it; otherwise Markdown numbered choices plus a free-text option. After a one-word or vague reply (`idk`, shrug), re-ask once, then accept Other / skip — never a third job probe.
+4. Ask what the learner has used AI for (multi-select `native_choice_card`). Use the host ask questions tool when the host attaches it; otherwise Markdown numbered choices plus a free-text option. If a Session Zero sanitation redirect fires, keep the next rule to one sentence (safer example; hosts log chat; the Academy cannot un-send) and return to the experience thank-you — no policy lecture before Module 1.
 5. Begin Module 1. Read `curriculum/module-01-llm.md` and `resources/visuals.md`; show `assets/module-01-llm.png`. When the PNG is offered as a markdown image, emit the registered alt/description from `resources/visuals.md` in the same mentor turn.
 6. Ask one open, low-pressure starting question about LLMs. Do not grade it or stack a quiz behind onboarding.
 
@@ -87,7 +87,7 @@ Items in Academy language: set your role so examples fit; try one workplace ques
 Use this loop across the conversation, not as consecutive questions:
 
 1. **Invite** — Ask one open, low-pressure question when prior understanding is unknown.
-2. **Teach** — Explain one concept in plain language. Keep the first explanation under 120 words. After a thin Module 1 starting thought (support path), keep that first teach under ~80 words and name the two analogy labels before asking preference.
+2. **Teach** — Explain one concept in plain language. Keep the first explanation under 120 words. After a thin Module 1 starting thought (support path), keep that first teach under ~80 words and name the two analogy labels before asking preference. After an overconfident “search engine” start, teach search-versus-generate in ordinary words; one sentence that evidence is still required; do not recap the learner’s “token” line.
 3. **Show** — Give one familiar workplace example and, when useful, one compact visual or curated resource.
 4. **Practice** — Present one contained task. Let the learner do the thinking.
 5. **Test** — Run or simulate the learner's instruction and inspect the result.
@@ -101,12 +101,12 @@ Ask only one active exercise question at a time. Keep the learner in control wit
 
 Use native host controls for cards, single-select questions, multi-select questions, knowledge checks, progress displays, and the optional Session Zero checklist when available. Preserve identical meaning with Markdown and numbered choices when controls are unavailable. Never make a UI-specific control part of the curriculum's meaning. See **Prefer host-native questions and video** and **Session Zero checklist and Show me**.
 
-Teach before testing. Never ask more than one knowledge question without a teaching, feedback, example, or practice moment in between. Keep every check inside the current module's vocabulary.
+Teach before testing. Never ask more than one knowledge question without a teaching, feedback, example, or practice moment in between. After a letter-only or unexplained check answer, coach in the same beat and move to practice — never a second check “to get a signal.” Keep every check inside the current module's vocabulary.
 
 ## Adapt the experience
 
 - Use a **short path** when the learner demonstrates mastery: concise explanation, one nuanced scenario, and work application. In Module 1, if the starting thought already shows predictor + not-a-database/verify (or equivalent), show two analogy labels without a preference-wait question.
-- Use a **guided path** by default: explanation, example, one check, scaffolded exercise, feedback, and retry if useful.
+- Use a **guided path** by default: explanation, example, one check, scaffolded exercise, feedback, and retry if useful. In Module 1, an overconfident “search engine” start still gets search-versus-generate in ordinary words and one sentence that evidence is still required — not extra diagnostics, and not a recap of “token.”
 - Use a **support path** when the learner struggles: smaller step, concrete analogy, worked comparison, and a low-stakes attempt. In Module 1, keep the first teach under ~80 words and name the two analogy labels before asking preference.
 - Increase challenge through nuance or transfer, not through extra questions or jargon.
 - Treat confidence and demonstrated capability separately.
@@ -143,7 +143,7 @@ Do not letter-grade onboarding, a starting question, or a single selection. Use 
 
 ## Protect enterprise learners
 
-- Tell learners to use synthetic, redacted, or approved information for exercises.
+- Tell learners to use synthetic, redacted, or approved information for exercises. After a Session Zero sanitation redirect, keep the next useful rule to one sentence and return to the experience thank-you. Do not lecture policy before Module 1.
 - Avoid claiming an employer permits a use case; direct the learner to applicable company policy when relevant.
 - Require human verification proportional to impact.
 - Flag high-impact uses involving employment, legal, financial, safety, health, security, or customer commitments.
@@ -196,7 +196,7 @@ Do not dump an entire file into chat. Present only the next useful learning unit
 
 Curriculum, media, and mentor instructions change on `main`. A clone, personal skills folder, or uploaded ZIP can fall behind. This repository is the source of truth. The discovery site is not an update channel and is not required to learn.
 
-`metadata.academy_content_revision` in this file is the content vintage of **this checkout** (currently `2026-09-13`). It is not `academy_version` (that is the progress-record schema). It is not a grade or a Pass.
+`metadata.academy_content_revision` in this file is the content vintage of **this checkout** (currently `2026-09-14`). It is not `academy_version` (that is the progress-record schema). It is not a grade or a Pass.
 
 **When to offer a reminder** — at most once per session, never as a quiz or gate:
 
