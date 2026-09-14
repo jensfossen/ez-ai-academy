@@ -72,5 +72,11 @@ synthetic_only: true
 claims_commercial_ready: false
 claims_multi_harness_pass: false
 claims_foundations_pass: false
+foundations_exit_3: incomplete
+foundations_cursor_only: true
+issue_14: blocked
+issue_15: jens_deferred
+content_maturity: shipped_pr_23
 closes_issue_4: false
 auto_merge: false
+ask_chief: true

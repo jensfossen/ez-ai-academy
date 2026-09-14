@@ -16,6 +16,8 @@ This matrix tracks whether EZ AI Academy delivers an equivalent learning experie
 
 ## Prompt Engineering scenario
 
+[#3](https://github.com/jensfossen/ez-ai-academy/issues/3) is still **incomplete**. Foundations is Cursor-only so far ([#10](https://github.com/jensfossen/ez-ai-academy/issues/10)). [#14](https://github.com/jensfossen/ez-ai-academy/issues/14) Claude Code is blocked. [#15](https://github.com/jensfossen/ez-ai-academy/issues/15) Microsoft Copilot Cowork is Jens-deferred. Content maturity already shipped ([#23](https://github.com/jensfossen/ez-ai-academy/pull/23)). This section records PE **validate** evidence only.
+
 [`prompt-engineering-acceptance.md`](prompt-engineering-acceptance.md) is **ready to run**. It is **not** a recorded multi-harness Pass. Do not copy a Foundations Pass into a Prompt Engineering Pass. Content maturity in the repository is not cross-harness validation. [#4](https://github.com/jensfossen/ez-ai-academy/issues/4) stays **OPEN**.
 
 | Harness | PE scenario | Notes |

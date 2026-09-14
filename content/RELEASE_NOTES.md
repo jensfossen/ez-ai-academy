@@ -52,7 +52,7 @@ Do not claim a Foundations or Prompt Engineering Pass from a changelog entry. Do
 
 ## 2026-09-14 — Prompt Engineering Cursor Cloud Agent evidence (operators)
 
-Operators have a recorded Prompt Engineering acceptance run on the **Cursor Cloud Agent pattern**: **Pass**. Continuity export+restore also ran in the same campaign (`academy_version` `"0.1"`; `modules.prompt_engineering` complete; Module 1 evidence preserved). This is single-harness evidence, not a multi-harness PE exit, and not commercial-ready. Installed skills do not need a pull for this entry alone.
+[#3](https://github.com/jensfossen/ez-ai-academy/issues/3) is still incomplete (Cursor-only Foundations; [#14](https://github.com/jensfossen/ez-ai-academy/issues/14) blocked; [#15](https://github.com/jensfossen/ez-ai-academy/issues/15) Jens-deferred). Content maturity already shipped ([#23](https://github.com/jensfossen/ez-ai-academy/pull/23)). Operators now have PE **validate** evidence on the **Cursor Cloud Agent pattern** (single-harness result: Pass). Continuity export+restore also ran in the same campaign (`academy_version` `"0.1"`; `modules.prompt_engineering` complete; Module 1 evidence preserved). Not a multi-harness PE exit. Not commercial-ready. Installed skills do not need a pull for this entry alone.
 
 ### Added
 

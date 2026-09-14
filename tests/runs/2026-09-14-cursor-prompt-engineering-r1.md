@@ -374,6 +374,8 @@ Skippable update reminder offered once. Not a gate.
 
 ## Scoring against `tests/prompt-engineering-acceptance.md`
 
+**Foundations exit first.** [#3](https://github.com/jensfossen/ez-ai-academy/issues/3) is still incomplete. Foundations is Cursor-only so far ([#10](https://github.com/jensfossen/ez-ai-academy/issues/10)). [#14](https://github.com/jensfossen/ez-ai-academy/issues/14) is blocked. [#15](https://github.com/jensfossen/ez-ai-academy/issues/15) is Jens-deferred. Content maturity already shipped ([#23](https://github.com/jensfossen/ez-ai-academy/pull/23)). This file is PE **validate** evidence only.
+
 | Expected flow | Observed | Class |
 |---|---|---|
 | Entry: PE map or registered alt / Markdown map | Markdown image + registered alt in the same turn; orientation sentence | Harness limitation (inline raster UI-dependent) — documented fallback |
@@ -392,4 +394,4 @@ Skippable update reminder offered once. Not a gate.
 
 **Result: Pass.** Every required PE behavior was present. Differences are the documented Cloud Agent fallbacks (Markdown numbered choices; markdown+alt map; skippable external link). Those are **harness limitations**, not a core curriculum miss and not a new adapter requirement beyond `adapters/cursor/RICH_UI.md`.
 
-This is **not** a multi-harness Prompt Engineering Pass. Codex, Claude Code, Microsoft Copilot Cowork, and Grok Bot were **not** run. [#4](https://github.com/jensfossen/ez-ai-academy/issues/4) stays **OPEN**. This does not edit Foundations Pass rows and does not move [#3](https://github.com/jensfossen/ez-ai-academy/issues/3).
+This is **not** a multi-harness Prompt Engineering Pass. Codex, Claude Code, Microsoft Copilot Cowork, and Grok Bot were **not** run. [#4](https://github.com/jensfossen/ez-ai-academy/issues/4) stays **OPEN**. Foundations Pass rows were not edited. [#3](https://github.com/jensfossen/ez-ai-academy/issues/3) remains incomplete.

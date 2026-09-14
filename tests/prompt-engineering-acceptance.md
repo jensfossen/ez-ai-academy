@@ -2,7 +2,7 @@
 
 Run this scenario after Module 2 content is loaded. Use synthetic or non-confidential learner information. Pilot sanitation, accessibility fallbacks, and record-privacy rules: `resources/enterprise-baseline.md`.
 
-This scenario is **ready to run**. Cursor (Cloud Agent pattern) has a 2026-09-14 recorded **Pass** in [`harness-matrix.md`](harness-matrix.md). That is **not** a multi-harness Pass. Do not copy a Foundations Pass into a Prompt Engineering Pass row. Do not copy the Cursor PE row onto other harnesses.
+This scenario is **ready to run**. [#3](https://github.com/jensfossen/ez-ai-academy/issues/3) is still incomplete (Cursor-only Foundations; [#14](https://github.com/jensfossen/ez-ai-academy/issues/14) blocked; [#15](https://github.com/jensfossen/ez-ai-academy/issues/15) Jens-deferred). Cursor (Cloud Agent pattern) has 2026-09-14 PE **validate** evidence in [`harness-matrix.md`](harness-matrix.md). That is **not** a multi-harness Pass. Do not copy a Foundations Pass into a Prompt Engineering Pass row. Do not copy the Cursor PE row onto other harnesses.
 
 ## Start states
 

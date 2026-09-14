@@ -82,6 +82,8 @@ Suite **Met** the engagement bar (every run avg ≥ 3.5; no dim ≤ 2; hard gate
 
 ## Prompt Engineering acceptance (2026-09-14)
 
+[#3](https://github.com/jensfossen/ez-ai-academy/issues/3) is still incomplete. Foundations is Cursor-only so far. [#14](https://github.com/jensfossen/ez-ai-academy/issues/14) blocked. [#15](https://github.com/jensfossen/ez-ai-academy/issues/15) Jens-deferred. Content maturity already shipped ([#23](https://github.com/jensfossen/ez-ai-academy/pull/23)).
+
 Chief GO 2026-09-14 unhold #4 **validate** path. Cursor Cloud Agent **pattern** only.
 
 | File | Scenario | Start | Result |
