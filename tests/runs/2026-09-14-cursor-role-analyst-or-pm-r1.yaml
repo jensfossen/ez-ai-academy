@@ -1,0 +1,118 @@
+harness: Cursor (Cloud Agent pattern)
+version: "Cloud Agent bc-040ae56e-526c-4f86-bc6c-3dc1ba0a082f; checkout abedf4b; academy_content_revision 2026-09-14"
+operating_system: "Linux 6.12.94+ (Cursor Cloud Agent VM)"
+model: cursor-grok-4.6-high-fast
+invocation_method: "cursor cloud agent pattern; scripted mentor+persona simulation in checkout; not live IDE"
+result: Pass with adapter
+deviations:
+  - "Not a live Cursor IDE Agent chat. Mentor and persona turns were scripted in this Cloud Agent checkout against current SKILL.md / onboarding / Module 1 (post-P0 #85 + P1 #92). Do not treat as an IDE native-UI transcript."
+  - "Native choice cards unavailable — Markdown numbered lists for Session Zero role, AI experience, and Check C (documented Cloud Agent fallback; #24). Check C now carries render_intent: native_choice_card (P1); Markdown A–D used because the host tool is missing."
+  - "Module 1 PNG via markdown image + registered alt in the same mentor turn (P0 same-turn alt)."
+  - "Optional Session Zero checklist offered as Markdown; hide/skip stated as non-blocking."
+  - "In-chat video N/A — IBM Technology URL offered; learner skipped. Lesson continued in chat."
+  - "Starting thought already named predictor + not-a-SoR. Short path: two analogy labels without a preference-wait question (P0). Check C still run (persona prefers Check C)."
+  - "Prefer Check C for this PM-style learner. Choice A scored as best; B and D named as equally strong; C (cancel a project) named high-impact. native_choice_card intent honored via Markdown fallback."
+  - "Mentor offered approved notes they already have or a made-up set. Learner refused a real tracker paste; workplace used synthetic approved notes only."
+  - "After the contained exercise B, mentor said first of three evidence types (P0)."
+  - "Continuity: sanitized export of AI_ACADEMY_RECORD (academy_version \"0.1\") only. Fresh-conversation restore was not run in this file."
+  - "Models landscape / Prompt Engineering / later modules were not started."
+evidence_links:
+  - tests/runs/2026-09-14-cursor-role-analyst-or-pm-r1.md
+  - tests/runs/README.md
+recommended_change: "none — P1 Check C native_choice_card intent is in checks/module-01-llm.md; Cloud Agent Markdown fallback used. First-of-three fired. Residual: none owed on this persona."
+academy_version: "0.1"
+
+persona_id: role-analyst-or-pm
+scenario: foundations
+start_state: fresh
+run_id: 2026-09-14-cursor-role-analyst-or-pm-r1
+pair_run_id: null
+wall_clock: "est. 24m"
+simulated_cloud_agent_turns: 14
+phase_clocks:
+  session_zero: "est. 5m (welcome+name, role, experience, allowed-notes example, thank→Module 1)"
+  teaching_and_check: "est. 8m (strong start → shortened teach + labels, no preference wait → Check C A)"
+  evidence: "est. 9m (exercise B + first-of-three → refuse tracker → synthetic notes workplace A → status-draft card)"
+  continuity: "est. 2m (sanitized export only; restore not exercised)"
+accuracy:
+  formative_check: met
+  ungraded_beats: met
+  exercise_grade: B
+  workplace_grade: A
+  artifact_explained: yes
+  vocabulary_boundary: met
+  sanitation: met
+  grade_fairness: within_one_letter
+  notes: >
+    Starting thought ungraded (pattern-based predictor; organize notes; not
+    a system of record for decisions). Short path earned: two labels without
+    a preference wait (P0). Check C shown as Markdown A–D with native_choice_card
+    intent present in the check file (P1). Choice A scored as best (3); B and
+    D also strong; C (cancel a project without reviewing evidence) named
+    high-impact; no letter grade or 0–3 shown. Contained exercise met the
+    three-idea B bar. First-of-three named after the exercise. Workplace A:
+    synthetic approved notes → draft decisions, open questions, next steps →
+    check missed decisions, invented owners, changed meaning. Real tracker
+    paste refused. Working Card explainable: when to use (first draft from
+    approved notes), what to change (new note set), how to check (owners,
+    dates, meaning). No unpublished metrics, customer names, or tracker
+    paste in this YAML, the card, or the exported record.
+repeatability:
+  comparable: not_paired
+  notes: "Single role-analyst-or-pm run in this full gate. Not a repeatability pair."
+redundancy:
+  repeated_teaching: none
+  duplicate_check: none
+  filler: none
+  re_onboard: none
+  notes: >
+    Starting thought already named predictor + not-a-SoR; mentor shortened
+    teach and skipped the preference wait (P0). One Session Zero example
+    personalized the status-note lesson. Optional media actually optional.
+    No program-wide lecture. No second knowledge check. Tracker-refuse +
+    synthetic notes are the sanitation watch, not filler. evidence_theater:
+    none.
+
+path_band: short
+formative_check_id: C
+formative_check_choice: A
+formative_check_class: best
+check_c_native_choice_card_intent: true
+check_c_markdown_fallback_used: true
+real_tracker_paste_refused: true
+unpublished_metrics_or_customer_names_in_record: false
+preference_wait_skipped: true
+first_of_three_after_exercise: true
+p0_p1_probes:
+  check_c_native_choice_card_intent: met
+  first_of_three_after_exercise: met
+  analogy_labels_without_preference_wait_complete_start: met
+  same_turn_alt: met
+  refuse_real_tracker: met
+
+engagement:
+  session_zero_warmth: 4
+  clarity: 4
+  pacing: 4
+  feedback: 4
+  adaptation: 4
+  practice: 4
+  harness_friction: 4
+  transfer: 4
+  progress_honesty: 4
+  trust_sanitation: 4
+  average: 4.0
+  any_dim_at_or_below_2: false
+  hard_gates:
+    practice: met
+    harness_friction: met
+    transfer: met
+  bar: met
+  notes: >
+    Check C native_choice_card intent is now in the check file (P1). Markdown
+    fallback is equivalence, not an IDE native-card Pass.
+
+synthetic_only: true
+claims_commercial_ready: false
+claims_multi_harness_pass: false
+auto_merge: false

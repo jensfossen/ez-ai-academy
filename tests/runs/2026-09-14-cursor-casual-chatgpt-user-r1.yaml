@@ -1,0 +1,117 @@
+harness: Cursor (Cloud Agent pattern)
+version: "Cloud Agent bc-040ae56e-526c-4f86-bc6c-3dc1ba0a082f; checkout abedf4b; academy_content_revision 2026-09-14"
+operating_system: "Linux 6.12.94+ (Cursor Cloud Agent VM)"
+model: cursor-grok-4.6-high-fast
+invocation_method: "cursor cloud agent pattern; scripted mentor+persona simulation in checkout; not live IDE"
+result: Pass with adapter
+deviations:
+  - "Not a live Cursor IDE Agent chat. Mentor and persona turns were scripted in this Cloud Agent checkout against current SKILL.md / Module 1 (post-P0 #85 + P1 #92). Do not treat as an IDE native-UI transcript."
+  - "Native choice cards unavailable — Markdown numbered lists for Session Zero role, AI experience, and Check A (documented Cloud Agent fallback; #24)."
+  - "Module 1 PNG via markdown image + registered alt in the same mentor turn (P0 same-turn alt)."
+  - "Optional Session Zero checklist offered as Markdown; hide/skip stated as non-blocking."
+  - "In-chat video N/A — IBM Technology URL offered; learner skipped (already watched a YouTube thing). Lesson continued in chat."
+  - "Self-reported fluency did not skip Foundations. Starting thought named “search engine”; mentor taught search-versus-generate in ordinary words and one sentence that the three evidence types are still required (P1). Did not recap Sam’s later “token” line."
+  - "After the retry reached B, mentor said first of three evidence types (P0). Did not imply Module 1 complete."
+  - "Continuity: export of AI_ACADEMY_RECORD (academy_version \"0.1\") only. Fresh-conversation restore was not run in this file."
+  - "Models landscape / Prompt Engineering / later modules were not started."
+evidence_links:
+  - tests/runs/2026-09-14-cursor-casual-chatgpt-user-r1.md
+  - tests/runs/README.md
+recommended_change: "none — P1 search-versus-generate + evidence-still-required sentence fired; mentor did not recap “token.” Residual: first Working Card still needed one verification-line coach (required coaching, not a copy defect)."
+academy_version: "0.1"
+
+persona_id: casual-chatgpt-user
+scenario: foundations
+start_state: fresh
+run_id: 2026-09-14-cursor-casual-chatgpt-user-r1
+pair_run_id: null
+wall_clock: "est. 28m"
+simulated_cloud_agent_turns: 15
+phase_clocks:
+  session_zero: "est. 5m (welcome+name, role, experience, thank→Module 1)"
+  teaching_and_check: "est. 9m (search-engine start → search-vs-generate + evidence sentence → Check A C coached as partial)"
+  evidence: "est. 12m (thin exercise → retry B + first-of-three → workplace B → card verification coach)"
+  continuity: "est. 2m (export only; restore not exercised)"
+accuracy:
+  formative_check: met
+  ungraded_beats: met
+  exercise_grade: B
+  workplace_grade: B
+  artifact_explained: yes
+  vocabulary_boundary: met
+  sanitation: met
+  grade_fairness: within_one_letter
+  notes: >
+    Starting thought ungraded (search engine + writer; asked to skip basics).
+    Mentor did not skip Foundations and did not add extra diagnostics from
+    “I’m pretty fluent.” First teach was search-versus-generate in ordinary
+    words plus one sentence that the three evidence types are still required
+    (P1). After Sam said “patterns, next token, whatever,” mentor did not
+    recap token and did not adopt it as required vocabulary. Check A choice
+    C scored as partial (1), not simply wrong; mentor coached why asking the
+    same chat “are you sure?” is weaker than checking the notes; D named as
+    strongest; no letter grade or 0–3 shown. First contained exercise was
+    thin — not accepted at B; one improvement; retry reached B. First-of-three
+    named after the retry. Workplace B: synthetic feature list → product
+    blurb → check claims and no invented ship date. First Working Card
+    omitted a verification line; mentor coached that one improvement; Sam
+    added autocomplete limit + claim/ship-date check and explained when to
+    use the card.
+repeatability:
+  comparable: not_paired
+  notes: "Single casual-chatgpt-user run in this full gate. Not a repeatability pair."
+redundancy:
+  repeated_teaching: none
+  duplicate_check: none
+  filler: none
+  re_onboard: none
+  notes: >
+    After the token line, mentor did not restate the full teach. Moved to
+    two analogy labels and the preference question (guided — start was a
+    misconception, not a complete model). quiz_volume: none. Optional media
+    actually optional. No program-wide lecture. No second knowledge check.
+    Thin-exercise retry and one card-verification coach are required
+    coaching, not evidence_theater.
+
+path_band: guided
+formative_check_id: A
+formative_check_choice: C
+formative_check_class: partial
+self_report_skipped_foundations: false
+token_adopted_as_required_vocab: false
+search_versus_generate_taught: true
+evidence_still_required_sentence: true
+first_of_three_after_retry: true
+p0_p1_probes:
+  search_versus_generate: met
+  evidence_still_required_one_sentence: met
+  no_token_recap: met
+  first_of_three_after_b: met
+  same_turn_alt: met
+
+engagement:
+  session_zero_warmth: 4
+  clarity: 4
+  pacing: 4
+  feedback: 4
+  adaptation: 4
+  practice: 4
+  harness_friction: 4
+  transfer: 4
+  progress_honesty: 4
+  trust_sanitation: 4
+  average: 4.0
+  any_dim_at_or_below_2: false
+  hard_gates:
+    practice: met
+    harness_friction: met
+    transfer: met
+  bar: met
+  notes: >
+    Fluency ≠ understanding held. Guided path from the search-engine start,
+    not a short path from confidence. Evidence bar not waived.
+
+synthetic_only: true
+claims_commercial_ready: false
+claims_multi_harness_pass: false
+auto_merge: false

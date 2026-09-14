@@ -1,0 +1,125 @@
+harness: Cursor (Cloud Agent pattern)
+version: "Cloud Agent bc-040ae56e-526c-4f86-bc6c-3dc1ba0a082f; checkout abedf4b; academy_content_revision 2026-09-14"
+operating_system: "Linux 6.12.94+ (Cursor Cloud Agent VM)"
+model: cursor-grok-4.6-high-fast
+invocation_method: "cursor cloud agent pattern; scripted mentor+persona simulation in checkout; not live IDE"
+result: Pass with adapter
+deviations:
+  - "Not a live Cursor IDE Agent chat. Mentor and persona turns were scripted in this Cloud Agent checkout against current SKILL.md / onboarding / Module 1 / schemas/progress-record.md (post-P0 #85 + P1 #92). Do not treat as an IDE native-UI transcript."
+  - "Native choice cards unused — Fixture B restore skipped Session Zero and did not re-open a Module 1 check, so no picker was required."
+  - "First restore turn named the two remaining evidence types in one sentence and asked the workplace question immediately (P1). Did not re-teach the mental model or re-run the contained exercise. Did not inventory later additive module ids."
+  - "Progress shown as one in_progress line (no host progress chrome)."
+  - "Skippable update reminder offered once in plain language. Not a gate."
+  - "Continuity: Fixture B paste → restore confirm → remaining Module 1 evidence → export (academy_version \"0.1\"). Session Zero did not start. Name / role / experience were not re-asked."
+  - "Module 1 was not marked complete from the paste alone. Paste state stayed in_progress (exercise B dated 2026-09-07; workplace and artifact null). Completion waited until workplace + Working Card were collected in this session."
+  - "After restore, remaining evidence used role-ops-coordinator workplace + Working Card replies (synthetic shift handoff) per the returning-learner bank. Stored role stayed 'program coordinator' from the fixture — mentor did not re-ask role."
+  - "Fixture B omitted later additive module keys; restore treated missing keys as not_started and the export emitted the full 0.1 shape. Fixture exercise text and 2026-09-07 date were preserved. Workplace and artifact were added only after this session's evidence. No PE evidence invented."
+  - "Prompt Engineering was named as next_recommended_action only after Module 1 completed. Module 2 teaching was not started. No PE Pass claim."
+evidence_links:
+  - tests/runs/2026-09-14-cursor-returning-learner-fixture-b-r1.md
+  - tests/runs/README.md
+recommended_change: "none — P1 Fixture B remaining-evidence → workplace immediately fired. Did not re-teach or re-run the contained exercise."
+academy_version: "0.1"
+
+persona_id: returning-learner
+scenario: foundations
+start_state: resume_fixture_b
+run_id: 2026-09-14-cursor-returning-learner-fixture-b-r1
+pair_run_id: null
+wall_clock: "est. 14m"
+simulated_cloud_agent_turns: 5
+phase_clocks:
+  session_zero: "not run (correct skip after valid in_progress restore)"
+  teaching_and_check: "not re-run (Module 1 teaching and check already past; exercise B accepted as-is)"
+  evidence: "est. 9m (workplace A from ops handoff replies → Working Card explained)"
+  continuity: "est. 5m (paste → remaining-evidence sentence + workplace ask → later export round-trip)"
+accuracy:
+  formative_check: not_exercised
+  ungraded_beats: met
+  exercise_grade: B
+  workplace_grade: A
+  artifact_explained: yes
+  vocabulary_boundary: met
+  sanitation: met
+  grade_fairness: within_one_letter
+  notes: >
+    Restore used schemas/progress-record.md: current module foundations /
+    lesson F1, status in_progress, one evidence object (exercise B,
+    2026-09-07), workplace and artifact null. First turn named the two
+    remaining evidence types (workplace application, LLM Working Card) in
+    one sentence and asked the workplace question immediately (P1).
+    Structure consistent — in_progress with two missing evidence types was
+    not treated as complete. No Session Zero. No name / role / experience
+    re-ask. Restore itself was not letter-graded. Fixture exercise was
+    accepted as-is (not re-scored). Workplace A: synthetic shift-handoff
+    paragraph (no phones, no roster) → three bullets → every name and task
+    must appear in the paragraph; no new people. Working Card in ops
+    language; Alex explained when to use it and what to change. Role in the
+    export stayed 'program coordinator' from Fixture B. PE was named only
+    as the parked next module after completion. No real phones, rosters,
+    or secrets.
+repeatability:
+  comparable: not_paired
+  notes: >
+    Single Fixture B resume in this full gate. Different start_state from
+    Fixture A (complete vs in_progress), so not a repeatability pair.
+    Contrast: Fixture A skipped all Module 1 teaching and collected no new
+    evidence; Fixture B skipped Session Zero, continued remaining evidence,
+    then completed.
+redundancy:
+  repeated_teaching: none
+  duplicate_check: none
+  filler: none
+  re_onboard: none
+  notes: >
+    re_onboard none is the continuity watch. Mentor did not restart Session
+    Zero or Module 1 teaching. Did not re-run the contained exercise.
+    Skippable freshness reminder was one sentence and was not a gate.
+    quiz_volume: none. evidence_theater: none (fixture exercise not
+    re-asked). Workplace and card are the two remaining contract pieces,
+    not a redo of completed work.
+
+path_band: resume
+formative_check_id: null
+formative_check_choice: null
+formative_check_class: null
+continuity_fail_name_role_reask: false
+session_zero_skipped: true
+module_1_not_marked_complete_from_paste_alone: true
+remaining_evidence_named_then_workplace: true
+retaught_mental_model: false
+reran_contained_exercise: false
+p0_p1_probes:
+  fixture_b_remaining_evidence_then_workplace: met
+  no_reteach: met
+  no_rerun_exercise: met
+  no_session_zero_repeat: met
+  no_pe_teaching: met
+
+engagement:
+  session_zero_warmth: not_exercised
+  clarity: 4
+  pacing: 4
+  feedback: not_exercised
+  adaptation: 4
+  practice: 4
+  harness_friction: 4
+  transfer: 4
+  progress_honesty: 4
+  trust_sanitation: 4
+  average: 4.0
+  any_dim_at_or_below_2: false
+  hard_gates:
+    practice: met
+    harness_friction: met
+    transfer: met
+  bar: met
+  notes: >
+    session_zero_warmth and feedback dropped from the average (correct skip
+    / not re-run). practice and transfer exercised on the two remaining
+    evidence types. Average is the mean of the eight scored dims.
+
+synthetic_only: true
+claims_commercial_ready: false
+claims_multi_harness_pass: false
+auto_merge: false
