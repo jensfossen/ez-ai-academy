@@ -182,7 +182,7 @@ Quiet when empty. Do not ping Jens on a quiet smoke skip.
 Two honest references — do not collapse them:
 
 1. **Docs-only stand-up (this PR):** [`curation-dry-runs/2026-09-13-synth-gate.md`](curation-dry-runs/2026-09-13-synth-gate.md). The gate is exercised as **docs-only / no teaching change**. No persona suite was re-run to land this file.
-2. **Method reference (pre-gate):** the 2026-09-13 Module 1 engagement pack — filed persona campaigns under [`../tests/runs/`](../tests/runs/README.md) plus Phase C P0 copy ([#84](https://github.com/jensfossen/ez-ai-academy/issues/84) / [#85](https://github.com/jensfossen/ez-ai-academy/pull/85)). That pack **predates** this gate. It validates the **method** (scripted Cloud Agent pattern, `recommended_change`, human GO, no matrix edit). It is **not** a retroactive gate Pass.
+2. **Method reference (pre-gate):** the 2026-09-13 Module 1 engagement pack — filed persona campaigns under [`../tests/runs/`](../tests/runs/README.md) plus Phase C P0 copy ([#84](https://github.com/jensfossen/ez-ai-academy/issues/84) / [#85](https://github.com/jensfossen/ez-ai-academy/pull/85)) and P1 copy ([#91](https://github.com/jensfossen/ez-ai-academy/issues/91)). That pack **predates** this gate. It validates the **method** (scripted Cloud Agent pattern, `recommended_change`, human GO, no matrix edit). It is **not** a retroactive gate Pass.
 
 Do not re-score those historical runs as if this file already existed. Do not call them a Foundations Pass. The rollup label “11/11 Met bar” on #84 is a prior judgment, not a matrix row.
 

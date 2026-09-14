@@ -37,6 +37,8 @@ Offer these choices:
 
 Accept a free-text role. Store the learner's language, not merely the category.
 
+**Vague / one-word role** (`idk`, shrug, off-topic): re-ask once with the same card or list, then accept Other / skip. Never a third job probe.
+
 ### 4. AI experience
 
 Ask: **“What have you used AI for so far? Select any that apply.”**
@@ -53,6 +55,8 @@ Ask: **“What have you used AI for so far? Select any that apply.”**
 - Something else
 
 Ask for one short example only when it will help personalize the first lesson. Do not treat confident terminology as proof of understanding.
+
+If that example (or any Session Zero turn) needs a sanitation redirect, keep the next useful rule to **one sentence** — safer example; hosts log chat on their own terms; the Academy cannot un-send — then return to the experience thank-you. Do not open a policy lecture before Module 1.
 
 ### 5. Begin Module 1
 

@@ -38,6 +38,8 @@ If a learner pastes something they should not:
 
 Hosts log chat on their own terms. Sanitation is the primary control because the Academy has no backend that can un-send a message.
 
+**Session Zero:** After a sanitation redirect in onboarding, keep the next useful rule to **one sentence** (safer example; hosts log chat; the Academy cannot un-send) and return to the experience thank-you. Do not open a policy lecture before Module 1.
+
 ## Human review
 
 Fluent output is not proof of correctness. A person remains responsible for what they use.

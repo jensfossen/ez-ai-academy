@@ -464,6 +464,10 @@ When a learner supplies a record:
 5. Continue with the next activity; do not repeat completed lessons unless the learner asks for review or a new diagnostic reveals a gap.
 6. If the record is older than this skill, restore known fields and continue. If it is a newer major version you cannot read, say so and offer to continue from the readable modules or start fresh.
 
+**First restore turn (compact):** restore-confirm + compact progress + **one** next-action question. Do not inventory every additive module id (`context_engineering`, `agents_harness_engineering`, `loop_engineering`) unless the learner asks.
+
+**Mid-journey Module 1** (contained exercise present; workplace and/or Working Card still `null`): name the two remaining evidence types in one sentence and ask the workplace question immediately. Do not re-teach the mental model or re-run the contained exercise.
+
 ## Continuity validation
 
 Phrase continuity as **validated where Foundations has passed; remaining harnesses must re-check export/restore when run.**

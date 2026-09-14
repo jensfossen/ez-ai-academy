@@ -66,11 +66,11 @@ How to drive a later host: [`../self-test-runner.md`](../self-test-runner.md). F
 
 [#81](https://github.com/jensfossen/ez-ai-academy/issues/81) living home: [`../../content/SYNTHETIC_VALIDATION_GATE.md`](../../content/SYNTHETIC_VALIDATION_GATE.md). Docs-only stand-up (no teaching change): [`../../content/curation-dry-runs/2026-09-13-synth-gate.md`](../../content/curation-dry-runs/2026-09-13-synth-gate.md).
 
-This folder’s 2026-09-10 / 2026-09-11 campaigns plus the 2026-09-13 Module 1 engagement P0 pack ([#84](https://github.com/jensfossen/ez-ai-academy/issues/84)) are the **method reference**. They **predate** the gate. They do not become a retroactive #81 Pass.
+This folder’s 2026-09-10 / 2026-09-11 campaigns plus the 2026-09-13 Module 1 engagement P0 pack ([#84](https://github.com/jensfossen/ez-ai-academy/issues/84)) and P1 copy ([#91](https://github.com/jensfossen/ez-ai-academy/issues/91)) are the **method reference**. They **predate** the gate. They do not become a retroactive #81 Pass.
 
 ## Phase B closeout
 
-Phase A+B acceptance on [#30](https://github.com/jensfossen/ez-ai-academy/issues/30) is **met** as a **docs / checklist** closeout. Library coverage is complete on the **Cursor Cloud Agent pattern**. Phase C P0 Module 1 engagement copy is in the mentor sources ([#84](https://github.com/jensfossen/ez-ai-academy/issues/84)). Further loops stay proposal-only unless executed.
+Phase A+B acceptance on [#30](https://github.com/jensfossen/ez-ai-academy/issues/30) is **met** as a **docs / checklist** closeout. Library coverage is complete on the **Cursor Cloud Agent pattern**. Phase C P0 and P1 Module 1 engagement copy is in the mentor sources ([#84](https://github.com/jensfossen/ez-ai-academy/issues/84), [#91](https://github.com/jensfossen/ez-ai-academy/issues/91)). Further loops stay proposal-only unless executed.
 
 This section documents that the issue’s acceptance criteria are satisfied. It does **not** invent a Foundations Pass, a matrix edit, a PE Pass, or commercial readiness.
 
@@ -83,7 +83,7 @@ This section documents that the issue’s acceptance criteria are satisfied. It 
 | ≥2 personas, unattended Foundations, one harness, evidence filed | Met | This folder. Campaigns [#65](https://github.com/jensfossen/ez-ai-academy/pull/65)–[#71](https://github.com/jensfossen/ez-ai-academy/pull/71) (skip [#69](https://github.com/jensfossen/ez-ai-academy/pull/69) curation dry-run). Cursor Cloud Agent **pattern**; all 10 library personas (see campaign tables above). |
 | Repeatability: same persona twice → comparable or explained drift | Met | `novice-first-contact` r1 / r2 — `2026-09-10-cursor-novice-first-contact-r2.yaml` has `repeatability.comparable: explained_drift` (`pair_run_id` → r1). |
 | Redundancy rubric + filled flags on every run YAML | Met | Rubric in `self-test-metrics.md`. Every YAML in this folder fills `redundancy.repeated_teaching` / `duplicate_check` / `filler` / `re_onboard` (`none` / `noted` / `material`). |
-| Handoff to later tuning loops (format only; human go/no-go; never auto-merge) | Met (format only) | Phase C proposal YAML in [`../self-test-metrics.md`](../self-test-metrics.md#phase-b--c-handoff). P0 Module 1 copy from the 2026-09-13 rollup is in mentor sources ([#84](https://github.com/jensfossen/ez-ai-academy/issues/84)). Further loops stay proposal-only unless executed. `auto_merge: false` must stay false. |
+| Handoff to later tuning loops (format only; human go/no-go; never auto-merge) | Met (format only) | Phase C proposal YAML in [`../self-test-metrics.md`](../self-test-metrics.md#phase-b--c-handoff). P0 and P1 Module 1 copy from the 2026-09-13 rollup is in mentor sources ([#84](https://github.com/jensfossen/ez-ai-academy/issues/84), [#91](https://github.com/jensfossen/ez-ai-academy/issues/91)). Further loops stay proposal-only unless executed. `auto_merge: false` must stay false. |
 
 ### Library witness (Cursor Cloud Agent pattern)
 
@@ -109,7 +109,7 @@ YAML reports use `result: Pass with adapter` for **this simulated path on this h
 - **Not a `harness-matrix.md` edit.** Do not copy a persona score onto a Foundations or PE cell.
 - **Not a Prompt Engineering Pass.** [#4](https://github.com/jensfossen/ez-ai-academy/issues/4) stays held.
 - **Not commercial ready.** Prototype exit is not commercial-ready (`references/commercial-readiness.md`).
-- **Not a Foundations Pass from Phase C.** P0 Module 1 engagement copy is in mentor sources ([#84](https://github.com/jensfossen/ez-ai-academy/issues/84)). Synthetic scores still do not edit the matrix. Never auto-merge.
+- **Not a Foundations Pass from Phase C.** P0 and P1 Module 1 engagement copy is in mentor sources ([#84](https://github.com/jensfossen/ez-ai-academy/issues/84), [#91](https://github.com/jensfossen/ez-ai-academy/issues/91)). Synthetic scores still do not edit the matrix. Never auto-merge.
 - **Not a multi-harness Foundations exit.** [#3](https://github.com/jensfossen/ez-ai-academy/issues/3) stays open.
 - **Not a live Cursor IDE transcript** and not an IDE native-UI Pass ([#24](https://github.com/jensfossen/ez-ai-academy/issues/24)).
 

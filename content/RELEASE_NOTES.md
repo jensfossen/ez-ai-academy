@@ -4,7 +4,7 @@ Learner- and operator-facing log of **curriculum, checks, exercises, visuals, cu
 
 The repository is the source of truth. The [discovery site](https://jensfossen.github.io/ez-ai-academy/) is not this log and does not host lessons.
 
-**Current content revision:** `2026-09-13` — same value as `metadata.academy_content_revision` in `SKILL.md`. Mentors may mention it when offering a skippable update reminder. It is not a grade, a Pass, or a website account.
+**Current content revision:** `2026-09-14` — same value as `metadata.academy_content_revision` in `SKILL.md`. Mentors may mention it when offering a skippable update reminder. It is not a grade, a Pass, or a website account.
 
 Operator weekday light + weekly deep cadence, staffing, and proposal format: [`CURATION.md`](CURATION.md). Frontline sources and signal taxonomy: [`CURATOR_SOURCES.md`](CURATOR_SOURCES.md). Add / rewrite / prune / defer lanes: [`MODULE_EVOLVE_PRUNE.md`](MODULE_EVOLVE_PRUNE.md). After teaching drafts, synthetic persona validation: [`SYNTHETIC_VALIDATION_GATE.md`](SYNTHETIC_VALIDATION_GATE.md). That loop does not replace this log.
 
@@ -49,6 +49,35 @@ PRs that change curriculum, checks, exercises, learner-visible rubrics, visuals,
 Do not claim a Foundations or Prompt Engineering Pass from a changelog entry. Do not mark commercial-readiness gates here. Prototype exit is not commercial-ready.
 
 ---
+
+## 2026-09-14 — Module 1 engagement P1 copy
+
+Mentors now keep six more Module 1 conversation beats tighter: Check C uses the same native choice card as A/B, Session Zero sanitation stays one sentence then thank-you, a vague role gets one re-ask then Other, a “search engine” start gets search-versus-generate in ordinary words, and restore stays compact (complete or mid-journey). Same three evidence types. Same in-harness lesson. Not a Foundations Pass.
+
+### Added
+
+- None. No new module, check, exercise, or Pass.
+
+### Changed
+
+- Check C now carries the same `render_intent: native_choice_card` line as Check A and Check B (`checks/module-01-llm.md`).
+- After a Session Zero sanitation redirect, the next useful rule is one sentence (safer example; hosts log chat; the Academy cannot un-send), then the experience thank-you — no policy lecture before Module 1.
+- After a one-word or vague role (`idk`), one re-ask then Other / skip. Never a third job probe. Never a second knowledge check “to get a signal.”
+- After an overconfident “search engine” start, teach search-versus-generate in ordinary words; one sentence that evidence is still required; do not recap the learner’s “token” line.
+- Complete restore (Fixture A): restore-confirm + compact progress + one next-action question. Do not inventory every additive module id.
+- Mid-journey restore (Fixture B): name the two remaining evidence types in one sentence and ask the workplace question immediately — do not re-teach or re-run the exercise. `academy_content_revision` is now `2026-09-14`. Discovery Pages untouched. Synthetic persona scores still do not equal a Foundations Pass. Never auto-merge.
+
+### Removed
+
+- None.
+
+### Media
+
+- None. Same Module 1 PNG and optional deepeners.
+
+### Breaking for learners
+
+- None. Module 1 still needs three evidence types (contained exercise, workplace application, reusable artifact). This does not close [#3](https://github.com/jensfossen/ez-ai-academy/issues/3), [#4](https://github.com/jensfossen/ez-ai-academy/issues/4), or invent a matrix Pass. Phase C P1 from the 2026-09-13 engagement rollup ([#91](https://github.com/jensfossen/ez-ai-academy/issues/91)). Follow-on to P0 ([#84](https://github.com/jensfossen/ez-ai-academy/issues/84) / [#85](https://github.com/jensfossen/ez-ai-academy/pull/85)).
 
 ## 2026-09-13 — Curator v2 post-curation synthetic validation gate (operators)
 

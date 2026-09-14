@@ -16,7 +16,7 @@ Product brand is **EZ AI Academy**. Never write “Easy AI Academy.”
 
 Learning stays in-harness. Do not send the learner to a website gradebook. Use synthetic, redacted, or approved examples only (`resources/enterprise-baseline.md`).
 
-Phase A is this Markdown library. Phase B is the runner guide ([`self-test-runner.md`](self-test-runner.md)) plus the filed Cursor Cloud Agent pattern campaigns under [`tests/runs/`](runs/README.md) (library coverage complete on that pattern). JSON companions stay later. Phase C P0 Module 1 copy is in the mentor sources ([#84](https://github.com/jensfossen/ez-ai-academy/issues/84)). Do not treat these scripts or those run reports as a recorded Foundations or PE Pass.
+Phase A is this Markdown library. Phase B is the runner guide ([`self-test-runner.md`](self-test-runner.md)) plus the filed Cursor Cloud Agent pattern campaigns under [`tests/runs/`](runs/README.md) (library coverage complete on that pattern). JSON companions stay later. Phase C P0 and P1 Module 1 copy is in the mentor sources ([#84](https://github.com/jensfossen/ez-ai-academy/issues/84), [#91](https://github.com/jensfossen/ez-ai-academy/issues/91)). Do not treat these scripts or those run reports as a recorded Foundations or PE Pass.
 
 ## Index
 
@@ -415,9 +415,11 @@ next_recommended_action: "Start Prompt Engineering, or review Module 1 if the le
 
 The fence heading may be `yaml` with `AI_ACADEMY_RECORD` on the first line, or a `AI_ACADEMY_RECORD` fence if the host allows it. Mentors should accept either shape that is valid YAML plus the heading convention in `schemas/progress-record.md`.
 
+**Expected first restore turn:** restore-confirm + compact progress + **one** next-action question. Do not inventory every additive module id.
+
 #### Fixture B — mid-journey (Module 1 in progress)
 
-Use to test “mid-journey” restore. Session Zero must still not repeat. Module 1 teaching may continue from the next activity; do not mark complete.
+Use to test “mid-journey” restore. Session Zero must still not repeat. Module 1 teaching may continue from the next activity; do not mark complete. Name the two remaining evidence types (workplace application, LLM Working Card) in one sentence and ask the workplace question immediately. Do not re-teach the mental model or re-run the contained exercise.
 
 ````markdown
 ```yaml
@@ -583,7 +585,7 @@ Phase B runner guide: [`self-test-runner.md`](self-test-runner.md) (how to insta
 
 Phase B library witness (Cursor Cloud Agent pattern): [`tests/runs/`](runs/README.md). All ten fixtures in this file have at least one filed Foundations campaign on that pattern, including `returning-learner` Fixture A and Fixture B. Closeout checklist: `tests/runs/README.md` **Phase B closeout**. That is not a Foundations Pass.
 
-Phase C P0 Module 1 engagement copy shipped in mentor sources (2026-09-13; [#84](https://github.com/jensfossen/ez-ai-academy/issues/84)): first-of-three evidence language, short-path analogy labels without a preference wait, support-path first teach under ~80 words, same-turn Module 1 alt. Later tuning loops may still *propose* further diffs for human / Chief review. **Never auto-merge.** Synthetic scores still ≠ a Foundations Pass. Confirm before paid external API spend.
+Phase C P0 Module 1 engagement copy shipped in mentor sources (2026-09-13; [#84](https://github.com/jensfossen/ez-ai-academy/issues/84)). Phase C P1 (2026-09-14; [#91](https://github.com/jensfossen/ez-ai-academy/issues/91)): Check C `native_choice_card`; one-sentence Session Zero sanitation then thank-you; one role re-ask then Other / skip; search-versus-generate after a “search engine” start; compact Fixture A restore; Fixture B names remaining evidence then the workplace question. Later tuning loops may still *propose* further diffs for human / Chief review. **Never auto-merge.** Synthetic scores still ≠ a Foundations Pass. Confirm before paid external API spend.
 
 Open questions from #30 (defaults until someone decides):
 
