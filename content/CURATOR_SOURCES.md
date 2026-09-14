@@ -6,7 +6,7 @@ This file answers **what EZ-Devy watches** and **how a hit becomes a note, an is
 
 Standing loop (who, when, what a scan may do): [`CURATION.md`](CURATION.md). Learner-facing deltas: [`RELEASE_NOTES.md`](RELEASE_NOTES.md). When to add / rewrite / prune / defer a live beat: [`MODULE_EVOLVE_PRUNE.md`](MODULE_EVOLVE_PRUNE.md). Live optional media: [`../resources/curated-content.md`](../resources/curated-content.md). Selection and hide rules: [`../resources/asset-governance.md`](../resources/asset-governance.md).
 
-Parent epic: [#77](https://github.com/jensfossen/ez-ai-academy/issues/77). This list is the [#78](https://github.com/jensfossen/ez-ai-academy/issues/78) home. Weekly deep-scan schedule and checklist live in [`CURATION.md`](CURATION.md#weekly-deep-scan) ([#79](https://github.com/jensfossen/ez-ai-academy/issues/79)). Evolve/prune playbook is [`MODULE_EVOLVE_PRUNE.md`](MODULE_EVOLVE_PRUNE.md) ([#80](https://github.com/jensfossen/ez-ai-academy/issues/80)). Synthetic validation is [#81](https://github.com/jensfossen/ez-ai-academy/issues/81). Pages freshness cue is [#82](https://github.com/jensfossen/ez-ai-academy/issues/82).
+Parent epic: [#77](https://github.com/jensfossen/ez-ai-academy/issues/77). This list is the [#78](https://github.com/jensfossen/ez-ai-academy/issues/78) home. Weekly deep-scan schedule and checklist live in [`CURATION.md`](CURATION.md#weekly-deep-scan) ([#79](https://github.com/jensfossen/ez-ai-academy/issues/79)). Evolve/prune playbook is [`MODULE_EVOLVE_PRUNE.md`](MODULE_EVOLVE_PRUNE.md) ([#80](https://github.com/jensfossen/ez-ai-academy/issues/80)). Synthetic validation after teaching drafts: [`SYNTHETIC_VALIDATION_GATE.md`](SYNTHETIC_VALIDATION_GATE.md) ([#81](https://github.com/jensfossen/ez-ai-academy/issues/81)). Pages freshness cue is [#82](https://github.com/jensfossen/ez-ai-academy/issues/82).
 
 The repository is the source of truth. Learning stays **in-harness**. The [discovery site](https://jensfossen.github.io/ez-ai-academy/) is not this list and is not a publish target.
 
@@ -150,7 +150,7 @@ Quiet when nothing is above **note only**. A quiet day is a valid outcome.
 - **No paid APIs** without Jens confirm. No scrape that breaks a site’s terms.
 - **Chief / Jens GO** on material curriculum (new or retired lessons, changed completion evidence, a new module, companion expansion).
 - **Never auto-merge.** A human confirms before a content PR lands.
-- **Do not invent a Pass.** Do not `Closes` [#3](https://github.com/jensfossen/ez-ai-academy/issues/3) or [#4](https://github.com/jensfossen/ez-ai-academy/issues/4). Do not treat synthetic scores ([#81](https://github.com/jensfossen/ez-ai-academy/issues/81)) as a Pass.
+- **Do not invent a Pass.** Do not `Closes` [#3](https://github.com/jensfossen/ez-ai-academy/issues/3) or [#4](https://github.com/jensfossen/ez-ai-academy/issues/4). Do not treat [`SYNTHETIC_VALIDATION_GATE.md`](SYNTHETIC_VALIDATION_GATE.md) scores as a Pass or merge permission.
 - Do not host a model encyclopedia, leaderboard dump, or comment archive in this repo.
 - Do not redirect learners to the website, an LMS, or a required account.
 - Brand: **EZ AI Academy** only. Never “Easy AI Academy.”

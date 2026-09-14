@@ -6,7 +6,7 @@ The repository is the source of truth. The [discovery site](https://jensfossen.g
 
 **Current content revision:** `2026-09-13` — same value as `metadata.academy_content_revision` in `SKILL.md`. Mentors may mention it when offering a skippable update reminder. It is not a grade, a Pass, or a website account.
 
-Operator weekday light + weekly deep cadence, staffing, and proposal format: [`CURATION.md`](CURATION.md). Frontline sources and signal taxonomy: [`CURATOR_SOURCES.md`](CURATOR_SOURCES.md). Add / rewrite / prune / defer lanes: [`MODULE_EVOLVE_PRUNE.md`](MODULE_EVOLVE_PRUNE.md). That loop does not replace this log.
+Operator weekday light + weekly deep cadence, staffing, and proposal format: [`CURATION.md`](CURATION.md). Frontline sources and signal taxonomy: [`CURATOR_SOURCES.md`](CURATOR_SOURCES.md). Add / rewrite / prune / defer lanes: [`MODULE_EVOLVE_PRUNE.md`](MODULE_EVOLVE_PRUNE.md). After teaching drafts, synthetic persona validation: [`SYNTHETIC_VALIDATION_GATE.md`](SYNTHETIC_VALIDATION_GATE.md). That loop does not replace this log.
 
 ## How to read this file
 
@@ -49,6 +49,30 @@ PRs that change curriculum, checks, exercises, learner-visible rubrics, visuals,
 Do not claim a Foundations or Prompt Engineering Pass from a changelog entry. Do not mark commercial-readiness gates here. Prototype exit is not commercial-ready.
 
 ---
+
+## 2026-09-13 — Curator v2 post-curation synthetic validation gate (operators)
+
+Operators now have a documented **smoke vs full** synthetic persona gate after teaching-copy proposals, plus an engagement scorecard design proposal. Teaching meaning for learners is unchanged. Installed skills do not need a pull for this entry alone.
+
+### Added
+
+- Operator ops: [`SYNTHETIC_VALIDATION_GATE.md`](SYNTHETIC_VALIDATION_GATE.md) — when the gate fires; smoke (`novice-first-contact` + `time-pressed-skeptic` + `vague-or-minimal`) vs full 10; Layer A self-test metrics + Layer B engagement bar; harness honesty; `tests/runs/` + Curator/Chief rollup YAML. Thin scorecard: [`../tests/engagement-scorecard.md`](../tests/engagement-scorecard.md) (design proposal; not an industry standard). Docs-only dry-run: [`curation-dry-runs/2026-09-13-synth-gate.md`](curation-dry-runs/2026-09-13-synth-gate.md). No new lesson, check, or media.
+
+### Changed
+
+- [`CURATION.md`](CURATION.md) weekly deep checklist now has an optional **Synth smoke** row. [`MODULE_EVOLVE_PRUNE.md`](MODULE_EVOLVE_PRUNE.md) and [`CURATOR_SOURCES.md`](CURATOR_SOURCES.md) point at the gate. README `content/` and `tests/` rows name it. `academy_content_revision` in `SKILL.md` stays `2026-09-13`. Cowork ZIP not rebuilt. Discovery Pages untouched. Refs [#77](https://github.com/jensfossen/ez-ai-academy/issues/77). Does not close the epic.
+
+### Removed
+
+- None.
+
+### Media
+
+- None. No hide. No new required learner link.
+
+### Breaking for learners
+
+- None. This does not close [#3](https://github.com/jensfossen/ez-ai-academy/issues/3), [#4](https://github.com/jensfossen/ez-ai-academy/issues/4), or invent a Pass. Green synth scores do not auto-merge and do not edit the matrix. The 2026-09-13 Module 1 engagement pack remains a pre-gate method reference, not a retroactive gate Pass.
 
 ## 2026-09-13 — Curator v2 module evolve/prune playbook (operators)
 

@@ -216,6 +216,8 @@ Do not run PE as part of this guide. Module 2 “PE later” notes on each perso
 
 P0 Module 1 engagement copy from the 2026-09-13 rollup is in the mentor sources ([#84](https://github.com/jensfossen/ez-ai-academy/issues/84)). Later loops may *propose* further diffs for human / Chief review. **Never auto-merge.** Format: `self-test-metrics.md` proposal YAML. Synthetic scores still ≠ a Foundations Pass.
 
+After a curator proposal that touches teaching copy, also follow [`../content/SYNTHETIC_VALIDATION_GATE.md`](../content/SYNTHETIC_VALIDATION_GATE.md): smoke (`novice-first-contact` + `time-pressed-skeptic` + `vague-or-minimal`) vs full 10, plus the engagement block in [`engagement-scorecard.md`](engagement-scorecard.md). File `recommended_change` here under [`tests/runs/`](runs/README.md) for Curator + Chief. Do not claim a live IDE Pass. Do not auto-merge from a green bar.
+
 ## Related files
 
 - Personas: [`learner-personas.md`](learner-personas.md)
@@ -223,6 +225,8 @@ P0 Module 1 engagement copy from the 2026-09-13 rollup is in the mentor sources 
 - Foundations scenario: [`foundations-acceptance.md`](foundations-acceptance.md)
 - PE scenario (ready to run, not a Pass): [`prompt-engineering-acceptance.md`](prompt-engineering-acceptance.md)
 - Campaign evidence (synthetic; not a Pass): [`tests/runs/`](runs/README.md)
+- Engagement scorecard (design proposal; not a Pass): [`engagement-scorecard.md`](engagement-scorecard.md)
+- Curator synth gate: [`../content/SYNTHETIC_VALIDATION_GATE.md`](../content/SYNTHETIC_VALIDATION_GATE.md)
 - Matrix (do not invent Passes): [`harness-matrix.md`](harness-matrix.md)
 - Codex install: [`adapters/codex/INSTALL.md`](../adapters/codex/INSTALL.md)
 - Cursor install: [`adapters/cursor/INSTALL.md`](../adapters/cursor/INSTALL.md)

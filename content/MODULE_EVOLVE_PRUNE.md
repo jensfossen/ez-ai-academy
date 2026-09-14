@@ -10,8 +10,9 @@ This file is the decision home after a scan has a flag. It does not teach learne
 | [`CURATOR_SOURCES.md`](CURATOR_SOURCES.md) | What to watch; five signal types (including **Stale teach**); note vs issue vs thin PR |
 | **This file** | Once a flag exists: add / rewrite / prune / defer-to-companion — and how that becomes an issue → thin draft PR → human GO |
 | [`RELEASE_NOTES.md`](RELEASE_NOTES.md) | What a returning learner (or operator) can do or see now |
+| [`SYNTHETIC_VALIDATION_GATE.md`](SYNTHETIC_VALIDATION_GATE.md) | After a teaching draft exists: smoke vs full persona suite — scores are not a Pass |
 
-Parent epic: [#77](https://github.com/jensfossen/ez-ai-academy/issues/77). This playbook is the [#80](https://github.com/jensfossen/ez-ai-academy/issues/80) home. After it lands, scans use **Refs #80**. Weekly deep checklist: [`CURATION.md`](CURATION.md#deep-scan-checklist). Synthetic validation after material edits is [#81](https://github.com/jensfossen/ez-ai-academy/issues/81) — scores are not a Pass. Pages freshness is [#82](https://github.com/jensfossen/ez-ai-academy/issues/82).
+Parent epic: [#77](https://github.com/jensfossen/ez-ai-academy/issues/77). This playbook is the [#80](https://github.com/jensfossen/ez-ai-academy/issues/80) home. After it lands, scans use **Refs #80**. Weekly deep checklist: [`CURATION.md`](CURATION.md#deep-scan-checklist). Synthetic validation after material edits: [`SYNTHETIC_VALIDATION_GATE.md`](SYNTHETIC_VALIDATION_GATE.md) ([#81](https://github.com/jensfossen/ez-ai-academy/issues/81)) — scores are not a Pass. Pages freshness is [#82](https://github.com/jensfossen/ez-ai-academy/issues/82).
 
 Learning stays **in-harness**. The [discovery site](https://jensfossen.github.io/ez-ai-academy/) is not this playbook and is not a publish target.
 
@@ -97,7 +98,7 @@ Locked until Chief / Jens reopen them. A prune or rewrite that touches any row n
 ### Do not invent Passes
 
 - Do not claim a Foundations exit ([#3](https://github.com/jensfossen/ez-ai-academy/issues/3)), Prompt Engineering Pass ([#4](https://github.com/jensfossen/ez-ai-academy/issues/4)), or any matrix / multi-harness Pass.
-- Do not treat a changelog, dry-run, prune, rewrite, or [#81](https://github.com/jensfossen/ez-ai-academy/issues/81) synthetic score as a Pass.
+- Do not treat a changelog, dry-run, prune, rewrite, or [`SYNTHETIC_VALIDATION_GATE.md`](SYNTHETIC_VALIDATION_GATE.md) synthetic score as a Pass.
 - Do not `Closes` #3 or #4 from curation work. Do not edit acceptance evidence to look greener.
 - Included modules (3–5) stay Included, not a recorded Pass. Do not reopen [#59](https://github.com/jensfossen/ez-ai-academy/issues/59), [#61](https://github.com/jensfossen/ez-ai-academy/issues/61), or [#63](https://github.com/jensfossen/ez-ai-academy/issues/63) to invent one.
 
@@ -115,7 +116,7 @@ A scan or playbook pass may **not**:
 - Waive evidence for the short path, a phone session, or a high-achiever persona.
 - Add a fourth required evidence type or a required external link.
 
-Changing that contract is **material curriculum**. Issue + **Chief / Jens GO**. Then **Breaking for learners** in [`RELEASE_NOTES.md`](RELEASE_NOTES.md). [#81](https://github.com/jensfossen/ez-ai-academy/issues/81) may run after the draft exists; green synth is still not a Pass.
+Changing that contract is **material curriculum**. Issue + **Chief / Jens GO**. Then **Breaking for learners** in [`RELEASE_NOTES.md`](RELEASE_NOTES.md). After the draft exists, run [`SYNTHETIC_VALIDATION_GATE.md`](SYNTHETIC_VALIDATION_GATE.md) (**full** suite — evidence contract moved). Green synth is still not a Pass.
 
 Companions never gain these three types from a prune/add in a numbered module.
 
@@ -160,7 +161,7 @@ The weekly deep scan **flags**. It does not delete. Same output shape as [`CURAT
 Frontline / weekly deep “Stale teach” flag
         → GitHub issue (decision)
         → thin draft PR (text) only after Chief / Jens GO
-        → optional #81 synth notes (not a Pass)
+        → [`SYNTHETIC_VALIDATION_GATE.md`](SYNTHETIC_VALIDATION_GATE.md) notes (not a Pass)
         → human merge
         → RELEASE_NOTES Removed / Changed (five headings)
 ```
@@ -204,7 +205,7 @@ Smallest slice that removes or moves the beat. Still **draft**. Still **no auto-
 
 **Chief / Jens GO** on material curriculum (retired or new lessons, changed completion evidence, a new module, companion expansion). Typos, hides, and ops docs may ship as ordinary small PRs after human confirm — still no auto-merge.
 
-[#81](https://github.com/jensfossen/ez-ai-academy/issues/81) may run a synthetic persona pass **after** a teaching draft exists. File notes under `tests/runs/` when that gate is documented. **Do not** wait for #81 to file the stale-teach issue. **Do not** treat a green score as merge permission or a Pass.
+After a teaching draft exists, run [`SYNTHETIC_VALIDATION_GATE.md`](SYNTHETIC_VALIDATION_GATE.md). File notes under `tests/runs/`. **Do not** wait for the suite to file the stale-teach issue. **Do not** treat a green score as merge permission or a Pass.
 
 ## Example prune-candidate process
 
@@ -272,7 +273,7 @@ EZ-Devy owns weekday light + weekly deep ([`CURATION.md`](CURATION.md#cadence)).
 2. Choose a lane in [Decision types](#decision-types). Default for a true stale-teach is **prune flag**, not rewrite-in-loop.
 3. Write the weekly `YYYY-MM-DD-weekly.md` row. Quiet is allowed.
 4. If it scores: **file the issue** ([From stale-teach flag to prune proposal](#from-stale-teach-flag-to-prune-proposal)). Do not delete the beat in that cycle.
-5. After Chief / Jens GO: thin **draft** PR + [`RELEASE_NOTES.md`](RELEASE_NOTES.md) five headings. Human merge only.
+5. After Chief / Jens GO: thin **draft** PR + [`RELEASE_NOTES.md`](RELEASE_NOTES.md) five headings. Run [`SYNTHETIC_VALIDATION_GATE.md`](SYNTHETIC_VALIDATION_GATE.md) (smoke or full). Human merge only. Green synth is not merge permission.
 
 **Weekday light** may record the same flag. It does not skip the issue. It does not prune faster because the slot is shorter.
 
@@ -285,4 +286,4 @@ EZ-Devy owns weekday light + weekly deep ([`CURATION.md`](CURATION.md#cadence)).
 - Treating synthetic scores as a Pass.
 - Building an LMS, website gradebook, or Pages publish path for this loop.
 - Expanding [#39](https://github.com/jensfossen/ez-ai-academy/issues/39), [#46](https://github.com/jensfossen/ez-ai-academy/issues/46), or remaining [#40](https://github.com/jensfossen/ez-ai-academy/issues/40) from a scan.
-- Writing the [#81](https://github.com/jensfossen/ez-ai-academy/issues/81) synth gate or the [#82](https://github.com/jensfossen/ez-ai-academy/issues/82) Pages cue here.
+- Replacing [`SYNTHETIC_VALIDATION_GATE.md`](SYNTHETIC_VALIDATION_GATE.md) or shipping the [#82](https://github.com/jensfossen/ez-ai-academy/issues/82) Pages cue here.

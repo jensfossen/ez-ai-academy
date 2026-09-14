@@ -597,6 +597,8 @@ Open questions from #30 (defaults until someone decides):
 ## Related files
 
 - Scoring: [`self-test-metrics.md`](self-test-metrics.md)
+- Engagement scorecard (design proposal; not a Pass): [`engagement-scorecard.md`](engagement-scorecard.md)
+- Curator synth gate (smoke vs full): [`../content/SYNTHETIC_VALIDATION_GATE.md`](../content/SYNTHETIC_VALIDATION_GATE.md)
 - Runner guide: [`self-test-runner.md`](self-test-runner.md)
 - Campaign evidence / Phase B closeout (synthetic; not a Pass): [`tests/runs/`](runs/README.md)
 - Foundations scenario: [`foundations-acceptance.md`](foundations-acceptance.md)
