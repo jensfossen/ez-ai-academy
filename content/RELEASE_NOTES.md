@@ -50,6 +50,30 @@ Do not claim a Foundations or Prompt Engineering Pass from a changelog entry. Do
 
 ---
 
+## 2026-09-15 — Models landscape companion refresh (operators)
+
+Operators can treat the Models landscape companion as **shipped with a 2026-09-15 link re-verify**. Teaching meaning for learners is unchanged. Installed skills do not need a pull for this entry alone. Orientation companion only.
+
+### Added
+
+- None. No new lesson, check, or media.
+
+### Changed
+
+- Companion registry rows in [`../resources/curated-content.md`](../resources/curated-content.md) (Companion — Models landscape): Review date 2026-09-15, Next review 2026-12-15. Automated HTTP 2026-09-15. LMArena lists https://arena.ai/ as the current landing (https://lmarena.ai/ still redirects). Amazon Nova still documents both `/ai/generative-ai/nova/` and `/nova/`. Status lines mark [#39](https://github.com/jensfossen/ez-ai-academy/issues/39) as companion shipped / closeout. `academy_content_revision` in `SKILL.md` stays `2026-09-14`. Cowork ZIP not rebuilt. Discovery Pages untouched.
+
+### Removed
+
+- None.
+
+### Media
+
+- Same official vendor pages and two trackers. Link re-verify 2026-09-15: HTTP 200 (Nova and LMArena after redirect). Still optional. Still link, do not store.
+
+### Breaking for learners
+
+- None. This is not a Foundations Pass and not a Prompt Engineering Pass. Companion orientation only. [#3](https://github.com/jensfossen/ez-ai-academy/issues/3) and [#4](https://github.com/jensfossen/ez-ai-academy/issues/4) stay held.
+
 ## 2026-09-14 — Prompt Engineering Cursor Cloud Agent evidence (operators)
 
 [#3](https://github.com/jensfossen/ez-ai-academy/issues/3) is still incomplete (Cursor-only Foundations; [#14](https://github.com/jensfossen/ez-ai-academy/issues/14) blocked; [#15](https://github.com/jensfossen/ez-ai-academy/issues/15) Jens-deferred). Content maturity already shipped ([#23](https://github.com/jensfossen/ez-ai-academy/pull/23)). Operators now have PE **validate** evidence on the **Cursor Cloud Agent pattern** (single-harness result: Pass). Continuity export+restore also ran in the same campaign (`academy_version` `"0.1"`; `modules.prompt_engineering` complete; Module 1 evidence preserved). Not a multi-harness PE exit. Not commercial-ready. Installed skills do not need a pull for this entry alone.

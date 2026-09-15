@@ -17,7 +17,7 @@ Interpret each choice on a four-level scale:
 
 After the learner answers, first name what makes the choice understandable. Then explain why the highest-quality choice is stronger. Move to wrap-up or Prompt Engineering; do not immediately ask another check.
 
-Default content owner for this key: Academy coordinator / Professor Devy (`resources/asset-governance.md`).
+Default content owner for this key: Academy coordinator / EZ-Devy (`resources/asset-governance.md`).
 
 ## Check A — Reading an assigned name
 
