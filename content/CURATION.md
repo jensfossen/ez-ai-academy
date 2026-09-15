@@ -13,7 +13,7 @@ Related backlog (do not treat as closed by this file):
 - [#36](https://github.com/jensfossen/ez-ai-academy/issues/36) skill freshness
 - [#37](https://github.com/jensfossen/ez-ai-academy/issues/37) content release notes
 - [#38](https://github.com/jensfossen/ez-ai-academy/issues/38) this standing loop
-- [#39](https://github.com/jensfossen/ez-ai-academy/issues/39) plain-language models landscape — live companion in [`models-landscape.md`](../curriculum/models-landscape.md); leave open (Refs, do not Closes from a scan)
+- [#39](https://github.com/jensfossen/ez-ai-academy/issues/39) plain-language models landscape — live companion in [`models-landscape.md`](../curriculum/models-landscape.md); **closed** after the companion refresh shipped (Chief GO 2026-09-15). Orientation companion only. Not a numbered module. Do not reopen; do not expand from a scan.
 - [#40](https://github.com/jensfossen/ez-ai-academy/issues/40) mobile / on-the-go experience — principles + matrix notes in repo; leave open until remaining AC / Chief close
 - [#46](https://github.com/jensfossen/ez-ai-academy/issues/46) Graph Engineering — live companion in [`graph-engineering.md`](../curriculum/graph-engineering.md); leave open (Refs, do not Closes from a scan)
 - [#48](https://github.com/jensfossen/ez-ai-academy/issues/48) Claude Code in-harness Learn onboarding — [research note](../ui/competitive-learn-claude-code.md), [checklist + Show me](../ui/in-harness-checklist.md), and light `SKILL.md` mentor offer in repo; **closed** after research + pattern shipped (Chief GO 2026-09-14). Not a native-UI Pass. Richer chrome stays on [#24](https://github.com/jensfossen/ez-ai-academy/issues/24). Do not reopen; do not claim a Pass from a scan.
@@ -141,7 +141,7 @@ The Models landscape live companion is [`../curriculum/models-landscape.md`](../
 
 Prefer the publisher’s current models overview, not a news recap:
 
-| Publisher | Official page (as of 2026-09-14) | Why it is on the list |
+| Publisher | Official page (as of 2026-09-15) | Why it is on the list |
 |---|---|---|
 | OpenAI | [Models](https://developers.openai.com/api/docs/models) | Primary consumer and API names learners will hear. |
 | Anthropic | [Claude models overview](https://platform.claude.com/docs/en/models/overview) | Claude family names in enterprise chat. |
@@ -199,7 +199,7 @@ Named so scans do not lose them. **Do not write the module in this loop.**
 
 | Candidate | Status | Notes |
 |---|---|---|
-| Plain-language AI models landscape | Live companion ([`models-landscape.md`](../curriculum/models-landscape.md)); issue [#39](https://github.com/jensfossen/ez-ai-academy/issues/39) stays open | Distill the sources above. Not an in-repo encyclopedia. Do not promote to a numbered module from a scan. |
+| Plain-language AI models landscape | Live companion ([`models-landscape.md`](../curriculum/models-landscape.md)); issue [#39](https://github.com/jensfossen/ez-ai-academy/issues/39) **closed** after companion refresh shipped | Distill the sources above. Not an in-repo encyclopedia. Do not promote to a numbered module from a scan. Do not reopen. |
 | Graph Engineering | Live companion ([`graph-engineering.md`](../curriculum/graph-engineering.md)); issue [#46](https://github.com/jensfossen/ez-ai-academy/issues/46) stays open | Organization of work across agents/loops — not GraphRAG. Included / Companion after Modules 4–5. Modules 4–5 Included. Do not promote to a numbered module from a scan. |
 | Context Engineering | Live numbered Module 3 ([`context-engineering.md`](../curriculum/context-engineering.md)); issue [#59](https://github.com/jensfossen/ez-ai-academy/issues/59) **closed** after the live module shipped | Assemble and maintain the information set. Included, not a recorded Pass. Remaining acceptance is harness scenario readiness / recorded Passes later. Do not reopen. Do not expand from a scan. |
 | Agents and Harness Engineering | Live numbered Module 4 ([`agents-harness-engineering.md`](../curriculum/agents-harness-engineering.md)); issue [#61](https://github.com/jensfossen/ez-ai-academy/issues/61) **closed** after the live module shipped | Recognize goal-seeking AI and shape the setup around it. Included, not a recorded Pass. Remaining acceptance is harness scenario readiness / recorded Passes later. Do not reopen. Do not expand from a scan. |

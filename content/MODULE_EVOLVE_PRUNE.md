@@ -84,7 +84,7 @@ Count it when the idea is worth a **glance** and would bloat a numbered module:
 
 | Idea kind | Companion / backlog | Do not |
 |---|---|---|
-| Who makes the AI / how to read a model name | Models landscape ([`../curriculum/models-landscape.md`](../curriculum/models-landscape.md)); [#39](https://github.com/jensfossen/ez-ai-academy/issues/39) stays open | Teach it in Session Zero or before the Module 1 mental model. Promote it to a numbered module. |
+| Who makes the AI / how to read a model name | Models landscape ([`../curriculum/models-landscape.md`](../curriculum/models-landscape.md)); [#39](https://github.com/jensfossen/ez-ai-academy/issues/39) **closed** after companion refresh shipped | Teach it in Session Zero or before the Module 1 mental model. Promote it to a numbered module. |
 | Wiring several helpers / multi-step handoffs | Graph Engineering ([`../curriculum/graph-engineering.md`](../curriculum/graph-engineering.md)); [#46](https://github.com/jensfossen/ez-ai-academy/issues/46) stays open | Promote Graph to a numbered module. Expand the companion from a scan. Treat it as a Loop substitute. |
 | Mobile / on-the-go path | Principles in [`../ui/mobile-on-the-go.md`](../ui/mobile-on-the-go.md); [#40](https://github.com/jensfossen/ez-ai-academy/issues/40) stays open | Fork a module. Invent a native app. |
 | A concept that earned its **own stop** | New module candidate — **issue only** | Write the module from a scan. |
